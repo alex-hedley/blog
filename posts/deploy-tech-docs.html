@@ -1,0 +1,239 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="alex-hedley">
+
+  <title>Alex Hedley - Deploy Tech Docs</title>
+
+  <link rel="canonical" href='https://alex-hedley.github.io/blog/posts/deploy-tech-docs'>
+
+      <link type="application/rss+xml" rel="alternate" href="/blog/feed.rss" />
+      <link type="application/atom+xml" rel="alternate" href="/blog/feed.atom" />
+
+  <meta name="application-name" content='Alex Hedley' />
+  <meta name="msapplication-tooltip" content='Alex Hedley' />
+  <meta name="msapplication-starturl" content='/blog/' />
+
+  <meta property="og:title" content='Alex Hedley - Deploy Tech Docs' />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content='https://alex-hedley.github.io/blog/posts/deploy-tech-docs' />
+
+  <link rel="icon" href='/blog/favicon.ico'>
+
+  <!-- Custom fonts for this template -->
+  <link href='/blog/vendor/fontawesome-free/css/all.min.css' rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" data-no-mirror>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" data-no-mirror>
+
+  <!-- Styles for this template (also includes Bootstrap) -->
+  <link href='/blog/scss/clean-blog.css' rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js" data-no-mirror></script>
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@2.3.0/dist/quicklink.umd.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism.css" rel="stylesheet">
+
+  <link href="/blog/scss/TabGroup.css" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href='/blog/'>Alex Hedley</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+    <a class="nav-link" href="/blog/posts">Posts</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/blog/tags">Tags</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/blog/about">About</a>
+  </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Page Header -->
+  <header class="masthead no-image">
+  <div class="container position-relative">
+    <div class="row">
+      <div class="col-md-12">
+        <div class='post-heading'>
+          <h1>
+            Deploy Tech Docs
+          </h1>
+            <div class="meta">Published on Monday, 30 January 2023</div>
+              <div class="mt-3">
+                  <a href="/blog/tags/programming" class="badge text-bg-light"> programming</a>
+                  <a href="/blog/tags/github" class="badge text-bg-light"> github</a>
+              </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div id="content" class="col-md-12">
+        <p>In this article I'll show how to deploy the GOV.UK <a href="https://github.com/alphagov/tech-docs-template">Tech Docs Template</a> to <a href="https://pages.github.com/">GitHub Pages</a>.</p>
+<blockquote>
+<p>The Tech Docs Template is a <a href="https://middlemanapp.com/advanced/project_templates/">Middleman template</a> that you can use to build technical documentation using a GOV.UK style.</p>
+</blockquote>
+<p>To learn more about the template you can view the <a href="https://tdt-documentation.london.cloudapps.digital/">Documentation Site</a> (<a href="https://github.com/alphagov/tdt-documentation">Code</a>)</p>
+<p>There's a section in the docs for <a href="https://tdt-documentation.london.cloudapps.digital/publish_project/deploy/#github-pages">GitHub Pages</a> which mentions how MoJ achieve this, see <a href="https://github.com/ministryofjustice/cloud-platform-user-guide/blob/main/.github/workflows/publish.yml">publish.yml</a> from their <strong>Cloud Platform User Guide</strong>, there is also another example <a href="https://github.com/ministryofjustice/hmpps-tech-docs/blob/main/.github/workflows/publish.yml">publish.yml</a> from <strong>hmpps-tech-docs</strong> which uses some scripts (<a href="https://github.com/ministryofjustice/hmpps-tech-docs/tree/main/bin">bin</a>).</p>
+<p>As an alternative I created my own <a href="https://docs.github.com/en/actions/using-workflows">GitHub Action Workflow</a>.</p>
+<h2 id="config">Config</h2>
+<p>Firstly you need to add some config to your existing project. As GitHub Pages deploys to the repo name links won't work, i.e. <code>username.github.io/projectname</code>.</p>
+<p>Update the <code>config.rb</code> file with the below settings.</p>
+<pre><code class="language-ruby"># https://github.com/edgecase/middleman-gh-pages#project-page-path-issues
+
+# Project Page Path Issues
+# Since project pages deploy to a subdirectory, assets and page paths are relative to the organization or user that owns the repo. If you're treating the project pages as a standalone site, you can tell Middleman to generate relative paths for assets and links with these settings in the build configuration in config.rb
+# NOTE This only affects sites being accessed at the username.github.io/projectname URL, not when accessed at a custom CNAME.
+
+activate :relative_assets
+set :relative_links, true
+</code></pre>
+<p>Thanks to the <a href="https://github.com/edgecase/middleman-gh-pages#project-page-path-issues">Middleman Github Pages</a> project for this.</p>
+<p>You can also add a <code>CNAME</code> file with your url <code>https://[USERNAME].github.io/[REPO_NAME]</code>. This will be copied by the workflow later.</p>
+<h2 id="workflow">Workflow</h2>
+<p>The WF only runs when there has been a change in the <code>source/</code> folder. You may wish to update this to your own needs. I've also added a <code>workflow_dispatch</code> trigger so you can run this manually.</p>
+<p>Next add some <strong>write</strong> permissions for <code>contents</code> and <code>pages</code>.</p>
+<p>Now for the main <code>job</code> which is built up of a number of <code>steps</code>.</p>
+<p>First you'll want to <strong><a href="https://github.com/actions/checkout">checkout</a></strong> (<code>actions/checkout&#64;v2</code>) your code.</p>
+<p>Next as this is a <a href="https://www.ruby-lang.org/en/">Ruby</a> project <strong><a href="https://github.com/ruby/setup-ruby">Setup</a></strong> (<code>ruby/setup-ruby&#64;v1</code>) and choose the correct version.</p>
+<p>Next install your bundle. This can just be a simple <code>run</code> script. You can also check that <code>middleman</code> is available.</p>
+<p>Next build your website using <code>bundle exec middleman build</code>.</p>
+<p>Once this is built you can optionally copy over a <code>CNAME</code>.</p>
+<p>Next deploy your project to GitHub Pages using another action <a href="https://github.com/peaceiris/actions-gh-pages">peaceiris/actions-gh-pages&#64;v3.9.2</a>.
+If you are outputting your build to a different folder make sure to update this <code>publish_dir: build</code>.</p>
+<p>Finally in your Repo settings configure GHP.</p>
+<ul>
+<li><a href="https://docs.github.com/en/pages/quickstart">Quickstart for GitHub Pages</a></li>
+</ul>
+<p>Yaml file for reference:</p>
+<pre><code class="language-yml">name: Deploy
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - &quot;source/**&quot;
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build_and_deploy:
+    name: Build &amp; Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout&#64;v2
+        
+      - name: Set up 💎 Ruby 3.2.0
+        uses: ruby/setup-ruby&#64;v1
+        with:
+          ruby-version: 3.2.0
+#           bundler-cache: true
+        
+      - name: Install Dependencies
+        run: |
+          echo 'Installing bundles...'
+          gem install bundler
+          bundle install
+          bundle list | grep &quot;middleman (&quot;
+        
+      - name: Build
+        run: bundle exec middleman build
+      
+      - name: Copy CNAME
+        run: |
+          echo &quot;Copying cname across too&quot;
+          cp -a CNAME build
+      
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages&#64;v3.9.2
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: build
+</code></pre>
+<h2 id="alternatives">Alternatives</h2>
+<ul>
+<li><a href="https://github.com/edgecase/middleman-gh-pages">Middleman Github Pages</a></li>
+<li><a href="https://github.com/yurikoval/middleman-gh-pages-action">middleman-gh-pages-action</a>
+<ul>
+<li><a href="https://github.com/marketplace/actions/middleman-github-pages-action">Marketplace</a></li>
+</ul>
+</li>
+</ul>
+<p>I found an <a href="https://github.com/yurikoval/middleman-gh-pages-action/issues/3">issue</a> with the GHA which was referencing <code>master</code> not <code>main</code>.</p>
+
+
+        
+
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->
+  <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p class="copyright">Copyright &#xA9; 2023</p>
+
+        <ul class="list-inline text-center small">
+            <li class="list-inline-item">
+              <a href="/blog/feed.rss"><i class="fa fa-rss"></i> RSS Feed</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="/blog/feed.atom"><i class="fa fa-rss"></i> Atom Feed</a>
+            </li>
+        </ul>
+        <br />
+        <div class="font-weight-bold small"><a href="https://statiq.dev">Generated by Statiq</a></div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Scripts -->
+  <script src='/blog/vendor/bootstrap/js/bootstrap.bundle.min.js'></script>
+  <script src='/blog/vendor/startbootstrap-clean-blog/js/scripts.js'></script>
+  <script src='/blog/js/clean-blog.js'></script>
+  <script src="https://unpkg.com/mermaid@8.9.3/dist/mermaid.min.js" integrity="sha384-nVmn6yKHyUktDHdQfBgpn1YPgEu8gDXTYI5qccfkF1j6oxBHjKEafySIuNs3UhEW" crossorigin="anonymous"></script>
+  
+
+</body>
+
+</html>
