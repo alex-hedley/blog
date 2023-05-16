@@ -5,8 +5,8 @@
 		<link>https://alex-hedley.github.io/blog</link>
 		<description />
 		<copyright>Copyright © 2023</copyright>
-		<pubDate>Tue, 16 May 2023 12:08:43 GMT</pubDate>
-		<lastBuildDate>Tue, 16 May 2023 12:08:43 GMT</lastBuildDate>
+		<pubDate>Tue, 16 May 2023 14:10:52 GMT</pubDate>
+		<lastBuildDate>Tue, 16 May 2023 14:10:52 GMT</lastBuildDate>
 		<item>
 			<title>AWS Cloud Quest Solutions Architect</title>
 			<link>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-solutions-architect</link>
@@ -14,9 +14,9 @@
 			<guid>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-solutions-architect</guid>
 			<pubDate>Wed, 10 May 2023 00:00:00 GMT</pubDate>
 			<content:encoded>&lt;!-- # AWS Cloud Quest Solutions Architect --&gt;
-&lt;p&gt;![AWS Cloud Quest Cloud Practitioner]({{ site.baseurl }}/images/aws-cq/cloud-quest.png &amp;quot;AWS Cloud Quest&amp;quot;)&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/aws-cq/cloud-quest.png" alt="AWS Cloud Quest Cloud Practitioner" title="AWS Cloud Quest"&gt;&lt;/p&gt;
 &lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest Solutions Architect&lt;/strong&gt; training 🎉!&lt;/p&gt;
-&lt;p&gt;![AWS Cloud Quest Solutions Architect Badge]({{ site.baseurl }}/images/aws-cq/aws-cloud-quest-solutions-architect.png &amp;quot;AWS Cloud Quest Solutions Architect Badge&amp;quot;)&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/aws-cq/aws-cloud-quest-solutions-architect.png" alt="AWS Cloud Quest Solutions Architect Badge" title="AWS Cloud Quest Solutions Architect Badge"&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.credly.com/badges/19d085e9-4a52-40b1-8d7c-2ff7eba1bd33/public_url"&gt;Credly Badge&lt;/a&gt;
 &lt;ul&gt;
@@ -26,8 +26,8 @@
 &lt;/ul&gt;
 &lt;p&gt;This is a paid course from AWS that uses gamification and hands on labs to reinforce learnings.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Part of AWS Skill Builder Individual subscription. Subscribe to get access to this and other subscriber-only benefits.&lt;br /&gt;
-$29.00 / month + VAT&lt;br /&gt;
+&lt;p&gt;Part of AWS Skill Builder Individual subscription. Subscribe to get access to this and other subscriber-only benefits.&lt;br&gt;
+$29.00 / month + VAT&lt;br&gt;
 &lt;a href="https://explore.skillbuilder.aws/learn/signin"&gt;https://explore.skillbuilder.aws/learn/signin&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
@@ -53,7 +53,7 @@ $29.00 / month + VAT&lt;br /&gt;
 			<pubDate>Thu, 06 Apr 2023 00:00:00 GMT</pubDate>
 			<content:encoded>&lt;!-- # AWS Certified Cloud Practitioner --&gt;
 &lt;p&gt;Today I passed the &lt;strong&gt;AWS Certified Cloud Practitioner&lt;/strong&gt; exam 🎉!&lt;/p&gt;
-&lt;p&gt;![AWS Certified Cloud Practitioner Badge]({{ site.baseurl }}/images/aws-ccp/AWS-Certified-Cloud-Practitioner_badge.png &amp;quot;AWS Certified Cloud Practitioner&amp;quot;)&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/aws-ccp/AWS-Certified-Cloud-Practitioner_badge.png" alt="AWS Certified Cloud Practitioner Badge" title="AWS Certified Cloud Practitioner"&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.credly.com/badges/a3c0cb2e-612c-4463-a7f0-7da98f8343e8"&gt;Credly Badge&lt;/a&gt;
 &lt;ul&gt;
@@ -69,7 +69,7 @@ $29.00 / month + VAT&lt;br /&gt;
 &lt;h2 id="training-material"&gt;Training Material&lt;/h2&gt;
 &lt;p&gt;Saw a post on &lt;a href="https://www.linkedin.com/feed/update/urn:li:activity:7019288272430333952"&gt;LinkedIn&lt;/a&gt; for an all day training event.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;AWS Cloud Practitioner Essentials&lt;br /&gt;
+&lt;p&gt;AWS Cloud Practitioner Essentials&lt;br&gt;
 Tuesday, 31 January 2023 09:00 (GMT)&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
@@ -79,7 +79,7 @@ Tuesday, 31 January 2023 09:00 (GMT)&lt;/p&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;![Event - AWS Cloud Practitioner Essentials]({{ site.baseurl }}/images/aws-ccp/Event-AWS-Cloud-Practitioner-Essentials.jpeg &amp;quot;Event - AWS Cloud Practitioner Essentials&amp;quot;)&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/aws-ccp/Event-AWS-Cloud-Practitioner-Essentials.jpeg" alt="Event - AWS Cloud Practitioner Essentials" title="Event - AWS Cloud Practitioner Essentials"&gt;&lt;/p&gt;
 &lt;p&gt;This was an excellent all day training session from &lt;em&gt;Stefania Gelpi&lt;/em&gt; - AWS Partner Trainer.&lt;/p&gt;
 &lt;h2 id="resources"&gt;Resources&lt;/h2&gt;
 &lt;ul&gt;
@@ -99,19 +99,19 @@ Tuesday, 31 January 2023 09:00 (GMT)&lt;/p&gt;
 &lt;li&gt;&lt;a href="https://pages.awscloud.com/global_traincert_twitch-cloud-quest-CP.html"&gt;AWS Cloud Quest: Cloud Practitioner&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="exam-overview"&gt;Exam overview&lt;/h2&gt;
-&lt;p&gt;Level: Foundational&lt;br /&gt;
-Length: 90 minutes to complete the exam&lt;br /&gt;
+&lt;p&gt;Level: Foundational&lt;br&gt;
+Length: 90 minutes to complete the exam&lt;br&gt;
 Cost: 100 USD (+VAT)&lt;/p&gt;
-&lt;p&gt;Format: 65 questions; either multiple choice or multiple response&lt;br /&gt;
+&lt;p&gt;Format: 65 questions; either multiple choice or multiple response&lt;br&gt;
 Delivery method: Pearson VUE testing center or online proctored exam.&lt;/p&gt;
 &lt;h2 id="options"&gt;Options&lt;/h2&gt;
 &lt;p&gt;There are other certifications available, I'll prob start on the &lt;strong&gt;Associate Developer&lt;/strong&gt; one next.&lt;/p&gt;
-&lt;p&gt;![AWS certification]({{ site.baseurl }}/images/aws-ccp/AWS-certification.png &amp;quot;AWS certification&amp;quot;)&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/aws-ccp/AWS-certification.png" alt="AWS certification" title="AWS certification"&gt;&lt;/p&gt;
 &lt;p&gt;FOUNDATIONAL&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Cloud Practitioner&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Knowledge-based certification for foundational understanding of AWS Cloud.&lt;br /&gt;
+&lt;p&gt;Knowledge-based certification for foundational understanding of AWS Cloud.&lt;br&gt;
 &lt;strong&gt;No prior experience needed.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;ASSOCIATE&lt;/p&gt;
 &lt;ul&gt;
@@ -119,14 +119,14 @@ Delivery method: Pearson VUE testing center or online proctored exam.&lt;/p&gt;
 &lt;li&gt;Developer&lt;/li&gt;
 &lt;li&gt;SysOps Administrator&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Role-based certifications that showcase your knowledge and skills on AWS and build your credibility as an AWS Cloud professional.&lt;br /&gt;
+&lt;p&gt;Role-based certifications that showcase your knowledge and skills on AWS and build your credibility as an AWS Cloud professional.&lt;br&gt;
 &lt;strong&gt;Prior cloud and/or strong on-premises IT experience recommended.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;PROFESSIONAL&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Solutions Architect&lt;/li&gt;
 &lt;li&gt;DevOps Engineer&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Role-based certifications that validate advanced skills and knowledge required to design secure, optimized, and modernized applications and to automate processes on AWS.&lt;br /&gt;
+&lt;p&gt;Role-based certifications that validate advanced skills and knowledge required to design secure, optimized, and modernized applications and to automate processes on AWS.&lt;br&gt;
 &lt;strong&gt;2 years of prior AWS Cloud experience recommended.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;SPECIALTY&lt;/p&gt;
 &lt;ul&gt;
@@ -137,7 +137,7 @@ Delivery method: Pearson VUE testing center or online proctored exam.&lt;/p&gt;
 &lt;li&gt;Security&lt;/li&gt;
 &lt;li&gt;SAP on AWS&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Dive deeper and position yourself as a trusted advisor to your stakeholders and/or customers in these strategic areas.&lt;br /&gt;
+&lt;p&gt;Dive deeper and position yourself as a trusted advisor to your stakeholders and/or customers in these strategic areas.&lt;br&gt;
 &lt;strong&gt;Refer to the exam guides on the exam pages for recommended experience.&lt;/strong&gt;&lt;/p&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
@@ -149,9 +149,9 @@ Delivery method: Pearson VUE testing center or online proctored exam.&lt;/p&gt;
 			<guid>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-serverless-developer</guid>
 			<pubDate>Wed, 15 Mar 2023 00:00:00 GMT</pubDate>
 			<content:encoded>&lt;!-- # AWS Cloud Quest Serverless Developer --&gt;
-&lt;p&gt;![AWS Cloud Quest Cloud Practitioner]({{ site.baseurl }}/images/aws-cq/cloud-quest.png &amp;quot;AWS Cloud Quest&amp;quot;)&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/aws-cq/cloud-quest.png" alt="AWS Cloud Quest Cloud Practitioner" title="AWS Cloud Quest"&gt;&lt;/p&gt;
 &lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud QuestServerless Developer&lt;/strong&gt; training 🎉!&lt;/p&gt;
-&lt;p&gt;![AWS Cloud Quest Serverless Developer Badge]({{ site.baseurl }}/images/aws-cq/aws-cloud-quest-serverless-developer.png &amp;quot;AWS Cloud Quest Serverless Developer Badge&amp;quot;)&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/aws-cq/aws-cloud-quest-serverless-developer.png" alt="AWS Cloud Quest Serverless Developer Badge" title="AWS Cloud Quest Serverless Developer Badge"&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.credly.com/badges/5dc86ddb-b5b4-448f-a57b-c49f13857810/public_url"&gt;Credly Badge&lt;/a&gt;
 &lt;ul&gt;
@@ -161,8 +161,8 @@ Delivery method: Pearson VUE testing center or online proctored exam.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;This is a paid course from AWS that uses gamification and hands on labs to reinforce learnings.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Part of AWS Skill Builder Individual subscription. Subscribe to get access to this and other subscriber-only benefits.&lt;br /&gt;
-$29.00 / month + VAT&lt;br /&gt;
+&lt;p&gt;Part of AWS Skill Builder Individual subscription. Subscribe to get access to this and other subscriber-only benefits.&lt;br&gt;
+$29.00 / month + VAT&lt;br&gt;
 &lt;a href="https://explore.skillbuilder.aws/learn/signin"&gt;https://explore.skillbuilder.aws/learn/signin&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
@@ -293,9 +293,9 @@ jobs:
 			<guid>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-cloud-practitioner</guid>
 			<pubDate>Wed, 25 Jan 2023 00:00:00 GMT</pubDate>
 			<content:encoded>&lt;!-- # AWS Cloud Quest Cloud Practitioner --&gt;
-&lt;p&gt;![AWS Cloud Quest Cloud Practitioner]({{ site.baseurl }}/images/aws-cq/logo_wide_practitioner.png &amp;quot;AWS Cloud Quest Cloud Practitioner&amp;quot;)&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/aws-cq/logo_wide_practitioner.png" alt="AWS Cloud Quest Cloud Practitioner" title="AWS Cloud Quest Cloud Practitioner"&gt;&lt;/p&gt;
 &lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest Cloud Practitioner&lt;/strong&gt; training 🎉!&lt;/p&gt;
-&lt;p&gt;![AWS Cloud Quest Cloud Practitioner Badge]({{ site.baseurl }}/images/aws-cq/aws-cloud-quest-cloud-practitioner.png &amp;quot;AWS Cloud Quest Cloud Practitioner Badge&amp;quot;)&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/aws-cq/aws-cloud-quest-cloud-practitioner.png" alt="AWS Cloud Quest Cloud Practitioner Badge" title="AWS Cloud Quest Cloud Practitioner Badge"&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.credly.com/badges/8056f265-da5b-4518-9c7c-9768dc379721/public_url"&gt;Credly Badge&lt;/a&gt;
 &lt;ul&gt;
@@ -478,8 +478,8 @@ jobs:
 &lt;p&gt;🔗 MY LINK&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Then you can set your trigger to run on a &lt;em&gt;PR&lt;/em&gt; and it'll add the necessary info.&lt;/p&gt;
-&lt;p&gt;![Actions Comment]({{ site.baseurl }}/images/gh/github-actions-comment.png &amp;quot;Actions Comment&amp;quot;)&lt;/p&gt;
-&lt;hr /&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/gh/github-actions-comment.png" alt="Actions Comment" title="Actions Comment"&gt;&lt;/p&gt;
+&lt;hr&gt;
 &lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
 &lt;pre&gt;&lt;code class="language-yml"&gt;name: Add Comment
 
@@ -494,7 +494,7 @@ jobs:
     steps:
       - name: PR Comment
         if: github.base_ref == 'main'
-        uses: actions/github-script&amp;#64;v2
+        uses: actions/github-script@v2
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
