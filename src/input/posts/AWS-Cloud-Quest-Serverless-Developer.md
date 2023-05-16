@@ -10,11 +10,11 @@ published: 2023-03-15
 
 <!-- # AWS Cloud Quest Serverless Developer -->
 
-![AWS Cloud Quest Cloud Practitioner]({{ site.baseurl }}/images/aws-cq/cloud-quest.png "AWS Cloud Quest")
+![AWS Cloud Quest Cloud Practitioner](images/aws-cq/cloud-quest.png "AWS Cloud Quest")
 
 Today I completed the **AWS Cloud QuestServerless Developer** training 🎉!
 
-![AWS Cloud Quest Serverless Developer Badge]({{ site.baseurl }}/images/aws-cq/aws-cloud-quest-serverless-developer.png "AWS Cloud Quest Serverless Developer Badge")
+![AWS Cloud Quest Serverless Developer Badge](images/aws-cq/aws-cloud-quest-serverless-developer.png "AWS Cloud Quest Serverless Developer Badge")
 
 - [Credly Badge](https://www.credly.com/badges/5dc86ddb-b5b4-448f-a57b-c49f13857810/public_url)
   - [Credly Profile](https://www.credly.com/users/alexhedley/badges)

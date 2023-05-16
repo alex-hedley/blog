@@ -13,7 +13,7 @@ published: 2023-04-06
 
 Today I passed the **AWS Certified Cloud Practitioner** exam 🎉!
 
-![AWS Certified Cloud Practitioner Badge]({{ site.baseurl }}/images/aws-ccp/AWS-Certified-Cloud-Practitioner_badge.png "AWS Certified Cloud Practitioner")
+![AWS Certified Cloud Practitioner Badge](images/aws-ccp/AWS-Certified-Cloud-Practitioner_badge.png "AWS Certified Cloud Practitioner")
 
 - [Credly Badge](https://www.credly.com/badges/a3c0cb2e-612c-4463-a7f0-7da98f8343e8)
   - [Credly Profile](https://www.credly.com/users/alexhedley/badges)
@@ -34,7 +34,7 @@ Saw a post on [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:70
 - [Event Link](https://www.eventbrite.co.uk/e/aws-cloud-practitioner-essentials-tickets-488693313857)
   - [Tech Talent Engine](https://techtalentengine.co.uk)
 
-![Event - AWS Cloud Practitioner Essentials]({{ site.baseurl }}/images/aws-ccp/Event-AWS-Cloud-Practitioner-Essentials.jpeg "Event - AWS Cloud Practitioner Essentials")
+![Event - AWS Cloud Practitioner Essentials](images/aws-ccp/Event-AWS-Cloud-Practitioner-Essentials.jpeg "Event - AWS Cloud Practitioner Essentials")
 
 This was an excellent all day training session from _Stefania Gelpi_ - AWS Partner Trainer.
 
@@ -68,7 +68,7 @@ Delivery method: Pearson VUE testing center or online proctored exam.
 
 There are other certifications available, I'll prob start on the **Associate Developer** one next.
 
-![AWS certification]({{ site.baseurl }}/images/aws-ccp/AWS-certification.png "AWS certification")
+![AWS certification](images/aws-ccp/AWS-certification.png "AWS certification")
 
 FOUNDATIONAL
 

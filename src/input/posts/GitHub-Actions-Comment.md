@@ -38,7 +38,7 @@ With an output of
 
 Then you can set your trigger to run on a *PR* and it'll add the necessary info.
 
-![Actions Comment]({{ site.baseurl }}/images/gh/github-actions-comment.png "Actions Comment")
+![Actions Comment](images/gh/github-actions-comment.png "Actions Comment")
 
 ---
 

@@ -10,11 +10,11 @@ published: 2023-01-25
 
 <!-- # AWS Cloud Quest Cloud Practitioner -->
 
-![AWS Cloud Quest Cloud Practitioner]({{ site.baseurl }}/images/aws-cq/logo_wide_practitioner.png "AWS Cloud Quest Cloud Practitioner")
+![AWS Cloud Quest Cloud Practitioner](images/aws-cq/logo_wide_practitioner.png "AWS Cloud Quest Cloud Practitioner")
 
 Today I completed the **AWS Cloud Quest Cloud Practitioner** training 🎉!
 
-![AWS Cloud Quest Cloud Practitioner Badge]({{ site.baseurl }}/images/aws-cq/aws-cloud-quest-cloud-practitioner.png "AWS Cloud Quest Cloud Practitioner Badge")
+![AWS Cloud Quest Cloud Practitioner Badge](images/aws-cq/aws-cloud-quest-cloud-practitioner.png "AWS Cloud Quest Cloud Practitioner Badge")
 
 - [Credly Badge](https://www.credly.com/badges/8056f265-da5b-4518-9c7c-9768dc379721/public_url)
   - [Credly Profile](https://www.credly.com/users/alexhedley/badges)

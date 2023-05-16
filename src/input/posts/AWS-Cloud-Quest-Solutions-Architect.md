@@ -10,11 +10,11 @@ published: 2023-05-10
 
 <!-- # AWS Cloud Quest Solutions Architect -->
 
-![AWS Cloud Quest Cloud Practitioner]({{ site.baseurl }}/images/aws-cq/cloud-quest.png "AWS Cloud Quest")
+![AWS Cloud Quest Cloud Practitioner](images/aws-cq/cloud-quest.png "AWS Cloud Quest")
 
 Today I completed the **AWS Cloud Quest Solutions Architect** training 🎉!
 
-![AWS Cloud Quest Solutions Architect Badge]({{ site.baseurl }}/images/aws-cq/aws-cloud-quest-solutions-architect.png "AWS Cloud Quest Solutions Architect Badge")
+![AWS Cloud Quest Solutions Architect Badge](images/aws-cq/aws-cloud-quest-solutions-architect.png "AWS Cloud Quest Solutions Architect Badge")
 
 - [Credly Badge](https://www.credly.com/badges/19d085e9-4a52-40b1-8d7c-2ff7eba1bd33/public_url)
   - [Credly Profile](https://www.credly.com/users/alexhedley/badges)
