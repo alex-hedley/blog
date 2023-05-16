@@ -4,7 +4,67 @@
 	<title />
 	<link rel="self" href="https://alex-hedley.github.io/blog" />
 	<rights>Copyright © 2023</rights>
-	<updated>2023-05-16T11:51:07Z</updated>
+	<updated>2023-05-16T11:54:13Z</updated>
+	<entry>
+		<id>https://alex-hedley.github.io/blog/posts/github-actions-comment</id>
+		<title>GitHub Actions Comment</title>
+		<author>
+			<name>alex-hedley</name>
+		</author>
+		<link href="https://alex-hedley.github.io/blog/posts/github-actions-comment" />
+		<updated>2021-11-12T00:00:00Z</updated>
+		<content>&lt;p&gt;Have you ever needed to add a comment to your PR after your Jobs(s) have completed?&lt;/p&gt;
+&lt;p&gt;Scrolling through the logs can be long winded, why not add a nice comment?&lt;/p&gt;
+&lt;p&gt;Want to add some some cool emojis too?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md"&gt;emoji-cheat-sheet&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🔗 &lt;code&gt;:link:&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;📘 &lt;code&gt;:blue_book:&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;etc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Start with the &lt;a href="https://github.com/actions/github-script"&gt;actions/github-script&lt;/a&gt; action.&lt;/p&gt;
+&lt;p&gt;It has various features, one of which is to &lt;code&gt;createComment&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Add the various inputs you need to configure:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;github.issues.createComment({})&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;body&lt;/code&gt; is the piece you want to update with your info&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;body: ':link: MY LINK'&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;With an output of&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;🔗 MY LINK&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Then you can set your trigger to run on a &lt;em&gt;PR&lt;/em&gt; and it'll add the necessary info.&lt;/p&gt;
+&lt;p&gt;![Actions Comment]({{ site.baseurl }}/images/gh/github-actions-comment.png &amp;quot;Actions Comment&amp;quot;)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
+&lt;pre&gt;&lt;code class="language-yml"&gt;name: Add Comment
+
+on:
+  # workflow_dispatch:
+  pull_request:
+    branches: [main]
+
+jobs:
+  PR-Comment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: PR Comment
+        if: github.base_ref == 'main'
+        uses: actions/github-script&amp;#64;v2
+        with:
+          github-token: ${{secrets.GITHUB_TOKEN}}
+          script: |
+            github.issues.createComment({
+              issue_number: ${{ github.event.number }},
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: ':link: MY LINK'
+            })
+&lt;/code&gt;&lt;/pre&gt;
+</content>
+	</entry>
 	<entry>
 		<id>https://alex-hedley.github.io/blog/posts/welcome</id>
 		<title>Welcome</title>
