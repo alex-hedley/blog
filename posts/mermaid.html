@@ -5,10 +5,12 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="How to add mermaid diagrams in statiq">
+    <meta name="author" content="alexhedley">
 
-  <title>Alex Hedley - (ISC)&#xB2;</title>
+  <title>Alex Hedley - Mermaid</title>
 
-  <link rel="canonical" href='https://alex-hedley.github.io/blog/tags/isc%C2%B2'>
+  <link rel="canonical" href='https://alex-hedley.github.io/blog/posts/mermaid'>
 
       <link type="application/rss+xml" rel="alternate" href="/blog/feed.rss" />
       <link type="application/atom+xml" rel="alternate" href="/blog/feed.atom" />
@@ -17,9 +19,9 @@
   <meta name="msapplication-tooltip" content='Alex Hedley' />
   <meta name="msapplication-starturl" content='/blog/' />
 
-  <meta property="og:title" content='Alex Hedley - (ISC)&#xB2;' />
+  <meta property="og:title" content='Alex Hedley - Mermaid' />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content='https://alex-hedley.github.io/blog/tags/isc%C2%B2' />
+  <meta property="og:url" content='https://alex-hedley.github.io/blog/posts/mermaid' />
 
   <link rel="icon" href='/blog/favicon.ico'>
 
@@ -75,10 +77,17 @@
   <div class="container position-relative">
     <div class="row">
       <div class="col-md-12">
-        <div class='site-heading'>
+        <div class='post-heading'>
           <h1>
-            (ISC)&#xB2;
+            Mermaid
           </h1>
+            <span class="subheading">How to add mermaid diagrams in statiq</span>
+            <div class="meta">Published on Tuesday, 16 May 2023</div>
+              <div class="mt-3">
+                  <a href="/blog/tags/mermaid" class="badge text-bg-light"> mermaid</a>
+                  <a href="/blog/tags/js" class="badge text-bg-light"> js</a>
+                  <a href="/blog/tags/statiq" class="badge text-bg-light"> statiq</a>
+              </div>
         </div>
       </div>
     </div>
@@ -90,41 +99,66 @@
   <div class="container">
     <div class="row">
       <div id="content" class="col-md-12">
-          <div class="container-sm-height">
-    <div class="row row-sm-height">
-      <div class="col-md-6 right-border col-sm-height">
-        
+        <p>Add a file <code>_scripts.cshtml</code></p>
+<pre><code class="language-razor">&lt;script src=&quot;https://unpkg.com/mermaid@8.9.3/dist/mermaid.min.js&quot; integrity=&quot;sha384-nVmn6yKHyUktDHdQfBgpn1YPgEu8gDXTYI5qccfkF1j6oxBHjKEafySIuNs3UhEW&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+</code></pre>
 
-
-<div class="post-preview">
-  <h2 class="post-title"><a href="/blog/posts/cc">Certified in Cybersecurity&#x2120; - CC</a></h2>
-  <p class="post-meta">Published on Friday, 5 May 2023</p>
-<p>Today I passed the <strong>Certified in Cybersecurity℠ - CC</strong> exam 🎉!</p>    <p class="small"><a href="/blog/posts/cc">Read more...</a></p>
+<div class="mermaid">flowchart LR
+    subgraph azureprod [Azure fa:fa-cloud]
+        AppProduction(App Service fa:fa-globe) --> api-production[APIM fa:fa-sitemap&lt;br>api-production]
+        AppProduction --> vnetprd[vnet-prd]
+    end
+    subgraph onpremprod [On-premises fa:fa-home]
+        vnetprd ----> SQLProd[SQL Prod fa:fa-server ] --> DBProd[(DBProd)]
+    end
 </div>
+<h2 id="devlead">[Devlead]</h2>
+<ul>
+<li><a href="https://github.com/devlead/Devlead.Statiq/blob/main/src/Devlead.Statiq.TestWeb/input/_scripts.cshtml">scripts</a></li>
+<li><a href="https://github.com/devlead/Devlead.Statiq/blob/main/src/Devlead.Statiq.TestWeb/input/posts/Tabs.md">Tabs.md</a></li>
+</ul>
+<h2 id="other">Other</h2>
+<ul>
+<li><p><a href="https://www.dpvreony.com/articles/mermaid-with-statiq/">Using Mermaid diagrams with Statiq.</a></p>
+<ul>
+<li><a href="https://github.com/dpvreony/article-statiq-mermaid">repo</a></li>
+</ul>
+</li>
+<li><p><a href="https://blog.beckshome.com/2022/09/mermaid-in-statiq">Mermaid Diagrams in Statiq</a></p>
+<ul>
+<li><a href="https://github.com/thbst16/dotnet-statiq-beckshome-blog/blob/main/input/posts/mermaid-in-statiq.md">code</a></li>
+</ul>
+</li>
+<li><p><a href="https://github.com/ociaw/StatiqMermaid">StatiqMermaid Repo</a></p>
+<ul>
+<li><a href="https://www.nuget.org/packages/Ociaw.StatiqMermaid/0.1.0-beta.2">nuget</a></li>
+</ul>
+</li>
+</ul>
 
-
-      </div>
-      <div class="col-md-4 mt-4 mt-md-0 col-sm-height">
-          <a href="/blog/tags/programming" class="badge text-bg-light"> programming (8)</a>
-          <a href="/blog/tags/github" class="badge text-bg-light"> github (5)</a>
-          <a href="/blog/tags/aws" class="badge text-bg-light"> aws (4)</a>
-          <a href="/blog/tags/exam" class="badge text-bg-light"> exam (2)</a>
-          <a href="/blog/tags/giscus" class="badge text-bg-light"> giscus (1)</a>
-          <a href="/blog/tags/discussions" class="badge text-bg-light"> discussions (1)</a>
-          <a href="/blog/tags/comments" class="badge text-bg-light"> comments (1)</a>
-          <a href="/blog/tags/mermaid" class="badge text-bg-light"> mermaid (1)</a>
-          <a href="/blog/tags/js" class="badge text-bg-light"> js (1)</a>
-          <a href="/blog/tags/statiq" class="badge text-bg-light"> statiq (1)</a>
-          <a href="/blog/tags/isc&#xB2;" class="badge text-bg-dark"> (ISC)&#xB2; (1)</a>
-          <a href="/blog/tags/general" class="badge text-bg-light"> general (1)</a>
-      </div>
-    </div>
-  </div>
 
         
 
       </div>
     </div>
+  <div id="comments-container" class="row">
+    <script src="https://giscus.app/client.js"
+        data-repo='alex-hedley/blog'
+        data-repo-id='R_kgDOJjrtWA'
+        data-category-id='DIC_kwDOJjrtWM4CW2qH'
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="light"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+
+  </div>
   </div>
 
   <hr>

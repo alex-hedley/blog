@@ -4,7 +4,7 @@
 	<title />
 	<link rel="self" href="https://alex-hedley.github.io/blog" />
 	<rights>Copyright © 2023</rights>
-	<updated>2023-05-31T08:28:21Z</updated>
+	<updated>2023-06-09T08:54:17Z</updated>
 	<entry>
 		<id>https://alex-hedley.github.io/blog/posts/giscus</id>
 		<title>giscus</title>
@@ -46,6 +46,51 @@
 &lt;p&gt;Blog Post: &lt;a href="https://beckshome.com/2022/09/beckshome-on-statiq"&gt;https://beckshome.com/2022/09/beckshome-on-statiq&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Example: &lt;a href="https://github.com/thbst16/dotnet-statiq-beckshome-blog/blob/main/theme/input/_post-footer.cshtml"&gt;https://github.com/thbst16/dotnet-statiq-beckshome-blog/blob/main/theme/input/_post-footer.cshtml&lt;/a&gt;&lt;/p&gt;
 </content>
+	</entry>
+	<entry>
+		<id>https://alex-hedley.github.io/blog/posts/mermaid</id>
+		<title>Mermaid</title>
+		<author>
+			<name>alexhedley</name>
+		</author>
+		<link href="https://alex-hedley.github.io/blog/posts/mermaid" />
+		<updated>2023-05-16T00:00:00Z</updated>
+		<content>&lt;p&gt;Add a file &lt;code&gt;_scripts.cshtml&lt;/code&gt;&lt;/p&gt;
+&lt;?# IncludeCode "./../_scripts.cshtml" /?&gt;
+&lt;div class="mermaid"&gt;flowchart LR
+    subgraph azureprod [Azure fa:fa-cloud]
+        AppProduction(App Service fa:fa-globe) --&gt; api-production[APIM fa:fa-sitemap&amp;lt;br&gt;api-production]
+        AppProduction --&gt; vnetprd[vnet-prd]
+    end
+    subgraph onpremprod [On-premises fa:fa-home]
+        vnetprd ----&gt; SQLProd[SQL Prod fa:fa-server ] --&gt; DBProd[(DBProd)]
+    end
+&lt;/div&gt;
+&lt;h2 id="devlead"&gt;[Devlead]&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/devlead/Devlead.Statiq/blob/main/src/Devlead.Statiq.TestWeb/input/_scripts.cshtml"&gt;scripts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/devlead/Devlead.Statiq/blob/main/src/Devlead.Statiq.TestWeb/input/posts/Tabs.md"&gt;Tabs.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="other"&gt;Other&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://www.dpvreony.com/articles/mermaid-with-statiq/"&gt;Using Mermaid diagrams with Statiq.&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/dpvreony/article-statiq-mermaid"&gt;repo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://blog.beckshome.com/2022/09/mermaid-in-statiq"&gt;Mermaid Diagrams in Statiq&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/thbst16/dotnet-statiq-beckshome-blog/blob/main/input/posts/mermaid-in-statiq.md"&gt;code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/ociaw/StatiqMermaid"&gt;StatiqMermaid Repo&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.nuget.org/packages/Ociaw.StatiqMermaid/0.1.0-beta.2"&gt;nuget&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+		<summary>How to add mermaid diagrams in statiq</summary>
 	</entry>
 	<entry>
 		<id>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-solutions-architect</id>
@@ -418,6 +463,22 @@ jobs:
 </content>
 	</entry>
 	<entry>
+		<id>https://alex-hedley.github.io/blog/posts/github-actions-request</id>
+		<title>GitHub Actions Request</title>
+		<author>
+			<name>alex-hedley</name>
+		</author>
+		<link href="https://alex-hedley.github.io/blog/posts/github-actions-request" />
+		<updated>2021-12-24T00:00:00Z</updated>
+		<content>&lt;p&gt;The &lt;a href="https://github.com/actions/github-script"&gt;actions/github-script&lt;/a&gt; has an option to send a request, that is already authenticated with the GitHub API.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;const diff_url = context.payload.pull_request.diff_url&lt;/code&gt;
+&lt;code&gt;const result = await github.request(diff_url)&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/actions/github-script#download-data-from-a-url"&gt;Download data from a URL&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
+	<entry>
 		<id>https://alex-hedley.github.io/blog/posts/github-actions-branches</id>
 		<title>GitHub Actions Branches</title>
 		<author>
@@ -528,82 +589,6 @@ jobs:
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://thekevinwang.com/2021/09/19/github-actions-dynamic-matrix/"&gt;Dynamic Matrices in GitHub Actions&lt;/a&gt; by &lt;a href="https://thekevinwang.com/me/"&gt;Kevin Wang&lt;/a&gt; - September 19, 2021&lt;/li&gt;
 &lt;/ul&gt;
-</content>
-	</entry>
-	<entry>
-		<id>https://alex-hedley.github.io/blog/posts/github-actions-request</id>
-		<title>GitHub Actions Request</title>
-		<author>
-			<name>alex-hedley</name>
-		</author>
-		<link href="https://alex-hedley.github.io/blog/posts/github-actions-request" />
-		<updated>2021-12-24T00:00:00Z</updated>
-		<content>&lt;p&gt;The &lt;a href="https://github.com/actions/github-script"&gt;actions/github-script&lt;/a&gt; has an option to send a request, that is already authenticated with the GitHub API.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;const diff_url = context.payload.pull_request.diff_url&lt;/code&gt;
-&lt;code&gt;const result = await github.request(diff_url)&lt;/code&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/actions/github-script#download-data-from-a-url"&gt;Download data from a URL&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-	</entry>
-	<entry>
-		<id>https://alex-hedley.github.io/blog/posts/github-actions-comment</id>
-		<title>GitHub Actions Comment</title>
-		<author>
-			<name>alex-hedley</name>
-		</author>
-		<link href="https://alex-hedley.github.io/blog/posts/github-actions-comment" />
-		<updated>2021-11-12T00:00:00Z</updated>
-		<content>&lt;p&gt;Have you ever needed to add a comment to your PR after your Jobs(s) have completed?&lt;/p&gt;
-&lt;p&gt;Scrolling through the logs can be long winded, why not add a nice comment?&lt;/p&gt;
-&lt;p&gt;Want to add some some cool emojis too?&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md"&gt;emoji-cheat-sheet&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;🔗 &lt;code&gt;:link:&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;📘 &lt;code&gt;:blue_book:&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;etc&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Start with the &lt;a href="https://github.com/actions/github-script"&gt;actions/github-script&lt;/a&gt; action.&lt;/p&gt;
-&lt;p&gt;It has various features, one of which is to &lt;code&gt;createComment&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Add the various inputs you need to configure:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;github.issues.createComment({})&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;The &lt;code&gt;body&lt;/code&gt; is the piece you want to update with your info&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;body: ':link: MY LINK'&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;With an output of&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;🔗 MY LINK&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Then you can set your trigger to run on a &lt;em&gt;PR&lt;/em&gt; and it'll add the necessary info.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/gh/github-actions-comment.png" alt="Actions Comment" title="Actions Comment"&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
-&lt;pre&gt;&lt;code class="language-yml"&gt;name: Add Comment
-
-on:
-  # workflow_dispatch:
-  pull_request:
-    branches: [main]
-
-jobs:
-  PR-Comment:
-    runs-on: ubuntu-latest
-    steps:
-      - name: PR Comment
-        if: github.base_ref == 'main'
-        uses: actions/github-script@v2
-        with:
-          github-token: ${{secrets.GITHUB_TOKEN}}
-          script: |
-            github.issues.createComment({
-              issue_number: ${{ github.event.number }},
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: ':link: MY LINK'
-            })
-&lt;/code&gt;&lt;/pre&gt;
 </content>
 	</entry>
 </feed>
