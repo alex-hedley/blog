@@ -4,7 +4,7 @@
 	<title />
 	<link rel="self" href="https://alex-hedley.github.io/blog" />
 	<rights>Copyright © 2023</rights>
-	<updated>2023-06-21T14:17:38Z</updated>
+	<updated>2023-06-21T14:28:14Z</updated>
 	<entry>
 		<id>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-data-analytics</id>
 		<title>AWS Cloud Quest Data Analytics</title>
@@ -31,7 +31,7 @@ $29.00 / month + VAT&lt;br&gt;
 &lt;a href="https://explore.skillbuilder.aws/learn/signin"&gt;https://explore.skillbuilder.aws/learn/signin&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Build multi-tiered serverless applications and get hands-on experience building modern applications using AWS serverless technology.&lt;/p&gt;
+&lt;p&gt;Work with scalable data lakes, data warehousing, big data analytics, and more in this role focused on modern data architecture and AWS analytics services.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id="training-material"&gt;Training Material&lt;/h2&gt;
 &lt;ul&gt;
@@ -502,18 +502,115 @@ jobs:
 </content>
 	</entry>
 	<entry>
-		<id>https://alex-hedley.github.io/blog/posts/github-actions-request</id>
-		<title>GitHub Actions Request</title>
+		<id>https://alex-hedley.github.io/blog/posts/github-actions-branches</id>
+		<title>GitHub Actions Branches</title>
 		<author>
 			<name>alex-hedley</name>
 		</author>
-		<link href="https://alex-hedley.github.io/blog/posts/github-actions-request" />
+		<link href="https://alex-hedley.github.io/blog/posts/github-actions-branches" />
 		<updated>2021-12-24T00:00:00Z</updated>
-		<content>&lt;p&gt;The &lt;a href="https://github.com/actions/github-script"&gt;actions/github-script&lt;/a&gt; has an option to send a request, that is already authenticated with the GitHub API.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;const diff_url = context.payload.pull_request.diff_url&lt;/code&gt;
-&lt;code&gt;const result = await github.request(diff_url)&lt;/code&gt;&lt;/p&gt;
+		<content>&lt;p&gt;How to get a list of branches from a current repo.&lt;/p&gt;
+&lt;p&gt;The &lt;a href="https://github.com/actions/github-script"&gt;actions/github-script&lt;/a&gt; is a good place to start as it has access to the Repo info.
+To see what you can get run the script and output the complete context:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-yml"&gt;      - name: View context attributes
+        uses: actions/github-script&amp;#64;v5
+        with:
+          script: console.log(context)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Be careful though, as when this is ran manually it gets different values to when ran on a schedule.&lt;/p&gt;
+&lt;p&gt;Looking at the &lt;em&gt;Repository&lt;/em&gt; info the &lt;code&gt;branches_url&lt;/code&gt; might be useful:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-json"&gt;Context {
+  payload: {
+    repository: {
+      branches_url: 'https://api.github.com/repos/alex-hedley/[REPONAME]/branches{/branch}',
+    }
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/actions/github-script#download-data-from-a-url"&gt;Download data from a URL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;context.payload.repository.branches_url&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We don't need the &lt;code&gt;{{/branch}}&lt;/code&gt; though. So lets remove that.&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-js"&gt;const branches_url = context.payload.repository.branches_url
+const branches_url_new = branches_url.replace(&amp;quot;{/branch}&amp;quot;, &amp;quot;&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;With this &lt;em&gt;url&lt;/em&gt; we can now get the data using the &lt;a href="https://github.com/actions/github-script#download-data-from-a-url"&gt;github.request()&lt;/a&gt; method.
+Map just the names of the branches to an Array.
+And log the data.&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-js"&gt;const result = await github.request(branches_url_new)
+const names = result.data.map(branch =&amp;gt; branch.name)
+console.log(names)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class="language-json"&gt;{
+    ...
+    data: [
+        { name: 'dev', commit: [Object], protected: false },
+        { name: 'main', commit: [Object], protected: false }
+    ]
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class="language-json"&gt;[ 'dev', 'main' ]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Depending on the type of event you could&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-yml"&gt;on:
+  push:
+    branches:    
+      - '*'         # matches every branch that doesn't contain a '/'
+      - '*/*'       # matches every branch containing a single '/'
+      - '**'        # matches every branch
+      - '!master'   # excludes master
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;But this isn't available for &lt;code&gt;workflow_dispatch:&lt;/code&gt; as of yet.&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-yml"&gt;name: Get Branches
+
+on:
+  workflow_dispatch:
+    
+jobs:
+  print-context:
+    runs-on: ubuntu-latest
+    outputs:
+      branches: ${{ steps.branch-output.outputs.branches }}
+    steps:
+      - name: Branches
+        id: branches-list
+        uses: actions/github-script&amp;#64;v5
+        with:
+          script: |
+            const branches_url = context.payload.repository.branches_url
+            const branches_url_new = branches_url.replace(&amp;quot;{/branch}&amp;quot;, &amp;quot;&amp;quot;)
+            const result = await github.request(branches_url_new)
+            const names = result.data.map(branch =&amp;gt; branch.name)
+            
+            const index = names.indexOf('main');
+            if (index &amp;gt; -1) {
+              names.splice(index, 1);
+            }
+            console.log(names)
+
+            return names
+      
+      - name: Branches
+        id: branch-output
+        run: |
+          BRANCHES='${{ steps.branches-list.outputs.result }}'
+          echo ::set-output name=branches::$BRANCHES
+      
+  my_matrix:
+    runs-on: ubuntu-latest
+    needs:
+      - print-context
+    strategy:
+      matrix:
+        branches: ${{ fromJSON(needs.print-context.outputs.branches) }}
+    steps:
+      - name: Branches
+        run: |
+          echo ${{ matrix.branches }}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id="links"&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://thekevinwang.com/2021/09/19/github-actions-dynamic-matrix/"&gt;Dynamic Matrices in GitHub Actions&lt;/a&gt; by &lt;a href="https://thekevinwang.com/me/"&gt;Kevin Wang&lt;/a&gt; - September 19, 2021&lt;/li&gt;
 &lt;/ul&gt;
 </content>
 	</entry>
