@@ -4,7 +4,174 @@
 	<title />
 	<link rel="self" href="https://alex-hedley.github.io/blog" />
 	<rights>Copyright © 2023</rights>
-	<updated>2023-06-21T14:28:14Z</updated>
+	<updated>2023-07-01T10:15:33Z</updated>
+	<entry>
+		<id>https://alex-hedley.github.io/blog/posts/leaddev-london-2023</id>
+		<title>LeadDev London 2023</title>
+		<author>
+			<name>alex-hedley</name>
+		</author>
+		<link href="https://alex-hedley.github.io/blog/posts/leaddev-london-2023" />
+		<link rel="enclosure" type="image" href="https://alex-hedley.github.io/blog/posts/images/leaddev/new-london-hero_0.png" />
+		<updated>2023-06-30T00:00:00Z</updated>
+		<content>&lt;!-- LeadDev London 2023 --&gt;
+&lt;p&gt;This week I had the absolute pleasure of going to &lt;a href="https://leaddev.com/leaddev-london-2023"&gt;LeadDev London 2023&lt;/a&gt; thanks to my employer Opencast.&lt;/p&gt;
+&lt;p&gt;🗓️ June 27–28, 2023
+🏟️ barbican&lt;/p&gt;
+&lt;p&gt;It was my first time at this event and I'd heard great things for current colleagues who have been over the years and friends I'd mentioned I was going too.&lt;/p&gt;
+&lt;p&gt;I liked the fact that there was just a single track each day, I didn't have to make a choice of which talks to go to and get FOMO or regret missing any after hearing other peoples thoughts.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://leaddev.com/leaddev-london/agenda-2023"&gt;Agenda&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Key Points&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;F**king NASA&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://leaddev.com/code-conduct"&gt;Code Of Conduct&lt;/a&gt; - Don't be a d**k&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;#LeadDevLondon - Capitalise - helps with screen readers and accessibility&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Live captions throughout.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It felt a very safe and inclusive space.&lt;/p&gt;
+&lt;p&gt;Two speakers I was told to keep an eye out for were Nickolas Means and Clare Sudbery and they didn't disappoint.&lt;/p&gt;
+&lt;p&gt;One stand out presentation was from Jason Wodicka on &lt;strong&gt;Engineering a more equitable hiring process&lt;/strong&gt;. They absolutely commanded the stage and the message was a very important one.&lt;/p&gt;
+&lt;p&gt;I also have to mention Sinéad Cummings with &lt;strong&gt;Parents who code: How to welcome your developers back after parental leave&lt;/strong&gt; not just because she is a great friend and colleague but because this was another very overlooked subject and isn't just applicable to Parents but anyone who needs time off.&lt;/p&gt;
+&lt;p&gt;I also managed to grab a load of swag! Sorted for socks and teeshirts for a while :).&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="agenda"&gt;Agenda&lt;/h2&gt;
+&lt;details&gt;
+    &lt;summary&gt;🗓️ Tuesday, June 27&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;Managing at the Threshold: Examining our Principles in a Moment of Change&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Managing at the Threshold: Examining our Principles in a Moment of Change&lt;/p&gt;
+&lt;p&gt;David Yee&lt;br /&gt;
+VP of Engineering • The New York Times&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Compassionate on-call&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In this talk, we’ll discuss how to build a compassionate on-call rota, and how that can help build sustainable and high performing teams.&lt;/p&gt;
+&lt;p&gt;Lisa Karlin Curtis&lt;br /&gt;
+Software Engineer • incident.io&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Red 2.0: Transforming a Game Company&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A look at how the Tech Team at CD Projekt applied the Red 2.0 Manifesto as part of a company-wide transformation after the release of Cyberpunk 2077.&lt;/p&gt;
+&lt;p&gt;Colin Walder&lt;br /&gt;
+Engineering Director, Management and Audio • CD Projekt Red&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What do you mean there’s no onboarding plan for engineering managers?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Daniel Korn shares his four-week onboarding process for engineering leads that emphasizes peopleware, tech leadership, and delivery management. He provides a behind-the-scenes look at this super adaptable process, which uses a framework of ‘sessions’ and ‘experiences’ - and shares everything from his mistakes to his insights.&lt;/p&gt;
+&lt;p&gt;Daniel Korn&lt;br /&gt;
+Director of Engineering • Lemonade&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Code is Poetry&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In this talk, I will talk about how to write good readable code, ticket descriptions, bug patches et al in PHP and Javascript.&lt;/p&gt;
+&lt;p&gt;Niranjan Uma Shankar&lt;br /&gt;
+Head of Acquisition Growth Engineering • Automattic Inc&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Why Onboarding to a Company's Legacy Codebase Sucks, and How to Make it Work for Your Team&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In this talk, I will be discussing the history and context of the problems that plague codebase onboarding. And with problems comes solutions such as tips and tools that make it easier for engineers to onboard a legacy codebase.&lt;/p&gt;
+&lt;p&gt;Shanea Leven&lt;br /&gt;
+Founder + CEO • CodeSee&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Making the Move to Manager: Common Pitfalls for New Engineering Leaders&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This talk, which will primarily focus on challenges involved with people leadership, will broadly cover: - How to rebrand yourself as a new engineering leader - How to build trust with a new team without prior experience or credibility - How to delegate effectively - How to balance proactive leadership without micromanaging.&lt;/p&gt;
+&lt;p&gt;Jacqueline Pan&lt;br /&gt;
+Software Engineering Team Lead • Bloomberg&lt;/p&gt;
+&lt;p&gt;Marlena Lui&lt;br /&gt;
+Software Engineering Team Lead • Bloomberg&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&amp;quot;I'm happy where I am&amp;quot; - Supporting team members that aren't seeking progression&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Realistically not everyone can or wants to be a Lead Engineer/Engineering Manager/Staff Engineer and nor should we be pushing people into roles they either have no interest in or have done before and not enjoyed.&lt;/p&gt;
+&lt;p&gt;Ryan MacGillivray&lt;br /&gt;
+Software Engineer • Easol&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How to drive pace in your team 🏃🏽‍♀️&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;By the end of the talk, folks will have received actionable advice that'll help them improve their teams' delivery and pace without a data-first approach.&lt;/p&gt;
+&lt;p&gt;Alicia Collymore&lt;br /&gt;
+Engineering Manager • incident.io&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How we support making architectural decisions&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;During the talk, we'll make a deep dive from the principles based on which this group operates to the specific how-to that made its work beneficial for the company and share what we've learned from this whole experience so far.&lt;/p&gt;
+&lt;p&gt;Olena Sovyn&lt;br /&gt;
+Staff Software Engineer • Webflow&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Where we’re going wrong with developer productivity&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In this talk, I want to propose a different, science-backed approach to productivity using research evidence from a study with 1200+ developers: developer thriving.&lt;/p&gt;
+&lt;p&gt;Cat Hicks&lt;br /&gt;
+VP of Research Insights &amp;amp; Director of Developer Success Lab, Flow • Pluralsight Flow&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Engineering a more equitable hiring process&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In this talk, Jason lays out some of the places where bias enters our hiring process, and shares concrete actions you can take to make your own hiring more efficient, equitable, and effective.&lt;/p&gt;
+&lt;p&gt;Jason Wodicka&lt;br /&gt;
+Principal Developer • Advocate Karat&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How to effectively “Spike” a complex technical project&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In this talk, I’ll go over what a spike is, how to successfully spike a project, and lessons that I’ve learned from leading several technically complex projects, across 3 different companies, and various different teams.&lt;/p&gt;
+&lt;p&gt;Aditya Bansal&lt;br /&gt;
+Founding Engineer • Cortex&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The 9.1 Magnitude Meltdown at Fukushima&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;It was mid-afternoon on Friday, March 11, 2011 when the ground in Tōhoku began to shake. To the operators at Fukushima Daiichi nuclear power plant, it seemed like the shaking would never stop. The way their team operated during that fateful week has a lot to teach us about helping our own teams be at their best, both in crisis and out.&lt;/p&gt;
+&lt;p&gt;Nickolas Means&lt;br /&gt;
+VP of Engineering • Sym&lt;/p&gt;
+&lt;/details&gt;
+&lt;details&gt;
+    &lt;summary&gt;🗓️ Wednesday, June 28&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;Building bridges: The art of crafting seamless partnerships between engineering, product, and design&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Panel discussion&lt;/p&gt;
+&lt;p&gt;James Stanier&lt;br /&gt;
+Director of Engineering • Shopify&lt;/p&gt;
+&lt;p&gt;Winter Wei&lt;br /&gt;
+Senior UX Manager • Shopify&lt;/p&gt;
+&lt;p&gt;Janet Balneaves&lt;br /&gt;
+Product Director • Shopify&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Riding the rollercoaster of emotions&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This talk covers key topics such as understanding and managing emotions, reflecting on them, developing emotional intelligence, and being in control of our thoughts.&lt;/p&gt;
+&lt;p&gt;Gabriel Michels&lt;br /&gt;
+Director of Engineering • Choco&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Platform engineering is all about product&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;You will leave this talk with: - An understanding of platform engineering and how it relates to DevOps? - What makes an IDP and a platform team successful? - Practices you can use to build a successful platform, and pitfalls to avoid.&lt;/p&gt;
+&lt;p&gt;Gal Bashan&lt;br /&gt;
+Director of engineering • Cisco&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Cultural post mortems: an approach to learning and recovering when your people systems fail&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In this talk, we’ll share how we planned and executed recovery work. Our aim is to inspire you to consider a systems approach when something with your team goes wrong, and we’ll provide a template for what we think worked well.&lt;/p&gt;
+&lt;p&gt;Winna Bridgewater&lt;br /&gt;
+Principal Engineer • Syntasso&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Strategies for succeeding as a underrepresented engineering leader&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I’ll be drawing on my experience as a Lead Engineer at NASA Jet Propulsion Laboratory and as a woman to provide strategies for how to succeed at work, alongside my own stories of how I’ve put these into practice.&lt;/p&gt;
+&lt;p&gt;Rafia Qutab Kilian&lt;br /&gt;
+Lead Full Stack Software Engineer • NASA Jet Propulsion Laboratory&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Feature flags unleashed&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In this talk, I'll show you how you can use feature flags to run complex data migrations, enable canary releases, easily build plans on top of your product, customize for specific clients, and much more.&lt;/p&gt;
+&lt;p&gt;Roger Gros&lt;br /&gt;
+Senior Engineering Manager • Factorial&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Build a data-driven on-call workflow for your team with atomic habits&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This talk will walk you through a data-driven on-call framework, clearly derived from first principles. You will get the WHY, our journey towards adoption, and the results after more than 2 years of implementation.&lt;/p&gt;
+&lt;p&gt;Bianca Costache&lt;br /&gt;
+Engineering Manager • Adobe&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Keeping your team health after a layoff&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In this presentation I will discuss how we can support and care for the team and then move forward, based on what I experienced at Loggi, where it was possible to overcome in a healthy way.&lt;/p&gt;
+&lt;p&gt;Leandro César Silva&lt;br /&gt;
+Senior Engineering Manager • Loggi Tech&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Parents who code: How to welcome your developers back after parental leave&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I am going to talk through how you, as Development Leaders, can provide visibility of key decisions to those who have been on leave, ensure they aren’t overlooked during their period of absence and how you can prevent cognitive overload when they return, guaranteeing your best and brightest return feeling empowered, valued, and ready to code.&lt;/p&gt;
+&lt;p&gt;Sinéad Cummings&lt;br /&gt;
+Senior Consultant • Opencast Software&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Creating inclusive career ladders&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In this talk, we’ll cover some common pitfalls, and will go through a practical set of prompts to help you make sure your career ladder can work well for everyone.&lt;/p&gt;
+&lt;p&gt;Sally Lait&lt;br /&gt;
+Engineering Director – Safety &amp;amp; Integrity • Bumble&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Building for the Underserved, Solving for All&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This talk will remind us about the levels and weight of responsibility we carry as builders and leads in tech, zero in on the need for prioritising people-centric approaches in the design and development decisions we make everyday and implore us to move beyond only employing best practices in our work.&lt;/p&gt;
+&lt;p&gt;Serah Njambi Kiburu
+Senior Developer Advocate • Spotify&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Driving positive change through performance improvement plans&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This talk describes an approach to PIPs in which the manager helps to set the employee up for success.&lt;/p&gt;
+&lt;p&gt;Cristina Yenyxe Gonzalez Garcia&lt;br /&gt;
+Director of Engineering • eyeo&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Exit plans and how to talk about them&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This talk covers why the answer to that question is important, how to set up the culture to enable the conversation, how to actually have the conversations once the foundation is laid, and the benefits that both employees and the company get out of it.&lt;/p&gt;
+&lt;p&gt;David Kiger&lt;br /&gt;
+Director of Engineering • Yelp&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Orchestrating thousands of bots from the cloud&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We now provide an end-to-end platform for smart online grocery to some of the world’s largest grocery retailers. At the heart of our model are automated warehouses which are the most advanced of their kind. Thousands of bots collaborate seamlessly on 3D grids to fulfil customer orders.&lt;/p&gt;
+&lt;p&gt;James Donkin&lt;br /&gt;
+CTO • Ocado&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The awful agony of the app store: When software delivery goes wrong&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This talk is a dramatic tale of ups and downs, tears and triumph, and the very sharp end of the sunk cost fallacy. Via the rollercoaster ride of a failed iOS app, Clare uses the experience to highlight several key components that contribute to successful software development… and offer understanding to those facing obstacles beyond their control.&lt;/p&gt;
+&lt;p&gt;Clare Sudbery&lt;br /&gt;
+Independent Technical Coach • Sudbery Software Engineering Ltd&lt;/p&gt;
+&lt;/details&gt;
+</content>
+		<summary>&lt;p&gt;This week I had the absolute pleasure of going to &lt;a href="https://leaddev.com/leaddev-london-2023"&gt;LeadDev London 2023&lt;/a&gt; thanks to my employer Opencast.&lt;/p&gt;</summary>
+	</entry>
 	<entry>
 		<id>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-data-analytics</id>
 		<title>AWS Cloud Quest Data Analytics</title>
@@ -43,6 +210,31 @@ $29.00 / month + VAT&lt;br&gt;
 &lt;li&gt;&lt;a href="https://explore.skillbuilder.aws/learn/course/external/view/elearning/7636/cloud-quest"&gt;Cloud Quest&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
+	</entry>
+	<entry>
+		<id>https://alex-hedley.github.io/blog/posts/talk-beginners-guide-to-api-specs</id>
+		<title>🎙️ Beginners Guide to API Specs - Part 1</title>
+		<author>
+			<name>alex-hedley</name>
+		</author>
+		<link href="https://alex-hedley.github.io/blog/posts/talk-beginners-guide-to-api-specs" />
+		<updated>2023-06-15T00:00:00Z</updated>
+		<content>&lt;!-- Beginners Guide to API Specs - Part 1 --&gt;
+&lt;p&gt;I work in cross discipline teams and the Product Delivery members keep us Developers on track, writing up User Stories, managing our ceremonies etc. We often talk a lot about APIs and it's prob not something they are interested in :p.
+This talk was to demystify a &lt;a href="http://swagger.io/"&gt;swagger&lt;/a&gt; spec, break it down into what it is, what it does, and how we use them in our day to day jobs.&lt;/p&gt;
+&lt;p&gt;🗓️ June 15, 2023&lt;/p&gt;
+&lt;!-- 📼  --&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://alex-hedley.github.io/talk-beginners-guide-to-api-specs/"&gt;Presentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/alex-hedley/talk-beginners-guide-to-api-specs"&gt;Presentation Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://alex-hedley.github.io/talks/"&gt;Talks Site&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/alex-hedley/talks"&gt;Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+		<summary>How to read and use an API spec.</summary>
 	</entry>
 	<entry>
 		<id>https://alex-hedley.github.io/blog/posts/giscus</id>
@@ -221,6 +413,30 @@ $29.00 / month + VAT&lt;br&gt;
 </content>
 	</entry>
 	<entry>
+		<id>https://alex-hedley.github.io/blog/posts/talk-static-site-generators</id>
+		<title>🎙️ Static Site Generators</title>
+		<author>
+			<name>alex-hedley</name>
+		</author>
+		<link href="https://alex-hedley.github.io/blog/posts/talk-static-site-generators" />
+		<updated>2023-04-18T00:00:00Z</updated>
+		<content>&lt;!-- Static Site Generators --&gt;
+&lt;p&gt;To follow on from my &lt;a href="https://alex-hedley.github.io/blog/talk-markdown.md"&gt;Markdown&lt;/a&gt; talk I gave one on Static Site Generators. Since these normally use Markdown it made sense to have that as a pre-req. Again this was for the UCD Community at work, although all communities were welcome.&lt;/p&gt;
+&lt;p&gt;🗓️ Apr 18, 2023&lt;/p&gt;
+&lt;!-- 📼  --&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://alex-hedley.github.io/talk-static-site-generators/"&gt;Presentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/alex-hedley/talk-static-site-generators"&gt;Presentation Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://alex-hedley.github.io/talks/"&gt;Talks Site&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/alex-hedley/talks"&gt;Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+		<summary>Introduction to Static Site Generators, GitHub Pages, docFX, mkDocs etc.</summary>
+	</entry>
+	<entry>
 		<id>https://alex-hedley.github.io/blog/posts/aws-certified-cloud-practitioner</id>
 		<title>AWS Certified Cloud Practitioner</title>
 		<author>
@@ -319,299 +535,29 @@ Delivery method: Pearson VUE testing center or online proctored exam.&lt;/p&gt;
 </content>
 	</entry>
 	<entry>
-		<id>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-serverless-developer</id>
-		<title>AWS Cloud Quest Serverless Developer</title>
+		<id>https://alex-hedley.github.io/blog/posts/talk-markdown</id>
+		<title>🎙️ Markdown</title>
 		<author>
 			<name>alex-hedley</name>
 		</author>
-		<link href="https://alex-hedley.github.io/blog/posts/aws-cloud-quest-serverless-developer" />
-		<updated>2023-03-15T00:00:00Z</updated>
-		<content>&lt;!-- # AWS Cloud Quest Serverless Developer --&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/aws-cq/cloud-quest.png" alt="AWS Cloud Quest Cloud Practitioner" title="AWS Cloud Quest"&gt;&lt;/p&gt;
-&lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud QuestServerless Developer&lt;/strong&gt; training 🎉!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/aws-cq/aws-cloud-quest-serverless-developer.png" alt="AWS Cloud Quest Serverless Developer Badge" title="AWS Cloud Quest Serverless Developer Badge"&gt;&lt;/p&gt;
+		<link href="https://alex-hedley.github.io/blog/posts/talk-markdown" />
+		<updated>2023-04-04T00:00:00Z</updated>
+		<content>&lt;!-- Markdown --&gt;
+&lt;p&gt;Work offer the opportunity to present within our Communities. One I chose to do was &lt;a href="https://daringfireball.net/projects/markdown/"&gt;markdown&lt;/a&gt; to our UCD community.&lt;/p&gt;
+&lt;p&gt;The idea is to build up a few key skills in stages, first show markdown, then git and make them all into developers :p.
+Roles are always expecting so much more cross discipline skills and I thought it would be good to to a talk that gave an intro to this.&lt;/p&gt;
+&lt;p&gt;🗓️ Apr 4, 2023&lt;/p&gt;
+&lt;p&gt;Originally it was done as a PowerPoint presentation but I'm now moving &lt;a href="https://revealjs.com/"&gt;revealjs&lt;/a&gt;.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.credly.com/badges/5dc86ddb-b5b4-448f-a57b-c49f13857810/public_url"&gt;Credly Badge&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.credly.com/users/alexhedley/badges"&gt;Credly Profile&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://alex-hedley.github.io/talk-markdown/"&gt;Presentation&lt;/a&gt; WIP&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/alex-hedley/talk-markdown"&gt;Presentation Code&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This is a paid course from AWS that uses gamification and hands on labs to reinforce learnings.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Part of AWS Skill Builder Individual subscription. Subscribe to get access to this and other subscriber-only benefits.&lt;br&gt;
-$29.00 / month + VAT&lt;br&gt;
-&lt;a href="https://explore.skillbuilder.aws/learn/signin"&gt;https://explore.skillbuilder.aws/learn/signin&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Build multi-tiered serverless applications and get hands-on experience building modern applications using AWS serverless technology.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id="training-material"&gt;Training Material&lt;/h2&gt;
+&lt;hr /&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://aws.amazon.com/training/learn-about/cloud-practitioner/"&gt;Training Material&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="links"&gt;Links&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://aws.amazon.com/training/digital/aws-cloud-quest/"&gt;AWS Cloud Quest&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://explore.skillbuilder.aws/learn/course/external/view/elearning/7636/cloud-quest"&gt;Cloud Quest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://alex-hedley.github.io/talks/"&gt;Talks Site&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/alex-hedley/talks"&gt;Code&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
-	</entry>
-	<entry>
-		<id>https://alex-hedley.github.io/blog/posts/deploy-tech-docs</id>
-		<title>Deploy Tech Docs</title>
-		<author>
-			<name>alex-hedley</name>
-		</author>
-		<link href="https://alex-hedley.github.io/blog/posts/deploy-tech-docs" />
-		<updated>2023-01-30T00:00:00Z</updated>
-		<content>&lt;p&gt;In this article I'll show how to deploy the GOV.UK &lt;a href="https://github.com/alphagov/tech-docs-template"&gt;Tech Docs Template&lt;/a&gt; to &lt;a href="https://pages.github.com/"&gt;GitHub Pages&lt;/a&gt;.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The Tech Docs Template is a &lt;a href="https://middlemanapp.com/advanced/project_templates/"&gt;Middleman template&lt;/a&gt; that you can use to build technical documentation using a GOV.UK style.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;To learn more about the template you can view the &lt;a href="https://tdt-documentation.london.cloudapps.digital/"&gt;Documentation Site&lt;/a&gt; (&lt;a href="https://github.com/alphagov/tdt-documentation"&gt;Code&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;There's a section in the docs for &lt;a href="https://tdt-documentation.london.cloudapps.digital/publish_project/deploy/#github-pages"&gt;GitHub Pages&lt;/a&gt; which mentions how MoJ achieve this, see &lt;a href="https://github.com/ministryofjustice/cloud-platform-user-guide/blob/main/.github/workflows/publish.yml"&gt;publish.yml&lt;/a&gt; from their &lt;strong&gt;Cloud Platform User Guide&lt;/strong&gt;, there is also another example &lt;a href="https://github.com/ministryofjustice/hmpps-tech-docs/blob/main/.github/workflows/publish.yml"&gt;publish.yml&lt;/a&gt; from &lt;strong&gt;hmpps-tech-docs&lt;/strong&gt; which uses some scripts (&lt;a href="https://github.com/ministryofjustice/hmpps-tech-docs/tree/main/bin"&gt;bin&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;As an alternative I created my own &lt;a href="https://docs.github.com/en/actions/using-workflows"&gt;GitHub Action Workflow&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id="config"&gt;Config&lt;/h2&gt;
-&lt;p&gt;Firstly you need to add some config to your existing project. As GitHub Pages deploys to the repo name links won't work, i.e. &lt;code&gt;username.github.io/projectname&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Update the &lt;code&gt;config.rb&lt;/code&gt; file with the below settings.&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-ruby"&gt;# https://github.com/edgecase/middleman-gh-pages#project-page-path-issues
-
-# Project Page Path Issues
-# Since project pages deploy to a subdirectory, assets and page paths are relative to the organization or user that owns the repo. If you're treating the project pages as a standalone site, you can tell Middleman to generate relative paths for assets and links with these settings in the build configuration in config.rb
-# NOTE This only affects sites being accessed at the username.github.io/projectname URL, not when accessed at a custom CNAME.
-
-activate :relative_assets
-set :relative_links, true
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Thanks to the &lt;a href="https://github.com/edgecase/middleman-gh-pages#project-page-path-issues"&gt;Middleman Github Pages&lt;/a&gt; project for this.&lt;/p&gt;
-&lt;p&gt;You can also add a &lt;code&gt;CNAME&lt;/code&gt; file with your url &lt;code&gt;https://[USERNAME].github.io/[REPO_NAME]&lt;/code&gt;. This will be copied by the workflow later.&lt;/p&gt;
-&lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
-&lt;p&gt;The WF only runs when there has been a change in the &lt;code&gt;source/&lt;/code&gt; folder. You may wish to update this to your own needs. I've also added a &lt;code&gt;workflow_dispatch&lt;/code&gt; trigger so you can run this manually.&lt;/p&gt;
-&lt;p&gt;Next add some &lt;strong&gt;write&lt;/strong&gt; permissions for &lt;code&gt;contents&lt;/code&gt; and &lt;code&gt;pages&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Now for the main &lt;code&gt;job&lt;/code&gt; which is built up of a number of &lt;code&gt;steps&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;First you'll want to &lt;strong&gt;&lt;a href="https://github.com/actions/checkout"&gt;checkout&lt;/a&gt;&lt;/strong&gt; (&lt;code&gt;actions/checkout&amp;#64;v2&lt;/code&gt;) your code.&lt;/p&gt;
-&lt;p&gt;Next as this is a &lt;a href="https://www.ruby-lang.org/en/"&gt;Ruby&lt;/a&gt; project &lt;strong&gt;&lt;a href="https://github.com/ruby/setup-ruby"&gt;Setup&lt;/a&gt;&lt;/strong&gt; (&lt;code&gt;ruby/setup-ruby&amp;#64;v1&lt;/code&gt;) and choose the correct version.&lt;/p&gt;
-&lt;p&gt;Next install your bundle. This can just be a simple &lt;code&gt;run&lt;/code&gt; script. You can also check that &lt;code&gt;middleman&lt;/code&gt; is available.&lt;/p&gt;
-&lt;p&gt;Next build your website using &lt;code&gt;bundle exec middleman build&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Once this is built you can optionally copy over a &lt;code&gt;CNAME&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Next deploy your project to GitHub Pages using another action &lt;a href="https://github.com/peaceiris/actions-gh-pages"&gt;peaceiris/actions-gh-pages&amp;#64;v3.9.2&lt;/a&gt;.
-If you are outputting your build to a different folder make sure to update this &lt;code&gt;publish_dir: build&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Finally in your Repo settings configure GHP.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://docs.github.com/en/pages/quickstart"&gt;Quickstart for GitHub Pages&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Yaml file for reference:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-yml"&gt;name: Deploy
-
-on:
-  workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - &amp;quot;source/**&amp;quot;
-
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
-permissions:
-  contents: write
-  pages: write
-  id-token: write
-
-jobs:
-  build_and_deploy:
-    name: Build &amp;amp; Deploy
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout&amp;#64;v2
-        
-      - name: Set up 💎 Ruby 3.2.0
-        uses: ruby/setup-ruby&amp;#64;v1
-        with:
-          ruby-version: 3.2.0
-#           bundler-cache: true
-        
-      - name: Install Dependencies
-        run: |
-          echo 'Installing bundles...'
-          gem install bundler
-          bundle install
-          bundle list | grep &amp;quot;middleman (&amp;quot;
-        
-      - name: Build
-        run: bundle exec middleman build
-      
-      - name: Copy CNAME
-        run: |
-          echo &amp;quot;Copying cname across too&amp;quot;
-          cp -a CNAME build
-      
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages&amp;#64;v3.9.2
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: build
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id="alternatives"&gt;Alternatives&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/edgecase/middleman-gh-pages"&gt;Middleman Github Pages&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/yurikoval/middleman-gh-pages-action"&gt;middleman-gh-pages-action&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/marketplace/actions/middleman-github-pages-action"&gt;Marketplace&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I found an &lt;a href="https://github.com/yurikoval/middleman-gh-pages-action/issues/3"&gt;issue&lt;/a&gt; with the GHA which was referencing &lt;code&gt;master&lt;/code&gt; not &lt;code&gt;main&lt;/code&gt;.&lt;/p&gt;
-</content>
-	</entry>
-	<entry>
-		<id>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-cloud-practitioner</id>
-		<title>AWS Cloud Quest Cloud Practitioner</title>
-		<author>
-			<name>alex-hedley</name>
-		</author>
-		<link href="https://alex-hedley.github.io/blog/posts/aws-cloud-quest-cloud-practitioner" />
-		<updated>2023-01-25T00:00:00Z</updated>
-		<content>&lt;!-- # AWS Cloud Quest Cloud Practitioner --&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/aws-cq/logo_wide_practitioner.png" alt="AWS Cloud Quest Cloud Practitioner" title="AWS Cloud Quest Cloud Practitioner"&gt;&lt;/p&gt;
-&lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest Cloud Practitioner&lt;/strong&gt; training 🎉!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/aws-cq/aws-cloud-quest-cloud-practitioner.png" alt="AWS Cloud Quest Cloud Practitioner Badge" title="AWS Cloud Quest Cloud Practitioner Badge"&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.credly.com/badges/8056f265-da5b-4518-9c7c-9768dc379721/public_url"&gt;Credly Badge&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.credly.com/users/alexhedley/badges"&gt;Credly Profile&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This is a free course from AWS that uses gamification and hands on labs to reinforce learnings.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;How does it work?&lt;/p&gt;
-&lt;p&gt;You will solve problems throughout the virtual Cloud Quest city by completing learning exercises like labs, quizzes, and puzzles.&lt;/p&gt;
-&lt;p&gt;Through hands-on learning in a live AWS environment, you will learn and apply cloud concepts to real business problems while earning rewards and transforming the city. Ready to begin? Enroll to start your quest.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id="training-material"&gt;Training Material&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://explore.skillbuilder.aws/learn/course/external/view/elearning/11458/aws-cloud-quest-cloud-practitioner"&gt;Skill Builder Course&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://aws.amazon.com/training/learn-about/cloud-practitioner/"&gt;Training Material&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="links"&gt;Links&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://aws.amazon.com/training/digital/aws-cloud-quest/"&gt;AWS Cloud Quest&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://pages.awscloud.com/global_traincert_twitch-cloud-quest-CP.html"&gt;AWS Cloud Quest: Cloud Practitioner&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-	</entry>
-	<entry>
-		<id>https://alex-hedley.github.io/blog/posts/github-actions-branches</id>
-		<title>GitHub Actions Branches</title>
-		<author>
-			<name>alex-hedley</name>
-		</author>
-		<link href="https://alex-hedley.github.io/blog/posts/github-actions-branches" />
-		<updated>2021-12-24T00:00:00Z</updated>
-		<content>&lt;p&gt;How to get a list of branches from a current repo.&lt;/p&gt;
-&lt;p&gt;The &lt;a href="https://github.com/actions/github-script"&gt;actions/github-script&lt;/a&gt; is a good place to start as it has access to the Repo info.
-To see what you can get run the script and output the complete context:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-yml"&gt;      - name: View context attributes
-        uses: actions/github-script&amp;#64;v5
-        with:
-          script: console.log(context)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Be careful though, as when this is ran manually it gets different values to when ran on a schedule.&lt;/p&gt;
-&lt;p&gt;Looking at the &lt;em&gt;Repository&lt;/em&gt; info the &lt;code&gt;branches_url&lt;/code&gt; might be useful:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-json"&gt;Context {
-  payload: {
-    repository: {
-      branches_url: 'https://api.github.com/repos/alex-hedley/[REPONAME]/branches{/branch}',
-    }
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;context.payload.repository.branches_url&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;We don't need the &lt;code&gt;{{/branch}}&lt;/code&gt; though. So lets remove that.&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-js"&gt;const branches_url = context.payload.repository.branches_url
-const branches_url_new = branches_url.replace(&amp;quot;{/branch}&amp;quot;, &amp;quot;&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;With this &lt;em&gt;url&lt;/em&gt; we can now get the data using the &lt;a href="https://github.com/actions/github-script#download-data-from-a-url"&gt;github.request()&lt;/a&gt; method.
-Map just the names of the branches to an Array.
-And log the data.&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-js"&gt;const result = await github.request(branches_url_new)
-const names = result.data.map(branch =&amp;gt; branch.name)
-console.log(names)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class="language-json"&gt;{
-    ...
-    data: [
-        { name: 'dev', commit: [Object], protected: false },
-        { name: 'main', commit: [Object], protected: false }
-    ]
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class="language-json"&gt;[ 'dev', 'main' ]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Depending on the type of event you could&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-yml"&gt;on:
-  push:
-    branches:    
-      - '*'         # matches every branch that doesn't contain a '/'
-      - '*/*'       # matches every branch containing a single '/'
-      - '**'        # matches every branch
-      - '!master'   # excludes master
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;But this isn't available for &lt;code&gt;workflow_dispatch:&lt;/code&gt; as of yet.&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-yml"&gt;name: Get Branches
-
-on:
-  workflow_dispatch:
-    
-jobs:
-  print-context:
-    runs-on: ubuntu-latest
-    outputs:
-      branches: ${{ steps.branch-output.outputs.branches }}
-    steps:
-      - name: Branches
-        id: branches-list
-        uses: actions/github-script&amp;#64;v5
-        with:
-          script: |
-            const branches_url = context.payload.repository.branches_url
-            const branches_url_new = branches_url.replace(&amp;quot;{/branch}&amp;quot;, &amp;quot;&amp;quot;)
-            const result = await github.request(branches_url_new)
-            const names = result.data.map(branch =&amp;gt; branch.name)
-            
-            const index = names.indexOf('main');
-            if (index &amp;gt; -1) {
-              names.splice(index, 1);
-            }
-            console.log(names)
-
-            return names
-      
-      - name: Branches
-        id: branch-output
-        run: |
-          BRANCHES='${{ steps.branches-list.outputs.result }}'
-          echo ::set-output name=branches::$BRANCHES
-      
-  my_matrix:
-    runs-on: ubuntu-latest
-    needs:
-      - print-context
-    strategy:
-      matrix:
-        branches: ${{ fromJSON(needs.print-context.outputs.branches) }}
-    steps:
-      - name: Branches
-        run: |
-          echo ${{ matrix.branches }}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id="links"&gt;Links&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://thekevinwang.com/2021/09/19/github-actions-dynamic-matrix/"&gt;Dynamic Matrices in GitHub Actions&lt;/a&gt; by &lt;a href="https://thekevinwang.com/me/"&gt;Kevin Wang&lt;/a&gt; - September 19, 2021&lt;/li&gt;
-&lt;/ul&gt;
-</content>
+		<summary>Introduction to Markdown.</summary>
 	</entry>
 </feed>
