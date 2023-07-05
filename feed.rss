@@ -5,8 +5,47 @@
 		<link>https://alex-hedley.github.io/blog</link>
 		<description />
 		<copyright>Copyright © 2023</copyright>
-		<pubDate>Sat, 01 Jul 2023 10:15:33 GMT</pubDate>
-		<lastBuildDate>Sat, 01 Jul 2023 10:15:33 GMT</lastBuildDate>
+		<pubDate>Wed, 05 Jul 2023 15:57:19 GMT</pubDate>
+		<lastBuildDate>Wed, 05 Jul 2023 15:57:19 GMT</lastBuildDate>
+		<item>
+			<title>AWS Cloud Quest Machine Learning</title>
+			<link>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-machine-learning</link>
+			<author>alex-hedley</author>
+			<enclosure url="https://alex-hedley.github.io/blog/posts/images/aws-cq/cloud-quest.png" length="0" type="image" />
+			<guid>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-machine-learning</guid>
+			<pubDate>Wed, 05 Jul 2023 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!-- # AWS Cloud Quest Machine Learning --&gt;
+&lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest Machine Learnings&lt;/strong&gt; training 🎉!&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/aws-cq/aws-cloud-quest-machine-learning.jpeg" alt="AWS Cloud Quest Data Analytics Badge" title="AWS Cloud Quest Machine Learning Badge"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.credly.com/badges/0b283f21-b9cd-408e-9b54-f01cab2d3aa1/public_url"&gt;Credly Badge&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.credly.com/users/alexhedley/badges"&gt;Credly Profile&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is a paid course from AWS that uses gamification and hands on labs to reinforce learnings.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Part of AWS Skill Builder Individual subscription. Subscribe to get access to this and other subscriber-only benefits.&lt;br&gt;
+$29.00 / month + VAT&lt;br&gt;
+&lt;a href="https://explore.skillbuilder.aws/learn/signin"&gt;https://explore.skillbuilder.aws/learn/signin&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;As the Machine Learning specialist, you will implement solutions using AWS AI services and trained models. You will build, train, and deploy Machine Learning models, as well as integrate AWS AI services into solutions. You will gain hands on experience with AI/ML topics like reinforcement learning, anomaly detection, text to speech, transcription and computer vision.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="training-material"&gt;Training Material&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://aws.amazon.com/training/learn-about/cloud-practitioner/"&gt;Training Material&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="links"&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://aws.amazon.com/training/digital/aws-cloud-quest/"&gt;AWS Cloud Quest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://explore.skillbuilder.aws/learn/course/external/view/elearning/7636/cloud-quest"&gt;Cloud Quest&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- ## Resources Used --&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
 		<item>
 			<title>LeadDev London 2023</title>
 			<link>https://alex-hedley.github.io/blog/posts/leaddev-london-2023</link>
@@ -524,31 +563,6 @@ Delivery method: Pearson VUE testing center or online proctored exam.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;Dive deeper and position yourself as a trusted advisor to your stakeholders and/or customers in these strategic areas.&lt;br&gt;
 &lt;strong&gt;Refer to the exam guides on the exam pages for recommended experience.&lt;/strong&gt;&lt;/p&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>🎙️ Markdown</title>
-			<link>https://alex-hedley.github.io/blog/posts/talk-markdown</link>
-			<description>Introduction to Markdown.</description>
-			<author>alex-hedley</author>
-			<guid>https://alex-hedley.github.io/blog/posts/talk-markdown</guid>
-			<pubDate>Tue, 04 Apr 2023 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!-- Markdown --&gt;
-&lt;p&gt;Work offer the opportunity to present within our Communities. One I chose to do was &lt;a href="https://daringfireball.net/projects/markdown/"&gt;markdown&lt;/a&gt; to our UCD community.&lt;/p&gt;
-&lt;p&gt;The idea is to build up a few key skills in stages, first show markdown, then git and make them all into developers :p.
-Roles are always expecting so much more cross discipline skills and I thought it would be good to to a talk that gave an intro to this.&lt;/p&gt;
-&lt;p&gt;🗓️ Apr 4, 2023&lt;/p&gt;
-&lt;p&gt;Originally it was done as a PowerPoint presentation but I'm now moving &lt;a href="https://revealjs.com/"&gt;revealjs&lt;/a&gt;.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://alex-hedley.github.io/talk-markdown/"&gt;Presentation&lt;/a&gt; WIP&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/alex-hedley/talk-markdown"&gt;Presentation Code&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://alex-hedley.github.io/talks/"&gt;Talks Site&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/alex-hedley/talks"&gt;Code&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
