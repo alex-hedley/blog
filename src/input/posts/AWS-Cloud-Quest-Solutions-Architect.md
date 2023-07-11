@@ -5,7 +5,7 @@ tags:
     - aws
     - cloud quest
 author: alex-hedley
-description: 
+# description: 
 published: 2023-05-10
 image: /posts/images/aws-cq/cloud-quest.png
 imageattribution: https://aws.amazon.com/training/digital/aws-cloud-quest/
