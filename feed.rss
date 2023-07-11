@@ -5,11 +5,12 @@
 		<link>https://alex-hedley.github.io/blog</link>
 		<description />
 		<copyright>Copyright © 2023</copyright>
-		<pubDate>Tue, 11 Jul 2023 09:23:24 GMT</pubDate>
-		<lastBuildDate>Tue, 11 Jul 2023 09:23:24 GMT</lastBuildDate>
+		<pubDate>Tue, 11 Jul 2023 12:53:47 GMT</pubDate>
+		<lastBuildDate>Tue, 11 Jul 2023 12:53:47 GMT</lastBuildDate>
 		<item>
 			<title>AWS Cloud Quest Security</title>
 			<link>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-security</link>
+			<description>&lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest Security&lt;/strong&gt; training 🎉!&lt;/p&gt;</description>
 			<author>alex-hedley</author>
 			<enclosure url="https://alex-hedley.github.io/blog/posts/images/aws-cq/cloud-quest.png" length="0" type="image" />
 			<guid>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-security</guid>
@@ -76,8 +77,158 @@ $29.00 / month + VAT&lt;br&gt;
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
 		<item>
+			<title>AWS Cloud Quest</title>
+			<link>https://alex-hedley.github.io/blog/posts/aws-cloud-quest</link>
+			<description>A summary of the whole course.</description>
+			<author>alex-hedley</author>
+			<enclosure url="https://alex-hedley.github.io/blog/posts/images/aws-cq/cloud-quest.png" length="0" type="image" />
+			<guid>https://alex-hedley.github.io/blog/posts/aws-cloud-quest</guid>
+			<pubDate>Tue, 11 Jul 2023 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!-- AWS Cloud Quest --&gt;
+&lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest&lt;/strong&gt; training 🎉, all 6 sections are now complete!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href="https://aws.amazon.com/training/digital/aws-cloud-quest/"&gt;AWS Cloud Quest&lt;/a&gt;, Develop in-demand cloud skills in this fun, interactive role-playing game.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/aws-cq/cloud-quest-badges.png" alt="Cloud Quest Badges" title="Cloud Quest Badges"&gt;&lt;/p&gt;
+&lt;p&gt;I'd set myself a target of doing one a month, which I think I achieved, given I also did a couple of other certs in that time.&lt;/p&gt;
+&lt;p&gt;The idea of gamification in learning really appeals to me. Who doesn't like collecting things? Another great thing about this training is it is hand-ons, you get to work with the actual AWS resources in a lab environment, just how you would with the real thing. The DIY section makes sure you've followed and understood what was required in the original ask and you can't complete the course if you don't configure your environment correctly. This has benefits over the &lt;a href="https://aws.amazon.com/certification/"&gt;Certification&lt;/a&gt; exams as it's less about memory retrieval and more about understanding, although both have their merits.&lt;/p&gt;
+&lt;p&gt;I really enjoyed getting to learn some new Resources. I've been wanting to look at some &lt;em&gt;Machine Learning&lt;/em&gt; for quite a while, it was a lot of waiting around but it gave me an appreciation of what is possible. I might get my Bowling Scores analyser written one day. SageMaker could be key here. Also, who doesn't love some &lt;em&gt;Data Analytics&lt;/em&gt;! This gave me an opportunity to try Kinesis and Lake Formation.&lt;/p&gt;
+&lt;p&gt;If you haven't already, I'd suggest trying the &lt;em&gt;Cloud Practitioner&lt;/em&gt; for free and there are offers to get some months free with the &lt;a href="https://skillbuilder.aws/"&gt;AWS Skill Builder&lt;/a&gt; platform, so keep an eye out for that.&lt;/p&gt;
+&lt;h2 id="stats"&gt;Stats&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Cloud Practitioner&lt;/th&gt;
+&lt;th&gt;Solutions Architect&lt;/th&gt;
+&lt;th&gt;Serverless Developer&lt;/th&gt;
+&lt;th&gt;Machine Learning&lt;/th&gt;
+&lt;th&gt;Security&lt;/th&gt;
+&lt;th&gt;Data Analytics&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Gems&lt;/td&gt;
+&lt;td&gt;685&lt;/td&gt;
+&lt;td&gt;2380&lt;/td&gt;
+&lt;td&gt;1780&lt;/td&gt;
+&lt;td&gt;3540&lt;/td&gt;
+&lt;td&gt;4355&lt;/td&gt;
+&lt;td&gt;2940&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Pets&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Services&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;34&lt;/td&gt;
+&lt;td&gt;25&lt;/td&gt;
+&lt;td&gt;44&lt;/td&gt;
+&lt;td&gt;53&lt;/td&gt;
+&lt;td&gt;40&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Cards&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Rep. Points&lt;/td&gt;
+&lt;td&gt;237&lt;/td&gt;
+&lt;td&gt;981&lt;/td&gt;
+&lt;td&gt;726&lt;/td&gt;
+&lt;td&gt;1460&lt;/td&gt;
+&lt;td&gt;1909&lt;/td&gt;
+&lt;td&gt;1335&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Challenges&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Got to Level &lt;strong&gt;99&lt;/strong&gt;... need to top that off with some other questions.&lt;/p&gt;
+&lt;p&gt;I'd missed the opportunity for the Drone Challenges until near the end, so could finish those off too.&lt;/p&gt;
+&lt;h2 id="resources"&gt;Resources&lt;/h2&gt;
+&lt;p&gt;A number of AWS Resources (54+) were included in the training. This gave a great coverage of the popular items and things you are most likely to encounter in your cloud journey.&lt;/p&gt;
+&lt;p&gt;(I didn't keep a list from &lt;em&gt;Cloud Practitioner&lt;/em&gt; but I'd assume they were covered in the others.)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Amazon API Gateway, Amazon Athena, Amazon Cloud Formation, Amazon CloudFront, Amazon CloudWatch, Amazon Cognito, Amazon Comprehend, Amazon DynamoDB, Amazon EC2, Amazon EC2 Auto Scaling, Amazon Elastic Container Registry, Amazon Elastic Container Service, Amazon EMR, Amazon EventBridge, Amazon Kinesis, Amazon Lambda, Amazon Polly, Amazon Redshift, Amazon Rekognition, Amazon Relational Database Service (RDS), Amazon Route 53, Amazon S3, Amazon SageMaker, Amazon SNS, Amazon SQS, Amazon Textract, Amazon Transcribe, Amazon VPC, Amazon WAF, AWS, AWS Amplify, AWS Backup, AWS Cloud9, AWS CloudFormation, AWS CodeBuild, AWS CodeCommit, AWS CodeDeploy, AWS CodeFormation, AWS CodePipeline, AWS Cognito, AWS Comprehend, AWS Config, AWS DynamoDB, AWS Glue, AWS Identity and Access Management (IAM), AWS Key Management Service (KMS), AWS Lake Formation, AWS Lambda, AWS Rekognition, AWS Secrets Manager, AWS Service Catalog, AWS Step Functions, AWS Systems Manager, SAM&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="links"&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://alex-hedley.github.io/blog/aws-cloud-quest-cloud-practitioner"&gt;Cloud Practitioner&lt;/a&gt; 🗓️ Wednesday, 25 January 2023&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://alex-hedley.github.io/blog/aws-cloud-quest-solutions-architect"&gt;Solutions Architect&lt;/a&gt; 🗓️ Wednesday, 10 May 2023&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://alex-hedley.github.io/blog/aws-cloud-quest-serverless-developer"&gt;Serverless Developer&lt;/a&gt; 🗓️ Wednesday, 15 March 2023&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://alex-hedley.github.io/blog/aws-cloud-quest-machine-learning"&gt;Machine Learning&lt;/a&gt; 🗓️ Wednesday, 5 July 2023&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://alex-hedley.github.io/blog/aws-cloud-quest-security"&gt;Security&lt;/a&gt; 🗓️ Tuesday, 11 July 2023&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://alex-hedley.github.io/blog/aws-cloud-quest-data-analytics"&gt;Data Analytics&lt;/a&gt; 🗓️ Wednesday, 21 June 2023&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="aws-certified-cloud-practitioner"&gt;AWS Certified Cloud Practitioner&lt;/h2&gt;
+&lt;p&gt;Also whilst working through Cloud Quest I studied for and passed the &lt;a href="https://alex-hedley.github.io/blog/aws-certified-cloud-practitioner"&gt;AWS Certified Cloud Practitioner&lt;/a&gt; exam on 🗓️ Thursday, 6 April 2023.&lt;/p&gt;
+&lt;!-- ![AWS Certified Cloud Practitioner](images/aws-ccp/AWS-Certified-Cloud-Practitioner_badge.png "AWS Certified Cloud Practitioner") --&gt;
+&lt;img src="images/aws-ccp/AWS-Certified-Cloud-Practitioner_badge.png" alt="AWS Certified Cloud Practitioner" width="100"&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
+			<title>VSCode - Blockquote - Preview</title>
+			<link>https://alex-hedley.github.io/blog/posts/vscode-blockquote-preview</link>
+			<description>Change the background colour in preview.</description>
+			<author>alex-hedley</author>
+			<guid>https://alex-hedley.github.io/blog/posts/vscode-blockquote-preview</guid>
+			<pubDate>Tue, 11 Jul 2023 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!-- VSCode - Blockquote --&gt;
+&lt;p&gt;I use the &lt;a href="https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-preview"&gt;learn-preview&lt;/a&gt; VSCode extension to show markdown in a side by side fashion.&lt;/p&gt;
+&lt;p&gt;Not sure when this stopped working since the colours changed but now it's unreadable:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/vscode/blockquote_1.png" alt="BlockQuote" title="BlockQuote"&gt;&lt;/p&gt;
+&lt;p&gt;Highlighting the text helps but this shouldn't be necessary.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/vscode/blockquote_2.png" alt="BlockQuote" title="BlockQuote"&gt;&lt;/p&gt;
+&lt;p&gt;Update the &lt;code&gt;settings.json&lt;/code&gt; with the following.&lt;/p&gt;
+&lt;p&gt;(You can pick whichever colour you prefer.)&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-json"&gt;"workbench.colorCustomizations": {
+    "textBlockQuote.background":"#95e0d6"
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is a BlockQuote&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;As an image:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/vscode/blockquote_3.png" alt="BlockQuote" title="BlockQuote"&gt;&lt;/p&gt;
+&lt;h2 id="info"&gt;Info&lt;/h2&gt;
+&lt;p&gt;Extension:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-bash"&gt;Name: learn-preview
+Id: docsmsft.docs-preview
+Description: Learn Markdown Preview Extension
+Version: 1.0.2
+Publisher: Microsoft
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-preview
+&lt;/code&gt;&lt;/pre&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
 			<title>AWS Cloud Quest Machine Learning</title>
 			<link>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-machine-learning</link>
+			<description>&lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest Machine Learning&lt;/strong&gt; training 🎉!&lt;/p&gt;</description>
 			<author>alex-hedley</author>
 			<enclosure url="https://alex-hedley.github.io/blog/posts/images/aws-cq/cloud-quest.png" length="0" type="image" />
 			<guid>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-machine-learning</guid>
@@ -283,6 +434,7 @@ Independent Technical Coach • Sudbery Software Engineering Ltd&lt;/p&gt;
 		<item>
 			<title>AWS Cloud Quest Data Analytics</title>
 			<link>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-data-analytics</link>
+			<description>&lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest Data Analytics&lt;/strong&gt; training 🎉!&lt;/p&gt;</description>
 			<author>alex-hedley</author>
 			<enclosure url="https://alex-hedley.github.io/blog/posts/images/aws-cq/cloud-quest.png" length="0" type="image" />
 			<guid>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-data-analytics</guid>
@@ -430,6 +582,7 @@ This talk was to demystify a &lt;a href="http://swagger.io/"&gt;swagger&lt;/a&gt
 		<item>
 			<title>AWS Cloud Quest Solutions Architect</title>
 			<link>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-solutions-architect</link>
+			<description>&lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest Solutions Architect&lt;/strong&gt; training 🎉!&lt;/p&gt;</description>
 			<author>alex-hedley</author>
 			<enclosure url="https://alex-hedley.github.io/blog/posts/images/aws-cq/cloud-quest.png" length="0" type="image" />
 			<guid>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-solutions-architect</guid>
@@ -461,78 +614,6 @@ $29.00 / month + VAT&lt;br&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://aws.amazon.com/training/digital/aws-cloud-quest/"&gt;AWS Cloud Quest&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://explore.skillbuilder.aws/learn/course/external/view/elearning/7636/cloud-quest"&gt;Cloud Quest&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>Certified in Cybersecurity℠ - CC</title>
-			<link>https://alex-hedley.github.io/blog/posts/cc</link>
-			<author>alex-hedley</author>
-			<guid>https://alex-hedley.github.io/blog/posts/cc</guid>
-			<pubDate>Fri, 05 May 2023 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!-- # Certified in Cybersecurity℠ - CC --&gt;
-&lt;p&gt;Today I passed the &lt;strong&gt;Certified in Cybersecurity℠ - CC&lt;/strong&gt; exam 🎉!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/isc2/CC-Square.png" alt="Certified in Cybersecurity℠ - CC" title="Certified in Cybersecurity℠ - CC"&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.credly.com/badges/6762c76b-8896-423d-819b-bbaa45041471"&gt;Credly Badge&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.credly.com/users/alexhedley/badges"&gt;Credly Profile&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The pass mark is 700 / 1000 and I achieved: &lt;strong&gt;?&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Unfortunately Pearson Vue only give (ISC)² the result of pass or fail.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Q: Can I get my exam score?&lt;/p&gt;
-&lt;p&gt;A: For those who passed an examination, scores are not provided. For those who failed an examination, a breakdown of the domains in proficiency levels will be provided.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a href="https://www.isc2.org/Frequently-Asked-Questions"&gt;Examination section of FAQs&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.isc2.org/certified-in-cybersecurity"&gt;https://www.isc2.org/certified-in-cybersecurity&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;There are 5 main subject areas:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Security Principles&lt;/li&gt;
-&lt;li&gt;Incident Response, Business Continuity (BC) and Disaster Recovery (DR) Concepts&lt;/li&gt;
-&lt;li&gt;Access Controls Concepts&lt;/li&gt;
-&lt;li&gt;Network Security&lt;/li&gt;
-&lt;li&gt;Security Operations&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;With an offer running at the moment you can get the exam and self-paced online training material for free: &lt;a href="https://www.isc2.org/100k"&gt;https://www.isc2.org/100k&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Just pay the $50 for the &lt;em&gt;Annual Maintenance Fee (AMF)&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;I took the exam at a center, it lasts 2 hours, is made up of 100 multiple choice questions.&lt;/p&gt;
-&lt;p&gt;You can't mark the questions for review like in other exams I have taken, unless I missed that option.&lt;/p&gt;
-&lt;h2 id="resources"&gt;Resources&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.pluralsight.com/paths/ccsm-certified-in-cybersecurity"&gt;CC℠ (Certified in Cybersecurity)&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;by Kevin Henry&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>🎙️ Static Site Generators</title>
-			<link>https://alex-hedley.github.io/blog/posts/talk-static-site-generators</link>
-			<description>Introduction to Static Site Generators, GitHub Pages, docFX, mkDocs etc.</description>
-			<author>alex-hedley</author>
-			<guid>https://alex-hedley.github.io/blog/posts/talk-static-site-generators</guid>
-			<pubDate>Tue, 18 Apr 2023 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!-- Static Site Generators --&gt;
-&lt;p&gt;To follow on from my &lt;a href="https://alex-hedley.github.io/blog/talk-markdown.md"&gt;Markdown&lt;/a&gt; talk I gave one on Static Site Generators. Since these normally use Markdown it made sense to have that as a pre-req. Again this was for the UCD Community at work, although all communities were welcome.&lt;/p&gt;
-&lt;p&gt;🗓️ Apr 18, 2023&lt;/p&gt;
-&lt;!-- 📼  --&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://alex-hedley.github.io/talk-static-site-generators/"&gt;Presentation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/alex-hedley/talk-static-site-generators"&gt;Presentation Code&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://alex-hedley.github.io/talks/"&gt;Talks Site&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/alex-hedley/talks"&gt;Code&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>

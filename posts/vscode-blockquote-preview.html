@@ -5,11 +5,12 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Welcome to my blog!">
+    <meta name="description" content="Change the background colour in preview.">
+    <meta name="author" content="alex-hedley">
 
-  <title>Alex Hedley</title>
+  <title>Alex Hedley - VSCode - Blockquote - Preview</title>
 
-  <link rel="canonical" href='https://alex-hedley.github.io/blog/page/2'>
+  <link rel="canonical" href='https://alex-hedley.github.io/blog/posts/vscode-blockquote-preview'>
 
       <link type="application/rss+xml" rel="alternate" href="/blog/feed.rss" />
       <link type="application/atom+xml" rel="alternate" href="/blog/feed.atom" />
@@ -18,9 +19,9 @@
   <meta name="msapplication-tooltip" content='Alex Hedley' />
   <meta name="msapplication-starturl" content='/blog/' />
 
-  <meta property="og:title" content='Alex Hedley' />
+  <meta property="og:title" content='Alex Hedley - VSCode - Blockquote - Preview' />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content='https://alex-hedley.github.io/blog/page/2' />
+  <meta property="og:url" content='https://alex-hedley.github.io/blog/posts/vscode-blockquote-preview' />
 
   <link rel="icon" href='/blog/favicon.ico'>
 
@@ -76,12 +77,16 @@
   <div class="container position-relative">
     <div class="row">
       <div class="col-md-12">
-        <div class='site-heading'>
+        <div class='post-heading'>
           <h1>
-            Alex Hedley
-              <small>(Page 2)</small>
+            VSCode - Blockquote - Preview
           </h1>
-            <span class="subheading">Welcome to my blog!</span>
+            <span class="subheading">Change the background colour in preview.</span>
+            <div class="meta">Published on Tuesday, 11 July 2023</div>
+              <div class="mt-3">
+                  <a href="/blog/tags/vscode" class="badge text-bg-light"> vscode</a>
+                  <a href="/blog/tags/markdown" class="badge text-bg-light"> markdown</a>
+              </div>
         </div>
       </div>
     </div>
@@ -93,74 +98,56 @@
   <div class="container">
     <div class="row">
       <div id="content" class="col-md-12">
-        <div class="container-sm-height">
-  <div class="row row-sm-height">
-    <div class="col-md-6 right-border col-sm-height">
-      
+        <!-- VSCode - Blockquote -->
+<p>I use the <a href="https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-preview">learn-preview</a> VSCode extension to show markdown in a side by side fashion.</p>
+<p>Not sure when this stopped working since the colours changed but now it's unreadable:</p>
+<p><img src="images/vscode/blockquote_1.png" alt="BlockQuote" title="BlockQuote" /></p>
+<p>Highlighting the text helps but this shouldn't be necessary.</p>
+<p><img src="images/vscode/blockquote_2.png" alt="BlockQuote" title="BlockQuote" /></p>
+<p>Update the <code>settings.json</code> with the following.</p>
+<p>(You can pick whichever colour you prefer.)</p>
+<pre><code class="language-json">&quot;workbench.colorCustomizations&quot;: {
+    &quot;textBlockQuote.background&quot;:&quot;#95e0d6&quot;
+}
+</code></pre>
+<blockquote>
+<p>This is a BlockQuote</p>
+</blockquote>
+<p>As an image:</p>
+<p><img src="images/vscode/blockquote_3.png" alt="BlockQuote" title="BlockQuote" /></p>
+<h2 id="info">Info</h2>
+<p>Extension:</p>
+<pre><code class="language-bash">Name: learn-preview
+Id: docsmsft.docs-preview
+Description: Learn Markdown Preview Extension
+Version: 1.0.2
+Publisher: Microsoft
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-preview
+</code></pre>
 
-
-<div class="post-preview">
-  <h2 class="post-title"><a href="/blog/posts/aws-cloud-quest-machine-learning">AWS Cloud Quest Machine Learning</a></h2>
-  <p class="post-meta">Published on Wednesday, 5 July 2023</p>
-<p>Today I completed the <strong>AWS Cloud Quest Machine Learning</strong> training 🎉!</p>    <p class="small"><a href="/blog/posts/aws-cloud-quest-machine-learning">Read more...</a></p>
-</div>
-
-
-<div class="post-preview">
-  <h2 class="post-title"><a href="/blog/posts/leaddev-london-2023">LeadDev London 2023</a></h2>
-  <p class="post-meta">Published on Friday, 30 June 2023</p>
-<p>This week I had the absolute pleasure of going to <a href="https://leaddev.com/leaddev-london-2023">LeadDev London 2023</a> thanks to my employer Opencast.</p>    <p class="small"><a href="/blog/posts/leaddev-london-2023">Read more...</a></p>
-</div>
-
-
-<div class="post-preview">
-  <h2 class="post-title"><a href="/blog/posts/aws-cloud-quest-data-analytics">AWS Cloud Quest Data Analytics</a></h2>
-  <p class="post-meta">Published on Wednesday, 21 June 2023</p>
-<p>Today I completed the <strong>AWS Cloud Quest Data Analytics</strong> training 🎉!</p>    <p class="small"><a href="/blog/posts/aws-cloud-quest-data-analytics">Read more...</a></p>
-</div>
-
-  <div>
-    <div class="float-sm-start">
-        <a class="btn btn-primary" href="/blog/" role="button"><i class="fas fa-angle-double-left"></i> Newer</a>
-    </div>
-    <div class="float-sm-end">
-        <a class="btn btn-primary" href="/blog/page/3" role="button">Older <i class="fas fa-angle-double-right"></i></a>
-    </div>
-    <div class="clearfix"></div>
-  </div>
-
-    </div>
-    <div class="col-md-4 mt-4 mt-md-0 col-sm-height sidebar">
-          <div>
-            <h5>Tags</h5>
-              <a href="/blog/tags/programming" class="badge text-bg-light"> programming (11)</a>
-              <a href="/blog/tags/aws" class="badge text-bg-light"> aws (8)</a>
-              <a href="/blog/tags/cloud-quest" class="badge text-bg-light"> cloud quest (7)</a>
-              <a href="/blog/tags/github" class="badge text-bg-light"> github (5)</a>
-              <a href="/blog/tags/talk" class="badge text-bg-light"> talk (3)</a>
-              <a href="/blog/tags/markdown" class="badge text-bg-light"> markdown (2)</a>
-              <a href="/blog/tags/exam" class="badge text-bg-light"> exam (2)</a>
-              <a href="/blog/tags/vscode" class="badge text-bg-light"> vscode (1)</a>
-              <a href="/blog/tags/conference" class="badge text-bg-light"> conference (1)</a>
-              <a href="/blog/tags/leaddev" class="badge text-bg-light"> leaddev (1)</a>
-            <div class="mt-3">
-              <div class="float-sm-end">
-                <a class="btn btn-sm btn-primary" href='/blog/tags' role="button">All Tags <i class="fas fa-angle-double-right"></i></a>
-              </div>
-              <div class="clearfix"></div>
-            </div>
-          </div>
-
-      
-
-    </div>
-  </div>
-</div>
 
         
 
       </div>
     </div>
+  <div id="comments-container" class="row">
+    <script src="https://giscus.app/client.js"
+        data-repo='alex-hedley/blog'
+        data-repo-id='R_kgDOJjrtWA'
+        data-category-id='DIC_kwDOJjrtWM4CW2qH'
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="light"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+
+  </div>
   </div>
 
   <hr>
