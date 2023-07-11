@@ -4,7 +4,76 @@
 	<title />
 	<link rel="self" href="https://alex-hedley.github.io/blog" />
 	<rights>Copyright © 2023</rights>
-	<updated>2023-07-05T16:01:25Z</updated>
+	<updated>2023-07-11T09:20:26Z</updated>
+	<entry>
+		<id>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-security</id>
+		<title>AWS Cloud Quest Machine Learning</title>
+		<author>
+			<name>alex-hedley</name>
+		</author>
+		<link href="https://alex-hedley.github.io/blog/posts/aws-cloud-quest-security" />
+		<link rel="enclosure" type="image" href="https://alex-hedley.github.io/blog/posts/images/aws-cq/cloud-quest.png" />
+		<updated>2023-07-11T00:00:00Z</updated>
+		<content>&lt;!-- # AWS Cloud Quest Machine Learning --&gt;
+&lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest Security&lt;/strong&gt; training 🎉!&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/aws-cq/aws-cloud-quest-security.jpeg" alt="AWS Cloud Quest Security Badge" title="AWS Cloud Quest Security Badge"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.credly.com/badges/e53bb657-c1ca-4b8a-a8a0-d14935c52717/public_url"&gt;Credly Badge&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.credly.com/users/alexhedley/badges"&gt;Credly Profile&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is a paid course from AWS that uses gamification and hands on labs to reinforce learnings.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Part of AWS Skill Builder Individual subscription. Subscribe to get access to this and other subscriber-only benefits.&lt;br&gt;
+$29.00 / month + VAT&lt;br&gt;
+&lt;a href="https://explore.skillbuilder.aws/learn/signin"&gt;https://explore.skillbuilder.aws/learn/signin&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Use AWS security services to build solutions that respond to incidents, remediate quickly, detect vulnerabilities, and prevent data loss.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="training-material"&gt;Training Material&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://aws.amazon.com/training/learn-about/cloud-practitioner/"&gt;Training Material&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="links"&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://aws.amazon.com/training/digital/aws-cloud-quest/"&gt;AWS Cloud Quest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://explore.skillbuilder.aws/learn/course/external/view/elearning/7636/cloud-quest"&gt;Cloud Quest&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="resources-used"&gt;Resources Used&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Amazon API Gateway&lt;/li&gt;
+&lt;li&gt;Amazon Athena&lt;/li&gt;
+&lt;li&gt;Amazon CloudFront&lt;/li&gt;
+&lt;li&gt;Amazon CloudWatch&lt;/li&gt;
+&lt;li&gt;Amazon Cognito&lt;/li&gt;
+&lt;li&gt;Amazon DynamoDB&lt;/li&gt;
+&lt;li&gt;Amazon EC2&lt;/li&gt;
+&lt;li&gt;Amazon EC2 Auto Scaling&lt;/li&gt;
+&lt;li&gt;Amazon EventBridge&lt;/li&gt;
+&lt;li&gt;Amazon Kinesis&lt;/li&gt;
+&lt;li&gt;Amazon Lambda&lt;/li&gt;
+&lt;li&gt;Amazon Relational Database Service (RDS)&lt;/li&gt;
+&lt;li&gt;Amazon S3&lt;/li&gt;
+&lt;li&gt;Amazon SNS&lt;/li&gt;
+&lt;li&gt;Amazon VPC&lt;/li&gt;
+&lt;li&gt;Amazon WAF&lt;/li&gt;
+&lt;li&gt;AWS Amplify&lt;/li&gt;
+&lt;li&gt;AWS CloudFormation&lt;/li&gt;
+&lt;li&gt;AWS Cognito&lt;/li&gt;
+&lt;li&gt;AWS Config&lt;/li&gt;
+&lt;li&gt;AWS Glue&lt;/li&gt;
+&lt;li&gt;AWS Identity and Access Management (IAM)&lt;/li&gt;
+&lt;li&gt;AWS Key Management Service (KMS)&lt;/li&gt;
+&lt;li&gt;AWS Lambda&lt;/li&gt;
+&lt;li&gt;AWS Secrets Manager&lt;/li&gt;
+&lt;li&gt;AWS Service Catalog&lt;/li&gt;
+&lt;li&gt;AWS Systems Manager&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
 	<entry>
 		<id>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-machine-learning</id>
 		<title>AWS Cloud Quest Machine Learning</title>
@@ -15,7 +84,7 @@
 		<link rel="enclosure" type="image" href="https://alex-hedley.github.io/blog/posts/images/aws-cq/cloud-quest.png" />
 		<updated>2023-07-05T00:00:00Z</updated>
 		<content>&lt;!-- # AWS Cloud Quest Machine Learning --&gt;
-&lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest Machine Learnings&lt;/strong&gt; training 🎉!&lt;/p&gt;
+&lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest Machine Learning&lt;/strong&gt; training 🎉!&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/aws-cq/aws-cloud-quest-machine-learning.jpeg" alt="AWS Cloud Quest Data Analytics Badge" title="AWS Cloud Quest Machine Learning Badge"&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.credly.com/badges/0b283f21-b9cd-408e-9b54-f01cab2d3aa1/public_url"&gt;Credly Badge&lt;/a&gt;
@@ -219,9 +288,9 @@ Independent Technical Coach • Sudbery Software Engineering Ltd&lt;/p&gt;
 			<name>alex-hedley</name>
 		</author>
 		<link href="https://alex-hedley.github.io/blog/posts/aws-cloud-quest-data-analytics" />
+		<link rel="enclosure" type="image" href="https://alex-hedley.github.io/blog/posts/images/aws-cq/cloud-quest.png" />
 		<updated>2023-06-21T00:00:00Z</updated>
 		<content>&lt;!-- # AWS Cloud Quest Data Analytics --&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/aws-cq/cloud-quest.png" alt="AWS Cloud Quest Cloud Practitioner" title="AWS Cloud Quest"&gt;&lt;/p&gt;
 &lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest Data Analytics&lt;/strong&gt; training 🎉!&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/aws-cq/aws-cloud-quest-data-analytics.png" alt="AWS Cloud Quest Data Analytics Badge" title="AWS Cloud Quest Data Analytics Badge"&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -370,9 +439,9 @@ This talk was to demystify a &lt;a href="http://swagger.io/"&gt;swagger&lt;/a&gt
 			<name>alex-hedley</name>
 		</author>
 		<link href="https://alex-hedley.github.io/blog/posts/aws-cloud-quest-solutions-architect" />
+		<link rel="enclosure" type="image" href="https://alex-hedley.github.io/blog/posts/images/aws-cq/cloud-quest.png" />
 		<updated>2023-05-10T00:00:00Z</updated>
 		<content>&lt;!-- # AWS Cloud Quest Solutions Architect --&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/aws-cq/cloud-quest.png" alt="AWS Cloud Quest Cloud Practitioner" title="AWS Cloud Quest"&gt;&lt;/p&gt;
 &lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest Solutions Architect&lt;/strong&gt; training 🎉!&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/aws-cq/aws-cloud-quest-solutions-architect.png" alt="AWS Cloud Quest Solutions Architect Badge" title="AWS Cloud Quest Solutions Architect Badge"&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -475,103 +544,5 @@ $29.00 / month + VAT&lt;br&gt;
 &lt;/ul&gt;
 </content>
 		<summary>Introduction to Static Site Generators, GitHub Pages, docFX, mkDocs etc.</summary>
-	</entry>
-	<entry>
-		<id>https://alex-hedley.github.io/blog/posts/aws-certified-cloud-practitioner</id>
-		<title>AWS Certified Cloud Practitioner</title>
-		<author>
-			<name>alex-hedley</name>
-		</author>
-		<link href="https://alex-hedley.github.io/blog/posts/aws-certified-cloud-practitioner" />
-		<updated>2023-04-06T00:00:00Z</updated>
-		<content>&lt;!-- # AWS Certified Cloud Practitioner --&gt;
-&lt;p&gt;Today I passed the &lt;strong&gt;AWS Certified Cloud Practitioner&lt;/strong&gt; exam 🎉!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/aws-ccp/AWS-Certified-Cloud-Practitioner_badge.png" alt="AWS Certified Cloud Practitioner Badge" title="AWS Certified Cloud Practitioner"&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.credly.com/badges/a3c0cb2e-612c-4463-a7f0-7da98f8343e8"&gt;Credly Badge&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.credly.com/users/alexhedley/badges"&gt;Credly Profile&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The pass mark is 700 / 1000 and I achieved: &lt;strong&gt;780&lt;/strong&gt;.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The AWS Certified Cloud Practitioner offers a foundational understanding of AWS Cloud concepts, services, and terminology. This is a good starting point for individuals in non-technical roles with no prior IT or cloud experience or for those with on-premises IT experience looking for basic AWS Cloud fluency. This certification can give candidates the confidence to tackle role-based AWS Certifications.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I took this in a Pearson VUE testing center instead of an online proctored exam. Don't need to worry about the internet dropping out etc.&lt;/p&gt;
-&lt;h2 id="training-material"&gt;Training Material&lt;/h2&gt;
-&lt;p&gt;Saw a post on &lt;a href="https://www.linkedin.com/feed/update/urn:li:activity:7019288272430333952"&gt;LinkedIn&lt;/a&gt; for an all day training event.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;AWS Cloud Practitioner Essentials&lt;br&gt;
-Tuesday, 31 January 2023 09:00 (GMT)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.eventbrite.co.uk/e/aws-cloud-practitioner-essentials-tickets-488693313857"&gt;Event Link&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://techtalentengine.co.uk/"&gt;Tech Talent Engine&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/aws-ccp/Event-AWS-Cloud-Practitioner-Essentials.jpeg" alt="Event - AWS Cloud Practitioner Essentials" title="Event - AWS Cloud Practitioner Essentials"&gt;&lt;/p&gt;
-&lt;p&gt;This was an excellent all day training session from &lt;em&gt;Stefania Gelpi&lt;/em&gt; - AWS Partner Trainer.&lt;/p&gt;
-&lt;h2 id="resources"&gt;Resources&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://aws.amazon.com/certification/certified-cloud-practitioner/"&gt;Site&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Links&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf"&gt;AWS Certified Cloud Practitioner Exam Guide&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Sample-Questions.pdf"&gt;AWS Certified Cloud Practitioner Sample Questions&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://explore.skillbuilder.aws/learn/course/external/view/elearning/12483/aws-certified-cloud-practitioner-practice-question-set-clf-c01-english"&gt;AWS Certified Cloud Practitioner Official Practice Question Set&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://explore.skillbuilder.aws/learn/course/external/view/elearning/9449/exam-prep-aws-certified-cloud-practitioner-foundations"&gt;Exam Prep: AWS Certified Cloud Practitioner&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://aws.amazon.com/training/events/?get-certified-vilt-courses-cards.sort-by=item.additionalFields.startDateSort&amp;amp;get-certified-vilt-courses-cards.sort-order=asc&amp;amp;awsf.get-certified-vilt-courses-type=*all&amp;amp;awsf.get-certified-vilt-courses-series=series%23aws-certification-exam-readiness&amp;amp;awsf.get-certified-vilt-audience=*all&amp;amp;awsf.get-certified-vilt-locations=*all&amp;amp;awsf.get-certified-vilt-countries=*all&amp;amp;awsf.get-certified-vilt-languages=*all&amp;amp;awsf.get-certified-vilt-courses-level=level%23100&amp;amp;awsf.get-certified-vilt-courses-tech-category=*all&amp;amp;cp=sec&amp;amp;sec=prep"&gt;Exam Readiness: AWS Certified Cloud Practitioner&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Cloud Quest&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://aws.amazon.com/training/digital/aws-cloud-quest/"&gt;AWS Cloud Quest&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://pages.awscloud.com/global_traincert_twitch-cloud-quest-CP.html"&gt;AWS Cloud Quest: Cloud Practitioner&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="exam-overview"&gt;Exam overview&lt;/h2&gt;
-&lt;p&gt;Level: Foundational&lt;br&gt;
-Length: 90 minutes to complete the exam&lt;br&gt;
-Cost: 100 USD (+VAT)&lt;/p&gt;
-&lt;p&gt;Format: 65 questions; either multiple choice or multiple response&lt;br&gt;
-Delivery method: Pearson VUE testing center or online proctored exam.&lt;/p&gt;
-&lt;h2 id="options"&gt;Options&lt;/h2&gt;
-&lt;p&gt;There are other certifications available, I'll prob start on the &lt;strong&gt;Associate Developer&lt;/strong&gt; one next.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/aws-ccp/AWS-certification.png" alt="AWS certification" title="AWS certification"&gt;&lt;/p&gt;
-&lt;p&gt;FOUNDATIONAL&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Cloud Practitioner&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Knowledge-based certification for foundational understanding of AWS Cloud.&lt;br&gt;
-&lt;strong&gt;No prior experience needed.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;ASSOCIATE&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Solutions Architect&lt;/li&gt;
-&lt;li&gt;Developer&lt;/li&gt;
-&lt;li&gt;SysOps Administrator&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Role-based certifications that showcase your knowledge and skills on AWS and build your credibility as an AWS Cloud professional.&lt;br&gt;
-&lt;strong&gt;Prior cloud and/or strong on-premises IT experience recommended.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;PROFESSIONAL&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Solutions Architect&lt;/li&gt;
-&lt;li&gt;DevOps Engineer&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Role-based certifications that validate advanced skills and knowledge required to design secure, optimized, and modernized applications and to automate processes on AWS.&lt;br&gt;
-&lt;strong&gt;2 years of prior AWS Cloud experience recommended.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;SPECIALTY&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Advanced Networking&lt;/li&gt;
-&lt;li&gt;Data Analytics&lt;/li&gt;
-&lt;li&gt;Database&lt;/li&gt;
-&lt;li&gt;Machine Learning&lt;/li&gt;
-&lt;li&gt;Security&lt;/li&gt;
-&lt;li&gt;SAP on AWS&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Dive deeper and position yourself as a trusted advisor to your stakeholders and/or customers in these strategic areas.&lt;br&gt;
-&lt;strong&gt;Refer to the exam guides on the exam pages for recommended experience.&lt;/strong&gt;&lt;/p&gt;
-</content>
 	</entry>
 </feed>
