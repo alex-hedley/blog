@@ -3,14 +3,15 @@ title: AWS Cloud Quest Data Analytics
 tags:
     - programming
     - aws
+    - cloud quest
 author: alex-hedley
 description: 
 published: 2023-06-21
+image: /posts/images/aws-cq/cloud-quest.png
+imageattribution: https://aws.amazon.com/training/digital/aws-cloud-quest/
 ---
 
 <!-- # AWS Cloud Quest Data Analytics -->
-
-![AWS Cloud Quest Cloud Practitioner](images/aws-cq/cloud-quest.png "AWS Cloud Quest")
 
 Today I completed the **AWS Cloud Quest Data Analytics** training 🎉!
 

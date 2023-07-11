@@ -8,12 +8,12 @@ author: alex-hedley
 description: 
 published: 2023-07-05
 image: /posts/images/aws-cq/cloud-quest.png
-imageattribution: https://leaddev.com/leaddev-london
+imageattribution: https://aws.amazon.com/training/digital/aws-cloud-quest/
 ---
 
 <!-- # AWS Cloud Quest Machine Learning -->
 
-Today I completed the **AWS Cloud Quest Machine Learnings** training 🎉!
+Today I completed the **AWS Cloud Quest Machine Learning** training 🎉!
 
 ![AWS Cloud Quest Data Analytics Badge](images/aws-cq/aws-cloud-quest-machine-learning.jpeg "AWS Cloud Quest Machine Learning Badge")
 

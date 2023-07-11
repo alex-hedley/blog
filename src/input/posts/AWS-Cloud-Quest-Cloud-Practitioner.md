@@ -3,14 +3,15 @@ title: AWS Cloud Quest Cloud Practitioner
 tags:
     - programming
     - aws
+    - cloud quest
 author: alex-hedley
 description: 
 published: 2023-01-25
+image: /posts/images/aws-cq/logo_wide_practitioner.png
+imageattribution: https://aws.amazon.com/training/digital/aws-cloud-quest/
 ---
 
 <!-- # AWS Cloud Quest Cloud Practitioner -->
-
-![AWS Cloud Quest Cloud Practitioner](images/aws-cq/logo_wide_practitioner.png "AWS Cloud Quest Cloud Practitioner")
 
 Today I completed the **AWS Cloud Quest Cloud Practitioner** training 🎉!
 

@@ -3,14 +3,15 @@ title: AWS Cloud Quest Serverless Developer
 tags:
     - programming
     - aws
+    - cloud quest
 author: alex-hedley
 description: 
 published: 2023-03-15
+image: /posts/images/aws-cq/cloud-quest.png
+imageattribution: https://aws.amazon.com/training/digital/aws-cloud-quest/
 ---
 
 <!-- # AWS Cloud Quest Serverless Developer -->
-
-![AWS Cloud Quest Cloud Practitioner](images/aws-cq/cloud-quest.png "AWS Cloud Quest")
 
 Today I completed the **AWS Cloud QuestServerless Developer** training 🎉!
 
