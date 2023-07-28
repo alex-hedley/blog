@@ -4,7 +4,75 @@
 	<title />
 	<link rel="self" href="https://alex-hedley.github.io/blog" />
 	<rights>Copyright © 2023</rights>
-	<updated>2023-07-11T12:53:47Z</updated>
+	<updated>2023-07-28T18:24:00Z</updated>
+	<entry>
+		<id>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-networking</id>
+		<title>AWS Cloud Quest Networking</title>
+		<author>
+			<name>alex-hedley</name>
+		</author>
+		<link href="https://alex-hedley.github.io/blog/posts/aws-cloud-quest-networking" />
+		<link rel="enclosure" type="image" href="https://alex-hedley.github.io/blog/posts/images/aws-cq/cloud-quest.png" />
+		<updated>2023-07-28T00:00:00Z</updated>
+		<content>&lt;!-- # AWS Cloud Quest Networking --&gt;
+&lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest Networking&lt;/strong&gt; training 🎉!&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/aws-cq/aws-cloud-quest-networking.png" alt="AWS Cloud Quest Networking Badge" title="AWS Cloud Quest Networking Badge"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.credly.com/badges/8f0220d0-0704-4ce2-8650-4ffbf090bf4b/public_url"&gt;Credly Badge&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.credly.com/users/alexhedley/badges"&gt;Credly Profile&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;Notes&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;AWS Step Functions&lt;/em&gt; took me back to my Symantec Workflow days. It was a nice UI to work with and interesting to see the JSON output.
+A new resource I got to try was &lt;em&gt;Amazon QuickSight&lt;/em&gt;, seems very handy when linked with &lt;em&gt;Amazon Athena&lt;/em&gt; to build some very useful dashboards.&lt;/p&gt;
+&lt;h2 id="info"&gt;Info&lt;/h2&gt;
+&lt;p&gt;This is a paid course from AWS that uses gamification and hands on labs to reinforce learnings.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Part of AWS Skill Builder Individual subscription. Subscribe to get access to this and other subscriber-only benefits.&lt;br&gt;
+$29.00 / month + VAT&lt;br&gt;
+&lt;a href="https://explore.skillbuilder.aws/learn/signin"&gt;https://explore.skillbuilder.aws/learn/signin&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;As the city’s Networking specialist, you will leverage AWS services to scale network connectivity, connect to on-premisses networks, protect applications, analyze network traffic and identify suspicious activity. As you build real solutions, you will explore concepts such as network tunneling, peering, cross region routing and log analysis.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="links"&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://aws.amazon.com/training/digital/aws-cloud-quest/"&gt;AWS Cloud Quest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://explore.skillbuilder.aws/learn/course/external/view/elearning/7636/cloud-quest"&gt;Cloud Quest&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="resources-used"&gt;Resources Used&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Amazon Athena&lt;/li&gt;
+&lt;li&gt;Amazon CloudFront&lt;/li&gt;
+&lt;li&gt;Amazon CloudWatch&lt;/li&gt;
+&lt;li&gt;Amazon EC2&lt;/li&gt;
+&lt;li&gt;Amazon EC2 Auto Scaling&lt;/li&gt;
+&lt;li&gt;Amazon QuickSight&lt;/li&gt;
+&lt;li&gt;Amazon Relational Database Service (RDS)&lt;/li&gt;
+&lt;li&gt;Amazon Route 53&lt;/li&gt;
+&lt;li&gt;Amazon S3&lt;/li&gt;
+&lt;li&gt;Amazon SNS&lt;/li&gt;
+&lt;li&gt;Amazon VPC&lt;/li&gt;
+&lt;li&gt;AWS&lt;/li&gt;
+&lt;li&gt;AWS Cloud Trail&lt;/li&gt;
+&lt;li&gt;AWS CloudFormation&lt;/li&gt;
+&lt;li&gt;AWS CloudWatch&lt;/li&gt;
+&lt;li&gt;AWS Glue&lt;/li&gt;
+&lt;li&gt;AWS Lambda&lt;/li&gt;
+&lt;li&gt;AWS Network Firewall&lt;/li&gt;
+&lt;li&gt;AWS Private Link&lt;/li&gt;
+&lt;li&gt;AWS Site-to-Site VPN&lt;/li&gt;
+&lt;li&gt;AWS Step Functions&lt;/li&gt;
+&lt;li&gt;AWS Systems Manager&lt;/li&gt;
+&lt;li&gt;AWS Transit Gateway&lt;/li&gt;
+&lt;li&gt;AWS WAF&lt;/li&gt;
+&lt;li&gt;Elastic Load Balancing (ELB)&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+		<summary>&lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest Networking&lt;/strong&gt; training 🎉!&lt;/p&gt;</summary>
+	</entry>
 	<entry>
 		<id>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-security</id>
 		<title>AWS Cloud Quest Security</title>
@@ -585,45 +653,5 @@ This talk was to demystify a &lt;a href="http://swagger.io/"&gt;swagger&lt;/a&gt
 &lt;/ul&gt;
 </content>
 		<summary>How to add mermaid diagrams in statiq</summary>
-	</entry>
-	<entry>
-		<id>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-solutions-architect</id>
-		<title>AWS Cloud Quest Solutions Architect</title>
-		<author>
-			<name>alex-hedley</name>
-		</author>
-		<link href="https://alex-hedley.github.io/blog/posts/aws-cloud-quest-solutions-architect" />
-		<link rel="enclosure" type="image" href="https://alex-hedley.github.io/blog/posts/images/aws-cq/cloud-quest.png" />
-		<updated>2023-05-10T00:00:00Z</updated>
-		<content>&lt;!-- # AWS Cloud Quest Solutions Architect --&gt;
-&lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest Solutions Architect&lt;/strong&gt; training 🎉!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/aws-cq/aws-cloud-quest-solutions-architect.png" alt="AWS Cloud Quest Solutions Architect Badge" title="AWS Cloud Quest Solutions Architect Badge"&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.credly.com/badges/19d085e9-4a52-40b1-8d7c-2ff7eba1bd33/public_url"&gt;Credly Badge&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.credly.com/users/alexhedley/badges"&gt;Credly Profile&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This is a paid course from AWS that uses gamification and hands on labs to reinforce learnings.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Part of AWS Skill Builder Individual subscription. Subscribe to get access to this and other subscriber-only benefits.&lt;br&gt;
-$29.00 / month + VAT&lt;br&gt;
-&lt;a href="https://explore.skillbuilder.aws/learn/signin"&gt;https://explore.skillbuilder.aws/learn/signin&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Dive into a broad set of AWS services and build secure, fault-tolerant, and highly available AWS solutions.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id="training-material"&gt;Training Material&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://aws.amazon.com/training/learn-about/cloud-practitioner/"&gt;Training Material&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="links"&gt;Links&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://aws.amazon.com/training/digital/aws-cloud-quest/"&gt;AWS Cloud Quest&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://explore.skillbuilder.aws/learn/course/external/view/elearning/7636/cloud-quest"&gt;Cloud Quest&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-		<summary>&lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest Solutions Architect&lt;/strong&gt; training 🎉!&lt;/p&gt;</summary>
 	</entry>
 </feed>
