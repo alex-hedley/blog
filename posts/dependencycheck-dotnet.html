@@ -1,0 +1,235 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="How to use DependencyCheck with .NET.">
+    <meta name="author" content="alex-hedley">
+
+  <title>Alex Hedley - DependencyCheck .NET</title>
+
+  <link rel="canonical" href='https://alex-hedley.github.io/blog/posts/dependencycheck-dotnet'>
+
+      <link type="application/rss+xml" rel="alternate" href="/blog/feed.rss" />
+      <link type="application/atom+xml" rel="alternate" href="/blog/feed.atom" />
+
+  <meta name="application-name" content='Alex Hedley' />
+  <meta name="msapplication-tooltip" content='Alex Hedley' />
+  <meta name="msapplication-starturl" content='/blog/' />
+
+  <meta property="og:title" content='Alex Hedley - DependencyCheck .NET' />
+    <meta property="og:image" content='/blog/posts/images/dependency-check/dependencycheck.svg' />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content='https://alex-hedley.github.io/blog/posts/dependencycheck-dotnet' />
+
+  <link rel="icon" href='/blog/favicon.ico'>
+
+  <!-- Custom fonts for this template -->
+  <link href='/blog/vendor/fontawesome-free/css/all.min.css' rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" data-no-mirror>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" data-no-mirror>
+
+  <!-- Styles for this template (also includes Bootstrap) -->
+  <link href='/blog/scss/clean-blog.css' rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js" data-no-mirror></script>
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@2.3.0/dist/quicklink.umd.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism.css" rel="stylesheet">
+
+  <link href="/blog/scss/TabGroup.css" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href='/blog/'>Alex Hedley</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+    <a class="nav-link" href="/blog/posts">Posts</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/blog/tags">Tags</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/blog/about">About</a>
+  </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url(&quot;/blog/posts/images/dependency-check/dependencycheck.svg&quot;)">
+  <div class="container position-relative">
+    <div class="row">
+      <div class="col-md-12">
+        <div class='post-heading'>
+          <h1>
+            DependencyCheck .NET
+          </h1>
+            <span class="subheading">How to use DependencyCheck with .NET.</span>
+            <div class="meta">Published on Tuesday, 8 August 2023</div>
+              <div class="mt-3">
+                  <a href="/blog/tags/dependencycheck" class="badge text-bg-light"> dependencycheck</a>
+                  <a href="/blog/tags/owasp" class="badge text-bg-light"> owasp</a>
+                  <a href="/blog/tags/dotnet" class="badge text-bg-light"> dotnet</a>
+                  <a href="/blog/tags/github" class="badge text-bg-light"> github</a>
+              </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="image-attribution badge text-bg-secondary rounded-pill"><p>https://jeremylong.github.io/DependencyCheck/index.html</p>
+</div>
+</header>
+
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div id="content" class="col-md-12">
+        <!-- DependencyCheck .NET -->
+<p>In this article I will run through setting up the awesome <a href="https://jeremylong.github.io/DependencyCheck/index.html">DependencyCheck</a> from <a href="https://github.com/jeremylong">Jeremy Long</a> for a .NET application.</p>
+<blockquote>
+<p>Dependency-check can currently be used to scan software to identify the use of known vulnerable components.</p>
+</blockquote>
+<p>I've used this on some Kotlin/Java projects and wanted to see how easy it was to setup for .NET.</p>
+<p>There are a number of plugins listed for Gradle etc but for .NET I'm going to use the <a href="https://jeremylong.github.io/DependencyCheck/dependency-check-cli/index.html">CLI</a>.</p>
+<p>You can run this locally with <code>brew install dependency-check</code> then for *<strong>nix</strong> systems run <code>dependency-check.sh --project &quot;My App Name&quot; --scan &quot;/java/application/lib&quot;</code></p>
+<p>Since I'm wanting to also try this out in CI/CD it's straight to GitHub to create a repo.</p>
+<ul>
+<li><a href="https://github.com/alex-hedley/dotnet-dependencycheck">dotnet-dependencycheck</a></li>
+</ul>
+<p><a href="https://github.com/jeremylong/DependencyCheck">https://github.com/jeremylong/DependencyCheck</a></p>
+<p>I created a simple .NET Console Application then looked at what was needed to run the tooling locally.</p>
+<p><code>dependency-check --project &quot;DependencyCheckExample&quot; --scan &quot;src/DependencyCheckExample/bin/Debug/net7.0/*.dll&quot;</code></p>
+<blockquote>
+<p>![Note] Update the net7.0 version to whichever you are working with.</p>
+</blockquote>
+<p>Depending where you are running the tool from determines the output location of the report. See the <a href="https://jeremylong.github.io/DependencyCheck/dependency-check-cli/arguments.html">Command Line Agruments</a> for more details.</p>
+<table>
+<thead>
+<tr>
+<th>Short</th>
+<th>Argument Name</th>
+<th>Parameter</th>
+<th>Description</th>
+<th>Requirement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-o</td>
+<td>--out</td>
+<td><path></td>
+<td>The folder to write reports to. This defaults to the current directory. If the format is not set to ALL one could specify a specific file name.</td>
+<td>Optional</td>
+</tr>
+</tbody>
+</table>
+<p>Make sure you are in the working directory of your project before running, unless you want it adding to your <em>usr</em> folder.</p>
+<p>I also updated it to output to a subfolder of <em>reports</em>.</p>
+<p><code>dependency-check --project &quot;DependencyCheckExample&quot; --scan &quot;DependencyCheckExample/bin/Debug/net7.0/*.dll&quot; --out &quot;reports&quot;</code></p>
+<p>This produces a <code>dependency-check-report.html</code> file, self contained with the results.</p>
+<p><img src="images/dependency-check/dependency-check-report.png" alt="Sample Report" title="Sample Report" /></p>
+<p>Not very interesting as there are no dependencies, but at least the flow is working.</p>
+<p>Next is how to replicate this in <a href="https://github.com/features/actions">GitHub Actions</a>?</p>
+<p>Could I run brew install and run <code>dependency-check.sh</code>, maybe but I'm sure someone has already created a GitHub Action for this.</p>
+<ul>
+<li><a href="https://github.com/dependency-check/Dependency-Check_Action">Dependency-Check Action</a></li>
+</ul>
+<pre><code class="language-yml">      - name: Depcheck
+        uses: dependency-check/Dependency-Check_Action&#64;main
+        id: Depcheck
+        with:
+          project: 'test'
+          path: '.'
+          format: 'HTML'
+          out: 'reports' # this is the default, no need to specify unless you wish to override it
+          args: &gt;
+            --failOnCVSS 7
+            --enableRetired
+</code></pre>
+<p>This has a lot of options to override so check the docs if you want to tweak anything.</p>
+<p>There's an ADO one too (<a href="https://github.com/dependency-check/azuredevops">azuredevops</a>).</p>
+<p>I created a Workflow (<a href="https://github.com/alex-hedley/dotnet-dependencycheck/blob/main/.github/workflows/depcheck.yml">depcheck.yml</a>) to get the <em>src</em>, <em>restore</em> any dependencies, <em>build</em>, (<em>test</em>) and then run the Dependency-Check action.</p>
+<p>We now have an artifact so might as well upload that and since it's a website we can use GitHub Pages to host the output too.</p>
+<p>I manually created an <code>index.html</code> on the <code>gh-pages</code> branch to point to the file, you could do with this how you wish.</p>
+<p>I've used <a href="https://github.com/JamesIves/github-pages-deploy-action">JamesIves/github-pages-deploy-action</a> but you could swap to <a href="https://github.com/peaceiris/actions-gh-pages">peaceiris/actions-gh-pages</a> or even the GH one through the new Beta options which includes <code>actions/configure-pages</code>, <code>actions/upload-pages-artifact</code> and <code>actions/deploy-pages</code>.</p>
+<p>Next up is adding some vulnerable code to the sample Console App to see what DC finds...</p>
+
+
+        
+
+      </div>
+    </div>
+  <div id="comments-container" class="row">
+    <script src="https://giscus.app/client.js"
+        data-repo='alex-hedley/blog'
+        data-repo-id='R_kgDOJjrtWA'
+        data-category-id='DIC_kwDOJjrtWM4CW2qH'
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="light"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+
+  </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->
+  <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p class="copyright">Copyright &#xA9; 2023</p>
+
+        <ul class="list-inline text-center small">
+            <li class="list-inline-item">
+              <a href="/blog/feed.rss"><i class="fa fa-rss"></i> RSS Feed</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="/blog/feed.atom"><i class="fa fa-rss"></i> Atom Feed</a>
+            </li>
+        </ul>
+        <br />
+        <div class="font-weight-bold small"><a href="https://statiq.dev">Generated by Statiq</a></div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Scripts -->
+  <script src='/blog/vendor/bootstrap/js/bootstrap.bundle.min.js'></script>
+  <script src='/blog/vendor/startbootstrap-clean-blog/js/scripts.js'></script>
+  <script src='/blog/js/clean-blog.js'></script>
+  <script src="https://unpkg.com/mermaid@8.9.3/dist/mermaid.min.js" integrity="sha384-nVmn6yKHyUktDHdQfBgpn1YPgEu8gDXTYI5qccfkF1j6oxBHjKEafySIuNs3UhEW" crossorigin="anonymous"></script>
+  
+
+</body>
+
+</html>

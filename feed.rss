@@ -5,8 +5,88 @@
 		<link>https://alex-hedley.github.io/blog</link>
 		<description />
 		<copyright>Copyright © 2023</copyright>
-		<pubDate>Fri, 28 Jul 2023 18:24:00 GMT</pubDate>
-		<lastBuildDate>Fri, 28 Jul 2023 18:24:00 GMT</lastBuildDate>
+		<pubDate>Tue, 08 Aug 2023 10:02:28 GMT</pubDate>
+		<lastBuildDate>Tue, 08 Aug 2023 10:02:28 GMT</lastBuildDate>
+		<item>
+			<title>DependencyCheck .NET</title>
+			<link>https://alex-hedley.github.io/blog/posts/dependencycheck-dotnet</link>
+			<description>How to use DependencyCheck with .NET.</description>
+			<author>alex-hedley</author>
+			<enclosure url="https://alex-hedley.github.io/blog/posts/images/dependency-check/dependencycheck.svg" length="0" type="image" />
+			<guid>https://alex-hedley.github.io/blog/posts/dependencycheck-dotnet</guid>
+			<pubDate>Tue, 08 Aug 2023 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!-- DependencyCheck .NET --&gt;
+&lt;p&gt;In this article I will run through setting up the awesome &lt;a href="https://jeremylong.github.io/DependencyCheck/index.html"&gt;DependencyCheck&lt;/a&gt; from &lt;a href="https://github.com/jeremylong"&gt;Jeremy Long&lt;/a&gt; for a .NET application.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Dependency-check can currently be used to scan software to identify the use of known vulnerable components.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I've used this on some Kotlin/Java projects and wanted to see how easy it was to setup for .NET.&lt;/p&gt;
+&lt;p&gt;There are a number of plugins listed for Gradle etc but for .NET I'm going to use the &lt;a href="https://jeremylong.github.io/DependencyCheck/dependency-check-cli/index.html"&gt;CLI&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can run this locally with &lt;code&gt;brew install dependency-check&lt;/code&gt; then for *&lt;strong&gt;nix&lt;/strong&gt; systems run &lt;code&gt;dependency-check.sh --project "My App Name" --scan "/java/application/lib"&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Since I'm wanting to also try this out in CI/CD it's straight to GitHub to create a repo.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/alex-hedley/dotnet-dependencycheck"&gt;dotnet-dependencycheck&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://github.com/jeremylong/DependencyCheck"&gt;https://github.com/jeremylong/DependencyCheck&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I created a simple .NET Console Application then looked at what was needed to run the tooling locally.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;dependency-check --project "DependencyCheckExample" --scan "src/DependencyCheckExample/bin/Debug/net7.0/*.dll"&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;![Note] Update the net7.0 version to whichever you are working with.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Depending where you are running the tool from determines the output location of the report. See the &lt;a href="https://jeremylong.github.io/DependencyCheck/dependency-check-cli/arguments.html"&gt;Command Line Agruments&lt;/a&gt; for more details.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Short&lt;/th&gt;
+&lt;th&gt;Argument Name&lt;/th&gt;
+&lt;th&gt;Parameter&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;th&gt;Requirement&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;-o&lt;/td&gt;
+&lt;td&gt;--out&lt;/td&gt;
+&lt;td&gt;&lt;path&gt;&lt;/path&gt;&lt;/td&gt;
+&lt;td&gt;The folder to write reports to. This defaults to the current directory. If the format is not set to ALL one could specify a specific file name.&lt;/td&gt;
+&lt;td&gt;Optional&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Make sure you are in the working directory of your project before running, unless you want it adding to your &lt;em&gt;usr&lt;/em&gt; folder.&lt;/p&gt;
+&lt;p&gt;I also updated it to output to a subfolder of &lt;em&gt;reports&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;dependency-check --project "DependencyCheckExample" --scan "DependencyCheckExample/bin/Debug/net7.0/*.dll" --out "reports"&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;This produces a &lt;code&gt;dependency-check-report.html&lt;/code&gt; file, self contained with the results.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/dependency-check/dependency-check-report.png" alt="Sample Report" title="Sample Report"&gt;&lt;/p&gt;
+&lt;p&gt;Not very interesting as there are no dependencies, but at least the flow is working.&lt;/p&gt;
+&lt;p&gt;Next is how to replicate this in &lt;a href="https://github.com/features/actions"&gt;GitHub Actions&lt;/a&gt;?&lt;/p&gt;
+&lt;p&gt;Could I run brew install and run &lt;code&gt;dependency-check.sh&lt;/code&gt;, maybe but I'm sure someone has already created a GitHub Action for this.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/dependency-check/Dependency-Check_Action"&gt;Dependency-Check Action&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class="language-yml"&gt;      - name: Depcheck
+        uses: dependency-check/Dependency-Check_Action@main
+        id: Depcheck
+        with:
+          project: 'test'
+          path: '.'
+          format: 'HTML'
+          out: 'reports' # this is the default, no need to specify unless you wish to override it
+          args: &amp;gt;
+            --failOnCVSS 7
+            --enableRetired
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This has a lot of options to override so check the docs if you want to tweak anything.&lt;/p&gt;
+&lt;p&gt;There's an ADO one too (&lt;a href="https://github.com/dependency-check/azuredevops"&gt;azuredevops&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;I created a Workflow (&lt;a href="https://github.com/alex-hedley/dotnet-dependencycheck/blob/main/.github/workflows/depcheck.yml"&gt;depcheck.yml&lt;/a&gt;) to get the &lt;em&gt;src&lt;/em&gt;, &lt;em&gt;restore&lt;/em&gt; any dependencies, &lt;em&gt;build&lt;/em&gt;, (&lt;em&gt;test&lt;/em&gt;) and then run the Dependency-Check action.&lt;/p&gt;
+&lt;p&gt;We now have an artifact so might as well upload that and since it's a website we can use GitHub Pages to host the output too.&lt;/p&gt;
+&lt;p&gt;I manually created an &lt;code&gt;index.html&lt;/code&gt; on the &lt;code&gt;gh-pages&lt;/code&gt; branch to point to the file, you could do with this how you wish.&lt;/p&gt;
+&lt;p&gt;I've used &lt;a href="https://github.com/JamesIves/github-pages-deploy-action"&gt;JamesIves/github-pages-deploy-action&lt;/a&gt; but you could swap to &lt;a href="https://github.com/peaceiris/actions-gh-pages"&gt;peaceiris/actions-gh-pages&lt;/a&gt; or even the GH one through the new Beta options which includes &lt;code&gt;actions/configure-pages&lt;/code&gt;, &lt;code&gt;actions/upload-pages-artifact&lt;/code&gt; and &lt;code&gt;actions/deploy-pages&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Next up is adding some vulnerable code to the sample Console App to see what DC finds...&lt;/p&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
 		<item>
 			<title>AWS Cloud Quest Networking</title>
 			<link>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-networking</link>
@@ -70,75 +150,6 @@ $29.00 / month + VAT&lt;br&gt;
 &lt;li&gt;AWS Transit Gateway&lt;/li&gt;
 &lt;li&gt;AWS WAF&lt;/li&gt;
 &lt;li&gt;Elastic Load Balancing (ELB)&lt;/li&gt;
-&lt;/ul&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>AWS Cloud Quest Security</title>
-			<link>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-security</link>
-			<description>&lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest Security&lt;/strong&gt; training 🎉!&lt;/p&gt;</description>
-			<author>alex-hedley</author>
-			<enclosure url="https://alex-hedley.github.io/blog/posts/images/aws-cq/cloud-quest.png" length="0" type="image" />
-			<guid>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-security</guid>
-			<pubDate>Tue, 11 Jul 2023 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!-- # AWS Cloud Quest Machine Learning --&gt;
-&lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest Security&lt;/strong&gt; training 🎉!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/aws-cq/aws-cloud-quest-security.jpeg" alt="AWS Cloud Quest Security Badge" title="AWS Cloud Quest Security Badge"&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.credly.com/badges/e53bb657-c1ca-4b8a-a8a0-d14935c52717/public_url"&gt;Credly Badge&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.credly.com/users/alexhedley/badges"&gt;Credly Profile&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This is a paid course from AWS that uses gamification and hands on labs to reinforce learnings.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Part of AWS Skill Builder Individual subscription. Subscribe to get access to this and other subscriber-only benefits.&lt;br&gt;
-$29.00 / month + VAT&lt;br&gt;
-&lt;a href="https://explore.skillbuilder.aws/learn/signin"&gt;https://explore.skillbuilder.aws/learn/signin&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Use AWS security services to build solutions that respond to incidents, remediate quickly, detect vulnerabilities, and prevent data loss.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id="training-material"&gt;Training Material&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://aws.amazon.com/training/learn-about/cloud-practitioner/"&gt;Training Material&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="links"&gt;Links&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://aws.amazon.com/training/digital/aws-cloud-quest/"&gt;AWS Cloud Quest&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://explore.skillbuilder.aws/learn/course/external/view/elearning/7636/cloud-quest"&gt;Cloud Quest&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="resources-used"&gt;Resources Used&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Amazon API Gateway&lt;/li&gt;
-&lt;li&gt;Amazon Athena&lt;/li&gt;
-&lt;li&gt;Amazon CloudFront&lt;/li&gt;
-&lt;li&gt;Amazon CloudWatch&lt;/li&gt;
-&lt;li&gt;Amazon Cognito&lt;/li&gt;
-&lt;li&gt;Amazon DynamoDB&lt;/li&gt;
-&lt;li&gt;Amazon EC2&lt;/li&gt;
-&lt;li&gt;Amazon EC2 Auto Scaling&lt;/li&gt;
-&lt;li&gt;Amazon EventBridge&lt;/li&gt;
-&lt;li&gt;Amazon Kinesis&lt;/li&gt;
-&lt;li&gt;Amazon Lambda&lt;/li&gt;
-&lt;li&gt;Amazon Relational Database Service (RDS)&lt;/li&gt;
-&lt;li&gt;Amazon S3&lt;/li&gt;
-&lt;li&gt;Amazon SNS&lt;/li&gt;
-&lt;li&gt;Amazon VPC&lt;/li&gt;
-&lt;li&gt;Amazon WAF&lt;/li&gt;
-&lt;li&gt;AWS Amplify&lt;/li&gt;
-&lt;li&gt;AWS CloudFormation&lt;/li&gt;
-&lt;li&gt;AWS Cognito&lt;/li&gt;
-&lt;li&gt;AWS Config&lt;/li&gt;
-&lt;li&gt;AWS Glue&lt;/li&gt;
-&lt;li&gt;AWS Identity and Access Management (IAM)&lt;/li&gt;
-&lt;li&gt;AWS Key Management Service (KMS)&lt;/li&gt;
-&lt;li&gt;AWS Lambda&lt;/li&gt;
-&lt;li&gt;AWS Secrets Manager&lt;/li&gt;
-&lt;li&gt;AWS Service Catalog&lt;/li&gt;
-&lt;li&gt;AWS Systems Manager&lt;/li&gt;
 &lt;/ul&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
@@ -289,6 +300,75 @@ Version: 1.0.2
 Publisher: Microsoft
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-preview
 &lt;/code&gt;&lt;/pre&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
+			<title>AWS Cloud Quest Security</title>
+			<link>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-security</link>
+			<description>&lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest Security&lt;/strong&gt; training 🎉!&lt;/p&gt;</description>
+			<author>alex-hedley</author>
+			<enclosure url="https://alex-hedley.github.io/blog/posts/images/aws-cq/cloud-quest.png" length="0" type="image" />
+			<guid>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-security</guid>
+			<pubDate>Tue, 11 Jul 2023 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!-- # AWS Cloud Quest Machine Learning --&gt;
+&lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest Security&lt;/strong&gt; training 🎉!&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/aws-cq/aws-cloud-quest-security.jpeg" alt="AWS Cloud Quest Security Badge" title="AWS Cloud Quest Security Badge"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.credly.com/badges/e53bb657-c1ca-4b8a-a8a0-d14935c52717/public_url"&gt;Credly Badge&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.credly.com/users/alexhedley/badges"&gt;Credly Profile&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is a paid course from AWS that uses gamification and hands on labs to reinforce learnings.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Part of AWS Skill Builder Individual subscription. Subscribe to get access to this and other subscriber-only benefits.&lt;br&gt;
+$29.00 / month + VAT&lt;br&gt;
+&lt;a href="https://explore.skillbuilder.aws/learn/signin"&gt;https://explore.skillbuilder.aws/learn/signin&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Use AWS security services to build solutions that respond to incidents, remediate quickly, detect vulnerabilities, and prevent data loss.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="training-material"&gt;Training Material&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://aws.amazon.com/training/learn-about/cloud-practitioner/"&gt;Training Material&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="links"&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://aws.amazon.com/training/digital/aws-cloud-quest/"&gt;AWS Cloud Quest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://explore.skillbuilder.aws/learn/course/external/view/elearning/7636/cloud-quest"&gt;Cloud Quest&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="resources-used"&gt;Resources Used&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Amazon API Gateway&lt;/li&gt;
+&lt;li&gt;Amazon Athena&lt;/li&gt;
+&lt;li&gt;Amazon CloudFront&lt;/li&gt;
+&lt;li&gt;Amazon CloudWatch&lt;/li&gt;
+&lt;li&gt;Amazon Cognito&lt;/li&gt;
+&lt;li&gt;Amazon DynamoDB&lt;/li&gt;
+&lt;li&gt;Amazon EC2&lt;/li&gt;
+&lt;li&gt;Amazon EC2 Auto Scaling&lt;/li&gt;
+&lt;li&gt;Amazon EventBridge&lt;/li&gt;
+&lt;li&gt;Amazon Kinesis&lt;/li&gt;
+&lt;li&gt;Amazon Lambda&lt;/li&gt;
+&lt;li&gt;Amazon Relational Database Service (RDS)&lt;/li&gt;
+&lt;li&gt;Amazon S3&lt;/li&gt;
+&lt;li&gt;Amazon SNS&lt;/li&gt;
+&lt;li&gt;Amazon VPC&lt;/li&gt;
+&lt;li&gt;Amazon WAF&lt;/li&gt;
+&lt;li&gt;AWS Amplify&lt;/li&gt;
+&lt;li&gt;AWS CloudFormation&lt;/li&gt;
+&lt;li&gt;AWS Cognito&lt;/li&gt;
+&lt;li&gt;AWS Config&lt;/li&gt;
+&lt;li&gt;AWS Glue&lt;/li&gt;
+&lt;li&gt;AWS Identity and Access Management (IAM)&lt;/li&gt;
+&lt;li&gt;AWS Key Management Service (KMS)&lt;/li&gt;
+&lt;li&gt;AWS Lambda&lt;/li&gt;
+&lt;li&gt;AWS Secrets Manager&lt;/li&gt;
+&lt;li&gt;AWS Service Catalog&lt;/li&gt;
+&lt;li&gt;AWS Systems Manager&lt;/li&gt;
+&lt;/ul&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
@@ -599,50 +679,6 @@ This talk was to demystify a &lt;a href="http://swagger.io/"&gt;swagger&lt;/a&gt
 &lt;p&gt;I have pulled this in as a git submodule so I have tried how to use both. Thankfully the addition to the &lt;code&gt;appsettings.json&lt;/code&gt; is enough, but if you wanted to change the layout, formatting etc I can see this being useful.&lt;/p&gt;
 &lt;p&gt;Blog Post: &lt;a href="https://beckshome.com/2022/09/beckshome-on-statiq"&gt;https://beckshome.com/2022/09/beckshome-on-statiq&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Example: &lt;a href="https://github.com/thbst16/dotnet-statiq-beckshome-blog/blob/main/theme/input/_post-footer.cshtml"&gt;https://github.com/thbst16/dotnet-statiq-beckshome-blog/blob/main/theme/input/_post-footer.cshtml&lt;/a&gt;&lt;/p&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>Mermaid</title>
-			<link>https://alex-hedley.github.io/blog/posts/mermaid</link>
-			<description>How to add mermaid diagrams in statiq</description>
-			<author>alexhedley</author>
-			<guid>https://alex-hedley.github.io/blog/posts/mermaid</guid>
-			<pubDate>Tue, 16 May 2023 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;p&gt;Add a file &lt;code&gt;_scripts.cshtml&lt;/code&gt;&lt;/p&gt;
-&lt;?# IncludeCode "./../_scripts.cshtml" /?&gt;
-&lt;div class="mermaid"&gt;flowchart LR
-    subgraph azureprod [Azure fa:fa-cloud]
-        AppProduction(App Service fa:fa-globe) --&gt; api-production[APIM fa:fa-sitemap&amp;lt;br&gt;api-production]
-        AppProduction --&gt; vnetprd[vnet-prd]
-    end
-    subgraph onpremprod [On-premises fa:fa-home]
-        vnetprd ----&gt; SQLProd[SQL Prod fa:fa-server ] --&gt; DBProd[(DBProd)]
-    end
-&lt;/div&gt;
-&lt;h2 id="devlead"&gt;[Devlead]&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/devlead/Devlead.Statiq/blob/main/src/Devlead.Statiq.TestWeb/input/_scripts.cshtml"&gt;scripts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/devlead/Devlead.Statiq/blob/main/src/Devlead.Statiq.TestWeb/input/posts/Tabs.md"&gt;Tabs.md&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="other"&gt;Other&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://www.dpvreony.com/articles/mermaid-with-statiq/"&gt;Using Mermaid diagrams with Statiq.&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/dpvreony/article-statiq-mermaid"&gt;repo&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://blog.beckshome.com/2022/09/mermaid-in-statiq"&gt;Mermaid Diagrams in Statiq&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/thbst16/dotnet-statiq-beckshome-blog/blob/main/input/posts/mermaid-in-statiq.md"&gt;code&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/ociaw/StatiqMermaid"&gt;StatiqMermaid Repo&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.nuget.org/packages/Ociaw.StatiqMermaid/0.1.0-beta.2"&gt;nuget&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
