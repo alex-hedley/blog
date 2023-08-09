@@ -148,7 +148,7 @@
 <p><img src="images/dependency-check/dependency-check-report.png" alt="Sample Report" title="Sample Report" /></p>
 <p>Not very interesting as there are no dependencies, but at least the flow is working.</p>
 <p>Next is how to replicate this in <a href="https://github.com/features/actions">GitHub Actions</a>?</p>
-<p>Could I run <code>brew install`` and run </code>dependency-check.sh`, maybe but I'm sure someone has already created a GitHub Action for this.</p>
+<p>Could I run <code>brew install</code> and run <code>dependency-check.sh</code>, maybe but I'm sure someone has already created a GitHub Action for this.</p>
 <ul>
 <li><a href="https://github.com/dependency-check/Dependency-Check_Action">Dependency-Check Action</a></li>
 </ul>
@@ -166,7 +166,7 @@
 </code></pre>
 <p>This has a lot of options to override so check the docs if you want to tweak anything.</p>
 <p>There's an ADO one too (<a href="https://github.com/dependency-check/azuredevops">azuredevops</a>).</p>
-<p>I created a Workflow (<a href="https://github.com/alex-hedley/dotnet-dependencycheck/blob/main/.github/workflows/depcheck.yml">depcheck.yml</a>) to get the <em>src</em>, <em>restore</em> any dependencies, <em>build</em>, (<em>test</em>) and then run the Dependency-Check action.</p>
+<p>I created a Workflow (<a href="https://github.com/alex-hedley/dotnet-dependencycheck/blob/main/.github/workflows/depcheck.yml">depcheck.yml</a>) to get the <em>src</em>, <em>restore</em> any dependencies, <em>build</em>, (<em>test</em>) and then run the <strong>Dependency-Check action</strong>.</p>
 <p>We now have an artifact so might as well upload that and since it's a website we can use GitHub Pages to host the output too.</p>
 <p>I manually created an <code>index.html</code> on the <code>gh-pages</code> branch to point to the file, you could do with this how you wish.</p>
 <p>I've used <a href="https://github.com/JamesIves/github-pages-deploy-action">JamesIves/github-pages-deploy-action</a> but you could swap to <a href="https://github.com/peaceiris/actions-gh-pages">peaceiris/actions-gh-pages</a> or even the GH one through the new Beta options which includes <code>actions/configure-pages</code>, <code>actions/upload-pages-artifact</code> and <code>actions/deploy-pages</code>.</p>
@@ -198,7 +198,7 @@
 &lt;suppressions xmlns=&quot;https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.3.xsd&quot;&gt;
 &lt;/suppressions&gt;
 </code></pre>
-<p>Then in the Dependency Check Report there is a suppress button containing the XML you need to add, e.g.</p>
+<p>Then in the Dependency Check Report there is a <em>suppress</em> button containing the XML you need to add, click, copy and add e.g.</p>
 <pre><code class="language-xml">    &lt;suppress&gt;
         &lt;notes&gt;&lt;![CDATA[
         file name: Microsoft.Win32.SystemEvents.dll
