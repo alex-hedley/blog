@@ -110,16 +110,15 @@
 </blockquote>
 <p>I've used this on some Kotlin/Java projects and wanted to see how easy it was to setup for .NET.</p>
 <p>There are a number of plugins listed for Gradle etc but for .NET I'm going to use the <a href="https://jeremylong.github.io/DependencyCheck/dependency-check-cli/index.html">CLI</a>.</p>
-<p>You can run this locally with <code>brew install dependency-check</code> then for *<strong>nix</strong> systems run <code>dependency-check.sh --project &quot;My App Name&quot; --scan &quot;/java/application/lib&quot;</code></p>
-<p>Since I'm wanting to also try this out in CI/CD it's straight to GitHub to create a repo.</p>
+<p>You can run this locally, first install with <code>brew install dependency-check</code> then for *<strong>nix</strong> systems run <code>dependency-check.sh --project &quot;My App Name&quot; --scan &quot;/java/application/lib&quot;</code>.</p>
+<p>Since I'm wanting to also try this out in CI/CD it's straight to GitHub to create a sample repo.</p>
 <ul>
 <li><a href="https://github.com/alex-hedley/dotnet-dependencycheck">dotnet-dependencycheck</a></li>
 </ul>
-<p><a href="https://github.com/jeremylong/DependencyCheck">https://github.com/jeremylong/DependencyCheck</a></p>
 <p>I created a simple .NET Console Application then looked at what was needed to run the tooling locally.</p>
 <p><code>dependency-check --project &quot;DependencyCheckExample&quot; --scan &quot;src/DependencyCheckExample/bin/Debug/net7.0/*.dll&quot;</code></p>
 <blockquote>
-<p>![Note] Update the net7.0 version to whichever you are working with.</p>
+<p>[NOTE] Update the <code>net7.0</code> version to whichever you are working with.</p>
 </blockquote>
 <p>Depending where you are running the tool from determines the output location of the report. See the <a href="https://jeremylong.github.io/DependencyCheck/dependency-check-cli/arguments.html">Command Line Agruments</a> for more details.</p>
 <table>
@@ -134,9 +133,9 @@
 </thead>
 <tbody>
 <tr>
-<td>-o</td>
-<td>--out</td>
-<td><path></td>
+<td><code>-o</code></td>
+<td><code>--out</code></td>
+<td><code>&lt;path&gt;</code></td>
 <td>The folder to write reports to. This defaults to the current directory. If the format is not set to ALL one could specify a specific file name.</td>
 <td>Optional</td>
 </tr>
@@ -149,7 +148,7 @@
 <p><img src="images/dependency-check/dependency-check-report.png" alt="Sample Report" title="Sample Report" /></p>
 <p>Not very interesting as there are no dependencies, but at least the flow is working.</p>
 <p>Next is how to replicate this in <a href="https://github.com/features/actions">GitHub Actions</a>?</p>
-<p>Could I run brew install and run <code>dependency-check.sh</code>, maybe but I'm sure someone has already created a GitHub Action for this.</p>
+<p>Could I run <code>brew install`` and run </code>dependency-check.sh`, maybe but I'm sure someone has already created a GitHub Action for this.</p>
 <ul>
 <li><a href="https://github.com/dependency-check/Dependency-Check_Action">Dependency-Check Action</a></li>
 </ul>
@@ -172,6 +171,89 @@
 <p>I manually created an <code>index.html</code> on the <code>gh-pages</code> branch to point to the file, you could do with this how you wish.</p>
 <p>I've used <a href="https://github.com/JamesIves/github-pages-deploy-action">JamesIves/github-pages-deploy-action</a> but you could swap to <a href="https://github.com/peaceiris/actions-gh-pages">peaceiris/actions-gh-pages</a> or even the GH one through the new Beta options which includes <code>actions/configure-pages</code>, <code>actions/upload-pages-artifact</code> and <code>actions/deploy-pages</code>.</p>
 <p>Next up is adding some vulnerable code to the sample Console App to see what DC finds...</p>
+<h2 id="vulnerabilities">Vulnerabilities</h2>
+<p>First thing to do is find some...</p>
+<p>I could take a look through the CVEs on <a href="https://cve.mitre.org/">https://cve.mitre.org</a> but it would help to know the CVE #. Another option is to filter the <a href="https://github.com/advisories">GitHub Advisory Database</a> for <a href="https://www.nuget.org/">NuGet</a>.</p>
+<ul>
+<li><a href="https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anuget">https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anuget</a></li>
+</ul>
+<p>I can then filter by Severity to get an example of each kind.</p>
+<ul>
+<li>🟥 Critical - <a href="https://github.com/advisories/GHSA-g3wc-xv93-445q">CVE-2021-4248</a> - DNS NuGet package uses insufficiently random values (DNS (6.1.0))</li>
+<li>🟧 High - <a href="https://github.com/advisories/GHSA-5pm2-9mr2-3frq">CVE-2023-21893</a> - Component takeover in Oracle Data Provider for .NET (Oracle.ManagedDataAccess (21.4.0) / Oracle.ManagedDataAccess.Core (3.21.1))</li>
+<li>🟨 Moderate - <a href="https://github.com/advisories/GHSA-8g2p-5pqh-5jmc">CVE-2022-41064</a> - .NET Information Disclosure Vulnerability (System.Data.SqlClient (4.8.3))</li>
+<li>⬜️ Low - <a href="https://github.com/advisories/GHSA-j9m2-h2pv-wvph">CVE-2021-43306</a> - Regular expression denial of service in jquery-validation (jQuery.Validation (1.19.3))</li>
+</ul>
+<p>Add these to my <code>.csproj</code>, rebuild and then re-run the DC tool.</p>
+<p><img src="images/dependency-check/dependency-check-report-summary.png" alt="Dependency-Check Report - Summary" title="Dependency-Check Report - Summary" /></p>
+<p>Comparing this to GitHub's check you can also see the same list from the Security tab (Dependabot):</p>
+<ul>
+<li><a href="https://github.com/alex-hedley/dotnet-dependencycheck/security">https://github.com/alex-hedley/dotnet-dependencycheck/security</a></li>
+</ul>
+<p><img src="images/dependency-check/GitHub-Dependabot-alerts.png" alt="GitHub - Dependabot alerts" title="GitHub - Dependabot alerts" /></p>
+<h2 id="suppressions">Suppressions</h2>
+<p>As with everything we want a way to ignore things, these being false positive vulnerabilities or ones we've chosen to ignore for whatever reason. There is an option to do this with a supplementary file.</p>
+<p>Create a new xml file, e.g. <code>dependency-suppression.xml</code> and add the following:</p>
+<pre><code class="language-xml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;suppressions xmlns=&quot;https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.3.xsd&quot;&gt;
+&lt;/suppressions&gt;
+</code></pre>
+<p>Then in the Dependency Check Report there is a suppress button containing the XML you need to add, e.g.</p>
+<pre><code class="language-xml">    &lt;suppress&gt;
+        &lt;notes&gt;&lt;![CDATA[
+        file name: Microsoft.Win32.SystemEvents.dll
+        ]]&gt;&lt;/notes&gt;
+        &lt;packageUrl regex=&quot;true&quot;&gt;^pkg:generic/Microsoft\.Win32\.SystemEvents&#64;.*$&lt;/packageUrl&gt;
+        &lt;cpe&gt;cpe:/a:microsoft:.net_core&lt;/cpe&gt;
+    &lt;/suppress&gt;
+</code></pre>
+<p>Re-run the report and this will have gone.</p>
+<h2 id="fail">Fail</h2>
+<p>From the sample there was an added arg of <code>failOnCVSS</code> set to <strong>7</strong> so this was failing the CI/CD, as expected:</p>
+<pre><code class="language-bash">Error:
+
+One or more dependencies were identified with vulnerabilities that have a CVSS score greater than or equal to '7.0': 
+
+DependencyCheckExample.csproj: CVE-2021-4248(9.8)
+DependencyCheckExample.csproj: CVE-2023-21893(7.5)
+DependencyCheckExample.csproj: CVE-2023-21893(7.5)
+</code></pre>
+<p>Removing this didn't stop the build failing and I couldn't see a default value in the code. Looking at the check <a href="https://github.com/jeremylong/DependencyCheck/blob/6a85d0ffa28d6e625f3ef23db766f651614ad505/cli/src/main/java/org/owasp/dependencycheck/CliParser.java#L906">CliParser - getFailOnCVSS</a> I found it defaulted to <strong>11</strong> so just overrode it for the time being as I wanted the build to pass and produce the report - in a real world situation it would be good to set this to the required limit.</p>
+<pre><code class="language-yml">        args: &gt;
+            --failOnCVSS 11
+</code></pre>
+<ul>
+<li><a href="https://jeremylong.github.io/DependencyCheck/dependency-check-cli/arguments.html">Command Line Arguments</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Short</th>
+<th>Argument Name</th>
+<th>Parameter</th>
+<th>Description</th>
+<th>Requirement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td><code>--failOnCVSS</code></td>
+<td><code>&lt;score&gt;</code></td>
+<td>If the score set between 0 and 10 the exit code from dependency-check will indicate if a vulnerability with a CVSS score equal to or higher was identified.</td>
+<td>Optional</td>
+</tr>
+</tbody>
+</table>
+<h2 id="inconsistencies">Inconsistencies</h2>
+<p>Running the app locally doesn't produce the same output as on GitHub Actions...</p>
+<p><code>dependency-check --v</code></p>
+<blockquote>
+<p>Dependency-Check Core version 8.3.1</p>
+</blockquote>
+<p>The <a href="https://github.com/dependency-check/Dependency-Check_Action">Dependency-Check Action</a> uses the <a href="https://github.com/dependency-check/DependencyCheck_Builder/">DependencyCheck Builder</a> which has a <a href="https://github.com/dependency-check/DependencyCheck_Builder/blob/main/Dockerfile">Dockerfile</a> which uses the <a href="https://hub.docker.com/r/owasp/dependency-check">Docker Hub image</a> which is currently the same version.</p>
+<p><code>--enableRetired</code> is being used in the GHA but I'm not locally.</p>
+<p>I need to check if any other args are being set to a default value.</p>
 
 
         
