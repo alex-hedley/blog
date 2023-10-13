@@ -5,8 +5,8 @@
 		<link>https://alex-hedley.github.io/blog</link>
 		<description />
 		<copyright>Copyright © 2023</copyright>
-		<pubDate>Wed, 09 Aug 2023 09:32:12 GMT</pubDate>
-		<lastBuildDate>Wed, 09 Aug 2023 09:32:12 GMT</lastBuildDate>
+		<pubDate>Fri, 13 Oct 2023 12:21:36 GMT</pubDate>
+		<lastBuildDate>Fri, 13 Oct 2023 12:21:36 GMT</lastBuildDate>
 		<item>
 			<title>DependencyCheck .NET</title>
 			<link>https://alex-hedley.github.io/blog/posts/dependencycheck-dotnet</link>
@@ -237,6 +237,42 @@ $29.00 / month + VAT&lt;br&gt;
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
 		<item>
+			<title>VSCode - Blockquote - Preview</title>
+			<link>https://alex-hedley.github.io/blog/posts/vscode-blockquote-preview</link>
+			<description>Change the background colour in preview.</description>
+			<author>alex-hedley</author>
+			<guid>https://alex-hedley.github.io/blog/posts/vscode-blockquote-preview</guid>
+			<pubDate>Tue, 11 Jul 2023 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!-- VSCode - Blockquote --&gt;
+&lt;p&gt;I use the &lt;a href="https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-preview"&gt;learn-preview&lt;/a&gt; VSCode extension to show markdown in a side by side fashion.&lt;/p&gt;
+&lt;p&gt;Not sure when this stopped working since the colours changed but now it's unreadable:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/vscode/blockquote_1.png" alt="BlockQuote" title="BlockQuote"&gt;&lt;/p&gt;
+&lt;p&gt;Highlighting the text helps but this shouldn't be necessary.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/vscode/blockquote_2.png" alt="BlockQuote" title="BlockQuote"&gt;&lt;/p&gt;
+&lt;p&gt;Update the &lt;code&gt;settings.json&lt;/code&gt; with the following.&lt;/p&gt;
+&lt;p&gt;(You can pick whichever colour you prefer.)&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-json"&gt;"workbench.colorCustomizations": {
+    "textBlockQuote.background":"#95e0d6"
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is a BlockQuote&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;As an image:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/vscode/blockquote_3.png" alt="BlockQuote" title="BlockQuote"&gt;&lt;/p&gt;
+&lt;h2 id="info"&gt;Info&lt;/h2&gt;
+&lt;p&gt;Extension:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-bash"&gt;Name: learn-preview
+Id: docsmsft.docs-preview
+Description: Learn Markdown Preview Extension
+Version: 1.0.2
+Publisher: Microsoft
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-preview
+&lt;/code&gt;&lt;/pre&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
 			<title>AWS Cloud Quest</title>
 			<link>https://alex-hedley.github.io/blog/posts/aws-cloud-quest</link>
 			<description>A summary of the whole course.</description>
@@ -346,42 +382,6 @@ $29.00 / month + VAT&lt;br&gt;
 &lt;p&gt;Also whilst working through Cloud Quest I studied for and passed the &lt;a href="https://alex-hedley.github.io/blog/aws-certified-cloud-practitioner"&gt;AWS Certified Cloud Practitioner&lt;/a&gt; exam on 🗓️ Thursday, 6 April 2023.&lt;/p&gt;
 &lt;!-- ![AWS Certified Cloud Practitioner](images/aws-ccp/AWS-Certified-Cloud-Practitioner_badge.png "AWS Certified Cloud Practitioner") --&gt;
 &lt;img src="images/aws-ccp/AWS-Certified-Cloud-Practitioner_badge.png" alt="AWS Certified Cloud Practitioner" width="100"&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>VSCode - Blockquote - Preview</title>
-			<link>https://alex-hedley.github.io/blog/posts/vscode-blockquote-preview</link>
-			<description>Change the background colour in preview.</description>
-			<author>alex-hedley</author>
-			<guid>https://alex-hedley.github.io/blog/posts/vscode-blockquote-preview</guid>
-			<pubDate>Tue, 11 Jul 2023 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!-- VSCode - Blockquote --&gt;
-&lt;p&gt;I use the &lt;a href="https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-preview"&gt;learn-preview&lt;/a&gt; VSCode extension to show markdown in a side by side fashion.&lt;/p&gt;
-&lt;p&gt;Not sure when this stopped working since the colours changed but now it's unreadable:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/vscode/blockquote_1.png" alt="BlockQuote" title="BlockQuote"&gt;&lt;/p&gt;
-&lt;p&gt;Highlighting the text helps but this shouldn't be necessary.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/vscode/blockquote_2.png" alt="BlockQuote" title="BlockQuote"&gt;&lt;/p&gt;
-&lt;p&gt;Update the &lt;code&gt;settings.json&lt;/code&gt; with the following.&lt;/p&gt;
-&lt;p&gt;(You can pick whichever colour you prefer.)&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-json"&gt;"workbench.colorCustomizations": {
-    "textBlockQuote.background":"#95e0d6"
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;blockquote&gt;
-&lt;p&gt;This is a BlockQuote&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;As an image:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/vscode/blockquote_3.png" alt="BlockQuote" title="BlockQuote"&gt;&lt;/p&gt;
-&lt;h2 id="info"&gt;Info&lt;/h2&gt;
-&lt;p&gt;Extension:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-bash"&gt;Name: learn-preview
-Id: docsmsft.docs-preview
-Description: Learn Markdown Preview Extension
-Version: 1.0.2
-Publisher: Microsoft
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-preview
-&lt;/code&gt;&lt;/pre&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
