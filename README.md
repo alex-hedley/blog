@@ -19,4 +19,8 @@
 
 `dotnet run -- preview`
 
+<!-- `dotnet run --environment "Development"` -->
+
+<!-- `dotnet run --environment "Development" -- preview` -->
+
 - http://localhost:5080
