@@ -10,3 +10,13 @@
 ## Docs
 
 - [docs](docs/README.md)
+
+## Run
+
+`cd src`
+
+`dotnet run`
+
+`dotnet run -- preview`
+
+- http://localhost:5080
