@@ -5,8 +5,40 @@
 		<link>https://alex-hedley.github.io/blog</link>
 		<description />
 		<copyright>Copyright © 2023</copyright>
-		<pubDate>Fri, 13 Oct 2023 12:34:50 GMT</pubDate>
-		<lastBuildDate>Fri, 13 Oct 2023 12:34:50 GMT</lastBuildDate>
+		<pubDate>Wed, 08 Nov 2023 16:46:34 GMT</pubDate>
+		<lastBuildDate>Wed, 08 Nov 2023 16:46:34 GMT</lastBuildDate>
+		<item>
+			<title>Green Software for Practitioners (LFC131)</title>
+			<link>https://alex-hedley.github.io/blog/posts/lfc131</link>
+			<description>Cert</description>
+			<author>alex-hedley</author>
+			<guid>https://alex-hedley.github.io/blog/posts/lfc131</guid>
+			<pubDate>Tue, 31 Oct 2023 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!-- # Linux Foundation Green Software for Practitioners (LFC131) --&gt;
+&lt;p&gt;Today I passed the &lt;strong&gt;Linux Foundation Green Software for Practitioners (LFC131)&lt;/strong&gt; exam 🎉!&lt;/p&gt;
+&lt;h2 id="badge"&gt;Badge&lt;/h2&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/linuxfoundation/lfc131.png" alt="Linux Foundation Green Software for Practitioners (LFC131" title="Linux Foundation Green Software for Practitioners (LFC131"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.credly.com/badges/8581920c-e67f-40f2-9ba0-67f2b067d2ca"&gt;https://www.credly.com/badges/8581920c-e67f-40f2-9ba0-67f2b067d2ca&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="topics"&gt;Topics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Carbon Efficiency&lt;/li&gt;
+&lt;li&gt;Energy Efficiency&lt;/li&gt;
+&lt;li&gt;Carbon Awareness&lt;/li&gt;
+&lt;li&gt;Hardware Efficiency&lt;/li&gt;
+&lt;li&gt;Measurement&lt;/li&gt;
+&lt;li&gt;Climate Commitments&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="exam"&gt;Exam&lt;/h1&gt;
+&lt;p&gt;20 questions, repeat as often as you like.&lt;/p&gt;
+&lt;h2 id="links"&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://training.linuxfoundation.org/training/green-software-for-practitioners-lfc131/"&gt;https://training.linuxfoundation.org/training/green-software-for-practitioners-lfc131/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
 		<item>
 			<title>DependencyCheck .NET</title>
 			<link>https://alex-hedley.github.io/blog/posts/dependencycheck-dotnet</link>
@@ -237,6 +269,75 @@ $29.00 / month + VAT&lt;br&gt;
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
 		<item>
+			<title>AWS Cloud Quest Security</title>
+			<link>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-security</link>
+			<description>&lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest Security&lt;/strong&gt; training 🎉!&lt;/p&gt;</description>
+			<author>alex-hedley</author>
+			<enclosure url="https://alex-hedley.github.io/blog/posts/images/aws-cq/cloud-quest.png" length="0" type="image" />
+			<guid>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-security</guid>
+			<pubDate>Tue, 11 Jul 2023 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!-- # AWS Cloud Quest Machine Learning --&gt;
+&lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest Security&lt;/strong&gt; training 🎉!&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/aws-cq/aws-cloud-quest-security.jpeg" alt="AWS Cloud Quest Security Badge" title="AWS Cloud Quest Security Badge"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.credly.com/badges/e53bb657-c1ca-4b8a-a8a0-d14935c52717/public_url"&gt;Credly Badge&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.credly.com/users/alexhedley/badges"&gt;Credly Profile&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is a paid course from AWS that uses gamification and hands on labs to reinforce learnings.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Part of AWS Skill Builder Individual subscription. Subscribe to get access to this and other subscriber-only benefits.&lt;br&gt;
+$29.00 / month + VAT&lt;br&gt;
+&lt;a href="https://explore.skillbuilder.aws/learn/signin"&gt;https://explore.skillbuilder.aws/learn/signin&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Use AWS security services to build solutions that respond to incidents, remediate quickly, detect vulnerabilities, and prevent data loss.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="training-material"&gt;Training Material&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://aws.amazon.com/training/learn-about/cloud-practitioner/"&gt;Training Material&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="links"&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://aws.amazon.com/training/digital/aws-cloud-quest/"&gt;AWS Cloud Quest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://explore.skillbuilder.aws/learn/course/external/view/elearning/7636/cloud-quest"&gt;Cloud Quest&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="resources-used"&gt;Resources Used&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Amazon API Gateway&lt;/li&gt;
+&lt;li&gt;Amazon Athena&lt;/li&gt;
+&lt;li&gt;Amazon CloudFront&lt;/li&gt;
+&lt;li&gt;Amazon CloudWatch&lt;/li&gt;
+&lt;li&gt;Amazon Cognito&lt;/li&gt;
+&lt;li&gt;Amazon DynamoDB&lt;/li&gt;
+&lt;li&gt;Amazon EC2&lt;/li&gt;
+&lt;li&gt;Amazon EC2 Auto Scaling&lt;/li&gt;
+&lt;li&gt;Amazon EventBridge&lt;/li&gt;
+&lt;li&gt;Amazon Kinesis&lt;/li&gt;
+&lt;li&gt;Amazon Lambda&lt;/li&gt;
+&lt;li&gt;Amazon Relational Database Service (RDS)&lt;/li&gt;
+&lt;li&gt;Amazon S3&lt;/li&gt;
+&lt;li&gt;Amazon SNS&lt;/li&gt;
+&lt;li&gt;Amazon VPC&lt;/li&gt;
+&lt;li&gt;Amazon WAF&lt;/li&gt;
+&lt;li&gt;AWS Amplify&lt;/li&gt;
+&lt;li&gt;AWS CloudFormation&lt;/li&gt;
+&lt;li&gt;AWS Cognito&lt;/li&gt;
+&lt;li&gt;AWS Config&lt;/li&gt;
+&lt;li&gt;AWS Glue&lt;/li&gt;
+&lt;li&gt;AWS Identity and Access Management (IAM)&lt;/li&gt;
+&lt;li&gt;AWS Key Management Service (KMS)&lt;/li&gt;
+&lt;li&gt;AWS Lambda&lt;/li&gt;
+&lt;li&gt;AWS Secrets Manager&lt;/li&gt;
+&lt;li&gt;AWS Service Catalog&lt;/li&gt;
+&lt;li&gt;AWS Systems Manager&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
 			<title>VSCode - Blockquote - Preview</title>
 			<link>https://alex-hedley.github.io/blog/posts/vscode-blockquote-preview</link>
 			<description>Change the background colour in preview.</description>
@@ -382,75 +483,6 @@ VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=docsmsf
 &lt;p&gt;Also whilst working through Cloud Quest I studied for and passed the &lt;a href="https://alex-hedley.github.io/blog/aws-certified-cloud-practitioner"&gt;AWS Certified Cloud Practitioner&lt;/a&gt; exam on 🗓️ Thursday, 6 April 2023.&lt;/p&gt;
 &lt;!-- ![AWS Certified Cloud Practitioner](images/aws-ccp/AWS-Certified-Cloud-Practitioner_badge.png "AWS Certified Cloud Practitioner") --&gt;
 &lt;img src="images/aws-ccp/AWS-Certified-Cloud-Practitioner_badge.png" alt="AWS Certified Cloud Practitioner" width="100"&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>AWS Cloud Quest Security</title>
-			<link>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-security</link>
-			<description>&lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest Security&lt;/strong&gt; training 🎉!&lt;/p&gt;</description>
-			<author>alex-hedley</author>
-			<enclosure url="https://alex-hedley.github.io/blog/posts/images/aws-cq/cloud-quest.png" length="0" type="image" />
-			<guid>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-security</guid>
-			<pubDate>Tue, 11 Jul 2023 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!-- # AWS Cloud Quest Machine Learning --&gt;
-&lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest Security&lt;/strong&gt; training 🎉!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/aws-cq/aws-cloud-quest-security.jpeg" alt="AWS Cloud Quest Security Badge" title="AWS Cloud Quest Security Badge"&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.credly.com/badges/e53bb657-c1ca-4b8a-a8a0-d14935c52717/public_url"&gt;Credly Badge&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.credly.com/users/alexhedley/badges"&gt;Credly Profile&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This is a paid course from AWS that uses gamification and hands on labs to reinforce learnings.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Part of AWS Skill Builder Individual subscription. Subscribe to get access to this and other subscriber-only benefits.&lt;br&gt;
-$29.00 / month + VAT&lt;br&gt;
-&lt;a href="https://explore.skillbuilder.aws/learn/signin"&gt;https://explore.skillbuilder.aws/learn/signin&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Use AWS security services to build solutions that respond to incidents, remediate quickly, detect vulnerabilities, and prevent data loss.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id="training-material"&gt;Training Material&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://aws.amazon.com/training/learn-about/cloud-practitioner/"&gt;Training Material&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="links"&gt;Links&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://aws.amazon.com/training/digital/aws-cloud-quest/"&gt;AWS Cloud Quest&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://explore.skillbuilder.aws/learn/course/external/view/elearning/7636/cloud-quest"&gt;Cloud Quest&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="resources-used"&gt;Resources Used&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Amazon API Gateway&lt;/li&gt;
-&lt;li&gt;Amazon Athena&lt;/li&gt;
-&lt;li&gt;Amazon CloudFront&lt;/li&gt;
-&lt;li&gt;Amazon CloudWatch&lt;/li&gt;
-&lt;li&gt;Amazon Cognito&lt;/li&gt;
-&lt;li&gt;Amazon DynamoDB&lt;/li&gt;
-&lt;li&gt;Amazon EC2&lt;/li&gt;
-&lt;li&gt;Amazon EC2 Auto Scaling&lt;/li&gt;
-&lt;li&gt;Amazon EventBridge&lt;/li&gt;
-&lt;li&gt;Amazon Kinesis&lt;/li&gt;
-&lt;li&gt;Amazon Lambda&lt;/li&gt;
-&lt;li&gt;Amazon Relational Database Service (RDS)&lt;/li&gt;
-&lt;li&gt;Amazon S3&lt;/li&gt;
-&lt;li&gt;Amazon SNS&lt;/li&gt;
-&lt;li&gt;Amazon VPC&lt;/li&gt;
-&lt;li&gt;Amazon WAF&lt;/li&gt;
-&lt;li&gt;AWS Amplify&lt;/li&gt;
-&lt;li&gt;AWS CloudFormation&lt;/li&gt;
-&lt;li&gt;AWS Cognito&lt;/li&gt;
-&lt;li&gt;AWS Config&lt;/li&gt;
-&lt;li&gt;AWS Glue&lt;/li&gt;
-&lt;li&gt;AWS Identity and Access Management (IAM)&lt;/li&gt;
-&lt;li&gt;AWS Key Management Service (KMS)&lt;/li&gt;
-&lt;li&gt;AWS Lambda&lt;/li&gt;
-&lt;li&gt;AWS Secrets Manager&lt;/li&gt;
-&lt;li&gt;AWS Service Catalog&lt;/li&gt;
-&lt;li&gt;AWS Systems Manager&lt;/li&gt;
-&lt;/ul&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
@@ -720,47 +752,6 @@ This talk was to demystify a &lt;a href="http://swagger.io/"&gt;swagger&lt;/a&gt
 &lt;li&gt;&lt;a href="https://alex-hedley.github.io/talks/"&gt;Talks Site&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/alex-hedley/talks"&gt;Code&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>giscus</title>
-			<link>https://alex-hedley.github.io/blog/posts/giscus</link>
-			<author>alex-hedley</author>
-			<guid>https://alex-hedley.github.io/blog/posts/giscus</guid>
-			<pubDate>Wed, 31 May 2023 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;p&gt;What's the best way to allow commenting on your blog? What better way than to have it contained in the system the blog lives in, &lt;a href="https://github.com/"&gt;GitHub&lt;/a&gt;. I've seen other solutions in the past which used &lt;a href="https://github.com/features/issues"&gt;GitHub Issues&lt;/a&gt; but this doesn't seem the right place for it.&lt;/p&gt;
-&lt;p&gt;Along comes &lt;a href="https://giscus.app/"&gt;giscus&lt;/a&gt; which has been built upon it's predecessors.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href="https://giscus.app/"&gt;giscus&lt;/a&gt; - A comments system powered by &lt;a href="https://docs.github.com/en/discussions"&gt;GitHub Discussions&lt;/a&gt;. Let visitors leave comments and reactions on your website via GitHub! Heavily inspired by &lt;a href="https://github.com/utterance/utterances"&gt;utterances&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;In &lt;a href="https://www.statiq.dev/web"&gt;statiq.web&lt;/a&gt; there are a couple of ways to achieve this. The simplest one I've found is adding the following to your &lt;code&gt;appsettings.json&lt;/code&gt;.&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-json"&gt;{
-    "CommentEngine": "giscus",
-    "GiscusRepoName": "",
-    "GiscusRepoId": "",
-    "GiscusCategoryId": ""
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;You then need to follow the instructions on &lt;a href="https://giscus.app/"&gt;giscus&lt;/a&gt; to grab the relevant Ids, but first enable Discussions on your repo. Next select your &lt;em&gt;Configuration&lt;/em&gt; options then near the end of the page there will be an &lt;em&gt;Enable giscus&lt;/em&gt; section to grab the above info.&lt;/p&gt;
-&lt;p&gt;Once you have updated these, just push and wait for the site to redeploy, check on a page and you'll have a option to comment, but first you have to sign in.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/giscus/sign-in.png" alt="Sign In" title="Sign In"&gt;&lt;/p&gt;
-&lt;p&gt;Once signed in you can comment:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/giscus/blog-comments.png" alt="Blog Comments" title="Blog Comments"&gt;&lt;/p&gt;
-&lt;p&gt;See the actual post: &lt;a href="https://alex-hedley.github.io/statiqweb-example/posts/3"&gt;https://alex-hedley.github.io/statiqweb-example/posts/3&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Then directly on GitHub:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/giscus/github-discussion.png" alt="GitHub Discussion" title="GitHub Discussion"&gt;&lt;/p&gt;
-&lt;p&gt;Link: &lt;a href="https://github.com/alex-hedley/statiqweb-example/discussions/5"&gt;https://github.com/alex-hedley/statiqweb-example/discussions/5&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;As this is live, you can comment in either place and it will be updated.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;Example: &lt;a href="https://github.com/TechWatching/techwatching.dev/blob/main/appsettings.json"&gt;https://github.com/TechWatching/techwatching.dev/blob/main/appsettings.json&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;Another option is to add a &lt;code&gt;script&lt;/code&gt; tag to the &lt;code&gt;_post-footer.cshtml&lt;/code&gt; custom page.&lt;/p&gt;
-&lt;p&gt;Update the &lt;code&gt;script&lt;/code&gt; tag with the required attributes, taken from the &lt;a href="https://giscus.app/"&gt;giscus&lt;/a&gt; config page.&lt;/p&gt;
-&lt;p&gt;One issue with this is that it needs to go in the &lt;code&gt;theme/input/_post-footer.cshtml&lt;/code&gt; folder.&lt;/p&gt;
-&lt;p&gt;I have pulled this in as a git submodule so I have tried how to use both. Thankfully the addition to the &lt;code&gt;appsettings.json&lt;/code&gt; is enough, but if you wanted to change the layout, formatting etc I can see this being useful.&lt;/p&gt;
-&lt;p&gt;Blog Post: &lt;a href="https://beckshome.com/2022/09/beckshome-on-statiq"&gt;https://beckshome.com/2022/09/beckshome-on-statiq&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Example: &lt;a href="https://github.com/thbst16/dotnet-statiq-beckshome-blog/blob/main/theme/input/_post-footer.cshtml"&gt;https://github.com/thbst16/dotnet-statiq-beckshome-blog/blob/main/theme/input/_post-footer.cshtml&lt;/a&gt;&lt;/p&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
