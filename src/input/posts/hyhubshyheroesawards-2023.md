@@ -9,13 +9,20 @@ image: /posts/images/hyhubshyheroesawards.jpeg
 imageattribution: https://hyhubs.com/hyhubs-hyheroes-awards-2023/
 ---
 
-<!-- HyHubs HyHeroes Awards -->
+<!-- # HyHubs HyHeroes Awards -->
+
+Tonight was the **HyHubs HyHeroes Awards 2023** with a number of colleagues from the [OC](https://opencastsoftware.com) in the running.
+
+![Team OC](images/hyhubshyheroesawards-2023.jpeg "Team OC")
+
+## Event
 
 🗓️ Thursday, 30 November  
 📍 Tyne Bank Brewery  
 🕰️ 6pm – 11:30pm  
+🔗 https://www.eventbrite.co.uk/e/hyhubs-hyheroes-awards-2023-tickets-727053124467  
 
-## Details
+## Details
 
 An awards evening celebrating the tenants and residents of HyHubs
 
