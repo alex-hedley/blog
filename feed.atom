@@ -4,7 +4,7 @@
 	<title />
 	<link rel="self" href="https://alex-hedley.github.io/blog" />
 	<rights>Copyright © 2023</rights>
-	<updated>2023-11-30T13:26:20Z</updated>
+	<updated>2023-12-04T09:32:31Z</updated>
 	<entry>
 		<id>https://alex-hedley.github.io/blog/posts/hyhubshyheroesawards-2023</id>
 		<title>HyHubs HyHeroes Awards 2023</title>
@@ -14,11 +14,15 @@
 		<link href="https://alex-hedley.github.io/blog/posts/hyhubshyheroesawards-2023" />
 		<link rel="enclosure" type="image" href="https://alex-hedley.github.io/blog/posts/images/hyhubshyheroesawards.jpeg" />
 		<updated>2023-11-30T00:00:00Z</updated>
-		<content>&lt;!-- HyHubs HyHeroes Awards --&gt;
-&lt;p&gt;🗓️ Thursday, 30 November&lt;br /&gt;
-📍 Tyne Bank Brewery&lt;br /&gt;
-🕰️ 6pm – 11:30pm&lt;/p&gt;
-&lt;p&gt;## Details&lt;/p&gt;
+		<content>&lt;!-- # HyHubs HyHeroes Awards --&gt;
+&lt;p&gt;Tonight was the &lt;strong&gt;HyHubs HyHeroes Awards 2023&lt;/strong&gt; with a number of colleagues from the &lt;a href="https://opencastsoftware.com/"&gt;OC&lt;/a&gt; in the running.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/hyhubshyheroesawards-2023.jpeg" alt="Team OC" title="Team OC"&gt;&lt;/p&gt;
+&lt;h2 id="event"&gt;Event&lt;/h2&gt;
+&lt;p&gt;🗓️ Thursday, 30 November&lt;br&gt;
+📍 Tyne Bank Brewery&lt;br&gt;
+🕰️ 6pm – 11:30pm&lt;br&gt;
+🔗 &lt;a href="https://www.eventbrite.co.uk/e/hyhubs-hyheroes-awards-2023-tickets-727053124467"&gt;https://www.eventbrite.co.uk/e/hyhubs-hyheroes-awards-2023-tickets-727053124467&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="details"&gt;Details&lt;/h2&gt;
 &lt;p&gt;An awards evening celebrating the tenants and residents of HyHubs&lt;/p&gt;
 &lt;p&gt;We are excited to launch the first HyHeroes awards, brought to you by HyHubs and organised by our tenants BeaconHouse Events.&lt;/p&gt;
 &lt;p&gt;The awards will recognise and celebrate the brilliant people, organisations and initiatives we are proud to have in the HyHubs community.&lt;/p&gt;
@@ -133,7 +137,7 @@
 &lt;li&gt;&lt;a href="https://training.linuxfoundation.org/training/green-software-for-practitioners-lfc131/"&gt;https://training.linuxfoundation.org/training/green-software-for-practitioners-lfc131/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
-		<summary>Cert</summary>
+		<summary>Linux Foundation Cert</summary>
 	</entry>
 	<entry>
 		<id>https://alex-hedley.github.io/blog/posts/dependencycheck-dotnet</id>

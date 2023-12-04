@@ -5,8 +5,8 @@
 		<link>https://alex-hedley.github.io/blog</link>
 		<description />
 		<copyright>Copyright © 2023</copyright>
-		<pubDate>Thu, 30 Nov 2023 13:26:20 GMT</pubDate>
-		<lastBuildDate>Thu, 30 Nov 2023 13:26:20 GMT</lastBuildDate>
+		<pubDate>Mon, 04 Dec 2023 09:32:31 GMT</pubDate>
+		<lastBuildDate>Mon, 04 Dec 2023 09:32:31 GMT</lastBuildDate>
 		<item>
 			<title>HyHubs HyHeroes Awards 2023</title>
 			<link>https://alex-hedley.github.io/blog/posts/hyhubshyheroesawards-2023</link>
@@ -15,11 +15,15 @@
 			<enclosure url="https://alex-hedley.github.io/blog/posts/images/hyhubshyheroesawards.jpeg" length="0" type="image" />
 			<guid>https://alex-hedley.github.io/blog/posts/hyhubshyheroesawards-2023</guid>
 			<pubDate>Thu, 30 Nov 2023 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!-- HyHubs HyHeroes Awards --&gt;
-&lt;p&gt;🗓️ Thursday, 30 November&lt;br /&gt;
-📍 Tyne Bank Brewery&lt;br /&gt;
-🕰️ 6pm – 11:30pm&lt;/p&gt;
-&lt;p&gt;## Details&lt;/p&gt;
+			<content:encoded>&lt;!-- # HyHubs HyHeroes Awards --&gt;
+&lt;p&gt;Tonight was the &lt;strong&gt;HyHubs HyHeroes Awards 2023&lt;/strong&gt; with a number of colleagues from the &lt;a href="https://opencastsoftware.com/"&gt;OC&lt;/a&gt; in the running.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/hyhubshyheroesawards-2023.jpeg" alt="Team OC" title="Team OC"&gt;&lt;/p&gt;
+&lt;h2 id="event"&gt;Event&lt;/h2&gt;
+&lt;p&gt;🗓️ Thursday, 30 November&lt;br&gt;
+📍 Tyne Bank Brewery&lt;br&gt;
+🕰️ 6pm – 11:30pm&lt;br&gt;
+🔗 &lt;a href="https://www.eventbrite.co.uk/e/hyhubs-hyheroes-awards-2023-tickets-727053124467"&gt;https://www.eventbrite.co.uk/e/hyhubs-hyheroes-awards-2023-tickets-727053124467&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="details"&gt;Details&lt;/h2&gt;
 &lt;p&gt;An awards evening celebrating the tenants and residents of HyHubs&lt;/p&gt;
 &lt;p&gt;We are excited to launch the first HyHeroes awards, brought to you by HyHubs and organised by our tenants BeaconHouse Events.&lt;/p&gt;
 &lt;p&gt;The awards will recognise and celebrate the brilliant people, organisations and initiatives we are proud to have in the HyHubs community.&lt;/p&gt;
@@ -106,7 +110,7 @@
 		<item>
 			<title>Green Software for Practitioners (LFC131)</title>
 			<link>https://alex-hedley.github.io/blog/posts/lfc131</link>
-			<description>Cert</description>
+			<description>Linux Foundation Cert</description>
 			<author>alex-hedley</author>
 			<guid>https://alex-hedley.github.io/blog/posts/lfc131</guid>
 			<pubDate>Tue, 31 Oct 2023 00:00:00 GMT</pubDate>
