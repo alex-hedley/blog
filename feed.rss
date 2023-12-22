@@ -5,8 +5,8 @@
 		<link>https://alex-hedley.github.io/blog</link>
 		<description />
 		<copyright>Copyright © 2023</copyright>
-		<pubDate>Mon, 04 Dec 2023 09:32:31 GMT</pubDate>
-		<lastBuildDate>Mon, 04 Dec 2023 09:32:31 GMT</lastBuildDate>
+		<pubDate>Fri, 22 Dec 2023 13:27:03 GMT</pubDate>
+		<lastBuildDate>Fri, 22 Dec 2023 13:27:03 GMT</lastBuildDate>
 		<item>
 			<title>HyHubs HyHeroes Awards 2023</title>
 			<link>https://alex-hedley.github.io/blog/posts/hyhubshyheroesawards-2023</link>
@@ -135,6 +135,127 @@
 &lt;h2 id="links"&gt;Links&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://training.linuxfoundation.org/training/green-software-for-practitioners-lfc131/"&gt;https://training.linuxfoundation.org/training/green-software-for-practitioners-lfc131/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
+			<title>🐪 OCaml on GitHub</title>
+			<link>https://alex-hedley.github.io/blog/posts/github-ocaml</link>
+			<description>Using OCaml in GitHub with Actions/Workflows etc.</description>
+			<author>alex-hedley</author>
+			<guid>https://alex-hedley.github.io/blog/posts/github-ocaml</guid>
+			<pubDate>Thu, 12 Oct 2023 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!-- # 🐪 OCaml on GitHub --&gt;
+&lt;p&gt;In this article I'll show you how to setup and configure GitHub Actions to work with an OCaml Library.&lt;/p&gt;
+&lt;p&gt;Rob Anderson &lt;a href="https://github.com/jamsidedown/"&gt;&amp;#64;jamsidedown&lt;/a&gt; (&lt;a href="https://robanderson.dev/"&gt;Site&lt;/a&gt;) decided he's going to be doing ⭐️ &lt;a href="https://adventofcode.com/"&gt;AoC&lt;/a&gt; this year in &lt;a href="https://ocaml.org/"&gt;OCaml&lt;/a&gt;! They wrote a new library &lt;a href="https://github.com/jamsidedown/ocaml-cll"&gt;ocaml-cll&lt;/a&gt; an OCaml circular linked list library, in preperation for this as it's been needed in other languages for previous questions.&lt;/p&gt;
+&lt;p&gt;To help out we looked at how to build the package using &lt;a href="https://github.com/features/actions"&gt;GitHub Actions&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;See the example here: ocaml-example &lt;a href="https://github.com/alex-hedley/ocaml-example/blob/main/.github/workflows/main.yml"&gt;main.yml&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Or the production one: ocaml-cll &lt;a href="https://github.com/jamsidedown/ocaml-cll/blob/main/.github/workflows/main.yml"&gt;main.yml&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Firstly as with most builds you setup your env with the language you need:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/ocaml/setup-ocaml"&gt;setup-ocaml&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Another useful action is &lt;a href="https://github.com/RedPRL/actions-ocaml"&gt;actions-ocaml&lt;/a&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-yml"&gt;- name: 🐪 Set-up OCaml
+  uses: ocaml/setup-ocaml&amp;#64;v2
+  with:
+    ocaml-compiler: &amp;quot;5.0&amp;quot;
+    dune-cache: true
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Once configured you need to install any dependencies from your &lt;code&gt;.opam&lt;/code&gt;/&lt;code&gt;dune-project&lt;/code&gt; file.&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-yml"&gt;- name: ⬇️ Install opam deps
+  run: opam install . --deps-only --with-test
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;It's worth installing any global packages you need like &lt;code&gt;odoc&lt;/code&gt; etc.&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-yml"&gt;- name: ⬇️ Install opam global deps
+  run: opam install odoc ocamlformat dune-release
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Next &lt;strong&gt;build&lt;/strong&gt; your project:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-yml"&gt;- name: 🔨 Build
+  run: opam exec -- dune build
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And &lt;strong&gt;test&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-yml"&gt;- name: 🧪 Test
+  run: opam exec -- dune runtest
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Or with &lt;strong&gt;coverage&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-yml"&gt;- name: 🧪 Test and Coverage
+  run: &amp;quot;opam exec -- dune runtest --instrument-with bisect_ppx --force&amp;quot;
+- name: 📄 Coverage Report&amp;quot;
+  run: &amp;quot;opam exec -- bisect-ppx-report summary&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can then build the &lt;strong&gt;docs&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-yml"&gt;- name: 📄 Build Docs
+  run: opam exec -- dune build &amp;#64;doc
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then decide if you want to upload that as an artifact and deploy it to either &lt;a href="https://pages.github.com/"&gt;GitHub Pages&lt;/a&gt; or another service.&lt;/p&gt;
+&lt;p&gt;Once you have a package you can add it to the opam-repository, example PRs here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/ocaml/opam-repository/pull/24626"&gt;https://github.com/ocaml/opam-repository/pull/24626&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/ocaml/opam-repository/pull/24719"&gt;https://github.com/ocaml/opam-repository/pull/24719&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/ocaml/opam-repository/pull/24777"&gt;https://github.com/ocaml/opam-repository/pull/24777&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;Complete:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-yml"&gt;jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: src/helloworld
+
+    steps:
+      - name: 🛎️ Checkout
+        uses: actions/checkout&amp;#64;v4
+
+      - name: 🐪 Set-up OCaml
+        uses: ocaml/setup-ocaml&amp;#64;v2
+        with:
+          ocaml-compiler: &amp;quot;5.0&amp;quot;
+          dune-cache: true
+
+      - name: ⬇️ Install opam deps
+        run: opam install . --deps-only --with-test
+
+      - name: ⬇️ Install opam global deps
+        run: opam install odoc ocamlformat dune-release
+
+      - name: 🔨 Build
+        run: opam exec -- dune build
+
+      - name: 🧪 Test
+        run: opam exec -- dune runtest
+
+      - name: 📄 Build Docs
+        run: opam exec -- dune build &amp;#64;doc
+      
+      - name: Upload API Docs artifact
+        uses: actions/upload-artifact&amp;#64;v3.1.3
+        with:
+          name: docs
+          path: ./src/helloworld/_build/default/_doc/_html
+
+      - name: Deploy API Docs
+        uses: peaceiris/actions-gh-pages&amp;#64;v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]&amp;#64;users.noreply.github.com'
+          publish_dir: ./src/helloworld/_build/default/_doc/_html
+          destination_dir: docs
+          enable_jekyll: true
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id="ocaml-cll"&gt;ocaml-cll&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Documentation &lt;a href="https://robanderson.dev/ocaml-cll/cll/"&gt;https://robanderson.dev/ocaml-cll/cll/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Package &lt;a href="https://opam.ocaml.org/packages/cll/"&gt;https://opam.ocaml.org/packages/cll/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="links"&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/alex-hedley/ocaml-example"&gt;https://github.com/alex-hedley/ocaml-example&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/jamsidedown/ocaml-cll"&gt;https://github.com/jamsidedown/ocaml-cll&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
@@ -369,6 +490,42 @@ $29.00 / month + VAT&lt;br&gt;
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
 		<item>
+			<title>VSCode - Blockquote - Preview</title>
+			<link>https://alex-hedley.github.io/blog/posts/vscode-blockquote-preview</link>
+			<description>Change the background colour in preview.</description>
+			<author>alex-hedley</author>
+			<guid>https://alex-hedley.github.io/blog/posts/vscode-blockquote-preview</guid>
+			<pubDate>Tue, 11 Jul 2023 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!-- VSCode - Blockquote --&gt;
+&lt;p&gt;I use the &lt;a href="https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-preview"&gt;learn-preview&lt;/a&gt; VSCode extension to show markdown in a side by side fashion.&lt;/p&gt;
+&lt;p&gt;Not sure when this stopped working since the colours changed but now it's unreadable:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/vscode/blockquote_1.png" alt="BlockQuote" title="BlockQuote"&gt;&lt;/p&gt;
+&lt;p&gt;Highlighting the text helps but this shouldn't be necessary.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/vscode/blockquote_2.png" alt="BlockQuote" title="BlockQuote"&gt;&lt;/p&gt;
+&lt;p&gt;Update the &lt;code&gt;settings.json&lt;/code&gt; with the following.&lt;/p&gt;
+&lt;p&gt;(You can pick whichever colour you prefer.)&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-json"&gt;"workbench.colorCustomizations": {
+    "textBlockQuote.background":"#95e0d6"
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is a BlockQuote&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;As an image:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/vscode/blockquote_3.png" alt="BlockQuote" title="BlockQuote"&gt;&lt;/p&gt;
+&lt;h2 id="info"&gt;Info&lt;/h2&gt;
+&lt;p&gt;Extension:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-bash"&gt;Name: learn-preview
+Id: docsmsft.docs-preview
+Description: Learn Markdown Preview Extension
+Version: 1.0.2
+Publisher: Microsoft
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-preview
+&lt;/code&gt;&lt;/pre&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
 			<title>AWS Cloud Quest Security</title>
 			<link>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-security</link>
 			<description>&lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest Security&lt;/strong&gt; training 🎉!&lt;/p&gt;</description>
@@ -547,42 +704,6 @@ $29.00 / month + VAT&lt;br&gt;
 &lt;p&gt;Also whilst working through Cloud Quest I studied for and passed the &lt;a href="https://alex-hedley.github.io/blog/aws-certified-cloud-practitioner"&gt;AWS Certified Cloud Practitioner&lt;/a&gt; exam on 🗓️ Thursday, 6 April 2023.&lt;/p&gt;
 &lt;!-- ![AWS Certified Cloud Practitioner](images/aws-ccp/AWS-Certified-Cloud-Practitioner_badge.png "AWS Certified Cloud Practitioner") --&gt;
 &lt;img src="images/aws-ccp/AWS-Certified-Cloud-Practitioner_badge.png" alt="AWS Certified Cloud Practitioner" width="100"&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>VSCode - Blockquote - Preview</title>
-			<link>https://alex-hedley.github.io/blog/posts/vscode-blockquote-preview</link>
-			<description>Change the background colour in preview.</description>
-			<author>alex-hedley</author>
-			<guid>https://alex-hedley.github.io/blog/posts/vscode-blockquote-preview</guid>
-			<pubDate>Tue, 11 Jul 2023 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!-- VSCode - Blockquote --&gt;
-&lt;p&gt;I use the &lt;a href="https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-preview"&gt;learn-preview&lt;/a&gt; VSCode extension to show markdown in a side by side fashion.&lt;/p&gt;
-&lt;p&gt;Not sure when this stopped working since the colours changed but now it's unreadable:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/vscode/blockquote_1.png" alt="BlockQuote" title="BlockQuote"&gt;&lt;/p&gt;
-&lt;p&gt;Highlighting the text helps but this shouldn't be necessary.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/vscode/blockquote_2.png" alt="BlockQuote" title="BlockQuote"&gt;&lt;/p&gt;
-&lt;p&gt;Update the &lt;code&gt;settings.json&lt;/code&gt; with the following.&lt;/p&gt;
-&lt;p&gt;(You can pick whichever colour you prefer.)&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-json"&gt;"workbench.colorCustomizations": {
-    "textBlockQuote.background":"#95e0d6"
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;blockquote&gt;
-&lt;p&gt;This is a BlockQuote&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;As an image:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/vscode/blockquote_3.png" alt="BlockQuote" title="BlockQuote"&gt;&lt;/p&gt;
-&lt;h2 id="info"&gt;Info&lt;/h2&gt;
-&lt;p&gt;Extension:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-bash"&gt;Name: learn-preview
-Id: docsmsft.docs-preview
-Description: Learn Markdown Preview Extension
-Version: 1.0.2
-Publisher: Microsoft
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-preview
-&lt;/code&gt;&lt;/pre&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
@@ -789,45 +910,6 @@ CTO • Ocado&lt;/p&gt;
 &lt;p&gt;Clare Sudbery&lt;br /&gt;
 Independent Technical Coach • Sudbery Software Engineering Ltd&lt;/p&gt;
 &lt;/details&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>AWS Cloud Quest Data Analytics</title>
-			<link>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-data-analytics</link>
-			<description>&lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest Data Analytics&lt;/strong&gt; training 🎉!&lt;/p&gt;</description>
-			<author>alex-hedley</author>
-			<enclosure url="https://alex-hedley.github.io/blog/posts/images/aws-cq/cloud-quest.png" length="0" type="image" />
-			<guid>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-data-analytics</guid>
-			<pubDate>Wed, 21 Jun 2023 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!-- # AWS Cloud Quest Data Analytics --&gt;
-&lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest Data Analytics&lt;/strong&gt; training 🎉!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/aws-cq/aws-cloud-quest-data-analytics.png" alt="AWS Cloud Quest Data Analytics Badge" title="AWS Cloud Quest Data Analytics Badge"&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.credly.com/badges/ab563fd2-39db-4490-9629-5b01728a8a70/public_url"&gt;Credly Badge&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.credly.com/users/alexhedley/badges"&gt;Credly Profile&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This is a paid course from AWS that uses gamification and hands on labs to reinforce learnings.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Part of AWS Skill Builder Individual subscription. Subscribe to get access to this and other subscriber-only benefits.&lt;br&gt;
-$29.00 / month + VAT&lt;br&gt;
-&lt;a href="https://explore.skillbuilder.aws/learn/signin"&gt;https://explore.skillbuilder.aws/learn/signin&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Work with scalable data lakes, data warehousing, big data analytics, and more in this role focused on modern data architecture and AWS analytics services.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id="training-material"&gt;Training Material&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://aws.amazon.com/training/learn-about/cloud-practitioner/"&gt;Training Material&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="links"&gt;Links&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://aws.amazon.com/training/digital/aws-cloud-quest/"&gt;AWS Cloud Quest&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://explore.skillbuilder.aws/learn/course/external/view/elearning/7636/cloud-quest"&gt;Cloud Quest&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
