@@ -5,11 +5,10 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="author" content="alex-hedley">
 
-  <title>Alex Hedley - AWS Cloud Quest Solutions Architect</title>
+  <title>Alex Hedley - Search</title>
 
-  <link rel="canonical" href='https://alex-hedley.github.io/blog/posts/aws-cloud-quest-solutions-architect'>
+  <link rel="canonical" href='https://alex-hedley.github.io/blog/search'>
 
       <link type="application/rss+xml" rel="alternate" href="/blog/feed.rss" />
       <link type="application/atom+xml" rel="alternate" href="/blog/feed.atom" />
@@ -18,10 +17,9 @@
   <meta name="msapplication-tooltip" content='Alex Hedley' />
   <meta name="msapplication-starturl" content='/blog/' />
 
-  <meta property="og:title" content='Alex Hedley - AWS Cloud Quest Solutions Architect' />
-    <meta property="og:image" content='/blog/posts/images/aws-cq/cloud-quest.png' />
+  <meta property="og:title" content='Alex Hedley - Search' />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content='https://alex-hedley.github.io/blog/posts/aws-cloud-quest-solutions-architect' />
+  <meta property="og:url" content='https://alex-hedley.github.io/blog/search' />
 
   <link rel="icon" href='/blog/favicon.ico'>
 
@@ -82,26 +80,18 @@
 
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url(&quot;/blog/posts/images/aws-cq/cloud-quest.png&quot;)">
+  <header class="masthead no-image">
   <div class="container position-relative">
     <div class="row">
       <div class="col-md-12">
-        <div class='post-heading'>
+        <div class='site-heading'>
           <h1>
-            AWS Cloud Quest Solutions Architect
+            Search
           </h1>
-            <div class="meta">Published on Wednesday, 10 May 2023</div>
-              <div class="mt-3">
-                  <a href="/blog/tags/programming" class="badge text-bg-light"> programming</a>
-                  <a href="/blog/tags/aws" class="badge text-bg-light"> aws</a>
-                  <a href="/blog/tags/cloud-quest" class="badge text-bg-light"> cloud quest</a>
-              </div>
         </div>
       </div>
     </div>
   </div>
-    <div class="image-attribution badge text-bg-secondary rounded-pill"><p>https://aws.amazon.com/training/digital/aws-cloud-quest/</p>
-</div>
 </header>
 
 
@@ -109,58 +99,20 @@
   <div class="container">
     <div class="row">
       <div id="content" class="col-md-12">
-        <!-- # AWS Cloud Quest Solutions Architect -->
-<p>Today I completed the <strong>AWS Cloud Quest Solutions Architect</strong> training 🎉!</p>
-<p><img src="images/aws-cq/aws-cloud-quest-solutions-architect.png" alt="AWS Cloud Quest Solutions Architect Badge" title="AWS Cloud Quest Solutions Architect Badge" /></p>
-<ul>
-<li><a href="https://www.credly.com/badges/19d085e9-4a52-40b1-8d7c-2ff7eba1bd33/public_url">Credly Badge</a>
-<ul>
-<li><a href="https://www.credly.com/users/alexhedley/badges">Credly Profile</a></li>
-</ul>
-</li>
-</ul>
-<p>This is a paid course from AWS that uses gamification and hands on labs to reinforce learnings.</p>
-<blockquote>
-<p>Part of AWS Skill Builder Individual subscription. Subscribe to get access to this and other subscriber-only benefits.<br />
-$29.00 / month + VAT<br />
-<a href="https://explore.skillbuilder.aws/learn/signin">https://explore.skillbuilder.aws/learn/signin</a></p>
-</blockquote>
-<blockquote>
-<p>Dive into a broad set of AWS services and build secure, fault-tolerant, and highly available AWS solutions.</p>
-</blockquote>
-<h2 id="training-material">Training Material</h2>
-<ul>
-<li><a href="https://aws.amazon.com/training/learn-about/cloud-practitioner/">Training Material</a></li>
-</ul>
-<h2 id="links">Links</h2>
-<ul>
-<li><a href="https://aws.amazon.com/training/digital/aws-cloud-quest/">AWS Cloud Quest</a></li>
-<li><a href="https://explore.skillbuilder.aws/learn/course/external/view/elearning/7636/cloud-quest">Cloud Quest</a></li>
-</ul>
+        <form>
+  <div class="form-group">
+    <label for="search">Search Query</label>
+    <input class="form-control" type="search" aria-label="Search" id="search-query">
+  </div>
+</form>
+
+<div id="search-results"></div>
 
 
         
 
       </div>
     </div>
-  <div id="comments-container" class="row">
-    <script src="https://giscus.app/client.js"
-        data-repo='alex-hedley/blog'
-        data-repo-id='R_kgDOJjrtWA'
-        data-category-id='DIC_kwDOJjrtWM4CW2qH'
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="light"
-        data-lang="en"
-        data-loading="lazy"
-        crossorigin="anonymous"
-        async>
-</script>
-
-  </div>
   </div>
 
   <hr>
@@ -194,6 +146,65 @@ $29.00 / month + VAT<br />
   <script src='/blog/js/clean-blog.js'></script>
   <script src="https://unpkg.com/mermaid@8.9.3/dist/mermaid.min.js" integrity="sha384-nVmn6yKHyUktDHdQfBgpn1YPgEu8gDXTYI5qccfkF1j6oxBHjKEafySIuNs3UhEW" crossorigin="anonymous"></script>
   
+  <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/pako@2.0.4/dist/pako_inflate.min.js"></script>
+  <script src='/blog/search.js'></script>
+  <script>
+    (function(search) {
+      function runSearch() {
+        var query = document.getElementById("search-query").value;
+        document.getElementById("search-results").replaceChildren();
+        if (query.length < 2)
+        {
+          return;
+        }
+
+        search.search(query, function(results) {
+          var list = document.createElement("ul");
+          if (results.length == 0)
+          {
+            const li = document.createElement("li");
+            li.append("No results found");
+            list.appendChild(li);
+          }
+          else
+          {
+            for (const res of results)
+            {
+              const li = document.createElement("li");
+              const a = document.createElement("a");
+              a.setAttribute("href", res.link);
+              a.append(res.title);
+              li.appendChild(a);
+              list.appendChild(li);
+            }
+          }
+          document.getElementById("search-results").appendChild(list);
+        });
+      }
+
+      function initializeSearch() {
+        var searchField = document.getElementById("search-query");
+        searchField.addEventListener("input", runSearch);
+        searchField.addEventListener("propertychange", runSearch);
+        searchField.addEventListener("paste", runSearch);
+
+        const urlParams = new URLSearchParams(window.location.search);
+        const queryParam = urlParams.get("query");
+        if (queryParam) {
+          searchField.value = queryParam;
+          runSearch();
+        }
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener("DOMContentLoaded", initializeSearch);
+      } else {
+        initializeSearch();
+      }
+    })(search); // The search object is defined in search.js
+  </script>
+
 
 </body>
 
