@@ -5,14 +5,14 @@
 		<link>https://alex-hedley.github.io/blog</link>
 		<description />
 		<copyright>Copyright © 2024</copyright>
-		<pubDate>Mon, 25 Mar 2024 15:01:00 GMT</pubDate>
-		<lastBuildDate>Mon, 25 Mar 2024 15:01:00 GMT</lastBuildDate>
+		<pubDate>Mon, 25 Mar 2024 16:14:09 GMT</pubDate>
+		<lastBuildDate>Mon, 25 Mar 2024 16:14:09 GMT</lastBuildDate>
 		<item>
 			<title>Qudos .NET Newcastle Meetup - Mar 2024</title>
 			<link>https://alex-hedley.github.io/blog/posts/dotnet-newcastle-mar-2024</link>
 			<description>.NET meetup</description>
 			<author>alexhedley</author>
-			<enclosure url="https://alex-hedley.github.io/blog/posts/images/meetups/dotnet-mar-2025.jpeg" length="0" type="image" />
+			<enclosure url="https://alex-hedley.github.io/blog/posts/images/meetups/dotnet-mar-2024.jpeg" length="0" type="image" />
 			<guid>https://alex-hedley.github.io/blog/posts/dotnet-newcastle-mar-2024</guid>
 			<pubDate>Tue, 19 Mar 2024 00:00:00 GMT</pubDate>
 			<content:encoded>&lt;!-- # Qudos DotNet Newcastle Meetup - March 2024 --&gt;
@@ -26,6 +26,37 @@
 &lt;?# YouTube 2f7ZmDgU8-Q /?&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;QudosRecruitment"&gt;https://www.youtube.com/&amp;#64;QudosRecruitment&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
+			<title>Introduction to GOV.UK Forms</title>
+			<link>https://alex-hedley.github.io/blog/posts/govuk-forms</link>
+			<description>GDS</description>
+			<author>alex-hedley</author>
+			<enclosure url="https://alex-hedley.github.io/blog/posts/images/gds-govukforms.jpeg" length="0" type="image" />
+			<guid>https://alex-hedley.github.io/blog/posts/govuk-forms</guid>
+			<pubDate>Thu, 01 Feb 2024 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!-- # Introduction to GOV.UK Forms --&gt;
+&lt;p&gt;Find out just how easy it is to create online forms using the Government Digital Service new forms builder.&lt;/p&gt;
+&lt;!-- ![Event Info](images/gds-govukforms.jpeg "Event Info") --&gt;
+&lt;h2 id="event"&gt;Event&lt;/h2&gt;
+&lt;p&gt;🗓️ Thursday, 1 February 2024&lt;br /&gt;
+🕰️ 12:00 - 13:00 GMT&lt;br /&gt;
+📍Online&lt;br /&gt;
+🔗 &lt;a href="https://www.eventbrite.co.uk/e/hyhubs-hyheroes-awards-2023-tickets-727053124467"&gt;https://www.eventbrite.co.uk/e/hyhubs-hyheroes-awards-2023-tickets-727053124467&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="details"&gt;Details&lt;/h2&gt;
+&lt;p&gt;We’ve launched the early access phase of our new form builder software GOV.UK forms.
+It helps make the switch from document based and printed forms to easy to use, accessible online forms across government. It’s part of our commitment to make it easier for government departments to build digital services.
+We’ve got an array of features already available with more being developed. Join our webinar to find out how simple it is to use and how it's improving the outcomes for the people who complete the forms and the people who process them.&lt;/p&gt;
+&lt;h3 id="agenda"&gt;Agenda&lt;/h3&gt;
+&lt;p&gt;12:00 - 12:10 Introductions&lt;br /&gt;
+12:10 - 12:30 Demonstration and latest features&lt;br /&gt;
+12:30 - 13:00 Questions from the audience&lt;/p&gt;
+&lt;h2 id="links"&gt;🔗 Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.forms.service.gov.uk/"&gt;https://www.forms.service.gov.uk&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
@@ -727,46 +758,6 @@ VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=docsmsf
 &lt;p&gt;Also whilst working through Cloud Quest I studied for and passed the &lt;a href="https://alex-hedley.github.io/blog/aws-certified-cloud-practitioner"&gt;AWS Certified Cloud Practitioner&lt;/a&gt; exam on 🗓️ Thursday, 6 April 2023.&lt;/p&gt;
 &lt;!-- ![AWS Certified Cloud Practitioner](images/aws-ccp/AWS-Certified-Cloud-Practitioner_badge.png "AWS Certified Cloud Practitioner") --&gt;
 &lt;img src="images/aws-ccp/AWS-Certified-Cloud-Practitioner_badge.png" alt="AWS Certified Cloud Practitioner" width="100"&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>AWS Cloud Quest Machine Learning</title>
-			<link>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-machine-learning</link>
-			<description>&lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest Machine Learning&lt;/strong&gt; training 🎉!&lt;/p&gt;</description>
-			<author>alex-hedley</author>
-			<enclosure url="https://alex-hedley.github.io/blog/posts/images/aws-cq/cloud-quest.png" length="0" type="image" />
-			<guid>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-machine-learning</guid>
-			<pubDate>Wed, 05 Jul 2023 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!-- # AWS Cloud Quest Machine Learning --&gt;
-&lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest Machine Learning&lt;/strong&gt; training 🎉!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/aws-cq/aws-cloud-quest-machine-learning.jpeg" alt="AWS Cloud Quest Data Analytics Badge" title="AWS Cloud Quest Machine Learning Badge"&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.credly.com/badges/0b283f21-b9cd-408e-9b54-f01cab2d3aa1/public_url"&gt;Credly Badge&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.credly.com/users/alexhedley/badges"&gt;Credly Profile&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This is a paid course from AWS that uses gamification and hands on labs to reinforce learnings.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Part of AWS Skill Builder Individual subscription. Subscribe to get access to this and other subscriber-only benefits.&lt;br&gt;
-$29.00 / month + VAT&lt;br&gt;
-&lt;a href="https://explore.skillbuilder.aws/learn/signin"&gt;https://explore.skillbuilder.aws/learn/signin&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;As the Machine Learning specialist, you will implement solutions using AWS AI services and trained models. You will build, train, and deploy Machine Learning models, as well as integrate AWS AI services into solutions. You will gain hands on experience with AI/ML topics like reinforcement learning, anomaly detection, text to speech, transcription and computer vision.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id="training-material"&gt;Training Material&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://aws.amazon.com/training/learn-about/cloud-practitioner/"&gt;Training Material&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="links"&gt;Links&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://aws.amazon.com/training/digital/aws-cloud-quest/"&gt;AWS Cloud Quest&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://explore.skillbuilder.aws/learn/course/external/view/elearning/7636/cloud-quest"&gt;Cloud Quest&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!-- ## Resources Used --&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
