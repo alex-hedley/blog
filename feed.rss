@@ -4,9 +4,32 @@
 		<title />
 		<link>https://alex-hedley.github.io/blog</link>
 		<description />
-		<copyright>Copyright © 2023</copyright>
-		<pubDate>Fri, 22 Dec 2023 17:06:05 GMT</pubDate>
-		<lastBuildDate>Fri, 22 Dec 2023 17:06:05 GMT</lastBuildDate>
+		<copyright>Copyright © 2024</copyright>
+		<pubDate>Mon, 25 Mar 2024 15:01:00 GMT</pubDate>
+		<lastBuildDate>Mon, 25 Mar 2024 15:01:00 GMT</lastBuildDate>
+		<item>
+			<title>Qudos .NET Newcastle Meetup - Mar 2024</title>
+			<link>https://alex-hedley.github.io/blog/posts/dotnet-newcastle-mar-2024</link>
+			<description>.NET meetup</description>
+			<author>alexhedley</author>
+			<enclosure url="https://alex-hedley.github.io/blog/posts/images/meetups/dotnet-mar-2025.jpeg" length="0" type="image" />
+			<guid>https://alex-hedley.github.io/blog/posts/dotnet-newcastle-mar-2024</guid>
+			<pubDate>Tue, 19 Mar 2024 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!-- # Qudos DotNet Newcastle Meetup - March 2024 --&gt;
+&lt;p&gt;📅 Tuesday, March 19, 2024 · 5:30 - 8pm GMT&lt;/p&gt;
+&lt;p&gt;📍 BJSS Newcastle, 12th Floor, Bank House, Newcastle upon Tyne NE1 6SQ&lt;/p&gt;
+&lt;p&gt;🔗 &lt;a href="https://www.meetup.com/dotnetmeetupnorth/events/299612897/"&gt;https://www.meetup.com/dotnetmeetupnorth/events/299612897/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Dan Oliver&lt;/em&gt; - &lt;strong&gt;An Introduction To Azure Open AI &amp;amp; CoPilot&lt;/strong&gt;&lt;/p&gt;
+&lt;?# YouTube _zm2iq5wmgo /?&gt;
+&lt;p&gt;&lt;em&gt;Peter Shaw&lt;/em&gt; - &lt;strong&gt;Azure IoT Using Dotnet Nano Framework&lt;/strong&gt;&lt;/p&gt;
+&lt;?# YouTube 2f7ZmDgU8-Q /?&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;QudosRecruitment"&gt;https://www.youtube.com/&amp;#64;QudosRecruitment&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
 		<item>
 			<title>HyHubs HyHeroes Awards 2023</title>
 			<link>https://alex-hedley.github.io/blog/posts/hyhubshyheroesawards-2023</link>
@@ -490,42 +513,6 @@ $29.00 / month + VAT&lt;br&gt;
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
 		<item>
-			<title>VSCode - Blockquote - Preview</title>
-			<link>https://alex-hedley.github.io/blog/posts/vscode-blockquote-preview</link>
-			<description>Change the background colour in preview.</description>
-			<author>alex-hedley</author>
-			<guid>https://alex-hedley.github.io/blog/posts/vscode-blockquote-preview</guid>
-			<pubDate>Tue, 11 Jul 2023 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!-- VSCode - Blockquote --&gt;
-&lt;p&gt;I use the &lt;a href="https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-preview"&gt;learn-preview&lt;/a&gt; VSCode extension to show markdown in a side by side fashion.&lt;/p&gt;
-&lt;p&gt;Not sure when this stopped working since the colours changed but now it's unreadable:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/vscode/blockquote_1.png" alt="BlockQuote" title="BlockQuote"&gt;&lt;/p&gt;
-&lt;p&gt;Highlighting the text helps but this shouldn't be necessary.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/vscode/blockquote_2.png" alt="BlockQuote" title="BlockQuote"&gt;&lt;/p&gt;
-&lt;p&gt;Update the &lt;code&gt;settings.json&lt;/code&gt; with the following.&lt;/p&gt;
-&lt;p&gt;(You can pick whichever colour you prefer.)&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-json"&gt;"workbench.colorCustomizations": {
-    "textBlockQuote.background":"#95e0d6"
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;blockquote&gt;
-&lt;p&gt;This is a BlockQuote&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;As an image:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/vscode/blockquote_3.png" alt="BlockQuote" title="BlockQuote"&gt;&lt;/p&gt;
-&lt;h2 id="info"&gt;Info&lt;/h2&gt;
-&lt;p&gt;Extension:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-bash"&gt;Name: learn-preview
-Id: docsmsft.docs-preview
-Description: Learn Markdown Preview Extension
-Version: 1.0.2
-Publisher: Microsoft
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-preview
-&lt;/code&gt;&lt;/pre&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
 			<title>AWS Cloud Quest Security</title>
 			<link>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-security</link>
 			<description>&lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest Security&lt;/strong&gt; training 🎉!&lt;/p&gt;</description>
@@ -591,6 +578,42 @@ $29.00 / month + VAT&lt;br&gt;
 &lt;li&gt;AWS Service Catalog&lt;/li&gt;
 &lt;li&gt;AWS Systems Manager&lt;/li&gt;
 &lt;/ul&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
+			<title>VSCode - Blockquote - Preview</title>
+			<link>https://alex-hedley.github.io/blog/posts/vscode-blockquote-preview</link>
+			<description>Change the background colour in preview.</description>
+			<author>alex-hedley</author>
+			<guid>https://alex-hedley.github.io/blog/posts/vscode-blockquote-preview</guid>
+			<pubDate>Tue, 11 Jul 2023 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!-- VSCode - Blockquote --&gt;
+&lt;p&gt;I use the &lt;a href="https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-preview"&gt;learn-preview&lt;/a&gt; VSCode extension to show markdown in a side by side fashion.&lt;/p&gt;
+&lt;p&gt;Not sure when this stopped working since the colours changed but now it's unreadable:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/vscode/blockquote_1.png" alt="BlockQuote" title="BlockQuote"&gt;&lt;/p&gt;
+&lt;p&gt;Highlighting the text helps but this shouldn't be necessary.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/vscode/blockquote_2.png" alt="BlockQuote" title="BlockQuote"&gt;&lt;/p&gt;
+&lt;p&gt;Update the &lt;code&gt;settings.json&lt;/code&gt; with the following.&lt;/p&gt;
+&lt;p&gt;(You can pick whichever colour you prefer.)&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-json"&gt;"workbench.colorCustomizations": {
+    "textBlockQuote.background":"#95e0d6"
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is a BlockQuote&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;As an image:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/vscode/blockquote_3.png" alt="BlockQuote" title="BlockQuote"&gt;&lt;/p&gt;
+&lt;h2 id="info"&gt;Info&lt;/h2&gt;
+&lt;p&gt;Extension:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-bash"&gt;Name: learn-preview
+Id: docsmsft.docs-preview
+Description: Learn Markdown Preview Extension
+Version: 1.0.2
+Publisher: Microsoft
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-preview
+&lt;/code&gt;&lt;/pre&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
@@ -744,172 +767,6 @@ $29.00 / month + VAT&lt;br&gt;
 &lt;li&gt;&lt;a href="https://explore.skillbuilder.aws/learn/course/external/view/elearning/7636/cloud-quest"&gt;Cloud Quest&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;!-- ## Resources Used --&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>LeadDev London 2023</title>
-			<link>https://alex-hedley.github.io/blog/posts/leaddev-london-2023</link>
-			<description>&lt;p&gt;This week I had the absolute pleasure of going to &lt;a href="https://leaddev.com/leaddev-london-2023"&gt;LeadDev London 2023&lt;/a&gt; thanks to my employer Opencast.&lt;/p&gt;</description>
-			<author>alex-hedley</author>
-			<enclosure url="https://alex-hedley.github.io/blog/posts/images/leaddev/new-london-hero_0.png" length="0" type="image" />
-			<guid>https://alex-hedley.github.io/blog/posts/leaddev-london-2023</guid>
-			<pubDate>Fri, 30 Jun 2023 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!-- LeadDev London 2023 --&gt;
-&lt;p&gt;This week I had the absolute pleasure of going to &lt;a href="https://leaddev.com/leaddev-london-2023"&gt;LeadDev London 2023&lt;/a&gt; thanks to my employer Opencast.&lt;/p&gt;
-&lt;p&gt;🗓️ June 27–28, 2023
-🏟️ barbican&lt;/p&gt;
-&lt;p&gt;It was my first time at this event and I'd heard great things for current colleagues who have been over the years and friends I'd mentioned I was going too.&lt;/p&gt;
-&lt;p&gt;I liked the fact that there was just a single track each day, I didn't have to make a choice of which talks to go to and get FOMO or regret missing any after hearing other peoples thoughts.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://leaddev.com/leaddev-london/agenda-2023"&gt;Agenda&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;em&gt;Key Points&lt;/em&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;F**king NASA&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://leaddev.com/code-conduct"&gt;Code Of Conduct&lt;/a&gt; - Don't be a d**k&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;#LeadDevLondon - Capitalise - helps with screen readers and accessibility&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Live captions throughout.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;It felt a very safe and inclusive space.&lt;/p&gt;
-&lt;p&gt;Two speakers I was told to keep an eye out for were Nickolas Means and Clare Sudbery and they didn't disappoint.&lt;/p&gt;
-&lt;p&gt;One stand out presentation was from Jason Wodicka on &lt;strong&gt;Engineering a more equitable hiring process&lt;/strong&gt;. They absolutely commanded the stage and the message was a very important one.&lt;/p&gt;
-&lt;p&gt;I also have to mention Sinéad Cummings with &lt;strong&gt;Parents who code: How to welcome your developers back after parental leave&lt;/strong&gt; not just because she is a great friend and colleague but because this was another very overlooked subject and isn't just applicable to Parents but anyone who needs time off.&lt;/p&gt;
-&lt;p&gt;I also managed to grab a load of swag! Sorted for socks and teeshirts for a while :).&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2 id="agenda"&gt;Agenda&lt;/h2&gt;
-&lt;details&gt;
-    &lt;summary&gt;🗓️ Tuesday, June 27&lt;/summary&gt;
-&lt;p&gt;&lt;strong&gt;Managing at the Threshold: Examining our Principles in a Moment of Change&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Managing at the Threshold: Examining our Principles in a Moment of Change&lt;/p&gt;
-&lt;p&gt;David Yee&lt;br /&gt;
-VP of Engineering • The New York Times&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Compassionate on-call&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;In this talk, we’ll discuss how to build a compassionate on-call rota, and how that can help build sustainable and high performing teams.&lt;/p&gt;
-&lt;p&gt;Lisa Karlin Curtis&lt;br /&gt;
-Software Engineer • incident.io&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Red 2.0: Transforming a Game Company&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;A look at how the Tech Team at CD Projekt applied the Red 2.0 Manifesto as part of a company-wide transformation after the release of Cyberpunk 2077.&lt;/p&gt;
-&lt;p&gt;Colin Walder&lt;br /&gt;
-Engineering Director, Management and Audio • CD Projekt Red&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What do you mean there’s no onboarding plan for engineering managers?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Daniel Korn shares his four-week onboarding process for engineering leads that emphasizes peopleware, tech leadership, and delivery management. He provides a behind-the-scenes look at this super adaptable process, which uses a framework of ‘sessions’ and ‘experiences’ - and shares everything from his mistakes to his insights.&lt;/p&gt;
-&lt;p&gt;Daniel Korn&lt;br /&gt;
-Director of Engineering • Lemonade&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Code is Poetry&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;In this talk, I will talk about how to write good readable code, ticket descriptions, bug patches et al in PHP and Javascript.&lt;/p&gt;
-&lt;p&gt;Niranjan Uma Shankar&lt;br /&gt;
-Head of Acquisition Growth Engineering • Automattic Inc&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Why Onboarding to a Company's Legacy Codebase Sucks, and How to Make it Work for Your Team&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;In this talk, I will be discussing the history and context of the problems that plague codebase onboarding. And with problems comes solutions such as tips and tools that make it easier for engineers to onboard a legacy codebase.&lt;/p&gt;
-&lt;p&gt;Shanea Leven&lt;br /&gt;
-Founder + CEO • CodeSee&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Making the Move to Manager: Common Pitfalls for New Engineering Leaders&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;This talk, which will primarily focus on challenges involved with people leadership, will broadly cover: - How to rebrand yourself as a new engineering leader - How to build trust with a new team without prior experience or credibility - How to delegate effectively - How to balance proactive leadership without micromanaging.&lt;/p&gt;
-&lt;p&gt;Jacqueline Pan&lt;br /&gt;
-Software Engineering Team Lead • Bloomberg&lt;/p&gt;
-&lt;p&gt;Marlena Lui&lt;br /&gt;
-Software Engineering Team Lead • Bloomberg&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&amp;quot;I'm happy where I am&amp;quot; - Supporting team members that aren't seeking progression&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Realistically not everyone can or wants to be a Lead Engineer/Engineering Manager/Staff Engineer and nor should we be pushing people into roles they either have no interest in or have done before and not enjoyed.&lt;/p&gt;
-&lt;p&gt;Ryan MacGillivray&lt;br /&gt;
-Software Engineer • Easol&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;How to drive pace in your team 🏃🏽‍♀️&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;By the end of the talk, folks will have received actionable advice that'll help them improve their teams' delivery and pace without a data-first approach.&lt;/p&gt;
-&lt;p&gt;Alicia Collymore&lt;br /&gt;
-Engineering Manager • incident.io&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;How we support making architectural decisions&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;During the talk, we'll make a deep dive from the principles based on which this group operates to the specific how-to that made its work beneficial for the company and share what we've learned from this whole experience so far.&lt;/p&gt;
-&lt;p&gt;Olena Sovyn&lt;br /&gt;
-Staff Software Engineer • Webflow&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Where we’re going wrong with developer productivity&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;In this talk, I want to propose a different, science-backed approach to productivity using research evidence from a study with 1200+ developers: developer thriving.&lt;/p&gt;
-&lt;p&gt;Cat Hicks&lt;br /&gt;
-VP of Research Insights &amp;amp; Director of Developer Success Lab, Flow • Pluralsight Flow&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Engineering a more equitable hiring process&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;In this talk, Jason lays out some of the places where bias enters our hiring process, and shares concrete actions you can take to make your own hiring more efficient, equitable, and effective.&lt;/p&gt;
-&lt;p&gt;Jason Wodicka&lt;br /&gt;
-Principal Developer • Advocate Karat&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;How to effectively “Spike” a complex technical project&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;In this talk, I’ll go over what a spike is, how to successfully spike a project, and lessons that I’ve learned from leading several technically complex projects, across 3 different companies, and various different teams.&lt;/p&gt;
-&lt;p&gt;Aditya Bansal&lt;br /&gt;
-Founding Engineer • Cortex&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;The 9.1 Magnitude Meltdown at Fukushima&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;It was mid-afternoon on Friday, March 11, 2011 when the ground in Tōhoku began to shake. To the operators at Fukushima Daiichi nuclear power plant, it seemed like the shaking would never stop. The way their team operated during that fateful week has a lot to teach us about helping our own teams be at their best, both in crisis and out.&lt;/p&gt;
-&lt;p&gt;Nickolas Means&lt;br /&gt;
-VP of Engineering • Sym&lt;/p&gt;
-&lt;/details&gt;
-&lt;details&gt;
-    &lt;summary&gt;🗓️ Wednesday, June 28&lt;/summary&gt;
-&lt;p&gt;&lt;strong&gt;Building bridges: The art of crafting seamless partnerships between engineering, product, and design&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Panel discussion&lt;/p&gt;
-&lt;p&gt;James Stanier&lt;br /&gt;
-Director of Engineering • Shopify&lt;/p&gt;
-&lt;p&gt;Winter Wei&lt;br /&gt;
-Senior UX Manager • Shopify&lt;/p&gt;
-&lt;p&gt;Janet Balneaves&lt;br /&gt;
-Product Director • Shopify&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Riding the rollercoaster of emotions&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;This talk covers key topics such as understanding and managing emotions, reflecting on them, developing emotional intelligence, and being in control of our thoughts.&lt;/p&gt;
-&lt;p&gt;Gabriel Michels&lt;br /&gt;
-Director of Engineering • Choco&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Platform engineering is all about product&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;You will leave this talk with: - An understanding of platform engineering and how it relates to DevOps? - What makes an IDP and a platform team successful? - Practices you can use to build a successful platform, and pitfalls to avoid.&lt;/p&gt;
-&lt;p&gt;Gal Bashan&lt;br /&gt;
-Director of engineering • Cisco&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Cultural post mortems: an approach to learning and recovering when your people systems fail&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;In this talk, we’ll share how we planned and executed recovery work. Our aim is to inspire you to consider a systems approach when something with your team goes wrong, and we’ll provide a template for what we think worked well.&lt;/p&gt;
-&lt;p&gt;Winna Bridgewater&lt;br /&gt;
-Principal Engineer • Syntasso&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Strategies for succeeding as a underrepresented engineering leader&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;I’ll be drawing on my experience as a Lead Engineer at NASA Jet Propulsion Laboratory and as a woman to provide strategies for how to succeed at work, alongside my own stories of how I’ve put these into practice.&lt;/p&gt;
-&lt;p&gt;Rafia Qutab Kilian&lt;br /&gt;
-Lead Full Stack Software Engineer • NASA Jet Propulsion Laboratory&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Feature flags unleashed&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;In this talk, I'll show you how you can use feature flags to run complex data migrations, enable canary releases, easily build plans on top of your product, customize for specific clients, and much more.&lt;/p&gt;
-&lt;p&gt;Roger Gros&lt;br /&gt;
-Senior Engineering Manager • Factorial&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Build a data-driven on-call workflow for your team with atomic habits&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;This talk will walk you through a data-driven on-call framework, clearly derived from first principles. You will get the WHY, our journey towards adoption, and the results after more than 2 years of implementation.&lt;/p&gt;
-&lt;p&gt;Bianca Costache&lt;br /&gt;
-Engineering Manager • Adobe&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Keeping your team health after a layoff&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;In this presentation I will discuss how we can support and care for the team and then move forward, based on what I experienced at Loggi, where it was possible to overcome in a healthy way.&lt;/p&gt;
-&lt;p&gt;Leandro César Silva&lt;br /&gt;
-Senior Engineering Manager • Loggi Tech&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Parents who code: How to welcome your developers back after parental leave&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;I am going to talk through how you, as Development Leaders, can provide visibility of key decisions to those who have been on leave, ensure they aren’t overlooked during their period of absence and how you can prevent cognitive overload when they return, guaranteeing your best and brightest return feeling empowered, valued, and ready to code.&lt;/p&gt;
-&lt;p&gt;Sinéad Cummings&lt;br /&gt;
-Senior Consultant • Opencast Software&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Creating inclusive career ladders&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;In this talk, we’ll cover some common pitfalls, and will go through a practical set of prompts to help you make sure your career ladder can work well for everyone.&lt;/p&gt;
-&lt;p&gt;Sally Lait&lt;br /&gt;
-Engineering Director – Safety &amp;amp; Integrity • Bumble&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Building for the Underserved, Solving for All&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;This talk will remind us about the levels and weight of responsibility we carry as builders and leads in tech, zero in on the need for prioritising people-centric approaches in the design and development decisions we make everyday and implore us to move beyond only employing best practices in our work.&lt;/p&gt;
-&lt;p&gt;Serah Njambi Kiburu
-Senior Developer Advocate • Spotify&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Driving positive change through performance improvement plans&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;This talk describes an approach to PIPs in which the manager helps to set the employee up for success.&lt;/p&gt;
-&lt;p&gt;Cristina Yenyxe Gonzalez Garcia&lt;br /&gt;
-Director of Engineering • eyeo&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Exit plans and how to talk about them&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;This talk covers why the answer to that question is important, how to set up the culture to enable the conversation, how to actually have the conversations once the foundation is laid, and the benefits that both employees and the company get out of it.&lt;/p&gt;
-&lt;p&gt;David Kiger&lt;br /&gt;
-Director of Engineering • Yelp&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Orchestrating thousands of bots from the cloud&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;We now provide an end-to-end platform for smart online grocery to some of the world’s largest grocery retailers. At the heart of our model are automated warehouses which are the most advanced of their kind. Thousands of bots collaborate seamlessly on 3D grids to fulfil customer orders.&lt;/p&gt;
-&lt;p&gt;James Donkin&lt;br /&gt;
-CTO • Ocado&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;The awful agony of the app store: When software delivery goes wrong&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;This talk is a dramatic tale of ups and downs, tears and triumph, and the very sharp end of the sunk cost fallacy. Via the rollercoaster ride of a failed iOS app, Clare uses the experience to highlight several key components that contribute to successful software development… and offer understanding to those facing obstacles beyond their control.&lt;/p&gt;
-&lt;p&gt;Clare Sudbery&lt;br /&gt;
-Independent Technical Coach • Sudbery Software Engineering Ltd&lt;/p&gt;
-&lt;/details&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
