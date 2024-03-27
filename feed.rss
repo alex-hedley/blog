@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 	<channel>
-		<title />
+		<title>Alex Hedley</title>
 		<link>https://alex-hedley.github.io/blog</link>
-		<description />
+		<description>Welcome to my blog!</description>
 		<copyright>Copyright © 2024</copyright>
-		<pubDate>Mon, 25 Mar 2024 16:14:09 GMT</pubDate>
-		<lastBuildDate>Mon, 25 Mar 2024 16:14:09 GMT</lastBuildDate>
+		<pubDate>Wed, 27 Mar 2024 13:06:20 GMT</pubDate>
+		<lastBuildDate>Wed, 27 Mar 2024 13:06:20 GMT</lastBuildDate>
 		<item>
 			<title>Qudos .NET Newcastle Meetup - Mar 2024</title>
 			<link>https://alex-hedley.github.io/blog/posts/dotnet-newcastle-mar-2024</link>

@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://alex-hedley.github.io/blog</id>
-	<title />
+	<title>Alex Hedley</title>
 	<link rel="self" href="https://alex-hedley.github.io/blog" />
 	<rights>Copyright © 2024</rights>
-	<updated>2024-03-25T16:14:09Z</updated>
+	<updated>2024-03-27T13:06:20Z</updated>
+	<subtitle>Welcome to my blog!</subtitle>
 	<entry>
 		<id>https://alex-hedley.github.io/blog/posts/dotnet-newcastle-mar-2024</id>
 		<title>Qudos .NET Newcastle Meetup - Mar 2024</title>

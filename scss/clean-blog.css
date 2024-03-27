@@ -3553,3 +3553,5 @@ header.masthead .image-attribution p { margin: 0; padding: 0; }
 .post-title { margin-bottom: 0; word-break: break-word; }
 
 .post-subtitle { font-family: var(--bs-font-sans-serif); font-size: 1.5rem; }
+
+.postCount { font-size: 25px; color: white; float: right; }
