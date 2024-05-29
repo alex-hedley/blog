@@ -5,8 +5,30 @@
 		<link>https://alex-hedley.github.io/blog</link>
 		<description>Welcome to my blog!</description>
 		<copyright>Copyright © 2024</copyright>
-		<pubDate>Wed, 27 Mar 2024 13:06:20 GMT</pubDate>
-		<lastBuildDate>Wed, 27 Mar 2024 13:06:20 GMT</lastBuildDate>
+		<pubDate>Wed, 29 May 2024 07:52:07 GMT</pubDate>
+		<lastBuildDate>Wed, 29 May 2024 07:52:07 GMT</lastBuildDate>
+		<item>
+			<title>Qudos .NET Newcastle Meetup - May 2024</title>
+			<link>https://alex-hedley.github.io/blog/posts/dotnet-newcastle-may-2024</link>
+			<description>.NET meetup</description>
+			<author>alexhedley</author>
+			<guid>https://alex-hedley.github.io/blog/posts/dotnet-newcastle-may-2024</guid>
+			<pubDate>Tue, 28 May 2024 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!-- # Qudos DotNet Newcastle Meetup - May 2024 --&gt;
+&lt;p&gt;📅 Tuesday, May 28, 2024 · 5:30 - 8pm GMT&lt;/p&gt;
+&lt;p&gt;📍 BJSS Newcastle, 12th Floor, Bank House, Newcastle upon Tyne NE1 6SQ&lt;/p&gt;
+&lt;!-- 🔗 https://www.meetup.com/dotnetmeetupnorth/events/.../ --&gt;
+&lt;p&gt;🔗 &lt;a href="https://www.linkedin.com/posts/qasim-qudos_meetup-qudos-newcastle-activity-7199702440688988160-8DG7"&gt;https://www.linkedin.com/posts/qasim-qudos_meetup-qudos-newcastle-activity-7199702440688988160-8DG7&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Michael Stephenson&lt;/em&gt; - &lt;strong&gt;Real World Journey Of Saving Lots Of Money In Azure&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Adam Parker&lt;/em&gt; - &lt;strong&gt;Interoperability In .NET Languages&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;QudosRecruitment"&gt;https://www.youtube.com/&amp;#64;QudosRecruitment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.meetup.com/haintonsdotnetmeetup/"&gt;https://www.meetup.com/haintonsdotnetmeetup/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
 		<item>
 			<title>Qudos .NET Newcastle Meetup - Mar 2024</title>
 			<link>https://alex-hedley.github.io/blog/posts/dotnet-newcastle-mar-2024</link>
@@ -645,119 +667,6 @@ Version: 1.0.2
 Publisher: Microsoft
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-preview
 &lt;/code&gt;&lt;/pre&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>AWS Cloud Quest</title>
-			<link>https://alex-hedley.github.io/blog/posts/aws-cloud-quest</link>
-			<description>A summary of the whole course.</description>
-			<author>alex-hedley</author>
-			<enclosure url="https://alex-hedley.github.io/blog/posts/images/aws-cq/cloud-quest.png" length="0" type="image" />
-			<guid>https://alex-hedley.github.io/blog/posts/aws-cloud-quest</guid>
-			<pubDate>Tue, 11 Jul 2023 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!-- AWS Cloud Quest --&gt;
-&lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest&lt;/strong&gt; training 🎉, all 6 sections are now complete!&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href="https://aws.amazon.com/training/digital/aws-cloud-quest/"&gt;AWS Cloud Quest&lt;/a&gt;, Develop in-demand cloud skills in this fun, interactive role-playing game.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/aws-cq/cloud-quest-badges.png" alt="Cloud Quest Badges" title="Cloud Quest Badges"&gt;&lt;/p&gt;
-&lt;p&gt;I'd set myself a target of doing one a month, which I think I achieved, given I also did a couple of other certs in that time.&lt;/p&gt;
-&lt;p&gt;The idea of gamification in learning really appeals to me. Who doesn't like collecting things? Another great thing about this training is it is hand-ons, you get to work with the actual AWS resources in a lab environment, just how you would with the real thing. The DIY section makes sure you've followed and understood what was required in the original ask and you can't complete the course if you don't configure your environment correctly. This has benefits over the &lt;a href="https://aws.amazon.com/certification/"&gt;Certification&lt;/a&gt; exams as it's less about memory retrieval and more about understanding, although both have their merits.&lt;/p&gt;
-&lt;p&gt;I really enjoyed getting to learn some new Resources. I've been wanting to look at some &lt;em&gt;Machine Learning&lt;/em&gt; for quite a while, it was a lot of waiting around but it gave me an appreciation of what is possible. I might get my Bowling Scores analyser written one day. SageMaker could be key here. Also, who doesn't love some &lt;em&gt;Data Analytics&lt;/em&gt;! This gave me an opportunity to try Kinesis and Lake Formation.&lt;/p&gt;
-&lt;p&gt;If you haven't already, I'd suggest trying the &lt;em&gt;Cloud Practitioner&lt;/em&gt; for free and there are offers to get some months free with the &lt;a href="https://skillbuilder.aws/"&gt;AWS Skill Builder&lt;/a&gt; platform, so keep an eye out for that.&lt;/p&gt;
-&lt;h2 id="stats"&gt;Stats&lt;/h2&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;Cloud Practitioner&lt;/th&gt;
-&lt;th&gt;Solutions Architect&lt;/th&gt;
-&lt;th&gt;Serverless Developer&lt;/th&gt;
-&lt;th&gt;Machine Learning&lt;/th&gt;
-&lt;th&gt;Security&lt;/th&gt;
-&lt;th&gt;Data Analytics&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Gems&lt;/td&gt;
-&lt;td&gt;685&lt;/td&gt;
-&lt;td&gt;2380&lt;/td&gt;
-&lt;td&gt;1780&lt;/td&gt;
-&lt;td&gt;3540&lt;/td&gt;
-&lt;td&gt;4355&lt;/td&gt;
-&lt;td&gt;2940&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Pets&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Services&lt;/td&gt;
-&lt;td&gt;10&lt;/td&gt;
-&lt;td&gt;34&lt;/td&gt;
-&lt;td&gt;25&lt;/td&gt;
-&lt;td&gt;44&lt;/td&gt;
-&lt;td&gt;53&lt;/td&gt;
-&lt;td&gt;40&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Cards&lt;/td&gt;
-&lt;td&gt;0&lt;/td&gt;
-&lt;td&gt;0&lt;/td&gt;
-&lt;td&gt;0&lt;/td&gt;
-&lt;td&gt;0&lt;/td&gt;
-&lt;td&gt;6&lt;/td&gt;
-&lt;td&gt;0&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Rep. Points&lt;/td&gt;
-&lt;td&gt;237&lt;/td&gt;
-&lt;td&gt;981&lt;/td&gt;
-&lt;td&gt;726&lt;/td&gt;
-&lt;td&gt;1460&lt;/td&gt;
-&lt;td&gt;1909&lt;/td&gt;
-&lt;td&gt;1335&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Challenges&lt;/td&gt;
-&lt;td&gt;0&lt;/td&gt;
-&lt;td&gt;0&lt;/td&gt;
-&lt;td&gt;0&lt;/td&gt;
-&lt;td&gt;0&lt;/td&gt;
-&lt;td&gt;4&lt;/td&gt;
-&lt;td&gt;0&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;Got to Level &lt;strong&gt;99&lt;/strong&gt;... need to top that off with some other questions.&lt;/p&gt;
-&lt;p&gt;I'd missed the opportunity for the Drone Challenges until near the end, so could finish those off too.&lt;/p&gt;
-&lt;h2 id="resources"&gt;Resources&lt;/h2&gt;
-&lt;p&gt;A number of AWS Resources (54+) were included in the training. This gave a great coverage of the popular items and things you are most likely to encounter in your cloud journey.&lt;/p&gt;
-&lt;p&gt;(I didn't keep a list from &lt;em&gt;Cloud Practitioner&lt;/em&gt; but I'd assume they were covered in the others.)&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Amazon API Gateway, Amazon Athena, Amazon Cloud Formation, Amazon CloudFront, Amazon CloudWatch, Amazon Cognito, Amazon Comprehend, Amazon DynamoDB, Amazon EC2, Amazon EC2 Auto Scaling, Amazon Elastic Container Registry, Amazon Elastic Container Service, Amazon EMR, Amazon EventBridge, Amazon Kinesis, Amazon Lambda, Amazon Polly, Amazon Redshift, Amazon Rekognition, Amazon Relational Database Service (RDS), Amazon Route 53, Amazon S3, Amazon SageMaker, Amazon SNS, Amazon SQS, Amazon Textract, Amazon Transcribe, Amazon VPC, Amazon WAF, AWS, AWS Amplify, AWS Backup, AWS Cloud9, AWS CloudFormation, AWS CodeBuild, AWS CodeCommit, AWS CodeDeploy, AWS CodeFormation, AWS CodePipeline, AWS Cognito, AWS Comprehend, AWS Config, AWS DynamoDB, AWS Glue, AWS Identity and Access Management (IAM), AWS Key Management Service (KMS), AWS Lake Formation, AWS Lambda, AWS Rekognition, AWS Secrets Manager, AWS Service Catalog, AWS Step Functions, AWS Systems Manager, SAM&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id="links"&gt;Links&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://alex-hedley.github.io/blog/aws-cloud-quest-cloud-practitioner"&gt;Cloud Practitioner&lt;/a&gt; 🗓️ Wednesday, 25 January 2023&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://alex-hedley.github.io/blog/aws-cloud-quest-solutions-architect"&gt;Solutions Architect&lt;/a&gt; 🗓️ Wednesday, 10 May 2023&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://alex-hedley.github.io/blog/aws-cloud-quest-serverless-developer"&gt;Serverless Developer&lt;/a&gt; 🗓️ Wednesday, 15 March 2023&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://alex-hedley.github.io/blog/aws-cloud-quest-machine-learning"&gt;Machine Learning&lt;/a&gt; 🗓️ Wednesday, 5 July 2023&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://alex-hedley.github.io/blog/aws-cloud-quest-security"&gt;Security&lt;/a&gt; 🗓️ Tuesday, 11 July 2023&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://alex-hedley.github.io/blog/aws-cloud-quest-data-analytics"&gt;Data Analytics&lt;/a&gt; 🗓️ Wednesday, 21 June 2023&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id="aws-certified-cloud-practitioner"&gt;AWS Certified Cloud Practitioner&lt;/h2&gt;
-&lt;p&gt;Also whilst working through Cloud Quest I studied for and passed the &lt;a href="https://alex-hedley.github.io/blog/aws-certified-cloud-practitioner"&gt;AWS Certified Cloud Practitioner&lt;/a&gt; exam on 🗓️ Thursday, 6 April 2023.&lt;/p&gt;
-&lt;!-- ![AWS Certified Cloud Practitioner](images/aws-ccp/AWS-Certified-Cloud-Practitioner_badge.png "AWS Certified Cloud Practitioner") --&gt;
-&lt;img src="images/aws-ccp/AWS-Certified-Cloud-Practitioner_badge.png" alt="AWS Certified Cloud Practitioner" width="100"&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
