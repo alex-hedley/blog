@@ -5,13 +5,14 @@
 		<link>https://alex-hedley.github.io/blog</link>
 		<description>Welcome to my blog!</description>
 		<copyright>Copyright © 2024</copyright>
-		<pubDate>Wed, 29 May 2024 07:52:07 GMT</pubDate>
-		<lastBuildDate>Wed, 29 May 2024 07:52:07 GMT</lastBuildDate>
+		<pubDate>Thu, 30 May 2024 08:15:53 GMT</pubDate>
+		<lastBuildDate>Thu, 30 May 2024 08:15:53 GMT</lastBuildDate>
 		<item>
 			<title>Qudos .NET Newcastle Meetup - May 2024</title>
 			<link>https://alex-hedley.github.io/blog/posts/dotnet-newcastle-may-2024</link>
 			<description>.NET meetup</description>
 			<author>alexhedley</author>
+			<enclosure url="https://alex-hedley.github.io/blog/posts/images/meetups/dotnet-may-2024.png" length="0" type="image" />
 			<guid>https://alex-hedley.github.io/blog/posts/dotnet-newcastle-may-2024</guid>
 			<pubDate>Tue, 28 May 2024 00:00:00 GMT</pubDate>
 			<content:encoded>&lt;!-- # Qudos DotNet Newcastle Meetup - May 2024 --&gt;
@@ -19,9 +20,41 @@
 &lt;p&gt;📍 BJSS Newcastle, 12th Floor, Bank House, Newcastle upon Tyne NE1 6SQ&lt;/p&gt;
 &lt;!-- 🔗 https://www.meetup.com/dotnetmeetupnorth/events/.../ --&gt;
 &lt;p&gt;🔗 &lt;a href="https://www.linkedin.com/posts/qasim-qudos_meetup-qudos-newcastle-activity-7199702440688988160-8DG7"&gt;https://www.linkedin.com/posts/qasim-qudos_meetup-qudos-newcastle-activity-7199702440688988160-8DG7&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;h2 id="talks"&gt;Talks&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Michael Stephenson&lt;/em&gt; - &lt;strong&gt;Real World Journey Of Saving Lots Of Money In Azure&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Adam Parker&lt;/em&gt; - &lt;strong&gt;Interoperability In .NET Languages&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id="talk-1-real-world-journey-of-saving-lots-of-money-in-azure"&gt;Talk 1: Real World Journey Of Saving Lots Of Money In Azure&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Description&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;In this talk, we will talk about how I worked with a customer last year where we were trying to keep a tight control on our azure costs in our integration team and how we looked at implementing the same approaches in the wider organization.&lt;/p&gt;
+&lt;p&gt;We found a huge amount of waste in the azure spend and we will look at some of the things we found and approaches to optimize and reduce cost. We identified over $1m worth of cost savings.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Speaker Bio&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;Michael Stephenson has worked as an architect on Azure projects for over 10 years developing enterprise solutions with Azure. Many of these solutions involve complex integration scenarios and discussing the advantages and disadvantages for a given use case for technologies like Logic Apps, Functions, Data Factory, Service Bus and others.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Video&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;TBA&lt;/p&gt;
+&lt;h3 id="talk-2-interoperability-in.net-languages"&gt;Talk 2: Interoperability In .NET Languages&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Description&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;Over the course of the talk, we aim to discuss how .NET allows Interoperability between it's languages and how it handles different paradigms in its own ecosystem.&lt;/p&gt;
+&lt;p&gt;Areas include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Basics of how interop in .NET works.&lt;/li&gt;
+&lt;li&gt;Demos of interop between two Object-Oriented languages&lt;/li&gt;
+&lt;li&gt;A small look at functional programming in F#&lt;/li&gt;
+&lt;li&gt;Showing how to cross boundaries between functional and non-functional code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Speaker Bio&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;Adam Parker has been a software developer for over 6 years, mainly developing in the dotnet ecosystem.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Video&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;TBA&lt;/p&gt;
+&lt;h2 id="details"&gt;Details&lt;/h2&gt;
+&lt;p&gt;The good folks over at BJSS in Newcastle will be hosting and sponsoring the event again.&lt;/p&gt;
+&lt;p&gt;We'll be at 12th Floor, Bank House, Pilgrim Street, Newcastle, NE1 6SQ&lt;/p&gt;
+&lt;p&gt;We have a fairly relaxed agenda, but will follow:&lt;/p&gt;
+&lt;p&gt;5:30 - Doors Open&lt;br /&gt;
+5:45 - Pizza arrival&lt;br /&gt;
+6:05 - Introduction / Housekeeping&lt;br /&gt;
+6:10 - Talks begin&lt;br /&gt;
+8:00 - Closing&lt;/p&gt;
+&lt;h2 id="links"&gt;🔗 Links&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;QudosRecruitment"&gt;https://www.youtube.com/&amp;#64;QudosRecruitment&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.meetup.com/haintonsdotnetmeetup/"&gt;https://www.meetup.com/haintonsdotnetmeetup/&lt;/a&gt;&lt;/li&gt;
