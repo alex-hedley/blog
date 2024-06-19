@@ -5,8 +5,49 @@
 		<link>https://alex-hedley.github.io/blog</link>
 		<description>Welcome to my blog!</description>
 		<copyright>Copyright © 2024</copyright>
-		<pubDate>Thu, 30 May 2024 08:15:53 GMT</pubDate>
-		<lastBuildDate>Thu, 30 May 2024 08:15:53 GMT</lastBuildDate>
+		<pubDate>Wed, 19 Jun 2024 09:21:37 GMT</pubDate>
+		<lastBuildDate>Wed, 19 Jun 2024 09:21:37 GMT</lastBuildDate>
+		<item>
+			<title>ISC2 North East England Chapter - June 2024</title>
+			<link>https://alex-hedley.github.io/blog/posts/isc2-ne-chapter-nov-2023</link>
+			<description>ISC2 Chapter Meetup</description>
+			<author>alexhedley</author>
+			<enclosure url="https://alex-hedley.github.io/blog/posts/images/isc2/isc2chapternortheastengland.jpeg" length="0" type="image" />
+			<guid>https://alex-hedley.github.io/blog/posts/isc2-ne-chapter-nov-2023</guid>
+			<pubDate>Tue, 18 Jun 2024 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!-- # ISC2 North East England Chapter June 2024 Meetup --&gt;
+&lt;h2 id="agenda"&gt;Agenda&lt;/h2&gt;
+&lt;p&gt;🕰️ &lt;em&gt;17:00 - 17:30&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Arrivals / Networking&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;🕰️ &lt;em&gt;17:30 - 17:40&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Introductions, Chapter Updates&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Steve Gilray, Chapter Present&lt;/p&gt;
+&lt;p&gt;🕰️ &lt;em&gt;17:40 - 18:00&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Arctic Wolf: Observations from Incident Responders from the last 12 months&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Rich Fenton, Senior Systems Engineer, Arctic Wolf&lt;/p&gt;
+&lt;p&gt;Rich will present on some of the most common observed threats that industry faces, calculating the cost of a cyber-incident and what effective measures can be considered to help protect your organisation from an incident. • What are the major causes of incidents in 2023 – as witnessed by Arctic Wolf’s Incident Response team (1000 cases) • What does the impact of a breach look like ? • Is it possible to measure the potential impact beforehand to understand what your risk profile looks like (in the way a cyber-insurer would)&lt;/p&gt;
+&lt;p&gt;🕰️ &lt;em&gt;18:00 - 18:25&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Insider Threats&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Stuart G, Cyber Security Specialist, Armour Group&lt;/p&gt;
+&lt;p&gt;🕰️ &lt;em&gt;18:25 - 19:20&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Pizza, refreshments&lt;/p&gt;
+&lt;p&gt;🕰️ &lt;em&gt;19:20 - 20:00&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Cyber War &amp;amp; what it actually means in reality for Cyber Security Practitioners&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Andrew Pannell&lt;/p&gt;
+&lt;p&gt;Andrew will scrutinise the widely overused phrase &amp;quot;cyber war&amp;quot; by examining warfare and nation state attacks that have crossed the boundary into offensive cyber operations. Focusing on tactics used by both Hamas and Israel in October 2023 including reverse engineering malware, API security and DDOS attacks in detail. Andrew will offer a view of what future Cyber warfare could look like and what we can do best protect ourselves/ our organisations in such events.&lt;/p&gt;
+&lt;h2 id="date-and-time"&gt;Date and time&lt;/h2&gt;
+&lt;p&gt;🗓️ Tuesday, June 18 · 5 - 8pm GMT+1&lt;/p&gt;
+&lt;h2 id="location"&gt;Location&lt;/h2&gt;
+&lt;p&gt;📍 3rd floor&lt;br /&gt;
+77 Grey St&lt;br /&gt;
+Newcastle upon Tyne NE1&lt;/p&gt;
+&lt;h2 id="links"&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.eventbrite.co.uk/e/isc2-north-east-england-chapter-june-2024-tickets-906290508307"&gt;https://www.eventbrite.co.uk/e/isc2-north-east-england-chapter-june-2024-tickets-906290508307&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
 		<item>
 			<title>Qudos .NET Newcastle Meetup - May 2024</title>
 			<link>https://alex-hedley.github.io/blog/posts/dotnet-newcastle-may-2024</link>
@@ -664,42 +705,6 @@ $29.00 / month + VAT&lt;br&gt;
 &lt;li&gt;AWS Service Catalog&lt;/li&gt;
 &lt;li&gt;AWS Systems Manager&lt;/li&gt;
 &lt;/ul&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>VSCode - Blockquote - Preview</title>
-			<link>https://alex-hedley.github.io/blog/posts/vscode-blockquote-preview</link>
-			<description>Change the background colour in preview.</description>
-			<author>alex-hedley</author>
-			<guid>https://alex-hedley.github.io/blog/posts/vscode-blockquote-preview</guid>
-			<pubDate>Tue, 11 Jul 2023 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!-- VSCode - Blockquote --&gt;
-&lt;p&gt;I use the &lt;a href="https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-preview"&gt;learn-preview&lt;/a&gt; VSCode extension to show markdown in a side by side fashion.&lt;/p&gt;
-&lt;p&gt;Not sure when this stopped working since the colours changed but now it's unreadable:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/vscode/blockquote_1.png" alt="BlockQuote" title="BlockQuote"&gt;&lt;/p&gt;
-&lt;p&gt;Highlighting the text helps but this shouldn't be necessary.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/vscode/blockquote_2.png" alt="BlockQuote" title="BlockQuote"&gt;&lt;/p&gt;
-&lt;p&gt;Update the &lt;code&gt;settings.json&lt;/code&gt; with the following.&lt;/p&gt;
-&lt;p&gt;(You can pick whichever colour you prefer.)&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-json"&gt;"workbench.colorCustomizations": {
-    "textBlockQuote.background":"#95e0d6"
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;blockquote&gt;
-&lt;p&gt;This is a BlockQuote&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;As an image:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/vscode/blockquote_3.png" alt="BlockQuote" title="BlockQuote"&gt;&lt;/p&gt;
-&lt;h2 id="info"&gt;Info&lt;/h2&gt;
-&lt;p&gt;Extension:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-bash"&gt;Name: learn-preview
-Id: docsmsft.docs-preview
-Description: Learn Markdown Preview Extension
-Version: 1.0.2
-Publisher: Microsoft
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-preview
-&lt;/code&gt;&lt;/pre&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
