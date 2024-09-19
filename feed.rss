@@ -5,8 +5,8 @@
 		<link>https://alex-hedley.github.io/blog</link>
 		<description>Welcome to my blog!</description>
 		<copyright>Copyright © 2024</copyright>
-		<pubDate>Wed, 19 Jun 2024 09:21:37 GMT</pubDate>
-		<lastBuildDate>Wed, 19 Jun 2024 09:21:37 GMT</lastBuildDate>
+		<pubDate>Thu, 19 Sep 2024 08:21:38 GMT</pubDate>
+		<lastBuildDate>Thu, 19 Sep 2024 08:21:38 GMT</lastBuildDate>
 		<item>
 			<title>ISC2 North East England Chapter - June 2024</title>
 			<link>https://alex-hedley.github.io/blog/posts/isc2-ne-chapter-nov-2023</link>
@@ -573,6 +573,55 @@ DependencyCheckExample.csproj: CVE-2023-21893(7.5)
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
 		<item>
+			<title>WCAG 2.2 criteria workshop - Target Size</title>
+			<link>https://alex-hedley.github.io/blog/posts/govuk-inspecting-target-size</link>
+			<description>GDS</description>
+			<author>alex-hedley</author>
+			<enclosure url="https://alex-hedley.github.io/blog/posts/images/govuk-target-size.jpeg" length="0" type="image" />
+			<guid>https://alex-hedley.github.io/blog/posts/govuk-inspecting-target-size</guid>
+			<pubDate>Mon, 31 Jul 2023 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!-- # WCAG 2.2 criteria workshop - Target Size --&gt;
+&lt;h2 id="video"&gt;Video&lt;/h2&gt;
+&lt;?# YouTube 91O_DzoLM3U /?&gt;
+&lt;ul&gt;
+&lt;li&gt;Inspecting WCAG 2.2: Target size&lt;/li&gt;
+&lt;li&gt;Government Digital Service&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=91O_DzoLM3U"&gt;https://www.youtube.com/watch?v=91O_DzoLM3U&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="event"&gt;Event&lt;/h2&gt;
+&lt;p&gt;🗓️ Monday, 31 July 2023&lt;br /&gt;
+🕰️ 10:00 - 12:00 BST&lt;br /&gt;
+📍 Online&lt;br /&gt;
+🔗 &lt;a href="https://www.eventbrite.co.uk/e/wcag-22-criteria-workshop-target-size-tickets-682094261297"&gt;https://www.eventbrite.co.uk/e/wcag-22-criteria-workshop-target-size-tickets-682094261297&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="details"&gt;Details&lt;/h2&gt;
+&lt;p&gt;This is the second in a series of workshops focusing on the new Web Content Accessibility Guidelines (WCAG) 2.2 criteria, run by the GOV.UK Design System team.&lt;/p&gt;
+&lt;p&gt;T﻿his particular workshop will concentrate on the 'Target Size' criteria. Portions of the session will be recorded (presentation &amp;amp; demo parts), so that we can share on a wider scale after the event.&lt;/p&gt;
+&lt;h3 id="agenda"&gt;Agenda&lt;/h3&gt;
+&lt;p&gt;We will:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduce WCAG and the new guidelines&lt;/li&gt;
+&lt;li&gt;Look at the Target Size criteria in more detail&lt;/li&gt;
+&lt;li&gt;Assess some examples to see whether they meet the criteria or fail&lt;/li&gt;
+&lt;li&gt;Talk about strategies to resolve some of the problems we uncover&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Session type&lt;/strong&gt;: Interactive workshop, we will form groups to discuss examples&lt;br /&gt;
+&lt;strong&gt;Duration&lt;/strong&gt;: 2 hours&lt;br /&gt;
+&lt;strong&gt;Platform&lt;/strong&gt;: Zoom (please make sure your device can access Zoom meetings)&lt;br /&gt;
+If you sign up, please make sure you can attend the whole session, as we sell out quite quickly. The interactive part of the session is where a lot of the learning happens.
+We will be using Zoom Meetings and Google Docs for notes. Please make sure you have a device that can access these, as some organisation's firewalls block these platforms.&lt;/p&gt;
+&lt;h2 id="links"&gt;🔗 Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://design-system.service.gov.uk/"&gt;https://design-system.service.gov.uk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.w3.org/TR/WCAG22/"&gt;https://www.w3.org/TR/WCAG22/&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html"&gt;https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
 			<title>AWS Cloud Quest Networking</title>
 			<link>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-networking</link>
 			<description>&lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest Networking&lt;/strong&gt; training 🎉!&lt;/p&gt;</description>
@@ -635,75 +684,6 @@ $29.00 / month + VAT&lt;br&gt;
 &lt;li&gt;AWS Transit Gateway&lt;/li&gt;
 &lt;li&gt;AWS WAF&lt;/li&gt;
 &lt;li&gt;Elastic Load Balancing (ELB)&lt;/li&gt;
-&lt;/ul&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>AWS Cloud Quest Security</title>
-			<link>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-security</link>
-			<description>&lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest Security&lt;/strong&gt; training 🎉!&lt;/p&gt;</description>
-			<author>alex-hedley</author>
-			<enclosure url="https://alex-hedley.github.io/blog/posts/images/aws-cq/cloud-quest.png" length="0" type="image" />
-			<guid>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-security</guid>
-			<pubDate>Tue, 11 Jul 2023 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!-- # AWS Cloud Quest Machine Learning --&gt;
-&lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest Security&lt;/strong&gt; training 🎉!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/aws-cq/aws-cloud-quest-security.jpeg" alt="AWS Cloud Quest Security Badge" title="AWS Cloud Quest Security Badge"&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.credly.com/badges/e53bb657-c1ca-4b8a-a8a0-d14935c52717/public_url"&gt;Credly Badge&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.credly.com/users/alexhedley/badges"&gt;Credly Profile&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This is a paid course from AWS that uses gamification and hands on labs to reinforce learnings.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Part of AWS Skill Builder Individual subscription. Subscribe to get access to this and other subscriber-only benefits.&lt;br&gt;
-$29.00 / month + VAT&lt;br&gt;
-&lt;a href="https://explore.skillbuilder.aws/learn/signin"&gt;https://explore.skillbuilder.aws/learn/signin&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Use AWS security services to build solutions that respond to incidents, remediate quickly, detect vulnerabilities, and prevent data loss.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id="training-material"&gt;Training Material&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://aws.amazon.com/training/learn-about/cloud-practitioner/"&gt;Training Material&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="links"&gt;Links&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://aws.amazon.com/training/digital/aws-cloud-quest/"&gt;AWS Cloud Quest&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://explore.skillbuilder.aws/learn/course/external/view/elearning/7636/cloud-quest"&gt;Cloud Quest&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="resources-used"&gt;Resources Used&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Amazon API Gateway&lt;/li&gt;
-&lt;li&gt;Amazon Athena&lt;/li&gt;
-&lt;li&gt;Amazon CloudFront&lt;/li&gt;
-&lt;li&gt;Amazon CloudWatch&lt;/li&gt;
-&lt;li&gt;Amazon Cognito&lt;/li&gt;
-&lt;li&gt;Amazon DynamoDB&lt;/li&gt;
-&lt;li&gt;Amazon EC2&lt;/li&gt;
-&lt;li&gt;Amazon EC2 Auto Scaling&lt;/li&gt;
-&lt;li&gt;Amazon EventBridge&lt;/li&gt;
-&lt;li&gt;Amazon Kinesis&lt;/li&gt;
-&lt;li&gt;Amazon Lambda&lt;/li&gt;
-&lt;li&gt;Amazon Relational Database Service (RDS)&lt;/li&gt;
-&lt;li&gt;Amazon S3&lt;/li&gt;
-&lt;li&gt;Amazon SNS&lt;/li&gt;
-&lt;li&gt;Amazon VPC&lt;/li&gt;
-&lt;li&gt;Amazon WAF&lt;/li&gt;
-&lt;li&gt;AWS Amplify&lt;/li&gt;
-&lt;li&gt;AWS CloudFormation&lt;/li&gt;
-&lt;li&gt;AWS Cognito&lt;/li&gt;
-&lt;li&gt;AWS Config&lt;/li&gt;
-&lt;li&gt;AWS Glue&lt;/li&gt;
-&lt;li&gt;AWS Identity and Access Management (IAM)&lt;/li&gt;
-&lt;li&gt;AWS Key Management Service (KMS)&lt;/li&gt;
-&lt;li&gt;AWS Lambda&lt;/li&gt;
-&lt;li&gt;AWS Secrets Manager&lt;/li&gt;
-&lt;li&gt;AWS Service Catalog&lt;/li&gt;
-&lt;li&gt;AWS Systems Manager&lt;/li&gt;
 &lt;/ul&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
