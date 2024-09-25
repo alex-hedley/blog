@@ -6,7 +6,7 @@ tags:
 author: alex-hedley
 description: GDS
 published: 2023-07-31
-image: /posts/images/govuk-target-size.jpeg
+image: /posts/images/govuk/govuk-target-size.jpeg
 imageattribution: https://design-system.service.gov.uk
 ---
 

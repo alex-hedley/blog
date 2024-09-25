@@ -6,7 +6,7 @@ tags:
 author: alex-hedley
 description: GDS
 published: 2024-02-01
-image: /posts/images/gds-govukforms.jpeg
+image: /posts/images/govuk/gds-govukforms.jpeg
 imageattribution: https://www.forms.service.gov.uk
 ---
 
@@ -21,7 +21,7 @@ Find out just how easy it is to create online forms using the Government Digital
 🗓️ Thursday, 1 February 2024  
 🕰️ 12:00 - 13:00 GMT  
 📍Online  
-🔗 https://www.eventbrite.co.uk/e/hyhubs-hyheroes-awards-2023-tickets-727053124467  
+🔗 https://www.eventbrite.co.uk/e/introduction-to-govuk-forms-tickets-790210931167  
 
 ## Details
 
