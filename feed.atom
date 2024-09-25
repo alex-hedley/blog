@@ -4,7 +4,7 @@
 	<title>Alex Hedley</title>
 	<link rel="self" href="https://alex-hedley.github.io/blog" />
 	<rights>Copyright © 2024</rights>
-	<updated>2024-09-25T10:12:27Z</updated>
+	<updated>2024-09-25T10:15:52Z</updated>
 	<subtitle>Welcome to my blog!</subtitle>
 	<entry>
 		<id>https://alex-hedley.github.io/blog/posts/govuk-design-system-sept2024</id>
@@ -13,7 +13,7 @@
 			<name>alex-hedley</name>
 		</author>
 		<link href="https://alex-hedley.github.io/blog/posts/govuk-design-system-sept2024" />
-		<link rel="enclosure" type="image" href="https://alex-hedley.github.io/blog/posts/images/govuk-design-system.png" />
+		<link rel="enclosure" type="image" href="https://alex-hedley.github.io/blog/posts/images/govuk/govuk-design-system.png" />
 		<updated>2024-09-25T00:00:00Z</updated>
 		<content>&lt;!-- # Design System Chat - September 2024 --&gt;
 &lt;h2 id="event"&gt;Event&lt;/h2&gt;
