@@ -4,8 +4,46 @@
 	<title>Alex Hedley</title>
 	<link rel="self" href="https://alex-hedley.github.io/blog" />
 	<rights>Copyright © 2024</rights>
-	<updated>2024-09-19T08:21:38Z</updated>
+	<updated>2024-09-25T10:12:27Z</updated>
 	<subtitle>Welcome to my blog!</subtitle>
+	<entry>
+		<id>https://alex-hedley.github.io/blog/posts/govuk-design-system-sept2024</id>
+		<title>Design System Chat - September 2024</title>
+		<author>
+			<name>alex-hedley</name>
+		</author>
+		<link href="https://alex-hedley.github.io/blog/posts/govuk-design-system-sept2024" />
+		<link rel="enclosure" type="image" href="https://alex-hedley.github.io/blog/posts/images/govuk-design-system.png" />
+		<updated>2024-09-25T00:00:00Z</updated>
+		<content>&lt;!-- # Design System Chat - September 2024 --&gt;
+&lt;h2 id="event"&gt;Event&lt;/h2&gt;
+&lt;p&gt;🗓️ Wednesday, 25 September 2024&lt;br /&gt;
+🕰️ 11:00 - 12:00 BST&lt;br /&gt;
+📍 Online&lt;br /&gt;
+🔗 &lt;a href="https://www.eventbrite.co.uk/e/design-system-chat-september-2024-tickets-1022480535807"&gt;https://www.eventbrite.co.uk/e/design-system-chat-september-2024-tickets-1022480535807&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="details"&gt;Details&lt;/h2&gt;
+&lt;p&gt;You're invited to the September edition of the 'design system chat', hosted monthly by the GOV.UK Design System team.&lt;/p&gt;
+&lt;h3 id="agenda"&gt;Agenda&lt;/h3&gt;
+&lt;p&gt;Agenda:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Show &amp;amp; tell: What the GOV.UK Design System team have been working on&lt;/li&gt;
+&lt;li&gt;Discussion: What are your training needs?&lt;/li&gt;
+&lt;li&gt;Feed back&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Session type&lt;/strong&gt;: Show &amp;amp; tell, discussion&lt;br /&gt;
+&lt;strong&gt;Duration&lt;/strong&gt;: 1 hour&lt;br /&gt;
+&lt;strong&gt;Platform&lt;/strong&gt;: Zoom (please make sure your device can access Zoom meetings)&lt;br /&gt;
+If you sign up, please make sure you can attend the whole session, as we sell out quite quickly.
+We will be using &lt;strong&gt;Zoom Meetings&lt;/strong&gt; for video, and &lt;strong&gt;Padlet&lt;/strong&gt; for notes and comments. Please make sure you have a device that can access these, as some organisation’s firewalls block these platforms.&lt;/p&gt;
+&lt;h2 id="links"&gt;🔗 Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://design-system.service.gov.uk/"&gt;https://design-system.service.gov.uk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;GovernmentDigitalService"&gt;https://www.youtube.com/&amp;#64;GovernmentDigitalService&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;UKGovDesign"&gt;https://www.youtube.com/&amp;#64;UKGovDesign&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+		<summary>GOV.UK Design System team</summary>
+	</entry>
 	<entry>
 		<id>https://alex-hedley.github.io/blog/posts/isc2-ne-chapter-nov-2023</id>
 		<title>ISC2 North East England Chapter - June 2024</title>
@@ -135,7 +173,7 @@ Newcastle upon Tyne NE1&lt;/p&gt;
 			<name>alex-hedley</name>
 		</author>
 		<link href="https://alex-hedley.github.io/blog/posts/govuk-forms" />
-		<link rel="enclosure" type="image" href="https://alex-hedley.github.io/blog/posts/images/gds-govukforms.jpeg" />
+		<link rel="enclosure" type="image" href="https://alex-hedley.github.io/blog/posts/images/govuk/gds-govukforms.jpeg" />
 		<updated>2024-02-01T00:00:00Z</updated>
 		<content>&lt;!-- # Introduction to GOV.UK Forms --&gt;
 &lt;p&gt;Find out just how easy it is to create online forms using the Government Digital Service new forms builder.&lt;/p&gt;
@@ -144,7 +182,7 @@ Newcastle upon Tyne NE1&lt;/p&gt;
 &lt;p&gt;🗓️ Thursday, 1 February 2024&lt;br /&gt;
 🕰️ 12:00 - 13:00 GMT&lt;br /&gt;
 📍Online&lt;br /&gt;
-🔗 &lt;a href="https://www.eventbrite.co.uk/e/hyhubs-hyheroes-awards-2023-tickets-727053124467"&gt;https://www.eventbrite.co.uk/e/hyhubs-hyheroes-awards-2023-tickets-727053124467&lt;/a&gt;&lt;/p&gt;
+🔗 &lt;a href="https://www.eventbrite.co.uk/e/introduction-to-govuk-forms-tickets-790210931167"&gt;https://www.eventbrite.co.uk/e/introduction-to-govuk-forms-tickets-790210931167&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="details"&gt;Details&lt;/h2&gt;
 &lt;p&gt;We’ve launched the early access phase of our new form builder software GOV.UK forms.
 It helps make the switch from document based and printed forms to easy to use, accessible online forms across government. It’s part of our commitment to make it easier for government departments to build digital services.
@@ -586,7 +624,7 @@ DependencyCheckExample.csproj: CVE-2023-21893(7.5)
 			<name>alex-hedley</name>
 		</author>
 		<link href="https://alex-hedley.github.io/blog/posts/govuk-inspecting-target-size" />
-		<link rel="enclosure" type="image" href="https://alex-hedley.github.io/blog/posts/images/govuk-target-size.jpeg" />
+		<link rel="enclosure" type="image" href="https://alex-hedley.github.io/blog/posts/images/govuk/govuk-target-size.jpeg" />
 		<updated>2023-07-31T00:00:00Z</updated>
 		<content>&lt;!-- # WCAG 2.2 criteria workshop - Target Size --&gt;
 &lt;h2 id="video"&gt;Video&lt;/h2&gt;
@@ -628,73 +666,5 @@ We will be using Zoom Meetings and Google Docs for notes. Please make sure you h
 &lt;/ul&gt;
 </content>
 		<summary>GDS</summary>
-	</entry>
-	<entry>
-		<id>https://alex-hedley.github.io/blog/posts/aws-cloud-quest-networking</id>
-		<title>AWS Cloud Quest Networking</title>
-		<author>
-			<name>alex-hedley</name>
-		</author>
-		<link href="https://alex-hedley.github.io/blog/posts/aws-cloud-quest-networking" />
-		<link rel="enclosure" type="image" href="https://alex-hedley.github.io/blog/posts/images/aws-cq/cloud-quest.png" />
-		<updated>2023-07-28T00:00:00Z</updated>
-		<content>&lt;!-- # AWS Cloud Quest Networking --&gt;
-&lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest Networking&lt;/strong&gt; training 🎉!&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/aws-cq/aws-cloud-quest-networking.png" alt="AWS Cloud Quest Networking Badge" title="AWS Cloud Quest Networking Badge"&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.credly.com/badges/8f0220d0-0704-4ce2-8650-4ffbf090bf4b/public_url"&gt;Credly Badge&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.credly.com/users/alexhedley/badges"&gt;Credly Profile&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="notes"&gt;Notes&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;AWS Step Functions&lt;/em&gt; took me back to my Symantec Workflow days. It was a nice UI to work with and interesting to see the JSON output.
-A new resource I got to try was &lt;em&gt;Amazon QuickSight&lt;/em&gt;, seems very handy when linked with &lt;em&gt;Amazon Athena&lt;/em&gt; to build some very useful dashboards.&lt;/p&gt;
-&lt;h2 id="info"&gt;Info&lt;/h2&gt;
-&lt;p&gt;This is a paid course from AWS that uses gamification and hands on labs to reinforce learnings.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Part of AWS Skill Builder Individual subscription. Subscribe to get access to this and other subscriber-only benefits.&lt;br&gt;
-$29.00 / month + VAT&lt;br&gt;
-&lt;a href="https://explore.skillbuilder.aws/learn/signin"&gt;https://explore.skillbuilder.aws/learn/signin&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;As the city’s Networking specialist, you will leverage AWS services to scale network connectivity, connect to on-premisses networks, protect applications, analyze network traffic and identify suspicious activity. As you build real solutions, you will explore concepts such as network tunneling, peering, cross region routing and log analysis.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id="links"&gt;Links&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://aws.amazon.com/training/digital/aws-cloud-quest/"&gt;AWS Cloud Quest&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://explore.skillbuilder.aws/learn/course/external/view/elearning/7636/cloud-quest"&gt;Cloud Quest&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="resources-used"&gt;Resources Used&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Amazon Athena&lt;/li&gt;
-&lt;li&gt;Amazon CloudFront&lt;/li&gt;
-&lt;li&gt;Amazon CloudWatch&lt;/li&gt;
-&lt;li&gt;Amazon EC2&lt;/li&gt;
-&lt;li&gt;Amazon EC2 Auto Scaling&lt;/li&gt;
-&lt;li&gt;Amazon QuickSight&lt;/li&gt;
-&lt;li&gt;Amazon Relational Database Service (RDS)&lt;/li&gt;
-&lt;li&gt;Amazon Route 53&lt;/li&gt;
-&lt;li&gt;Amazon S3&lt;/li&gt;
-&lt;li&gt;Amazon SNS&lt;/li&gt;
-&lt;li&gt;Amazon VPC&lt;/li&gt;
-&lt;li&gt;AWS&lt;/li&gt;
-&lt;li&gt;AWS Cloud Trail&lt;/li&gt;
-&lt;li&gt;AWS CloudFormation&lt;/li&gt;
-&lt;li&gt;AWS CloudWatch&lt;/li&gt;
-&lt;li&gt;AWS Glue&lt;/li&gt;
-&lt;li&gt;AWS Lambda&lt;/li&gt;
-&lt;li&gt;AWS Network Firewall&lt;/li&gt;
-&lt;li&gt;AWS Private Link&lt;/li&gt;
-&lt;li&gt;AWS Site-to-Site VPN&lt;/li&gt;
-&lt;li&gt;AWS Step Functions&lt;/li&gt;
-&lt;li&gt;AWS Systems Manager&lt;/li&gt;
-&lt;li&gt;AWS Transit Gateway&lt;/li&gt;
-&lt;li&gt;AWS WAF&lt;/li&gt;
-&lt;li&gt;Elastic Load Balancing (ELB)&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-		<summary>&lt;p&gt;Today I completed the &lt;strong&gt;AWS Cloud Quest Networking&lt;/strong&gt; training 🎉!&lt;/p&gt;</summary>
 	</entry>
 </feed>
