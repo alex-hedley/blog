@@ -3,8 +3,8 @@
 	<id>https://alex-hedley.github.io/blog</id>
 	<title>Alex Hedley</title>
 	<link rel="self" href="https://alex-hedley.github.io/blog" />
-	<rights>Copyright © 2024</rights>
-	<updated>2024-11-13T09:04:01Z</updated>
+	<rights>Copyright © 2025</rights>
+	<updated>2025-01-24T17:15:54Z</updated>
 	<subtitle>Welcome to my blog!</subtitle>
 	<entry>
 		<id>https://alex-hedley.github.io/blog/posts/isc2-ne-chapter-nov-2024</id>
@@ -50,6 +50,45 @@ NE28 9EJ&lt;/p&gt;
 &lt;/ul&gt;
 </content>
 		<summary>ISC2 Chapter Meetup</summary>
+	</entry>
+	<entry>
+		<id>https://alex-hedley.github.io/blog/posts/govuk-design-system-oct2024</id>
+		<title>Design System Chat - Oct 2024</title>
+		<author>
+			<name>alex-hedley</name>
+		</author>
+		<link href="https://alex-hedley.github.io/blog/posts/govuk-design-system-oct2024" />
+		<link rel="enclosure" type="image" href="https://alex-hedley.github.io/blog/posts/images/govuk/govuk-design-system-oct-24.jpeg" />
+		<updated>2024-10-29T00:00:00Z</updated>
+		<content>&lt;!-- # Design System Chat - Oct 2024 --&gt;
+&lt;h2 id="event"&gt;Event&lt;/h2&gt;
+&lt;p&gt;🗓️ Tuesday, 29 October
+🕰️ 14:00 - 15:00 BST&lt;br /&gt;
+📍 Online&lt;br /&gt;
+🔗 &lt;a href="https://www.eventbrite.co.uk/e/design-system-chat-october-2024-tickets-1043048856207"&gt;https://www.eventbrite.co.uk/e/design-system-chat-october-2024-tickets-1043048856207&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="details"&gt;Details&lt;/h2&gt;
+&lt;p&gt;You're invited to a special WCAG 2.2 edition of the 'design system chat', hosted monthly by the GOV.UK Design System team.&lt;/p&gt;
+&lt;h3 id="agenda"&gt;Agenda&lt;/h3&gt;
+&lt;p&gt;Agenda:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GOV.UK Design System team: How we’re helping users meet WCAG 2.2&lt;/li&gt;
+&lt;li&gt;Lightning talks x2: How service teams are complying with WCAG 2.2 guidelines&lt;/li&gt;
+&lt;li&gt;Discussion: How are you making progress towards WCAG 2.2?&lt;/li&gt;
+&lt;li&gt;Feed back&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Session type&lt;/strong&gt;: Show &amp;amp; tell, discussion&lt;br /&gt;
+&lt;strong&gt;Duration&lt;/strong&gt;: 1 hour&lt;br /&gt;
+&lt;strong&gt;Platform&lt;/strong&gt;: Zoom (please make sure your device can access Zoom meetings)&lt;br /&gt;
+If you sign up, please make sure you can attend the whole session, as we sell out quite quickly.
+We will be using &lt;strong&gt;Zoom Meetings&lt;/strong&gt; for video, and &lt;strong&gt;Padlet&lt;/strong&gt; for notes and comments. Please make sure you have a device that can access these, as some organisation’s firewalls block these platforms.&lt;/p&gt;
+&lt;h2 id="links"&gt;🔗 Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://design-system.service.gov.uk/"&gt;https://design-system.service.gov.uk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;GovernmentDigitalService"&gt;https://www.youtube.com/&amp;#64;GovernmentDigitalService&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;UKGovDesign"&gt;https://www.youtube.com/&amp;#64;UKGovDesign&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+		<summary>GOV.UK Design System team</summary>
 	</entry>
 	<entry>
 		<id>https://alex-hedley.github.io/blog/posts/govuk-design-system-sept2024</id>
@@ -498,168 +537,5 @@ We’ve got an array of features already available with more being developed. Jo
 &lt;/ul&gt;
 </content>
 		<summary>Using OCaml in GitHub with Actions/Workflows etc.</summary>
-	</entry>
-	<entry>
-		<id>https://alex-hedley.github.io/blog/posts/dependencycheck-dotnet</id>
-		<title>DependencyCheck .NET</title>
-		<author>
-			<name>alex-hedley</name>
-		</author>
-		<link href="https://alex-hedley.github.io/blog/posts/dependencycheck-dotnet" />
-		<link rel="enclosure" type="image" href="https://alex-hedley.github.io/blog/posts/images/dependency-check/dependencycheck.svg" />
-		<updated>2023-08-08T00:00:00Z</updated>
-		<content>&lt;!-- DependencyCheck .NET --&gt;
-&lt;p&gt;In this article I will run through setting up the awesome &lt;a href="https://jeremylong.github.io/DependencyCheck/index.html"&gt;DependencyCheck&lt;/a&gt; from &lt;a href="https://github.com/jeremylong"&gt;Jeremy Long&lt;/a&gt; for a .NET application.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Dependency-check can currently be used to scan software to identify the use of known vulnerable components.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I've used this on some Kotlin/Java projects and wanted to see how easy it was to setup for .NET.&lt;/p&gt;
-&lt;p&gt;There are a number of plugins listed for Gradle etc but for .NET I'm going to use the &lt;a href="https://jeremylong.github.io/DependencyCheck/dependency-check-cli/index.html"&gt;CLI&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You can run this locally, first install with &lt;code&gt;brew install dependency-check&lt;/code&gt; then for *&lt;strong&gt;nix&lt;/strong&gt; systems run &lt;code&gt;dependency-check.sh --project "My App Name" --scan "/java/application/lib"&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Since I'm wanting to also try this out in CI/CD it's straight to GitHub to create a sample repo.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/alex-hedley/dotnet-dependencycheck"&gt;dotnet-dependencycheck&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I created a simple .NET Console Application then looked at what was needed to run the tooling locally.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;dependency-check --project "DependencyCheckExample" --scan "src/DependencyCheckExample/bin/Debug/net7.0/*.dll"&lt;/code&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;[NOTE] Update the &lt;code&gt;net7.0&lt;/code&gt; version to whichever you are working with.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Depending where you are running the tool from determines the output location of the report. See the &lt;a href="https://jeremylong.github.io/DependencyCheck/dependency-check-cli/arguments.html"&gt;Command Line Agruments&lt;/a&gt; for more details.&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Short&lt;/th&gt;
-&lt;th&gt;Argument Name&lt;/th&gt;
-&lt;th&gt;Parameter&lt;/th&gt;
-&lt;th&gt;Description&lt;/th&gt;
-&lt;th&gt;Requirement&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;-o&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;--out&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;&amp;lt;path&amp;gt;&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;The folder to write reports to. This defaults to the current directory. If the format is not set to ALL one could specify a specific file name.&lt;/td&gt;
-&lt;td&gt;Optional&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;Make sure you are in the working directory of your project before running, unless you want it adding to your &lt;em&gt;usr&lt;/em&gt; folder.&lt;/p&gt;
-&lt;p&gt;I also updated it to output to a subfolder of &lt;em&gt;reports&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;dependency-check --project "DependencyCheckExample" --scan "DependencyCheckExample/bin/Debug/net7.0/*.dll" --out "reports"&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;This produces a &lt;code&gt;dependency-check-report.html&lt;/code&gt; file, self contained with the results.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/dependency-check/dependency-check-report.png" alt="Sample Report" title="Sample Report"&gt;&lt;/p&gt;
-&lt;p&gt;Not very interesting as there are no dependencies, but at least the flow is working.&lt;/p&gt;
-&lt;p&gt;Next is how to replicate this in &lt;a href="https://github.com/features/actions"&gt;GitHub Actions&lt;/a&gt;?&lt;/p&gt;
-&lt;p&gt;Could I run &lt;code&gt;brew install&lt;/code&gt; and run &lt;code&gt;dependency-check.sh&lt;/code&gt;, maybe but I'm sure someone has already created a GitHub Action for this.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/dependency-check/Dependency-Check_Action"&gt;Dependency-Check Action&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class="language-yml"&gt;      - name: Depcheck
-        uses: dependency-check/Dependency-Check_Action@main
-        id: Depcheck
-        with:
-          project: 'test'
-          path: '.'
-          format: 'HTML'
-          out: 'reports' # this is the default, no need to specify unless you wish to override it
-          args: &amp;gt;
-            --failOnCVSS 7
-            --enableRetired
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;This has a lot of options to override so check the docs if you want to tweak anything.&lt;/p&gt;
-&lt;p&gt;There's an ADO one too (&lt;a href="https://github.com/dependency-check/azuredevops"&gt;azuredevops&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;I created a Workflow (&lt;a href="https://github.com/alex-hedley/dotnet-dependencycheck/blob/main/.github/workflows/depcheck.yml"&gt;depcheck.yml&lt;/a&gt;) to get the &lt;em&gt;src&lt;/em&gt;, &lt;em&gt;restore&lt;/em&gt; any dependencies, &lt;em&gt;build&lt;/em&gt;, (&lt;em&gt;test&lt;/em&gt;) and then run the &lt;strong&gt;Dependency-Check action&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;We now have an artifact so might as well upload that and since it's a website we can use GitHub Pages to host the output too.&lt;/p&gt;
-&lt;p&gt;I manually created an &lt;code&gt;index.html&lt;/code&gt; on the &lt;code&gt;gh-pages&lt;/code&gt; branch to point to the file, you could do with this how you wish.&lt;/p&gt;
-&lt;p&gt;I've used &lt;a href="https://github.com/JamesIves/github-pages-deploy-action"&gt;JamesIves/github-pages-deploy-action&lt;/a&gt; but you could swap to &lt;a href="https://github.com/peaceiris/actions-gh-pages"&gt;peaceiris/actions-gh-pages&lt;/a&gt; or even the GH one through the new Beta options which includes &lt;code&gt;actions/configure-pages&lt;/code&gt;, &lt;code&gt;actions/upload-pages-artifact&lt;/code&gt; and &lt;code&gt;actions/deploy-pages&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Next up is adding some vulnerable code to the sample Console App to see what DC finds...&lt;/p&gt;
-&lt;h2 id="vulnerabilities"&gt;Vulnerabilities&lt;/h2&gt;
-&lt;p&gt;First thing to do is find some...&lt;/p&gt;
-&lt;p&gt;I could take a look through the CVEs on &lt;a href="https://cve.mitre.org/"&gt;https://cve.mitre.org&lt;/a&gt; but it would help to know the CVE #. Another option is to filter the &lt;a href="https://github.com/advisories"&gt;GitHub Advisory Database&lt;/a&gt; for &lt;a href="https://www.nuget.org/"&gt;NuGet&lt;/a&gt;.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anuget"&gt;https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anuget&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I can then filter by Severity to get an example of each kind.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;🟥 Critical - &lt;a href="https://github.com/advisories/GHSA-g3wc-xv93-445q"&gt;CVE-2021-4248&lt;/a&gt; - DNS NuGet package uses insufficiently random values (DNS (6.1.0))&lt;/li&gt;
-&lt;li&gt;🟧 High - &lt;a href="https://github.com/advisories/GHSA-5pm2-9mr2-3frq"&gt;CVE-2023-21893&lt;/a&gt; - Component takeover in Oracle Data Provider for .NET (Oracle.ManagedDataAccess (21.4.0) / Oracle.ManagedDataAccess.Core (3.21.1))&lt;/li&gt;
-&lt;li&gt;🟨 Moderate - &lt;a href="https://github.com/advisories/GHSA-8g2p-5pqh-5jmc"&gt;CVE-2022-41064&lt;/a&gt; - .NET Information Disclosure Vulnerability (System.Data.SqlClient (4.8.3))&lt;/li&gt;
-&lt;li&gt;⬜️ Low - &lt;a href="https://github.com/advisories/GHSA-j9m2-h2pv-wvph"&gt;CVE-2021-43306&lt;/a&gt; - Regular expression denial of service in jquery-validation (jQuery.Validation (1.19.3))&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Add these to my &lt;code&gt;.csproj&lt;/code&gt;, rebuild and then re-run the DC tool.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/dependency-check/dependency-check-report-summary.png" alt="Dependency-Check Report - Summary" title="Dependency-Check Report - Summary"&gt;&lt;/p&gt;
-&lt;p&gt;Comparing this to GitHub's check you can also see the same list from the Security tab (Dependabot):&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/alex-hedley/dotnet-dependencycheck/security"&gt;https://github.com/alex-hedley/dotnet-dependencycheck/security&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/dependency-check/GitHub-Dependabot-alerts.png" alt="GitHub - Dependabot alerts" title="GitHub - Dependabot alerts"&gt;&lt;/p&gt;
-&lt;h2 id="suppressions"&gt;Suppressions&lt;/h2&gt;
-&lt;p&gt;As with everything we want a way to ignore things, these being false positive vulnerabilities or ones we've chosen to ignore for whatever reason. There is an option to do this with a supplementary file.&lt;/p&gt;
-&lt;p&gt;Create a new xml file, e.g. &lt;code&gt;dependency-suppression.xml&lt;/code&gt; and add the following:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-xml"&gt;&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
-&amp;lt;suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.3.xsd"&amp;gt;
-&amp;lt;/suppressions&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Then in the Dependency Check Report there is a &lt;em&gt;suppress&lt;/em&gt; button containing the XML you need to add, click, copy and add e.g.&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-xml"&gt;    &amp;lt;suppress&amp;gt;
-        &amp;lt;notes&amp;gt;&amp;lt;![CDATA[
-        file name: Microsoft.Win32.SystemEvents.dll
-        ]]&amp;gt;&amp;lt;/notes&amp;gt;
-        &amp;lt;packageUrl regex="true"&amp;gt;^pkg:generic/Microsoft\.Win32\.SystemEvents@.*$&amp;lt;/packageUrl&amp;gt;
-        &amp;lt;cpe&amp;gt;cpe:/a:microsoft:.net_core&amp;lt;/cpe&amp;gt;
-    &amp;lt;/suppress&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Re-run the report and this will have gone.&lt;/p&gt;
-&lt;h2 id="fail"&gt;Fail&lt;/h2&gt;
-&lt;p&gt;From the sample there was an added arg of &lt;code&gt;failOnCVSS&lt;/code&gt; set to &lt;strong&gt;7&lt;/strong&gt; so this was failing the CI/CD, as expected:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-bash"&gt;Error:
-
-One or more dependencies were identified with vulnerabilities that have a CVSS score greater than or equal to '7.0': 
-
-DependencyCheckExample.csproj: CVE-2021-4248(9.8)
-DependencyCheckExample.csproj: CVE-2023-21893(7.5)
-DependencyCheckExample.csproj: CVE-2023-21893(7.5)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Removing this didn't stop the build failing and I couldn't see a default value in the code. Looking at the check &lt;a href="https://github.com/jeremylong/DependencyCheck/blob/6a85d0ffa28d6e625f3ef23db766f651614ad505/cli/src/main/java/org/owasp/dependencycheck/CliParser.java#L906"&gt;CliParser - getFailOnCVSS&lt;/a&gt; I found it defaulted to &lt;strong&gt;11&lt;/strong&gt; so just overrode it for the time being as I wanted the build to pass and produce the report - in a real world situation it would be good to set this to the required limit.&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-yml"&gt;        args: &amp;gt;
-            --failOnCVSS 11
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://jeremylong.github.io/DependencyCheck/dependency-check-cli/arguments.html"&gt;Command Line Arguments&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Short&lt;/th&gt;
-&lt;th&gt;Argument Name&lt;/th&gt;
-&lt;th&gt;Parameter&lt;/th&gt;
-&lt;th&gt;Description&lt;/th&gt;
-&lt;th&gt;Requirement&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;--failOnCVSS&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;&amp;lt;score&amp;gt;&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;If the score set between 0 and 10 the exit code from dependency-check will indicate if a vulnerability with a CVSS score equal to or higher was identified.&lt;/td&gt;
-&lt;td&gt;Optional&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id="inconsistencies"&gt;Inconsistencies&lt;/h2&gt;
-&lt;p&gt;Running the app locally doesn't produce the same output as on GitHub Actions...&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;dependency-check --v&lt;/code&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Dependency-Check Core version 8.3.1&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;The &lt;a href="https://github.com/dependency-check/Dependency-Check_Action"&gt;Dependency-Check Action&lt;/a&gt; uses the &lt;a href="https://github.com/dependency-check/DependencyCheck_Builder/"&gt;DependencyCheck Builder&lt;/a&gt; which has a &lt;a href="https://github.com/dependency-check/DependencyCheck_Builder/blob/main/Dockerfile"&gt;Dockerfile&lt;/a&gt; which uses the &lt;a href="https://hub.docker.com/r/owasp/dependency-check"&gt;Docker Hub image&lt;/a&gt; which is currently the same version.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;--enableRetired&lt;/code&gt; is being used in the GHA but I'm not locally.&lt;/p&gt;
-&lt;p&gt;I need to check if any other args are being set to a default value.&lt;/p&gt;
-</content>
-		<summary>How to use DependencyCheck with .NET.</summary>
 	</entry>
 </feed>
