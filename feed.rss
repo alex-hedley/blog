@@ -5,8 +5,96 @@
 		<link>https://alex-hedley.github.io/blog</link>
 		<description>Welcome to my blog!</description>
 		<copyright>Copyright © 2025</copyright>
-		<pubDate>Fri, 24 Jan 2025 17:15:54 GMT</pubDate>
-		<lastBuildDate>Fri, 24 Jan 2025 17:15:54 GMT</lastBuildDate>
+		<pubDate>Thu, 13 Feb 2025 09:25:21 GMT</pubDate>
+		<lastBuildDate>Thu, 13 Feb 2025 09:25:21 GMT</lastBuildDate>
+		<item>
+			<title>AWS User Group - North East - Meetup - Feb 2025</title>
+			<link>https://alex-hedley.github.io/blog/posts/aws-north-east-user-group-feb-2025</link>
+			<description>AWS meetup</description>
+			<author>alex-hedley</author>
+			<enclosure url="https://alex-hedley.github.io/blog/posts/images/meetups/aws-north-east-user-group/banner.png" length="0" type="image" />
+			<guid>https://alex-hedley.github.io/blog/posts/aws-north-east-user-group-feb-2025</guid>
+			<pubDate>Wed, 12 Feb 2025 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!-- # AWS User Group - North East - Meetup - Feb 2025 --&gt;
+&lt;p&gt;AWS Community re:Invent re:Cap&lt;/p&gt;
+&lt;p&gt;📅 Wednesday, Feb 12, 2025 · 6pm - 8pm GMT&lt;/p&gt;
+&lt;p&gt;📍 The Core, Bath Lane, Newcastle Helix, Newcastle upon Tyne, NE4 5TF&lt;/p&gt;
+&lt;p&gt;🔗 &lt;a href="https://www.meetup.com/aws-user-group-north-east-england/events/305592946/"&gt;https://www.meetup.com/aws-user-group-north-east-england/events/305592946/&lt;/a&gt;&lt;/p&gt;
+&lt;!-- ![Banner](images/meetups/aws-north-east-user-group/banner.png "Banner") --&gt;
+&lt;h2 id="agenda"&gt;Agenda&lt;/h2&gt;
+&lt;p&gt;Hi everyone&lt;/p&gt;
+&lt;p&gt;Welcome to our first scheduled event of the new year.&lt;/p&gt;
+&lt;p&gt;The tour has already kicked off and with almost 20 venues in the UK over the next couple of months &lt;strong&gt;Matheus Guimaraes&lt;/strong&gt; will be hosting the re:Invent Recap.&lt;/p&gt;
+&lt;p&gt;If you've missed it completely, or went and still missed things (entirely possibly, its huge!), or want a recap of all the major announcements then come and join us.&lt;/p&gt;
+&lt;p&gt;Matheus is an entertaining speaker and you'll definitely have a good night.&lt;/p&gt;
+&lt;p&gt;There will be our usual pizza and drinks provided by our wonderful hosts &lt;strong&gt;Leighton&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Date: Wednesday February 12&lt;br /&gt;
+Time: 18:00-20:00&lt;br /&gt;
+Venue: The Core, Bath Lane, Newcastle Helix, Newcastle upon Tyne, NE4 5TF&lt;/p&gt;
+&lt;p&gt;Many thanks to our sponsors &lt;strong&gt;Leighton&lt;/strong&gt; for hosting us on the night.&lt;/p&gt;
+&lt;p&gt;Hope to see you all there!&lt;/p&gt;
+&lt;h2 id="notes"&gt;Notes&lt;/h2&gt;
+&lt;p&gt;Matheus was a superb presenter, really engaging and loved the enthusiasm for all things AWS!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://linktr.ee/codingmatheus"&gt;https://linktr.ee/codingmatheus&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="links"&gt;🔗 Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.meetup.com/aws-user-group-north-east-england/"&gt;https://www.meetup.com/aws-user-group-north-east-england/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://aws.amazon.com/developer/community/usergroups/"&gt;https://aws.amazon.com/developer/community/usergroups/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A few links I remembered to scan during&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://aws.amazon.com/blogs/aws/announcing-a-visual-update-to-the-aws-management-console-preview/"&gt;Announcing a visual update to the AWS Management Console (preview)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://aws.amazon.com/blogs/aws/use-your-on-premises-infrastructure-in-amazon-eks-clusters-with-amazon-eks-hybrid-nodes/"&gt;Use your on-premises infrastructure in Amazon EKS clusters with Amazon EKS Hybrid Nodes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://aws.amazon.com/blogs/aws/new-aws-security-incident-response-helps-organizations-respond-to-and-recover-from-security-events/"&gt;New AWS Security Incident Response helps organizations respond to and recover from security events&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Download the PDF to see the full presentation&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://community.aws/recaps"&gt;AWS Community re:Invent re:Caps&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
+			<title>Design System Chat - Jan 2025</title>
+			<link>https://alex-hedley.github.io/blog/posts/govuk-design-system-jan2025</link>
+			<description>GOV.UK Design System team</description>
+			<author>alex-hedley</author>
+			<enclosure url="https://alex-hedley.github.io/blog/posts/images/govuk/govuk-design-system-jan.jpeg" length="0" type="image" />
+			<guid>https://alex-hedley.github.io/blog/posts/govuk-design-system-jan2025</guid>
+			<pubDate>Wed, 29 Jan 2025 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!-- # Design System Chat - Jan 2025 --&gt;
+&lt;h2 id="event"&gt;Event&lt;/h2&gt;
+&lt;p&gt;🗓️ Wednesday, 29 January
+🕰️ 11:00 - 12:00 BST&lt;br /&gt;
+📍 Online&lt;br /&gt;
+🔗 &lt;a href="https://www.eventbrite.co.uk/e/design-system-chat-january-2025-tickets-1214931235029"&gt;https://www.eventbrite.co.uk/e/design-system-chat-january-2025-tickets-1214931235029&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="details"&gt;Details&lt;/h2&gt;
+&lt;p&gt;You're invited to 2025's first 'design system chat', hosted monthly by the GOV.UK Design System team.&lt;/p&gt;
+&lt;h3 id="agenda"&gt;Agenda&lt;/h3&gt;
+&lt;p&gt;Agenda:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Annual UX/FrontEnd survey - what we do with the data and how it feeds into prioritisation&lt;/li&gt;
+&lt;li&gt;WCAG 2.2 video&lt;/li&gt;
+&lt;li&gt;Connecting gov design systems hackathon - What happened and plans for part 2&lt;/li&gt;
+&lt;li&gt;JavaScript API - what we shipped recently&lt;/li&gt;
+&lt;li&gt;Discussion: What are you leaving behind in 2024?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Session type&lt;/strong&gt;: Show &amp;amp; tell, discussion&lt;br /&gt;
+&lt;strong&gt;Duration&lt;/strong&gt;: 1 hour&lt;br /&gt;
+&lt;strong&gt;Platform&lt;/strong&gt;: Zoom (please make sure your device can access Zoom meetings)&lt;br /&gt;
+If you sign up, please make sure you can attend the whole session, as we sell out quite quickly.
+We will be using &lt;strong&gt;Zoom Meetings&lt;/strong&gt; for video, and &lt;strong&gt;Padlet&lt;/strong&gt; for notes and comments. Please make sure you have a device that can access these, as some organisation’s firewalls block these platforms.&lt;/p&gt;
+&lt;h2 id="links"&gt;🔗 Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://design-system.service.gov.uk/"&gt;https://design-system.service.gov.uk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;GovernmentDigitalService"&gt;https://www.youtube.com/&amp;#64;GovernmentDigitalService&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;UKGovDesign"&gt;https://www.youtube.com/&amp;#64;UKGovDesign&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
 		<item>
 			<title>ISC2 North East England Chapter - November 2024</title>
 			<link>https://alex-hedley.github.io/blog/posts/isc2-ne-chapter-nov-2024</link>
@@ -372,159 +460,6 @@ We’ve got an array of features already available with more being developed. Jo
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://hyhubs.com/hyhubs-hyheroes-awards-2023/"&gt;https://hyhubs.com/hyhubs-hyheroes-awards-2023/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://hyhubs.com/"&gt;https://hyhubs.com&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>Green Software for Practitioners (LFC131)</title>
-			<link>https://alex-hedley.github.io/blog/posts/lfc131</link>
-			<description>Linux Foundation Cert</description>
-			<author>alex-hedley</author>
-			<guid>https://alex-hedley.github.io/blog/posts/lfc131</guid>
-			<pubDate>Tue, 31 Oct 2023 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!-- # Linux Foundation Green Software for Practitioners (LFC131) --&gt;
-&lt;p&gt;Today I passed the &lt;strong&gt;Linux Foundation Green Software for Practitioners (LFC131)&lt;/strong&gt; exam 🎉!&lt;/p&gt;
-&lt;h2 id="badge"&gt;Badge&lt;/h2&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/linuxfoundation/lfc131.png" alt="Linux Foundation Green Software for Practitioners (LFC131" title="Linux Foundation Green Software for Practitioners (LFC131"&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.credly.com/badges/8581920c-e67f-40f2-9ba0-67f2b067d2ca"&gt;https://www.credly.com/badges/8581920c-e67f-40f2-9ba0-67f2b067d2ca&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="topics"&gt;Topics&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Carbon Efficiency&lt;/li&gt;
-&lt;li&gt;Energy Efficiency&lt;/li&gt;
-&lt;li&gt;Carbon Awareness&lt;/li&gt;
-&lt;li&gt;Hardware Efficiency&lt;/li&gt;
-&lt;li&gt;Measurement&lt;/li&gt;
-&lt;li&gt;Climate Commitments&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id="exam"&gt;Exam&lt;/h1&gt;
-&lt;p&gt;20 questions, repeat as often as you like.&lt;/p&gt;
-&lt;h2 id="links"&gt;Links&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://training.linuxfoundation.org/training/green-software-for-practitioners-lfc131/"&gt;https://training.linuxfoundation.org/training/green-software-for-practitioners-lfc131/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>🐪 OCaml on GitHub</title>
-			<link>https://alex-hedley.github.io/blog/posts/github-ocaml</link>
-			<description>Using OCaml in GitHub with Actions/Workflows etc.</description>
-			<author>alex-hedley</author>
-			<guid>https://alex-hedley.github.io/blog/posts/github-ocaml</guid>
-			<pubDate>Thu, 12 Oct 2023 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!-- # 🐪 OCaml on GitHub --&gt;
-&lt;p&gt;In this article I'll show you how to setup and configure GitHub Actions to work with an OCaml Library.&lt;/p&gt;
-&lt;p&gt;Rob Anderson &lt;a href="https://github.com/jamsidedown/"&gt;&amp;#64;jamsidedown&lt;/a&gt; (&lt;a href="https://robanderson.dev/"&gt;Site&lt;/a&gt;) decided he's going to be doing ⭐️ &lt;a href="https://adventofcode.com/"&gt;AoC&lt;/a&gt; this year in &lt;a href="https://ocaml.org/"&gt;OCaml&lt;/a&gt;! They wrote a new library &lt;a href="https://github.com/jamsidedown/ocaml-cll"&gt;ocaml-cll&lt;/a&gt; an OCaml circular linked list library, in preperation for this as it's been needed in other languages for previous questions.&lt;/p&gt;
-&lt;p&gt;To help out we looked at how to build the package using &lt;a href="https://github.com/features/actions"&gt;GitHub Actions&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;See the example here: ocaml-example &lt;a href="https://github.com/alex-hedley/ocaml-example/blob/main/.github/workflows/main.yml"&gt;main.yml&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Or the production one: ocaml-cll &lt;a href="https://github.com/jamsidedown/ocaml-cll/blob/main/.github/workflows/main.yml"&gt;main.yml&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Firstly as with most builds you setup your env with the language you need:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/ocaml/setup-ocaml"&gt;setup-ocaml&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Another useful action is &lt;a href="https://github.com/RedPRL/actions-ocaml"&gt;actions-ocaml&lt;/a&gt;.&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-yml"&gt;- name: 🐪 Set-up OCaml
-  uses: ocaml/setup-ocaml&amp;#64;v2
-  with:
-    ocaml-compiler: &amp;quot;5.0&amp;quot;
-    dune-cache: true
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Once configured you need to install any dependencies from your &lt;code&gt;.opam&lt;/code&gt;/&lt;code&gt;dune-project&lt;/code&gt; file.&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-yml"&gt;- name: ⬇️ Install opam deps
-  run: opam install . --deps-only --with-test
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;It's worth installing any global packages you need like &lt;code&gt;odoc&lt;/code&gt; etc.&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-yml"&gt;- name: ⬇️ Install opam global deps
-  run: opam install odoc ocamlformat dune-release
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Next &lt;strong&gt;build&lt;/strong&gt; your project:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-yml"&gt;- name: 🔨 Build
-  run: opam exec -- dune build
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;And &lt;strong&gt;test&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-yml"&gt;- name: 🧪 Test
-  run: opam exec -- dune runtest
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Or with &lt;strong&gt;coverage&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-yml"&gt;- name: 🧪 Test and Coverage
-  run: &amp;quot;opam exec -- dune runtest --instrument-with bisect_ppx --force&amp;quot;
-- name: 📄 Coverage Report&amp;quot;
-  run: &amp;quot;opam exec -- bisect-ppx-report summary&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;You can then build the &lt;strong&gt;docs&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-yml"&gt;- name: 📄 Build Docs
-  run: opam exec -- dune build &amp;#64;doc
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Then decide if you want to upload that as an artifact and deploy it to either &lt;a href="https://pages.github.com/"&gt;GitHub Pages&lt;/a&gt; or another service.&lt;/p&gt;
-&lt;p&gt;Once you have a package you can add it to the opam-repository, example PRs here:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/ocaml/opam-repository/pull/24626"&gt;https://github.com/ocaml/opam-repository/pull/24626&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/ocaml/opam-repository/pull/24719"&gt;https://github.com/ocaml/opam-repository/pull/24719&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/ocaml/opam-repository/pull/24777"&gt;https://github.com/ocaml/opam-repository/pull/24777&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;p&gt;Complete:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-yml"&gt;jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    defaults:
-      run:
-        working-directory: src/helloworld
-
-    steps:
-      - name: 🛎️ Checkout
-        uses: actions/checkout&amp;#64;v4
-
-      - name: 🐪 Set-up OCaml
-        uses: ocaml/setup-ocaml&amp;#64;v2
-        with:
-          ocaml-compiler: &amp;quot;5.0&amp;quot;
-          dune-cache: true
-
-      - name: ⬇️ Install opam deps
-        run: opam install . --deps-only --with-test
-
-      - name: ⬇️ Install opam global deps
-        run: opam install odoc ocamlformat dune-release
-
-      - name: 🔨 Build
-        run: opam exec -- dune build
-
-      - name: 🧪 Test
-        run: opam exec -- dune runtest
-
-      - name: 📄 Build Docs
-        run: opam exec -- dune build &amp;#64;doc
-      
-      - name: Upload API Docs artifact
-        uses: actions/upload-artifact&amp;#64;v3.1.3
-        with:
-          name: docs
-          path: ./src/helloworld/_build/default/_doc/_html
-
-      - name: Deploy API Docs
-        uses: peaceiris/actions-gh-pages&amp;#64;v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]&amp;#64;users.noreply.github.com'
-          publish_dir: ./src/helloworld/_build/default/_doc/_html
-          destination_dir: docs
-          enable_jekyll: true
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id="ocaml-cll"&gt;ocaml-cll&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Documentation &lt;a href="https://robanderson.dev/ocaml-cll/cll/"&gt;https://robanderson.dev/ocaml-cll/cll/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Package &lt;a href="https://opam.ocaml.org/packages/cll/"&gt;https://opam.ocaml.org/packages/cll/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="links"&gt;Links&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/alex-hedley/ocaml-example"&gt;https://github.com/alex-hedley/ocaml-example&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/jamsidedown/ocaml-cll"&gt;https://github.com/jamsidedown/ocaml-cll&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
