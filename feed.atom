@@ -4,8 +4,102 @@
 	<title>Alex Hedley</title>
 	<link rel="self" href="https://alex-hedley.github.io/blog" />
 	<rights>Copyright © 2025</rights>
-	<updated>2025-02-24T10:11:30Z</updated>
+	<updated>2025-04-29T19:48:40Z</updated>
 	<subtitle>Welcome to my blog!</subtitle>
+	<entry>
+		<id>https://alex-hedley.github.io/blog/posts/dotnet-newcastle-april-2025</id>
+		<title>.NET Meetup Newcastle - April 2025</title>
+		<author>
+			<name>alexhedley</name>
+		</author>
+		<link href="https://alex-hedley.github.io/blog/posts/dotnet-newcastle-april-2025" />
+		<link rel="enclosure" type="image" href="https://alex-hedley.github.io/blog/posts/images/meetups/dotnet-april-2025.png" />
+		<updated>2025-04-29T00:00:00Z</updated>
+		<content>&lt;!-- # Qudos DotNet Newcastle Meetup - May 2024 --&gt;
+&lt;p&gt;📅 Tuesday, April 29, 2025 · 5:30 - 8pm GMT&lt;/p&gt;
+&lt;p&gt;📍 Haylofts, 5 St. Thomas Street, Newcastle, NE1 4LE.&lt;/p&gt;
+&lt;p&gt;🔗 &lt;a href="https://www.meetup.com/dotnetmeetupnorth/events/307169799/"&gt;https://www.meetup.com/dotnetmeetupnorth/events/307169799/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="talks"&gt;Talks&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Speaker 1&lt;/strong&gt;: John Staveley&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Creating an AI assistant to help run meetups&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Description&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;In this session I will explain how I created a cheeky virtual assistant called JaaS to aid in the running of several meetups that I organise.
+How I was able to interact it with it using Azure Speech to Text and Azure Text to Speech.
+How I gave it almost limitless knowledge by incorporating ChatGPT using the Azure OpenAI service.
+And... how once created, it did not put anyone out of a job or take over the world!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;📼 Video&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;TBA&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker Bio&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;John Staveley, Microsoft MVP, Organiser at LeedsSharp, IotNorth and Data Science meetup&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Speaker 2&lt;/strong&gt;: Peter Shaw&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Using Postgres SQL With .NET&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Description&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;You can use Entity Framework, and get access to Postgres just like you can with every other database system on the planet, but what if I told you that Postgres goes way, way beyond anything you can do with entity framework. What most folks DON'T know is that Postgres touts itself as a &amp;quot;Data Application Framework&amp;quot; and with the latest version of NPG-SQL (The official Postgres driver for dotnet) you can now get access to much of this extra goodness, stick with me while I try to cram as much as I can show you in about an hour, that you probably never realised Postgres could do.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;📼 Video&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;TBA&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker Bio&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Peter Shaw - I have been a dev for 30 or more years now.&lt;/p&gt;
+&lt;p&gt;I wrote my first bit of code in may 1979 at the age of 7, by the time I was 10 I was programming chip level in machine code on the Z80 &amp;amp; 6502 CPU's, moving into my teenage years I was programming Arm cpu's before anyone knew what they where.&lt;/p&gt;
+&lt;p&gt;I don't really sell myself, I'm a dev after all not a marketer, but there's not many areas of I.T. I've not worked in, from hardware to software, support to management.&lt;/p&gt;
+&lt;p&gt;These days I'm best known for my activities in the .NET &amp;amp; MS Dev scene here in the UK, My blog posts frequently appear on other outlets as well as my own blog, and if you've got the time to sit and listen to what I have to say, I've certainly got the time to tell you.&lt;/p&gt;
+&lt;p&gt;I'm a veteran of the &amp;quot;Developer Developer Developer&amp;quot; series of live developer events here in the UK, and one of the main figures behind &amp;quot;LiDNUG&amp;quot; (&lt;a href="http://lidnug.org/"&gt;http://lidnug.org&lt;/a&gt;) on the linked in network.&lt;/p&gt;
+&lt;h2 id="details"&gt;Details&lt;/h2&gt;
+&lt;p&gt;We’re back at Haylofts for our 2nd .NET meetup of the year! 5 St. Thomas Street, Newcastle, NE1 4LE.&lt;/p&gt;
+&lt;p&gt;We have a fairly relaxed agenda, but will follow:&lt;/p&gt;
+&lt;p&gt;5:30 - Doors Open&lt;br /&gt;
+5:45 - Pizza arrival&lt;br /&gt;
+6:00 - Introduction / Housekeeping&lt;br /&gt;
+6:10 - Talks begin&lt;br /&gt;
+8:00 - Closing&lt;/p&gt;
+&lt;h2 id="links"&gt;🔗 Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;QudosRecruitment"&gt;https://www.youtube.com/&amp;#64;QudosRecruitment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.meetup.com/dotnetmeetupnorth/"&gt;https://www.meetup.com/dotnetmeetupnorth/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.meetup.com/dotnetmeetupnorth/events/307169799/"&gt;https://www.meetup.com/dotnetmeetupnorth/events/307169799/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+		<summary>.NET meetup</summary>
+	</entry>
+	<entry>
+		<id>https://alex-hedley.github.io/blog/posts/govuk-design-system-feb2025</id>
+		<title>Design System Chat - February 2025</title>
+		<author>
+			<name>alex-hedley</name>
+		</author>
+		<link href="https://alex-hedley.github.io/blog/posts/govuk-design-system-feb2025" />
+		<link rel="enclosure" type="image" href="https://alex-hedley.github.io/blog/posts/images/govuk/govuk-design-system-feb.png" />
+		<updated>2025-02-26T00:00:00Z</updated>
+		<content>&lt;!-- # Design System Chat - February 2025 --&gt;
+&lt;h2 id="event"&gt;Event&lt;/h2&gt;
+&lt;p&gt;🗓️ Wednesday, 26 February
+🕰️ 11:00 - 12:00 BST&lt;br /&gt;
+📍 Online&lt;br /&gt;
+🔗 &lt;a href="https://www.eventbrite.co.uk/e/design-system-chat-february-2025-tickets-1255768008919"&gt;https://www.eventbrite.co.uk/e/design-system-chat-february-2025-tickets-1255768008919&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="details"&gt;Details&lt;/h2&gt;
+&lt;p&gt;You're invited to 2025's second 'design system chat', hosted monthly by the GOV.UK Design System team.&lt;/p&gt;
+&lt;h3 id="agenda"&gt;Agenda&lt;/h3&gt;
+&lt;p&gt;Agenda:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Essential component criteria&lt;/li&gt;
+&lt;li&gt;FrontEnd installation session&lt;/li&gt;
+&lt;li&gt;File upload&lt;/li&gt;
+&lt;li&gt;Lean Coffee: Bring your discussion topics and questions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Session type&lt;/strong&gt;: Show &amp;amp; tell, discussion&lt;br /&gt;
+&lt;strong&gt;Duration&lt;/strong&gt;: 1 hour&lt;br /&gt;
+&lt;strong&gt;Platform&lt;/strong&gt;: Zoom (please make sure your device can access Zoom meetings)&lt;br /&gt;
+If you sign up, please make sure you can attend the whole session, as we sell out quite quickly.
+We will be using &lt;strong&gt;Zoom Meetings&lt;/strong&gt; for video, and &lt;strong&gt;Padlet&lt;/strong&gt; for notes and comments. Please make sure you have a device that can access these, as some organisation’s firewalls block these platforms.&lt;/p&gt;
+&lt;h2 id="links"&gt;🔗 Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://design-system.service.gov.uk/"&gt;https://design-system.service.gov.uk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;GovernmentDigitalService"&gt;https://www.youtube.com/&amp;#64;GovernmentDigitalService&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;UKGovDesign"&gt;https://www.youtube.com/&amp;#64;UKGovDesign&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+		<summary>GOV.UK Design System team</summary>
+	</entry>
 	<entry>
 		<id>https://alex-hedley.github.io/blog/posts/aws-north-east-user-group-feb-2025</id>
 		<title>AWS User Group - North East - Meetup - Feb 2025</title>
@@ -95,6 +189,56 @@ We will be using &lt;strong&gt;Zoom Meetings&lt;/strong&gt; for video, and &lt;s
 &lt;/ul&gt;
 </content>
 		<summary>GOV.UK Design System team</summary>
+	</entry>
+	<entry>
+		<id>https://alex-hedley.github.io/blog/posts/dotnet-newcastle-nov-2024</id>
+		<title>.NET Meetup Newcastle - Nov 2024</title>
+		<author>
+			<name>alexhedley</name>
+		</author>
+		<link href="https://alex-hedley.github.io/blog/posts/dotnet-newcastle-nov-2024" />
+		<link rel="enclosure" type="image" href="https://alex-hedley.github.io/blog/posts/images/meetups/dotnet-nov-2024.png" />
+		<updated>2024-11-27T00:00:00Z</updated>
+		<content>&lt;!-- # DotNet Newcastle Meetup - Nov 2024 --&gt;
+&lt;p&gt;📅 Wednesday, November 27, 2024 · 5:30 - 8pm GMT&lt;/p&gt;
+&lt;p&gt;📍 12th Floor, Bank House, Pilgrim Street, Newcastle, NE1 6SQ&lt;/p&gt;
+&lt;p&gt;🔗 &lt;a href="https://www.meetup.com/dotnetmeetupnorth/events/304302320/"&gt;https://www.meetup.com/dotnetmeetupnorth/events/304302320/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="talks"&gt;Talks&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Speaker 1&lt;/strong&gt;: Adam Parker&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Intro to Compilers with C#&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Description&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Compilers can be very complicated and large and the famous book on them quite literally features a dragon. But what happens if you strip it back to its basics?&lt;/p&gt;
+&lt;p&gt;In this talk we will implement the many stages of compilation (in a simplified way) with a more in depth look at a parsing algorithm, all to compile simple mathematical expressions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker Bio&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Adam Parker has been a software developer for just over 6 years, mainly developing in the dotnet ecosystem.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;📼 Video&lt;/em&gt;:&lt;/p&gt;
+&lt;?# YouTube hNyw2hfooog /?&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Speaker 2&lt;/strong&gt;: James Murphy&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Fun with Flags&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Description&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;A few thoughts relating to basic use of feature flags in .NET - some code, some tools, and some things learnt along the way.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker Bio&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;James Murphy (Murph) has been attempting to learn to write code for 45 years and feels that given another decade or two he might just get the hang of it...despite this&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;📼 Video&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;TBA&lt;/p&gt;
+&lt;h2 id="details"&gt;Details&lt;/h2&gt;
+&lt;p&gt;The good folks over at BJSS in Newcastle will be hosting and sponsoring the event again.&lt;/p&gt;
+&lt;p&gt;We'll be at 12th Floor, Bank House, Pilgrim Street, Newcastle, NE1 6SQ&lt;/p&gt;
+&lt;p&gt;We have a fairly relaxed agenda, but will follow:&lt;/p&gt;
+&lt;p&gt;5:30 - Doors Open&lt;br /&gt;
+5:45 - Pizza arrival&lt;br /&gt;
+6:00 - Introduction / Housekeeping&lt;br /&gt;
+6:10 - Talks begin&lt;br /&gt;
+8:00 - Closing&lt;/p&gt;
+&lt;h2 id="links"&gt;🔗 Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;QudosRecruitment"&gt;https://www.youtube.com/&amp;#64;QudosRecruitment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.meetup.com/dotnetmeetupnorth/"&gt;https://www.meetup.com/dotnetmeetupnorth/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.meetup.com/dotnetmeetupnorth/events/304302320/"&gt;https://www.meetup.com/dotnetmeetupnorth/events/304302320/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+		<summary>.NET meetup</summary>
 	</entry>
 	<entry>
 		<id>https://alex-hedley.github.io/blog/posts/isc2-ne-chapter-nov-2024</id>
@@ -284,7 +428,7 @@ Newcastle upon Tyne NE1&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Speaker Bio&lt;/em&gt;:&lt;/p&gt;
 &lt;p&gt;Michael Stephenson has worked as an architect on Azure projects for over 10 years developing enterprise solutions with Azure. Many of these solutions involve complex integration scenarios and discussing the advantages and disadvantages for a given use case for technologies like Logic Apps, Functions, Data Factory, Service Bus and others.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Video&lt;/em&gt;:&lt;/p&gt;
-&lt;p&gt;TBA&lt;/p&gt;
+&lt;?# YouTube o9LzdIDQgP0 /?&gt;
 &lt;h3 id="talk-2-interoperability-in.net-languages"&gt;Talk 2: Interoperability In .NET Languages&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;Description&lt;/em&gt;:&lt;/p&gt;
 &lt;p&gt;Over the course of the talk, we aim to discuss how .NET allows Interoperability between it's languages and how it handles different paradigms in its own ecosystem.&lt;/p&gt;
@@ -298,7 +442,7 @@ Newcastle upon Tyne NE1&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Speaker Bio&lt;/em&gt;:&lt;/p&gt;
 &lt;p&gt;Adam Parker has been a software developer for over 6 years, mainly developing in the dotnet ecosystem.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Video&lt;/em&gt;:&lt;/p&gt;
-&lt;p&gt;TBA&lt;/p&gt;
+&lt;?# YouTube fzSwxDemygs /?&gt;
 &lt;h2 id="details"&gt;Details&lt;/h2&gt;
 &lt;p&gt;The good folks over at BJSS in Newcastle will be hosting and sponsoring the event again.&lt;/p&gt;
 &lt;p&gt;We'll be at 12th Floor, Bank House, Pilgrim Street, Newcastle, NE1 6SQ&lt;/p&gt;
@@ -315,162 +459,5 @@ Newcastle upon Tyne NE1&lt;/p&gt;
 &lt;/ul&gt;
 </content>
 		<summary>.NET meetup</summary>
-	</entry>
-	<entry>
-		<id>https://alex-hedley.github.io/blog/posts/dotnet-newcastle-mar-2024</id>
-		<title>Qudos .NET Newcastle Meetup - Mar 2024</title>
-		<author>
-			<name>alexhedley</name>
-		</author>
-		<link href="https://alex-hedley.github.io/blog/posts/dotnet-newcastle-mar-2024" />
-		<link rel="enclosure" type="image" href="https://alex-hedley.github.io/blog/posts/images/meetups/dotnet-mar-2024.jpeg" />
-		<updated>2024-03-19T00:00:00Z</updated>
-		<content>&lt;!-- # Qudos DotNet Newcastle Meetup - March 2024 --&gt;
-&lt;p&gt;📅 Tuesday, March 19, 2024 · 5:30 - 8pm GMT&lt;/p&gt;
-&lt;p&gt;📍 BJSS Newcastle, 12th Floor, Bank House, Newcastle upon Tyne NE1 6SQ&lt;/p&gt;
-&lt;p&gt;🔗 &lt;a href="https://www.meetup.com/dotnetmeetupnorth/events/299612897/"&gt;https://www.meetup.com/dotnetmeetupnorth/events/299612897/&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="description"&gt;Description&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;Dan Oliver&lt;/em&gt; - &lt;strong&gt;An Introduction To Azure Open AI &amp;amp; CoPilot&lt;/strong&gt;&lt;/p&gt;
-&lt;?# YouTube _zm2iq5wmgo /?&gt;
-&lt;p&gt;&lt;em&gt;Peter Shaw&lt;/em&gt; - &lt;strong&gt;Azure IoT Using Dotnet Nano Framework&lt;/strong&gt;&lt;/p&gt;
-&lt;?# YouTube 2f7ZmDgU8-Q /?&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;QudosRecruitment"&gt;https://www.youtube.com/&amp;#64;QudosRecruitment&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-		<summary>.NET meetup</summary>
-	</entry>
-	<entry>
-		<id>https://alex-hedley.github.io/blog/posts/govuk-forms</id>
-		<title>Introduction to GOV.UK Forms</title>
-		<author>
-			<name>alex-hedley</name>
-		</author>
-		<link href="https://alex-hedley.github.io/blog/posts/govuk-forms" />
-		<link rel="enclosure" type="image" href="https://alex-hedley.github.io/blog/posts/images/govuk/gds-govukforms.jpeg" />
-		<updated>2024-02-01T00:00:00Z</updated>
-		<content>&lt;!-- # Introduction to GOV.UK Forms --&gt;
-&lt;p&gt;Find out just how easy it is to create online forms using the Government Digital Service new forms builder.&lt;/p&gt;
-&lt;!-- ![Event Info](images/gds-govukforms.jpeg "Event Info") --&gt;
-&lt;h2 id="event"&gt;Event&lt;/h2&gt;
-&lt;p&gt;🗓️ Thursday, 1 February 2024&lt;br /&gt;
-🕰️ 12:00 - 13:00 GMT&lt;br /&gt;
-📍Online&lt;br /&gt;
-🔗 &lt;a href="https://www.eventbrite.co.uk/e/introduction-to-govuk-forms-tickets-790210931167"&gt;https://www.eventbrite.co.uk/e/introduction-to-govuk-forms-tickets-790210931167&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="details"&gt;Details&lt;/h2&gt;
-&lt;p&gt;We’ve launched the early access phase of our new form builder software GOV.UK forms.
-It helps make the switch from document based and printed forms to easy to use, accessible online forms across government. It’s part of our commitment to make it easier for government departments to build digital services.
-We’ve got an array of features already available with more being developed. Join our webinar to find out how simple it is to use and how it's improving the outcomes for the people who complete the forms and the people who process them.&lt;/p&gt;
-&lt;h3 id="agenda"&gt;Agenda&lt;/h3&gt;
-&lt;p&gt;12:00 - 12:10 Introductions&lt;br /&gt;
-12:10 - 12:30 Demonstration and latest features&lt;br /&gt;
-12:30 - 13:00 Questions from the audience&lt;/p&gt;
-&lt;h2 id="links"&gt;🔗 Links&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.forms.service.gov.uk/"&gt;https://www.forms.service.gov.uk&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-		<summary>GDS</summary>
-	</entry>
-	<entry>
-		<id>https://alex-hedley.github.io/blog/posts/hyhubshyheroesawards-2023</id>
-		<title>HyHubs HyHeroes Awards 2023</title>
-		<author>
-			<name>alex-hedley</name>
-		</author>
-		<link href="https://alex-hedley.github.io/blog/posts/hyhubshyheroesawards-2023" />
-		<link rel="enclosure" type="image" href="https://alex-hedley.github.io/blog/posts/images/hyhubshyheroesawards.jpeg" />
-		<updated>2023-11-30T00:00:00Z</updated>
-		<content>&lt;!-- # HyHubs HyHeroes Awards --&gt;
-&lt;p&gt;Tonight was the &lt;strong&gt;HyHubs HyHeroes Awards 2023&lt;/strong&gt; with a number of colleagues from the &lt;a href="https://opencastsoftware.com/"&gt;OC&lt;/a&gt; in the running.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/hyhubshyheroesawards-2023.jpeg" alt="Team OC" title="Team OC"&gt;&lt;/p&gt;
-&lt;h2 id="event"&gt;Event&lt;/h2&gt;
-&lt;p&gt;🗓️ Thursday, 30 November&lt;br&gt;
-📍 Tyne Bank Brewery&lt;br&gt;
-🕰️ 6pm – 11:30pm&lt;br&gt;
-🔗 &lt;a href="https://www.eventbrite.co.uk/e/hyhubs-hyheroes-awards-2023-tickets-727053124467"&gt;https://www.eventbrite.co.uk/e/hyhubs-hyheroes-awards-2023-tickets-727053124467&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="details"&gt;Details&lt;/h2&gt;
-&lt;p&gt;An awards evening celebrating the tenants and residents of HyHubs&lt;/p&gt;
-&lt;p&gt;We are excited to launch the first HyHeroes awards, brought to you by HyHubs and organised by our tenants BeaconHouse Events.&lt;/p&gt;
-&lt;p&gt;The awards will recognise and celebrate the brilliant people, organisations and initiatives we are proud to have in the HyHubs community.&lt;/p&gt;
-&lt;p&gt;The awards night is open to residents, tenants, and their friends and family to come along and enjoy the fun. Please book your ticket using the button below. Included in the ticket is food by 2Knives Kitchen, a welcome drink, as well as the awards and of course socialising with all your neighbours within the HyHubs community.&lt;/p&gt;
-&lt;h3 id="best-neighbour"&gt;Best Neighbour&lt;/h3&gt;
-&lt;p&gt;Got a neighbour that brings you treats, visits often or is just a friendly face? The best neighbour award is for the helping hand who goes above and beyond next door, or nearby.&lt;/p&gt;
-&lt;p&gt;Best Neighbour Finalists:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Rapid 9&lt;/li&gt;
-&lt;li&gt;Proven Goods&lt;/li&gt;
-&lt;li&gt;Helen Hornshaw – Cheviot Insured&lt;/li&gt;
-&lt;li&gt;Cake Stories&lt;/li&gt;
-&lt;li&gt;Hillstar Building Management&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="success-story-sponsored-by-rob-lawson-ltd"&gt;Success Story, Sponsored by Rob Lawson Ltd&lt;/h3&gt;
-&lt;p&gt;What’s your company’s success story? Did you grow unexpectedly, risk it all for overnight success that paid off, or after years hard work finally reaped the rewards, you knew were waiting to be achieved.&lt;/p&gt;
-&lt;p&gt;Success Story Finalists:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Northern Standard Mortgages&lt;/li&gt;
-&lt;li&gt;2Knives Kitchen&lt;/li&gt;
-&lt;li&gt;Acropolis&lt;/li&gt;
-&lt;li&gt;Full Circle Brew Co&lt;/li&gt;
-&lt;li&gt;Red Engineering&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="coolest-workspace-sponsored-by-hyhubs"&gt;Coolest Workspace, Sponsored by HyHubs&lt;/h3&gt;
-&lt;p&gt;Is it pleasure to go work every day to be in the surroundings of your workplace? Is it relaxed and filled with perks and other motivators to keep you at your most productive? What quirky design makes it the funkiest place in town to get the title of Coolest Workspace?&lt;/p&gt;
-&lt;p&gt;Coolest Workspace Finalists:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Opencast&lt;/li&gt;
-&lt;li&gt;Neighbourhood&lt;/li&gt;
-&lt;li&gt;Full Circle Brew Co&lt;/li&gt;
-&lt;li&gt;QA Apprenticeships&lt;/li&gt;
-&lt;li&gt;High Flyers Tattoo Studio&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="positive-impact"&gt;Positive Impact&lt;/h3&gt;
-&lt;p&gt;Is there a person, workplace or initiative you feel has positively impacted you, your circle and the community around you? Helped you see things from another outlook and point of few, or opened your mind to new ideas? Tell us about a positive impact which has you feeling lifted.&lt;/p&gt;
-&lt;p&gt;Positive Impact Finalists:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;DPP Planning&lt;/li&gt;
-&lt;li&gt;Dan Pearson – Opencast&lt;/li&gt;
-&lt;li&gt;Poleguns&lt;/li&gt;
-&lt;li&gt;Karis Jones – Honey Pot Creative Media Ltd&lt;/li&gt;
-&lt;li&gt;QA Apprenticeships&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="trend-setter-sponsored-by-aspire"&gt;Trend Setter, Sponsored by Aspire&lt;/h3&gt;
-&lt;p&gt;For the company that is paving a new and unique path in their industry. An award for switching it up a bit and moving with the times at a fast and proactive pace.&lt;/p&gt;
-&lt;p&gt;Trend Setter Finalists:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Swarm Energy&lt;/li&gt;
-&lt;li&gt;Ingram AV&lt;/li&gt;
-&lt;li&gt;FYTO&lt;/li&gt;
-&lt;li&gt;Design North&lt;/li&gt;
-&lt;li&gt;QA Apprenticeships&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="bossing-it"&gt;Bossing It&lt;/h3&gt;
-&lt;p&gt;Is your boss the boss? Understanding, everything they say makes sense, actively encouraging your growth and career path? Tell us why your boss is simply the best.&lt;/p&gt;
-&lt;p&gt;Bossing It Finalists:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Reed – Ingram AV&lt;/li&gt;
-&lt;li&gt;Dulcie Hakin – HyHubs&lt;/li&gt;
-&lt;li&gt;Glenn Ford – Glenn Ford Private Finance&lt;/li&gt;
-&lt;li&gt;Aimee Fife – Hello Education&lt;/li&gt;
-&lt;li&gt;Jay – Jaccountancy&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="new-kid-on-the-block"&gt;New Kid on the Block&lt;/h3&gt;
-&lt;p&gt;What’s the new kid like? For the best staff member with under 18 months with the company. Have they come in and created a positive whirlwind or upped the game of the whole team. Lets give them the credit they deserve and recognise their achievements.&lt;/p&gt;
-&lt;p&gt;New Kid on the Block Finalists:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Alfred Akligo – Opencast&lt;/li&gt;
-&lt;li&gt;Sam Roberts – Tapyard Studios&lt;/li&gt;
-&lt;li&gt;Liliana Martin – Opencast&lt;/li&gt;
-&lt;li&gt;Drew Binnom – Rascals Barbers&lt;/li&gt;
-&lt;li&gt;Projekt Architects&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The awards night is open to residents, tenants, and their friends and family to come along and enjoy the fun. Please book your ticket using the button below. Included in the ticket is food by 2Knives Kitchen, a welcome drink, as well as the awards and of course socialising with all your neighbours within the HyHubs community.&lt;/p&gt;
-&lt;h2 id="links"&gt;Links&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://hyhubs.com/hyhubs-hyheroes-awards-2023/"&gt;https://hyhubs.com/hyhubs-hyheroes-awards-2023/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://hyhubs.com/"&gt;https://hyhubs.com&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-		<summary>HyHubs HyHeroes Awards 2023</summary>
 	</entry>
 </feed>
