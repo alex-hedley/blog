@@ -41,7 +41,7 @@ Michael Stephenson has worked as an architect on Azure projects for over 10 year
 
 _Video_:
 
-TBA
+<?# YouTube o9LzdIDQgP0 /?>
 
 ### Talk 2: Interoperability In .NET Languages
 
@@ -62,7 +62,7 @@ Adam Parker has been a software developer for over 6 years, mainly developing in
 
 _Video_:
 
-TBA
+<?# YouTube fzSwxDemygs /?>
 
 ## Details
 
