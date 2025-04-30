@@ -3555,3 +3555,5 @@ header.masthead .image-attribution p { margin: 0; padding: 0; }
 .post-subtitle { font-family: var(--bs-font-sans-serif); font-size: 1.5rem; }
 
 .postCount { font-size: 25px; color: white; float: right; }
+
+img { max-width: 80%; display: block; margin-left: auto; margin-right: auto; }
