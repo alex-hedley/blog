@@ -1,0 +1,23 @@
+Title: Stats
+IsPage: true
+ShowInNavbar: true
+Order: 400
+---
+
+<h1 class="bg-dark text-light p-2">Total <span class="postCount">@(Outputs.FromPipeline(nameof(Content))
+                                                                        .Flatten()
+                                                                        .FilterSources($"posts/*")
+                                                                        .Count())</span></h1>
+
+<hr />
+
+@* Years Count *@
+@foreach(IGrouping<int, IDocument> group in Outputs
+                                            .FromPipeline(nameof(Content))
+                                            .Flatten()
+                                            .FilterSources($"posts/*")
+                                            .GroupBy(x => x.GetDateTime(WebKeys.Published).Year)
+                                            .OrderByDescending(x => x.Key))
+{
+    <h1 class="bg-dark text-light p-2">@group.Key <span class="postCount">@group.Count()</span></h1>
+}

@@ -10,6 +10,13 @@ ArchiveDestination: >
   => GetInt("Index") <= 1 ? $"posts/index.html" : $"posts/page/{GetInt("Index")}.html"
 ArchiveTitle: => GetString("Title")
 ---
+<h1 class="bg-dark text-light p-2">Total <span class="postCount">@(Outputs.FromPipeline(nameof(Content))
+                                                                        .Flatten()
+                                                                        .FilterSources($"posts/*")
+                                                                        .Count())</span></h1>
+
+<hr />
+
 @foreach(IGrouping<int, IDocument> group in Document
                                             .GetChildren()
                                             .GroupBy(x => x.GetDateTime(WebKeys.Published).Year)
