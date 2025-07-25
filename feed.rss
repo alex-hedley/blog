@@ -5,8 +5,48 @@
 		<link>https://alex-hedley.github.io/blog</link>
 		<description>Welcome to my blog!</description>
 		<copyright>Copyright © 2025</copyright>
-		<pubDate>Tue, 22 Jul 2025 14:58:26 GMT</pubDate>
-		<lastBuildDate>Tue, 22 Jul 2025 14:58:26 GMT</lastBuildDate>
+		<pubDate>Fri, 25 Jul 2025 10:27:08 GMT</pubDate>
+		<lastBuildDate>Fri, 25 Jul 2025 10:27:08 GMT</lastBuildDate>
+		<item>
+			<title>Design System Chat - July 2025</title>
+			<link>https://alex-hedley.github.io/blog/posts/govuk-design-system-jul2025</link>
+			<description>GOV.UK Design System team</description>
+			<author>alex-hedley</author>
+			<enclosure url="https://alex-hedley.github.io/blog/posts/images/govuk/govuk-design-system-july.png" length="0" type="image" />
+			<guid>https://alex-hedley.github.io/blog/posts/govuk-design-system-jul2025</guid>
+			<pubDate>Wed, 16 Jul 2025 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!-- # Design System Chat - July 2025 --&gt;
+&lt;!-- ![July](images/govuk/govuk-design-system-july.png "July") --&gt;
+&lt;h2 id="event"&gt;Event&lt;/h2&gt;
+&lt;p&gt;🗓️ Thursday, 16 July&lt;br /&gt;
+🕰️ 13:00 - 15:00 BST&lt;br /&gt;
+📍 Online&lt;br /&gt;
+🔗 &lt;a href="https://www.eventbrite.co.uk/e/design-system-chat-july-2025-tickets-1469483959079"&gt;https://www.eventbrite.co.uk/e/design-system-chat-july-2025-tickets-1469483959079&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="details"&gt;Details&lt;/h2&gt;
+&lt;p&gt;Join us for July 2025's Design System Chat to discuss what events you'd like to see from us. Hosted by the GOV.UK Design System.&lt;/p&gt;
+&lt;h3 id="agenda"&gt;Agenda&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;What is our current offer? monthly chat, DSDay, hacks, ad-hoc sessions&lt;/li&gt;
+&lt;li&gt;What do you attend? Why, why not?&lt;/li&gt;
+&lt;li&gt;What would you like to see more of? What would you actually take time to attend?&lt;/li&gt;
+&lt;li&gt;Let's create a backlog of topics for events/workshops&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Session type&lt;/strong&gt;: Workshop/discusssion&lt;br /&gt;
+&lt;strong&gt;Duration&lt;/strong&gt;: 1 hour&lt;br /&gt;
+&lt;strong&gt;Platform&lt;/strong&gt;: Google Meet&lt;/p&gt;
+&lt;p&gt;If you sign up, please make sure you can attend the whole session, as we sell out quite quickly.
+We will be using &lt;strong&gt;Google Meet&lt;/strong&gt; for video, and &lt;strong&gt;Padlet&lt;/strong&gt; for notes and comments. Please make sure you have a device that can access these, as some organisation’s firewalls block these platforms.&lt;/p&gt;
+&lt;p&gt;We hope to see you there!&lt;br /&gt;
+The GOV.UK Design System team&lt;/p&gt;
+&lt;h2 id="links"&gt;🔗 Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://design-system.service.gov.uk/"&gt;https://design-system.service.gov.uk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;GovernmentDigitalService"&gt;https://www.youtube.com/&amp;#64;GovernmentDigitalService&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;UKGovDesign"&gt;https://www.youtube.com/&amp;#64;UKGovDesign&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
 		<item>
 			<title>.NET Meetup Newcastle - April 2025</title>
 			<link>https://alex-hedley.github.io/blog/posts/dotnet-newcastle-april-2025</link>
@@ -57,6 +97,42 @@ And... how once created, it did not put anyone out of a job or take over the wor
 &lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;QudosRecruitment"&gt;https://www.youtube.com/&amp;#64;QudosRecruitment&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.meetup.com/dotnetmeetupnorth/"&gt;https://www.meetup.com/dotnetmeetupnorth/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.meetup.com/dotnetmeetupnorth/events/307169799/"&gt;https://www.meetup.com/dotnetmeetupnorth/events/307169799/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
+			<title>Install-a-thon - GOV.UK FrontEnd - April 2025</title>
+			<link>https://alex-hedley.github.io/blog/posts/govuk-design-system-apr2025</link>
+			<description>GOV.UK Design System team</description>
+			<author>alex-hedley</author>
+			<enclosure url="https://alex-hedley.github.io/blog/posts/images/govuk/intall-a-thon.jpeg" length="0" type="image" />
+			<guid>https://alex-hedley.github.io/blog/posts/govuk-design-system-apr2025</guid>
+			<pubDate>Thu, 24 Apr 2025 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!-- # Install-a-thon - GOV.UK FrontEnd - April 2025 --&gt;
+&lt;h2 id="event"&gt;Event&lt;/h2&gt;
+&lt;p&gt;🗓️ Thursday, 24 April
+🕰️ 13:00 - 15:00 BST&lt;br /&gt;
+📍 Online&lt;br /&gt;
+🔗 &lt;a href="https://www.eventbrite.co.uk/e/install-a-thon-govuk-frontend-tickets-1317545677589"&gt;https://www.eventbrite.co.uk/e/install-a-thon-govuk-frontend-tickets-1317545677589&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="details"&gt;Details&lt;/h2&gt;
+&lt;p&gt;Join the GOV.UK Design System team for their first ever install-a-thon. In this exciting new session format, the team will be on hand to support you in getting up to date with the latest version of GOV.UK FrontEnd.&lt;/p&gt;
+&lt;h3 id="agenda"&gt;Agenda&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;GOV.UK FrontEnd - why update?&lt;/li&gt;
+&lt;li&gt;Demonstration of update process&lt;/li&gt;
+&lt;li&gt;Group installation with support&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Session type&lt;/strong&gt;: Show &amp;amp; tell, discussion&lt;br /&gt;
+&lt;strong&gt;Duration&lt;/strong&gt;: 1 hour&lt;br /&gt;
+&lt;strong&gt;Platform&lt;/strong&gt;: Zoom (please make sure your device can access Zoom meetings)&lt;br /&gt;
+If you sign up, please make sure you can attend the whole session, as we sell out quite quickly.
+We will be using &lt;strong&gt;Zoom Meetings&lt;/strong&gt; for video, and &lt;strong&gt;Padlet&lt;/strong&gt; for notes and comments. Please make sure you have a device that can access these, as some organisation’s firewalls block these platforms.&lt;/p&gt;
+&lt;h2 id="links"&gt;🔗 Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://design-system.service.gov.uk/"&gt;https://design-system.service.gov.uk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;GovernmentDigitalService"&gt;https://www.youtube.com/&amp;#64;GovernmentDigitalService&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;UKGovDesign"&gt;https://www.youtube.com/&amp;#64;UKGovDesign&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
@@ -351,102 +427,6 @@ We will be using &lt;strong&gt;Zoom Meetings&lt;/strong&gt; for video, and &lt;s
 &lt;li&gt;&lt;a href="https://design-system.service.gov.uk/"&gt;https://design-system.service.gov.uk&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;GovernmentDigitalService"&gt;https://www.youtube.com/&amp;#64;GovernmentDigitalService&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;UKGovDesign"&gt;https://www.youtube.com/&amp;#64;UKGovDesign&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>ISC2 North East England Chapter - June 2024</title>
-			<link>https://alex-hedley.github.io/blog/posts/isc2-ne-chapter-jun-2024</link>
-			<description>ISC2 Chapter Meetup</description>
-			<author>alexhedley</author>
-			<enclosure url="https://alex-hedley.github.io/blog/posts/images/isc2/isc2chapternortheastengland.jpeg" length="0" type="image" />
-			<guid>https://alex-hedley.github.io/blog/posts/isc2-ne-chapter-jun-2024</guid>
-			<pubDate>Tue, 18 Jun 2024 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!-- # ISC2 North East England Chapter June 2024 Meetup --&gt;
-&lt;h2 id="agenda"&gt;Agenda&lt;/h2&gt;
-&lt;p&gt;🕰️ &lt;em&gt;17:00 - 17:30&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Arrivals / Networking&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;🕰️ &lt;em&gt;17:30 - 17:40&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Introductions, Chapter Updates&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Steve Gilray, Chapter Present&lt;/p&gt;
-&lt;p&gt;🕰️ &lt;em&gt;17:40 - 18:00&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Arctic Wolf: Observations from Incident Responders from the last 12 months&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Rich Fenton, Senior Systems Engineer, Arctic Wolf&lt;/p&gt;
-&lt;p&gt;Rich will present on some of the most common observed threats that industry faces, calculating the cost of a cyber-incident and what effective measures can be considered to help protect your organisation from an incident. • What are the major causes of incidents in 2023 – as witnessed by Arctic Wolf’s Incident Response team (1000 cases) • What does the impact of a breach look like ? • Is it possible to measure the potential impact beforehand to understand what your risk profile looks like (in the way a cyber-insurer would)&lt;/p&gt;
-&lt;p&gt;🕰️ &lt;em&gt;18:00 - 18:25&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Insider Threats&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Stuart G, Cyber Security Specialist, Armour Group&lt;/p&gt;
-&lt;p&gt;🕰️ &lt;em&gt;18:25 - 19:20&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Pizza, refreshments&lt;/p&gt;
-&lt;p&gt;🕰️ &lt;em&gt;19:20 - 20:00&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Cyber War &amp;amp; what it actually means in reality for Cyber Security Practitioners&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Andrew Pannell&lt;/p&gt;
-&lt;p&gt;Andrew will scrutinise the widely overused phrase &amp;quot;cyber war&amp;quot; by examining warfare and nation state attacks that have crossed the boundary into offensive cyber operations. Focusing on tactics used by both Hamas and Israel in October 2023 including reverse engineering malware, API security and DDOS attacks in detail. Andrew will offer a view of what future Cyber warfare could look like and what we can do best protect ourselves/ our organisations in such events.&lt;/p&gt;
-&lt;h2 id="date-and-time"&gt;Date and time&lt;/h2&gt;
-&lt;p&gt;🗓️ Tuesday, June 18 · 5 - 8pm GMT+1&lt;/p&gt;
-&lt;h2 id="location"&gt;Location&lt;/h2&gt;
-&lt;p&gt;📍 3rd floor&lt;br /&gt;
-77 Grey St&lt;br /&gt;
-Newcastle upon Tyne NE1&lt;/p&gt;
-&lt;h2 id="links"&gt;Links&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.eventbrite.co.uk/e/isc2-north-east-england-chapter-june-2024-tickets-906290508307"&gt;https://www.eventbrite.co.uk/e/isc2-north-east-england-chapter-june-2024-tickets-906290508307&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>Qudos .NET Newcastle Meetup - May 2024</title>
-			<link>https://alex-hedley.github.io/blog/posts/dotnet-newcastle-may-2024</link>
-			<description>.NET meetup</description>
-			<author>alexhedley</author>
-			<enclosure url="https://alex-hedley.github.io/blog/posts/images/meetups/dotnet-may-2024.png" length="0" type="image" />
-			<guid>https://alex-hedley.github.io/blog/posts/dotnet-newcastle-may-2024</guid>
-			<pubDate>Tue, 28 May 2024 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!-- # Qudos DotNet Newcastle Meetup - May 2024 --&gt;
-&lt;p&gt;📅 Tuesday, May 28, 2024 · 5:30 - 8pm GMT&lt;/p&gt;
-&lt;p&gt;📍 BJSS Newcastle, 12th Floor, Bank House, Newcastle upon Tyne NE1 6SQ&lt;/p&gt;
-&lt;!-- 🔗 https://www.meetup.com/dotnetmeetupnorth/events/.../ --&gt;
-&lt;p&gt;🔗 &lt;a href="https://www.linkedin.com/posts/qasim-qudos_meetup-qudos-newcastle-activity-7199702440688988160-8DG7"&gt;https://www.linkedin.com/posts/qasim-qudos_meetup-qudos-newcastle-activity-7199702440688988160-8DG7&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="talks"&gt;Talks&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;Michael Stephenson&lt;/em&gt; - &lt;strong&gt;Real World Journey Of Saving Lots Of Money In Azure&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Adam Parker&lt;/em&gt; - &lt;strong&gt;Interoperability In .NET Languages&lt;/strong&gt;&lt;/p&gt;
-&lt;h3 id="talk-1-real-world-journey-of-saving-lots-of-money-in-azure"&gt;Talk 1: Real World Journey Of Saving Lots Of Money In Azure&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Description&lt;/em&gt;:&lt;/p&gt;
-&lt;p&gt;In this talk, we will talk about how I worked with a customer last year where we were trying to keep a tight control on our azure costs in our integration team and how we looked at implementing the same approaches in the wider organization.&lt;/p&gt;
-&lt;p&gt;We found a huge amount of waste in the azure spend and we will look at some of the things we found and approaches to optimize and reduce cost. We identified over $1m worth of cost savings.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Speaker Bio&lt;/em&gt;:&lt;/p&gt;
-&lt;p&gt;Michael Stephenson has worked as an architect on Azure projects for over 10 years developing enterprise solutions with Azure. Many of these solutions involve complex integration scenarios and discussing the advantages and disadvantages for a given use case for technologies like Logic Apps, Functions, Data Factory, Service Bus and others.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Video&lt;/em&gt;:&lt;/p&gt;
-&lt;?# YouTube o9LzdIDQgP0 /?&gt;
-&lt;h3 id="talk-2-interoperability-in.net-languages"&gt;Talk 2: Interoperability In .NET Languages&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Description&lt;/em&gt;:&lt;/p&gt;
-&lt;p&gt;Over the course of the talk, we aim to discuss how .NET allows Interoperability between it's languages and how it handles different paradigms in its own ecosystem.&lt;/p&gt;
-&lt;p&gt;Areas include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Basics of how interop in .NET works.&lt;/li&gt;
-&lt;li&gt;Demos of interop between two Object-Oriented languages&lt;/li&gt;
-&lt;li&gt;A small look at functional programming in F#&lt;/li&gt;
-&lt;li&gt;Showing how to cross boundaries between functional and non-functional code&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;em&gt;Speaker Bio&lt;/em&gt;:&lt;/p&gt;
-&lt;p&gt;Adam Parker has been a software developer for over 6 years, mainly developing in the dotnet ecosystem.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Video&lt;/em&gt;:&lt;/p&gt;
-&lt;?# YouTube fzSwxDemygs /?&gt;
-&lt;h2 id="details"&gt;Details&lt;/h2&gt;
-&lt;p&gt;The good folks over at BJSS in Newcastle will be hosting and sponsoring the event again.&lt;/p&gt;
-&lt;p&gt;We'll be at 12th Floor, Bank House, Pilgrim Street, Newcastle, NE1 6SQ&lt;/p&gt;
-&lt;p&gt;We have a fairly relaxed agenda, but will follow:&lt;/p&gt;
-&lt;p&gt;5:30 - Doors Open&lt;br /&gt;
-5:45 - Pizza arrival&lt;br /&gt;
-6:05 - Introduction / Housekeeping&lt;br /&gt;
-6:10 - Talks begin&lt;br /&gt;
-8:00 - Closing&lt;/p&gt;
-&lt;h2 id="links"&gt;🔗 Links&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;QudosRecruitment"&gt;https://www.youtube.com/&amp;#64;QudosRecruitment&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.meetup.com/haintonsdotnetmeetup/"&gt;https://www.meetup.com/haintonsdotnetmeetup/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
