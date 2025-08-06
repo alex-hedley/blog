@@ -6,7 +6,7 @@ tags:
 author: alex-hedley
 description: GOV.UK Design System team
 published: 2025-04-24
-image: /posts/images/govuk/intall-a-thon.jpeg
+image: /posts/images/govuk/install-a-thon.jpeg
 imageattribution: https://design-system.service.gov.uk
 ---
 
