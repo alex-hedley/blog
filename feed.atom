@@ -4,8 +4,34 @@
 	<title>Alex Hedley</title>
 	<link rel="self" href="https://alex-hedley.github.io/blog" />
 	<rights>Copyright © 2025</rights>
-	<updated>2025-07-25T10:27:08Z</updated>
+	<updated>2025-08-06T07:45:17Z</updated>
 	<subtitle>Welcome to my blog!</subtitle>
+	<entry>
+		<id>https://alex-hedley.github.io/blog/posts/utility-kotlin</id>
+		<title>Utility Kotlin</title>
+		<author>
+			<name>alex-hedley</name>
+		</author>
+		<link href="https://alex-hedley.github.io/blog/posts/utility-kotlin" />
+		<updated>2025-08-06T00:00:00Z</updated>
+		<content>&lt;!-- Utility Kotlin --&gt;
+&lt;p&gt;For the past 10+ years I've been building a &lt;a href="https://github.com/AlexHedley/Utility"&gt;Utility&lt;/a&gt; app to speed up day to day tasks. It started with a &lt;a href="https://github.com/AlexHedley/Utility-VB"&gt;VB.NET&lt;/a&gt; version for encoding/decoding HTML to help with log files in &lt;a href="https://techdocs.broadcom.com/us/en/symantec-security-software/endpoint-security-and-management/it-management-suite/ITMS/Related-Solutions/Workflow-Solution/Introducing-Workflow/how-workflow-works-v81109357-d855e17980.html"&gt;Symantec Workflow&lt;/a&gt;. It grew with other functionality include SQL generation etc. From that I used the opportunity to build a &lt;a href="https://github.com/AlexHedley/Utility-Mac"&gt;macOS&lt;/a&gt; app to try out my Objective-C ability on a desktop app, instead of the iOS apps I'd been building. To make it more accessible I created a &lt;a href="https://alexhedley.com/Utility-Web/"&gt;Web&lt;/a&gt; version then swapped to &lt;a href="https://github.com/AlexHedley/Utility-WPF"&gt;WPF&lt;/a&gt; and finally a &lt;a href="https://alexhedley.com/Utility-Blazor/"&gt;Blazor&lt;/a&gt; one a few years after that.
+Having switched back to Java and now Kotlin dev, in the past couple of years, it seemed a good opportunity to try my hand at &lt;a href="https://kotlinlang.org/docs/multiplatform.html"&gt;Kotlin Multiplatform&lt;/a&gt;. Having seen the power of &lt;a href="https://webassembly.org/"&gt;WASM&lt;/a&gt; with &lt;a href="https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor"&gt;Blazor&lt;/a&gt; it was a no brainer. Hopefully I can actually find the time to build multiple apps but for now I just wanted a web version with the first utility being a &lt;a href="https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html"&gt;Duration&lt;/a&gt; parser.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/Utility-Kotlin.png" alt="Utility Kotlin" title="Utility Kotlin"&gt;&lt;/p&gt;
+&lt;p&gt;It's a bit of a mess, all being in one file &lt;a href="https://github.com/alex-hedley/Utility-Kotlin/blob/main/src/composeApp/src/wasmJsMain/kotlin/com/alexhedley/App.kt"&gt;App.kt&lt;/a&gt;, but I wanted a POC working quickly, I'll refactor it later once I've read up more on the best way to architecture these. It builds and deploys to &lt;a href="https://pages.github.com/"&gt;GitHub Pages&lt;/a&gt; using the following WF: &lt;a href="https://github.com/alex-hedley/Utility-Kotlin/blob/main/.github/workflows/ci.yml"&gt;ci.yml&lt;/a&gt; and all runs natively in your browser. Check out the canvas element in the generated page source.&lt;/p&gt;
+&lt;p&gt;Let me know what you think, and are there any other features you'd liked adding?&lt;/p&gt;
+&lt;p&gt;I'm looking to backport other ideas from the previous apps to give me an opportunity to try different UI elements.&lt;/p&gt;
+&lt;h2 id="site"&gt;🌍 Site&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://alex-hedley.github.io/Utility-Kotlin/"&gt;https://alex-hedley.github.io/Utility-Kotlin/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="source"&gt;Source&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/alex-hedley/Utility-Kotlin"&gt;https://github.com/alex-hedley/Utility-Kotlin&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+		<summary>Building a Utility App in Kotlin Multiplatform</summary>
+	</entry>
 	<entry>
 		<id>https://alex-hedley.github.io/blog/posts/govuk-design-system-jul2025</id>
 		<title>Design System Chat - July 2025</title>
@@ -109,7 +135,7 @@ And... how once created, it did not put anyone out of a job or take over the wor
 			<name>alex-hedley</name>
 		</author>
 		<link href="https://alex-hedley.github.io/blog/posts/govuk-design-system-apr2025" />
-		<link rel="enclosure" type="image" href="https://alex-hedley.github.io/blog/posts/images/govuk/intall-a-thon.jpeg" />
+		<link rel="enclosure" type="image" href="https://alex-hedley.github.io/blog/posts/images/govuk/install-a-thon.jpeg" />
 		<updated>2025-04-24T00:00:00Z</updated>
 		<content>&lt;!-- # Install-a-thon - GOV.UK FrontEnd - April 2025 --&gt;
 &lt;h2 id="event"&gt;Event&lt;/h2&gt;
@@ -386,44 +412,6 @@ NE28 9EJ&lt;/p&gt;
 &lt;li&gt;GOV.UK Design System team: How we’re helping users meet WCAG 2.2&lt;/li&gt;
 &lt;li&gt;Lightning talks x2: How service teams are complying with WCAG 2.2 guidelines&lt;/li&gt;
 &lt;li&gt;Discussion: How are you making progress towards WCAG 2.2?&lt;/li&gt;
-&lt;li&gt;Feed back&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Session type&lt;/strong&gt;: Show &amp;amp; tell, discussion&lt;br /&gt;
-&lt;strong&gt;Duration&lt;/strong&gt;: 1 hour&lt;br /&gt;
-&lt;strong&gt;Platform&lt;/strong&gt;: Zoom (please make sure your device can access Zoom meetings)&lt;br /&gt;
-If you sign up, please make sure you can attend the whole session, as we sell out quite quickly.
-We will be using &lt;strong&gt;Zoom Meetings&lt;/strong&gt; for video, and &lt;strong&gt;Padlet&lt;/strong&gt; for notes and comments. Please make sure you have a device that can access these, as some organisation’s firewalls block these platforms.&lt;/p&gt;
-&lt;h2 id="links"&gt;🔗 Links&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://design-system.service.gov.uk/"&gt;https://design-system.service.gov.uk&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;GovernmentDigitalService"&gt;https://www.youtube.com/&amp;#64;GovernmentDigitalService&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;UKGovDesign"&gt;https://www.youtube.com/&amp;#64;UKGovDesign&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-		<summary>GOV.UK Design System team</summary>
-	</entry>
-	<entry>
-		<id>https://alex-hedley.github.io/blog/posts/govuk-design-system-sept2024</id>
-		<title>Design System Chat - September 2024</title>
-		<author>
-			<name>alex-hedley</name>
-		</author>
-		<link href="https://alex-hedley.github.io/blog/posts/govuk-design-system-sept2024" />
-		<link rel="enclosure" type="image" href="https://alex-hedley.github.io/blog/posts/images/govuk/govuk-design-system.png" />
-		<updated>2024-09-25T00:00:00Z</updated>
-		<content>&lt;!-- # Design System Chat - September 2024 --&gt;
-&lt;h2 id="event"&gt;Event&lt;/h2&gt;
-&lt;p&gt;🗓️ Wednesday, 25 September 2024&lt;br /&gt;
-🕰️ 11:00 - 12:00 BST&lt;br /&gt;
-📍 Online&lt;br /&gt;
-🔗 &lt;a href="https://www.eventbrite.co.uk/e/design-system-chat-september-2024-tickets-1022480535807"&gt;https://www.eventbrite.co.uk/e/design-system-chat-september-2024-tickets-1022480535807&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="details"&gt;Details&lt;/h2&gt;
-&lt;p&gt;You're invited to the September edition of the 'design system chat', hosted monthly by the GOV.UK Design System team.&lt;/p&gt;
-&lt;h3 id="agenda"&gt;Agenda&lt;/h3&gt;
-&lt;p&gt;Agenda:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Show &amp;amp; tell: What the GOV.UK Design System team have been working on&lt;/li&gt;
-&lt;li&gt;Discussion: What are your training needs?&lt;/li&gt;
 &lt;li&gt;Feed back&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Session type&lt;/strong&gt;: Show &amp;amp; tell, discussion&lt;br /&gt;
