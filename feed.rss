@@ -5,8 +5,8 @@
 		<link>https://alex-hedley.github.io/blog</link>
 		<description>Welcome to my blog!</description>
 		<copyright>Copyright © 2025</copyright>
-		<pubDate>Wed, 12 Nov 2025 09:21:04 GMT</pubDate>
-		<lastBuildDate>Wed, 12 Nov 2025 09:21:04 GMT</lastBuildDate>
+		<pubDate>Wed, 12 Nov 2025 09:25:20 GMT</pubDate>
+		<lastBuildDate>Wed, 12 Nov 2025 09:25:20 GMT</lastBuildDate>
 		<item>
 			<title>ISC2 North East England Chapter - November 2025</title>
 			<link>https://alex-hedley.github.io/blog/posts/isc2-ne-chapter-nov-2025</link>
@@ -791,6 +791,49 @@ The GOV.UK Design System team&lt;/p&gt;
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
 		<item>
+			<title>ISC2 North East England Chapter - June 2025</title>
+			<link>https://alex-hedley.github.io/blog/posts/isc2-ne-chapter-jun-2025</link>
+			<description>ISC2 Chapter Meetup</description>
+			<author>alex-hedley</author>
+			<enclosure url="https://alex-hedley.github.io/blog/posts/images/isc2/isc2chapternortheastengland.jpeg" length="0" type="image" />
+			<guid>https://alex-hedley.github.io/blog/posts/isc2-ne-chapter-jun-2025</guid>
+			<pubDate>Tue, 17 Jun 2025 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!-- # ISC2 North East England Chapter June 2025 Meetup --&gt;
+&lt;p&gt;Please, come and join our in-person event&lt;/p&gt;
+&lt;p&gt;Category: Business, Career&lt;/p&gt;
+&lt;h2 id="agenda"&gt;Agenda&lt;/h2&gt;
+&lt;p&gt;Agenda to include:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Introductions and annual general meeting chapter update (Steve Gilray / Scott Wakeling)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;An update from CyberNorth, Jon Holden&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;An update from Nigel Wright Consultancy re cyber recruitment in region, Paul Newton&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Finding context in digital forensics, Ross Donnelly BSc (Hons), CFCE, CAWFE, ICMDE&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;DNS: The overlooked powerhouse in Modern Cyber Defence, Simon Cross&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Chapter AGM&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Refreshments and networking&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="date-and-time"&gt;🗓️ Date and time&lt;/h2&gt;
+&lt;p&gt;🗓️ Tuesday, June 17 · 6 - 8pm&lt;/p&gt;
+&lt;h2 id="location"&gt;📍 Location&lt;/h2&gt;
+&lt;p&gt;📍 Opencast&lt;br /&gt;
+Walker Road&lt;br /&gt;
+Byker NE6 2HL&lt;/p&gt;
+&lt;h2 id="links"&gt;🔗 Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.eventbrite.co.uk/e/isc2-north-east-chapter-in-person-meeting-tickets-1412638723449"&gt;https://www.eventbrite.co.uk/e/isc2-north-east-chapter-in-person-meeting-tickets-1412638723449&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.eventbrite.co.uk/o/isc2-north-east-england-chapter-13131159160"&gt;https://www.eventbrite.co.uk/o/isc2-north-east-england-chapter-13131159160&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
 			<title>.NET Meetup Newcastle - April 2025</title>
 			<link>https://alex-hedley.github.io/blog/posts/dotnet-newcastle-april-2025</link>
 			<description>.NET meetup</description>
@@ -914,55 +957,6 @@ We will be using &lt;strong&gt;Zoom Meetings&lt;/strong&gt; for video, and &lt;s
 &lt;li&gt;&lt;a href="https://design-system.service.gov.uk/"&gt;https://design-system.service.gov.uk&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;GovernmentDigitalService"&gt;https://www.youtube.com/&amp;#64;GovernmentDigitalService&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;UKGovDesign"&gt;https://www.youtube.com/&amp;#64;UKGovDesign&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>AWS User Group - North East - Meetup - Feb 2025</title>
-			<link>https://alex-hedley.github.io/blog/posts/aws-north-east-user-group-feb-2025</link>
-			<description>AWS meetup</description>
-			<author>alex-hedley</author>
-			<enclosure url="https://alex-hedley.github.io/blog/posts/images/meetups/aws-north-east-user-group/banner.png" length="0" type="image" />
-			<guid>https://alex-hedley.github.io/blog/posts/aws-north-east-user-group-feb-2025</guid>
-			<pubDate>Wed, 12 Feb 2025 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!-- # AWS User Group - North East - Meetup - Feb 2025 --&gt;
-&lt;p&gt;AWS Community re:Invent re:Cap&lt;/p&gt;
-&lt;p&gt;📅 Wednesday, Feb 12, 2025 · 6pm - 8pm GMT&lt;/p&gt;
-&lt;p&gt;📍 The Core, Bath Lane, Newcastle Helix, Newcastle upon Tyne, NE4 5TF&lt;/p&gt;
-&lt;p&gt;🔗 &lt;a href="https://www.meetup.com/aws-user-group-north-east-england/events/305592946/"&gt;https://www.meetup.com/aws-user-group-north-east-england/events/305592946/&lt;/a&gt;&lt;/p&gt;
-&lt;!-- ![Banner](images/meetups/aws-north-east-user-group/banner.png "Banner") --&gt;
-&lt;h2 id="agenda"&gt;Agenda&lt;/h2&gt;
-&lt;p&gt;Hi everyone&lt;/p&gt;
-&lt;p&gt;Welcome to our first scheduled event of the new year.&lt;/p&gt;
-&lt;p&gt;The tour has already kicked off and with almost 20 venues in the UK over the next couple of months &lt;strong&gt;Matheus Guimaraes&lt;/strong&gt; will be hosting the re:Invent Recap.&lt;/p&gt;
-&lt;p&gt;If you've missed it completely, or went and still missed things (entirely possibly, its huge!), or want a recap of all the major announcements then come and join us.&lt;/p&gt;
-&lt;p&gt;Matheus is an entertaining speaker and you'll definitely have a good night.&lt;/p&gt;
-&lt;p&gt;There will be our usual pizza and drinks provided by our wonderful hosts &lt;strong&gt;Leighton&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Date: Wednesday February 12&lt;br /&gt;
-Time: 18:00-20:00&lt;br /&gt;
-Venue: The Core, Bath Lane, Newcastle Helix, Newcastle upon Tyne, NE4 5TF&lt;/p&gt;
-&lt;p&gt;Many thanks to our sponsors &lt;strong&gt;Leighton&lt;/strong&gt; for hosting us on the night.&lt;/p&gt;
-&lt;p&gt;Hope to see you all there!&lt;/p&gt;
-&lt;h2 id="notes"&gt;Notes&lt;/h2&gt;
-&lt;p&gt;Matheus was a superb presenter, really engaging and loved the enthusiasm for all things AWS!&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://linktr.ee/codingmatheus"&gt;https://linktr.ee/codingmatheus&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="links"&gt;🔗 Links&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.meetup.com/aws-user-group-north-east-england/"&gt;https://www.meetup.com/aws-user-group-north-east-england/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://aws.amazon.com/developer/community/usergroups/"&gt;https://aws.amazon.com/developer/community/usergroups/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;A few links I remembered to scan during&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://aws.amazon.com/blogs/aws/announcing-a-visual-update-to-the-aws-management-console-preview/"&gt;Announcing a visual update to the AWS Management Console (preview)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://aws.amazon.com/blogs/aws/use-your-on-premises-infrastructure-in-amazon-eks-clusters-with-amazon-eks-hybrid-nodes/"&gt;Use your on-premises infrastructure in Amazon EKS clusters with Amazon EKS Hybrid Nodes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://aws.amazon.com/blogs/aws/new-aws-security-incident-response-helps-organizations-respond-to-and-recover-from-security-events/"&gt;New AWS Security Incident Response helps organizations respond to and recover from security events&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Download the PDF to see the full presentation&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://community.aws/recaps"&gt;AWS Community re:Invent re:Caps&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
