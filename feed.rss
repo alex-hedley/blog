@@ -5,8 +5,8 @@
 		<link>https://alex-hedley.github.io/blog</link>
 		<description>Welcome to my blog!</description>
 		<copyright>Copyright © 2026</copyright>
-		<pubDate>Wed, 28 Jan 2026 09:25:15 GMT</pubDate>
-		<lastBuildDate>Wed, 28 Jan 2026 09:25:15 GMT</lastBuildDate>
+		<pubDate>Wed, 28 Jan 2026 11:53:50 GMT</pubDate>
+		<lastBuildDate>Wed, 28 Jan 2026 11:53:50 GMT</lastBuildDate>
 		<item>
 			<title>.NET Meetup Newcastle - Jan 2026</title>
 			<link>https://alex-hedley.github.io/blog/posts/dotnet-newcastle-jan-2026</link>
@@ -35,6 +35,8 @@
 &lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Take a Note of UI with .NET 10 is an ambitious whistle-stop tour through the A to (almost) Z of first-party Microsoft user interface technologies supported in .NET 10 with C# 14 including ASP.NET Core, Blazor, Console, .NET MAUI, Windows, Forms, Windows Presentation Foundation, WinUI with Windows App SDK and more!&lt;/p&gt;
 &lt;p&gt;See what is possible with .NET 10 and C# 14 using Visual Studio 2026 and how GitHub Copilot accelerated the process of creating the epic notes app demo that features a showcase of first-party UI possible in Windows 11, cross platform and more with Take a Note of UI with .NET 10!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;📼 Video&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;TBA&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Speaker Bio:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Peter Bull is a senior software engineer at Klipboard and has over 25 years of professional experience and 35 years of personal experience as a programmer. Peter has used every major version of .NET since it began from .NET Framework 1.0 to .NET 10 along with every major version of Visual Studio from Visual Studio 97 to Visual Studio 2026.&lt;/p&gt;
 &lt;p&gt;Peter is a twice-awarded Microsoft MVP for .NET and Windows thanks to his articles and podcast at rogueplanetoid.com along with tutorials, talks and workshops at tutorialr.com. Peter also has his own open-source packages and upcoming live-streamed course at comentsys.com&lt;/p&gt;
@@ -44,6 +46,8 @@
 &lt;p&gt;This is an experience report from developing a small web based utility to solve a specific problem within Footy.com&lt;/p&gt;
 &lt;p&gt;I'll talk about the tools I chose, why I chose them, how that aligns with keeping it simple.&lt;/p&gt;
 &lt;p&gt;Bits of F#, HTMX, Aspire, MongoDB, and maybe some other stuff.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;📼 Video&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;TBA&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Speaker Bio:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;James Murphy (Murph) has been attempting to learn to write code for 45 years and feels that given another decade or two he might just get the hang of it...despite this he's managed to earn a living in the software industry for almost 40 years (James’ words not ours!)&lt;/p&gt;
 &lt;h2 id="links"&gt;🔗 Links&lt;/h2&gt;
@@ -142,6 +146,116 @@ The GOV.UK Design System team&lt;/p&gt;
 &lt;li&gt;&lt;a href="https://design-system.service.gov.uk/"&gt;https://design-system.service.gov.uk&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;GovernmentDigitalService"&gt;https://www.youtube.com/&amp;#64;GovernmentDigitalService&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;UKGovDesign"&gt;https://www.youtube.com/&amp;#64;UKGovDesign&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
+			<title>.NET Meetup Newcastle - Feb 2025</title>
+			<link>https://alex-hedley.github.io/blog/posts/dotnet-newcastle-feb-2025</link>
+			<description>.NET meetup</description>
+			<author>alex-hedley</author>
+			<enclosure url="https://alex-hedley.github.io/blog/posts/images/meetups/dotnet-oct-2025.png" length="0" type="image" />
+			<guid>https://alex-hedley.github.io/blog/posts/dotnet-newcastle-feb-2025</guid>
+			<pubDate>Wed, 29 Oct 2025 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!-- # Qudos .NET Newcastle Meetup - Feb 2025 --&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/meetups/dotnet-feb-2025.png" alt=".NET Meetup" title=".NET Meetup"&gt;&lt;/p&gt;
+&lt;p&gt;📅 Tue, Feb 25, 2025 · 5:30 PM to 7:30 PM GMT&lt;/p&gt;
+&lt;p&gt;📍 Haylofts, 5 St. Thomas Street, Newcastle, NE1 4LE · Newcastle upon Tyne&lt;/p&gt;
+&lt;p&gt;🔗 &lt;a href="https://www.meetup.com/dotnetmeetupnorth/events/305987440/"&gt;https://www.meetup.com/dotnetmeetupnorth/events/305987440/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="details"&gt;Details&lt;/h2&gt;
+&lt;p&gt;New venue! We are now going to be running the events at &lt;strong&gt;Haylofts, 5 St. Thomas Street, Newcastle, NE1 4LE&lt;/strong&gt; moving forward.&lt;/p&gt;
+&lt;p&gt;We have a fairly relaxed agenda, but will follow:&lt;/p&gt;
+&lt;p&gt;5:30 - Doors Open&lt;br&gt;
+5:45 - Pizza arrival&lt;br&gt;
+6:00 - Introduction / Housekeeping&lt;br&gt;
+6:10 - Talks begin&lt;br&gt;
+8:00 - Closing&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker 1:&lt;/strong&gt; Kevin Smith&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Let's start using MongoDB in our next .NET project!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I’ve been passionate about MongoDB since its very first release, and for good reason—it’s evolved into the most popular general-purpose document database, packed with powerful features. But why should you choose MongoDB over a traditional relational database, and how does it fit into a modern .NET application?&lt;/p&gt;
+&lt;p&gt;In this talk, we’ll explore MongoDB from the ground up, starting with the raw power of BSON, moving through the MongoDB .NET driver, and finally diving into the brand-new MongoDB EF Core provider—a game-changer for developers familiar with Entity Framework. Whether you’re a seasoned .NET developer or just curious about NoSQL, this session will give you practical insights and techniques to harness the full potential of MongoDB in your applications.&lt;/p&gt;
+&lt;p&gt;Join me to discover why MongoDB isn’t just an alternative to relational databases—it’s a paradigm shift for building scalable, high-performance .NET applications!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;📼 Video&lt;/em&gt;:&lt;/p&gt;
+&lt;!--?# YouTube gHxcA56c5zA /?--&gt;
+&lt;p&gt;&lt;strong&gt;Speaker Bio:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Kevin Smith is an accomplished Principal Software Engineer and technology enthusiast with a strong background in a wide range of technologies. He has been recognized as a Microsoft MVP and MongoDB Champion for his expertise and contributions to the industry.&lt;/p&gt;
+&lt;p&gt;Beyond his work as a software engineer, Kevin is heavily involved in the technology community. He runs three community groups, including dotnet York and dotnetsheff in the North of England, as well as a virtual hackathon group called MiniHack. He is passionate about sharing his knowledge and expertise with others, regularly speaking at user groups and conferences and contributing to the open-source community.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker 2:&lt;/strong&gt; Mark Jose&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; A JavaScript convert steps back into .NET and the world is good&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Returning to dotNET after a decade in the world of JS&lt;/p&gt;
+&lt;p&gt;Over 15 years ago, I worked solely in the world of Microsoft Windows. I've now spent nearly a decade in the world of JavaScript and I'm about to explore what's changed.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;📼 Video&lt;/em&gt;:&lt;/p&gt;
+&lt;!--?# YouTube Ps96ccmcM3o /?--&gt;
+&lt;p&gt;&lt;strong&gt;Speaker Bio:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A hands-on, seasoned technology leader with over 25 years of engineering expertise, specialising in architecture and developing software across diverse sectors such as Investment Banking, Energy Trading, and Gaming. I have overseen the entire technical landscape of businesses, driving the engineering function, shaping the technical vision, and ensuring the successful delivery of cutting-edge solutions.&lt;/p&gt;
+&lt;h2 id="links"&gt;🔗 Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/@QudosRecruitment"&gt;https://www.youtube.com/@QudosRecruitment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.meetup.com/dotnetmeetupnorth/"&gt;https://www.meetup.com/dotnetmeetupnorth/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.meetup.com/dotnetmeetupnorth/events/305987440/"&gt;https://www.meetup.com/dotnetmeetupnorth/events/305987440/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
+			<title>.NET Meetup Newcastle - Oct 2025</title>
+			<link>https://alex-hedley.github.io/blog/posts/dotnet-newcastle-oct-2025</link>
+			<description>.NET meetup</description>
+			<author>alex-hedley</author>
+			<enclosure url="https://alex-hedley.github.io/blog/posts/images/meetups/dotnet-oct-2025.png" length="0" type="image" />
+			<guid>https://alex-hedley.github.io/blog/posts/dotnet-newcastle-oct-2025</guid>
+			<pubDate>Wed, 29 Oct 2025 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!-- # Qudos .NET Newcastle Meetup - Oct 2025 --&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/meetups/dotnet-oct-2025.png" alt=".NET Meetup" title=".NET Meetup"&gt;&lt;/p&gt;
+&lt;p&gt;📅 Wed, Oct 29, 2025 · 5:30 PM to 7:30 PM GMT&lt;/p&gt;
+&lt;p&gt;📍 Haylofts, 5 St. Thomas Street, Newcastle, NE1 4LE · Newcastle upon Tyne&lt;/p&gt;
+&lt;p&gt;🔗 &lt;a href="https://www.meetup.com/dotnetmeetupnorth/events/311398982/"&gt;https://www.meetup.com/dotnetmeetupnorth/events/311398982/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="details"&gt;Details&lt;/h2&gt;
+&lt;p&gt;We’re back at &lt;strong&gt;Haylofts&lt;/strong&gt; in Newcastle for another .NET Meetup!&lt;/p&gt;
+&lt;p&gt;We have a fairly relaxed agenda, but will follow:&lt;/p&gt;
+&lt;p&gt;5:30 - Doors Open&lt;br&gt;
+5:45 - Pizza arrival&lt;br&gt;
+6:00 - Introduction / Housekeeping&lt;br&gt;
+6:10 - Talks begin&lt;br&gt;
+8:00 - Closing&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Who should attend:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Beginners and experienced .NET developers, architects, cloud engineers, and anyone curious about building smarter, AI-enhanced applications with Microsoft technologies.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker 1:&lt;/strong&gt; Olorunfemi Davis&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Who Is Really the Main Pilot? Building Smarter Apps with Microsoft Copilot Studio and .NET&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Are you steering your software development, or is AI taking the controls? In this thought-provoking session, we explore how Microsoft is reshaping the developer experience with intelligent tools and AI-powered integrations.&lt;/p&gt;
+&lt;p&gt;This talk will challenge your assumptions and equip you with practical insights into:&lt;/p&gt;
+&lt;p&gt;Microsoft Copilot Everywhere: Discover how Copilot is transforming productivity across GitHub, Microsoft 365, and Azure, and how developers can extend its capabilities.&lt;/p&gt;
+&lt;p&gt;Semantic Kernel and AI Integration: Learn to embed reasoning and contextual intelligence into your .NET applications using Semantic Kernel and the latest AI building blocks.&lt;/p&gt;
+&lt;p&gt;The AI-First Strategy Behind .NET 9: Explore how Microsoft is aligning .NET with its broader AI vision, including new abstractions for language models, vector data, and generative workflows.&lt;/p&gt;
+&lt;p&gt;Through live demonstrations, you'll see how to integrate Semantic Kernel into a C# backend, use GitHub Copilot to accelerate .NET development, and build a cloud-native .NET 9 app with AI-enhanced features.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;📼 Video&lt;/em&gt;:&lt;/p&gt;
+&lt;!--?# YouTube ZjDcyz5rU9Q /?--&gt;
+&lt;p&gt;&lt;strong&gt;Key Takeaways:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;"AI won’t replace developers, but developers who embrace AI will lead the future."
+"The AI-first strategy behind .NET 9 will align your career with future growth."&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker Bio:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Davis is a Senior Platform Engineer who brings a unique blend of passion for computing, mathematics, and research to the developer community. With over eight years of experience, he specializes in architecting and optimizing secure, high-performance backend systems and cloud-powered applications across various industries. A dedicated chess player, he has honed his strategic thinking in both his hobbies and his professional career.&lt;/p&gt;
+&lt;p&gt;His work reflects a deep expertise in enterprise-ready AI solutions across multiple cloud platforms, demonstrating how to responsibly apply generative AI, cognitive services, and cloud-native innovation to solve complex business challenges. Davis thrives at the intersection of .NET, C#, and Azure with AI-first technologies such as Semantic Kernel, Model Context Protocol (MCP), and Cognitive Services. His dual-platform perspective, which includes leveraging Google Cloud’s AI offerings, enables him to bridge ecosystems and help businesses adopt AI in a way that is secure, scalable, and ethically grounded.&lt;/p&gt;
+&lt;p&gt;Beyond his technical expertise, he is passionate about mentoring and knowledge-sharing, having spoken at both .NET community events and Google developer conferences. His foundation in AI ethics, cloud computing, and strategic business analysis ensures that every project he leads is innovative, impactful, and future-ready.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker 2:&lt;/strong&gt; Akshay Kumar&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Mastering RESTful APIs and Functional Programming in C#&lt;/p&gt;
+&lt;p&gt;Description:
+In this session I will cover the best practices for designing RESTful APIs, with an emphasis on avoiding typical mistakes that undermine REST's fundamental ideas, such as disorganised logic and inadequate state management.&lt;/p&gt;
+&lt;p&gt;We’ll also look at how C# combines functional and object-oriented programming, demonstrating how this combination can result in code that is easier to read, scale, and maintain.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;📼 Video&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;TBA&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker Bio:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Akshay Kumar - I have been a software engineer for more than four years. I started out as a self-taught penetration tester and freelance developer, working with.NET technologies like ASP.NET .NET 8.&lt;/p&gt;
+&lt;p&gt;My current areas of expertise are developing secure, scalable RESTful APIs and using.NET functional programming to create reliable, cloud-native systems.&lt;/p&gt;
+&lt;h2 id="links"&gt;🔗 Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/@QudosRecruitment"&gt;https://www.youtube.com/@QudosRecruitment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.meetup.com/dotnetmeetupnorth/"&gt;https://www.meetup.com/dotnetmeetupnorth/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.meetup.com/dotnetmeetupnorth/events/311398982/"&gt;https://www.meetup.com/dotnetmeetupnorth/events/311398982/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
@@ -775,6 +889,58 @@ The GOV.UK Design System team&lt;/p&gt;
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
 		<item>
+			<title>.NET Meetup Newcastle - Aug 2025</title>
+			<link>https://alex-hedley.github.io/blog/posts/dotnet-newcastle-aug-2025</link>
+			<description>.NET meetup</description>
+			<author>alex-hedley</author>
+			<enclosure url="https://alex-hedley.github.io/blog/posts/images/meetups/dotnet-aug-2025.png" length="0" type="image" />
+			<guid>https://alex-hedley.github.io/blog/posts/dotnet-newcastle-aug-2025</guid>
+			<pubDate>Wed, 27 Aug 2025 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!-- # Qudos .NET Newcastle Meetup - Aug 2025 --&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/meetups/dotnet-aug-2025.png" alt=".NET Meetup" title=".NET Meetup"&gt;&lt;/p&gt;
+&lt;p&gt;📅 Wed, Aug 27, 2025 · 5:30 PM to 7:30 PM BST&lt;/p&gt;
+&lt;p&gt;📍 Haylofts, 5 St. Thomas Street, Newcastle, NE1 4LE · Newcastle upon Tyne&lt;/p&gt;
+&lt;p&gt;🔗 &lt;a href="https://www.meetup.com/dotnetmeetupnorth/events/310300684/"&gt;https://www.meetup.com/dotnetmeetupnorth/events/310300684/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="details"&gt;Details&lt;/h2&gt;
+&lt;p&gt;We’re back at &lt;strong&gt;Haylofts&lt;/strong&gt; in Newcastle for another .NET Meetup&lt;/p&gt;
+&lt;p&gt;We have a fairly relaxed agenda, but will follow:&lt;/p&gt;
+&lt;p&gt;5:30 - Doors Open&lt;br&gt;
+5:45 - Pizza arrival&lt;br&gt;
+6:00 - Introduction / Housekeeping&lt;br&gt;
+6:10 - Talks begin&lt;br&gt;
+8:00 - Closing&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker 1:&lt;/strong&gt; Peter Shaw&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Using Postgres SQL With .NET&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;You can use Entity Framework, and get access to Postgres just like you can with every other database system on the planet, but what if I told you that Postgres goes way, way beyond anything you can do with entity framework. What most folks DON'T know is that Postgres touts itself as a "Data Application Framework" and with the latest version of NPG-SQL (The official Postgres driver for dotnet) you can now get access to much of this extra goodness, stick with me while I try to cram as much as I can show you in about an hour, that you probably never realised Postgres could do.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;📼 Video&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;TBA&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker Bio:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Peter Shaw - I have been a dev for 30 or more years now.&lt;/p&gt;
+&lt;p&gt;I wrote my first bit of code in May 1979 at the age of 7, by the time I was 10 I was programming chip level in machine code on the Z80 &amp;amp; 6502 CPU's, moving into my teenage years I was programming Arm cpu's before anyone knew what they were.&lt;/p&gt;
+&lt;p&gt;I don't really sell myself, I'm a dev after all not a marketer, but there's not many areas of I.T. I've not worked in, from hardware to software, support to management.&lt;/p&gt;
+&lt;p&gt;These days I'm best known for my activities in the .NET &amp;amp; MS Dev scene here in the UK, My blog posts frequently appear on other outlets as well as my own blog, and if you've got the time to sit and listen to what I have to say, I've certainly got the time to tell you.&lt;/p&gt;
+&lt;p&gt;I'm a veteran of the "Developer Developer Developer" series of live developer events here in the UK, and one of the main figures behind "LiDNUG" (&lt;a href="http://lidnug.org/"&gt;http://lidnug.org&lt;/a&gt;) on the linked in network.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker 2:&lt;/strong&gt; Samson Nwizugbe&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Business As First Class&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Businesses adopt software to streamline operations, improve efficiency, and handle complex processes at a scale beyond human capability. However, for software to truly serve its purpose, it must align with the core functions of the business rather than becoming a bottleneck due to rigid design or poor adaptability.&lt;/p&gt;
+&lt;p&gt;This talk explores principles and patterns that place business concerns at the forefront of software design. By ensuring clarity in communication, structuring code to evolve alongside changing requirements, and embracing maintainability as a core feature.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;📼 Video&lt;/em&gt;:&lt;/p&gt;
+&lt;!--?# YouTube gddoJpNS32U /?--&gt;
+&lt;p&gt;&lt;strong&gt;Speaker Bio:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Samson Nwizugbe is a commercially aware software engineer with years of experience solving business challenges across various sectors using the .NET ecosystem. He is passionate about architectural patterns that promote longevity and adaptability in software, including Clean Architecture, Domain-Driven Design, event-driven systems, and decoupled messaging.&lt;/p&gt;
+&lt;p&gt;In his upcoming talk, Business as First Class, Samson will unpack how aligning software design with core business functions leads to clearer communication, more maintainable code, and systems that scale with evolving demands&lt;/p&gt;
+&lt;h2 id="links"&gt;🔗 Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/@QudosRecruitment"&gt;https://www.youtube.com/@QudosRecruitment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.meetup.com/dotnetmeetupnorth/"&gt;https://www.meetup.com/dotnetmeetupnorth/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.meetup.com/dotnetmeetupnorth/events/310300684/"&gt;https://www.meetup.com/dotnetmeetupnorth/events/310300684/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
 			<title>Utility Kotlin</title>
 			<link>https://alex-hedley.github.io/blog/posts/utility-kotlin</link>
 			<description>Building a Utility App in Kotlin Multiplatform</description>
@@ -830,139 +996,6 @@ Having switched back to Java and now Kotlin dev, in the past couple of years, it
 We will be using &lt;strong&gt;Google Meet&lt;/strong&gt; for video, and &lt;strong&gt;Padlet&lt;/strong&gt; for notes and comments. Please make sure you have a device that can access these, as some organisation’s firewalls block these platforms.&lt;/p&gt;
 &lt;p&gt;We hope to see you there!&lt;br /&gt;
 The GOV.UK Design System team&lt;/p&gt;
-&lt;h2 id="links"&gt;🔗 Links&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://design-system.service.gov.uk/"&gt;https://design-system.service.gov.uk&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;GovernmentDigitalService"&gt;https://www.youtube.com/&amp;#64;GovernmentDigitalService&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;UKGovDesign"&gt;https://www.youtube.com/&amp;#64;UKGovDesign&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>ISC2 North East England Chapter - June 2025</title>
-			<link>https://alex-hedley.github.io/blog/posts/isc2-ne-chapter-jun-2025</link>
-			<description>ISC2 Chapter Meetup</description>
-			<author>alex-hedley</author>
-			<enclosure url="https://alex-hedley.github.io/blog/posts/images/isc2/isc2chapternortheastengland.jpeg" length="0" type="image" />
-			<guid>https://alex-hedley.github.io/blog/posts/isc2-ne-chapter-jun-2025</guid>
-			<pubDate>Tue, 17 Jun 2025 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!-- # ISC2 North East England Chapter June 2025 Meetup --&gt;
-&lt;p&gt;Please, come and join our in-person event&lt;/p&gt;
-&lt;p&gt;Category: Business, Career&lt;/p&gt;
-&lt;h2 id="agenda"&gt;Agenda&lt;/h2&gt;
-&lt;p&gt;Agenda to include:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Introductions and annual general meeting chapter update (Steve Gilray / Scott Wakeling)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;An update from CyberNorth, Jon Holden&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;An update from Nigel Wright Consultancy re cyber recruitment in region, Paul Newton&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Finding context in digital forensics, Ross Donnelly BSc (Hons), CFCE, CAWFE, ICMDE&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;DNS: The overlooked powerhouse in Modern Cyber Defence, Simon Cross&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Chapter AGM&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Refreshments and networking&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="date-and-time"&gt;🗓️ Date and time&lt;/h2&gt;
-&lt;p&gt;🗓️ Tuesday, June 17 · 6 - 8pm&lt;/p&gt;
-&lt;h2 id="location"&gt;📍 Location&lt;/h2&gt;
-&lt;p&gt;📍 Opencast&lt;br /&gt;
-Walker Road&lt;br /&gt;
-Byker NE6 2HL&lt;/p&gt;
-&lt;h2 id="links"&gt;🔗 Links&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.eventbrite.co.uk/e/isc2-north-east-chapter-in-person-meeting-tickets-1412638723449"&gt;https://www.eventbrite.co.uk/e/isc2-north-east-chapter-in-person-meeting-tickets-1412638723449&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.eventbrite.co.uk/o/isc2-north-east-england-chapter-13131159160"&gt;https://www.eventbrite.co.uk/o/isc2-north-east-england-chapter-13131159160&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>.NET Meetup Newcastle - April 2025</title>
-			<link>https://alex-hedley.github.io/blog/posts/dotnet-newcastle-april-2025</link>
-			<description>.NET meetup</description>
-			<author>alexhedley</author>
-			<enclosure url="https://alex-hedley.github.io/blog/posts/images/meetups/dotnet-april-2025.png" length="0" type="image" />
-			<guid>https://alex-hedley.github.io/blog/posts/dotnet-newcastle-april-2025</guid>
-			<pubDate>Tue, 29 Apr 2025 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!-- # Qudos DotNet Newcastle Meetup - May 2024 --&gt;
-&lt;p&gt;📅 Tuesday, April 29, 2025 · 5:30 - 8pm GMT&lt;/p&gt;
-&lt;p&gt;📍 Haylofts, 5 St. Thomas Street, Newcastle, NE1 4LE.&lt;/p&gt;
-&lt;p&gt;🔗 &lt;a href="https://www.meetup.com/dotnetmeetupnorth/events/307169799/"&gt;https://www.meetup.com/dotnetmeetupnorth/events/307169799/&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="talks"&gt;Talks&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Speaker 1&lt;/strong&gt;: John Staveley&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Creating an AI assistant to help run meetups&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Description&lt;/strong&gt;:&lt;/p&gt;
-&lt;p&gt;In this session I will explain how I created a cheeky virtual assistant called JaaS to aid in the running of several meetups that I organise.
-How I was able to interact it with it using Azure Speech to Text and Azure Text to Speech.
-How I gave it almost limitless knowledge by incorporating ChatGPT using the Azure OpenAI service.
-And... how once created, it did not put anyone out of a job or take over the world!&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;📼 Video&lt;/em&gt;:&lt;/p&gt;
-&lt;p&gt;TBA&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Speaker Bio&lt;/strong&gt;:&lt;/p&gt;
-&lt;p&gt;John Staveley, Microsoft MVP, Organiser at LeedsSharp, IotNorth and Data Science meetup&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;strong&gt;Speaker 2&lt;/strong&gt;: Peter Shaw&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Using Postgres SQL With .NET&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Description&lt;/strong&gt;:&lt;/p&gt;
-&lt;p&gt;You can use Entity Framework, and get access to Postgres just like you can with every other database system on the planet, but what if I told you that Postgres goes way, way beyond anything you can do with entity framework. What most folks DON'T know is that Postgres touts itself as a &amp;quot;Data Application Framework&amp;quot; and with the latest version of NPG-SQL (The official Postgres driver for dotnet) you can now get access to much of this extra goodness, stick with me while I try to cram as much as I can show you in about an hour, that you probably never realised Postgres could do.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;📼 Video&lt;/em&gt;:&lt;/p&gt;
-&lt;p&gt;TBA&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Speaker Bio&lt;/strong&gt;:&lt;/p&gt;
-&lt;p&gt;Peter Shaw - I have been a dev for 30 or more years now.&lt;/p&gt;
-&lt;p&gt;I wrote my first bit of code in may 1979 at the age of 7, by the time I was 10 I was programming chip level in machine code on the Z80 &amp;amp; 6502 CPU's, moving into my teenage years I was programming Arm cpu's before anyone knew what they where.&lt;/p&gt;
-&lt;p&gt;I don't really sell myself, I'm a dev after all not a marketer, but there's not many areas of I.T. I've not worked in, from hardware to software, support to management.&lt;/p&gt;
-&lt;p&gt;These days I'm best known for my activities in the .NET &amp;amp; MS Dev scene here in the UK, My blog posts frequently appear on other outlets as well as my own blog, and if you've got the time to sit and listen to what I have to say, I've certainly got the time to tell you.&lt;/p&gt;
-&lt;p&gt;I'm a veteran of the &amp;quot;Developer Developer Developer&amp;quot; series of live developer events here in the UK, and one of the main figures behind &amp;quot;LiDNUG&amp;quot; (&lt;a href="http://lidnug.org/"&gt;http://lidnug.org&lt;/a&gt;) on the linked in network.&lt;/p&gt;
-&lt;h2 id="details"&gt;Details&lt;/h2&gt;
-&lt;p&gt;We’re back at Haylofts for our 2nd .NET meetup of the year! 5 St. Thomas Street, Newcastle, NE1 4LE.&lt;/p&gt;
-&lt;p&gt;We have a fairly relaxed agenda, but will follow:&lt;/p&gt;
-&lt;p&gt;5:30 - Doors Open&lt;br /&gt;
-5:45 - Pizza arrival&lt;br /&gt;
-6:00 - Introduction / Housekeeping&lt;br /&gt;
-6:10 - Talks begin&lt;br /&gt;
-8:00 - Closing&lt;/p&gt;
-&lt;h2 id="links"&gt;🔗 Links&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;QudosRecruitment"&gt;https://www.youtube.com/&amp;#64;QudosRecruitment&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.meetup.com/dotnetmeetupnorth/"&gt;https://www.meetup.com/dotnetmeetupnorth/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.meetup.com/dotnetmeetupnorth/events/307169799/"&gt;https://www.meetup.com/dotnetmeetupnorth/events/307169799/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>Install-a-thon - GOV.UK FrontEnd - April 2025</title>
-			<link>https://alex-hedley.github.io/blog/posts/govuk-design-system-apr2025</link>
-			<description>GOV.UK Design System team</description>
-			<author>alex-hedley</author>
-			<enclosure url="https://alex-hedley.github.io/blog/posts/images/govuk/install-a-thon.jpeg" length="0" type="image" />
-			<guid>https://alex-hedley.github.io/blog/posts/govuk-design-system-apr2025</guid>
-			<pubDate>Thu, 24 Apr 2025 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!-- # Install-a-thon - GOV.UK FrontEnd - April 2025 --&gt;
-&lt;h2 id="event"&gt;Event&lt;/h2&gt;
-&lt;p&gt;🗓️ Thursday, 24 April
-🕰️ 13:00 - 15:00 BST&lt;br /&gt;
-📍 Online&lt;br /&gt;
-🔗 &lt;a href="https://www.eventbrite.co.uk/e/install-a-thon-govuk-frontend-tickets-1317545677589"&gt;https://www.eventbrite.co.uk/e/install-a-thon-govuk-frontend-tickets-1317545677589&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="details"&gt;Details&lt;/h2&gt;
-&lt;p&gt;Join the GOV.UK Design System team for their first ever install-a-thon. In this exciting new session format, the team will be on hand to support you in getting up to date with the latest version of GOV.UK FrontEnd.&lt;/p&gt;
-&lt;h3 id="agenda"&gt;Agenda&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;GOV.UK FrontEnd - why update?&lt;/li&gt;
-&lt;li&gt;Demonstration of update process&lt;/li&gt;
-&lt;li&gt;Group installation with support&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Session type&lt;/strong&gt;: Show &amp;amp; tell, discussion&lt;br /&gt;
-&lt;strong&gt;Duration&lt;/strong&gt;: 1 hour&lt;br /&gt;
-&lt;strong&gt;Platform&lt;/strong&gt;: Zoom (please make sure your device can access Zoom meetings)&lt;br /&gt;
-If you sign up, please make sure you can attend the whole session, as we sell out quite quickly.
-We will be using &lt;strong&gt;Zoom Meetings&lt;/strong&gt; for video, and &lt;strong&gt;Padlet&lt;/strong&gt; for notes and comments. Please make sure you have a device that can access these, as some organisation’s firewalls block these platforms.&lt;/p&gt;
 &lt;h2 id="links"&gt;🔗 Links&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://design-system.service.gov.uk/"&gt;https://design-system.service.gov.uk&lt;/a&gt;&lt;/li&gt;
