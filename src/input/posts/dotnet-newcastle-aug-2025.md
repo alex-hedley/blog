@@ -1,6 +1,6 @@
 ---
 title: .NET Meetup Newcastle - Aug 2025
-lead: Smarter Apps: Using Postgres SQL with .NET + Business As First Class
+lead: Smarter Apps - Using Postgres SQL with .NET + Business As First Class
 description: .NET meetup
 tags:
   - dotnet
@@ -8,11 +8,11 @@ tags:
   - meetup
 author: alex-hedley
 published: 2025-08-27
-image: /posts/images/meetups/dotnet-oct-2025.png
+image: /posts/images/meetups/dotnet-aug-2025.png
 imageattribution: https://www.getqudos.com
 ---
 
-<!-- # Qudos .NET Newcastle Meetup - Oct 2025 -->
+<!-- # Qudos .NET Newcastle Meetup - Aug 2025 -->
 
 ![.NET Meetup](images/meetups/dotnet-aug-2025.png ".NET Meetup")
 

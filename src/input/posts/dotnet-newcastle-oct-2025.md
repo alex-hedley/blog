@@ -1,6 +1,6 @@
 ---
 title: .NET Meetup Newcastle - Oct 2025
-lead: Smarter Apps: Copilot Studio + REST APIs & Functional Programming
+lead: Smarter Apps - Copilot Studio + REST APIs & Functional Programming
 description: .NET meetup
 tags:
   - dotnet

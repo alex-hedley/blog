@@ -1,6 +1,6 @@
 ---
 title: .NET Meetup Newcastle - Jun 2025
-lead: Smarter Apps: Azure AI Powered by Azure Integration / Durable Execution + Dapr
+lead: Smarter Apps - Azure AI Powered by Azure Integration / Durable Execution + Dapr
 description: .NET meetup
 tags:
   - dotnet

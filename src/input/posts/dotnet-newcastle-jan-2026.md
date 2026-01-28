@@ -48,6 +48,10 @@ Take a Note of UI with .NET 10 is an ambitious whistle-stop tour through the A t
 
 See what is possible with .NET 10 and C# 14 using Visual Studio 2026 and how GitHub Copilot accelerated the process of creating the epic notes app demo that features a showcase of first-party UI possible in Windows 11, cross platform and more with Take a Note of UI with .NET 10!
 
+_📼 Video_:
+
+TBA
+
 **Speaker Bio:**
 
 Peter Bull is a senior software engineer at Klipboard and has over 25 years of professional experience and 35 years of personal experience as a programmer. Peter has used every major version of .NET since it began from .NET Framework 1.0 to .NET 10 along with every major version of Visual Studio from Visual Studio 97 to Visual Studio 2026.
@@ -65,6 +69,10 @@ This is an experience report from developing a small web based utility to solve 
 I'll talk about the tools I chose, why I chose them, how that aligns with keeping it simple.
 
 Bits of F#, HTMX, Aspire, MongoDB, and maybe some other stuff.
+
+_📼 Video_:
+
+TBA
 
 **Speaker Bio:**
 

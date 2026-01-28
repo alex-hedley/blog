@@ -1,6 +1,6 @@
 ---
 title: .NET Meetup Newcastle - Feb 2025
-lead: Smarter Apps: Start Using MongoDB + Stepping Back Into .NET - 2 Talks
+lead: Smarter Apps - Start Using MongoDB + Stepping Back Into .NET - 2 Talks
 description: .NET meetup
 tags:
   - dotnet
