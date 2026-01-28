@@ -53,7 +53,7 @@ You can use Entity Framework, and get access to Postgres just like you can with 
 
 _📼 Video_:
 
-TBA
+<?# YouTube JQ6FnisugVk /?>
 
 **Speaker Bio**:
 
