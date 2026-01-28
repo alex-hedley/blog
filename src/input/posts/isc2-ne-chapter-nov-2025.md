@@ -33,16 +33,17 @@ Jenny Wilkinson - Rule21
 Operational Resilience: Bridging the Technical-Operational-Cyber Divide. Jenny will discuss alignment of strategy, metrics, exercises and regulations across the technical, operational and cyber domains to build effective operational resilience.
 
 **Quantum Readiness**  
-Dr Meera Sharma - Cystel  
-Dr Sharma will tell us what this means to cyber professionals and key aspects we need to understand.
+~~Dr Meera Sharma - Cystel~~  
+~~Dr Sharma will tell us what this means to cyber professionals and key aspects we need to understand.~~  
+Dr. Thomas Matheus
 
 **Pizza and refreshments**  
 Networking and chatter with some pizza and refreshments
 
-**How You May Have Built an Unconditional Access Policy**. 
+**How You May Have Built an Unconditional Access Policy**  
 Anthony Holt from PenTest Consultants
 
-**Rewriting the rules of Cyber Defence**. 
+**Rewriting the rules of Cyber Defence**  
 Gareth Pritchard - Sapphire
 
 **Competition time**  
