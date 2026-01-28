@@ -3,9 +3,58 @@
 	<id>https://alex-hedley.github.io/blog</id>
 	<title>Alex Hedley</title>
 	<link rel="self" href="https://alex-hedley.github.io/blog" />
-	<rights>Copyright © 2025</rights>
-	<updated>2025-11-18T15:17:47Z</updated>
+	<rights>Copyright © 2026</rights>
+	<updated>2026-01-28T09:25:15Z</updated>
 	<subtitle>Welcome to my blog!</subtitle>
+	<entry>
+		<id>https://alex-hedley.github.io/blog/posts/dotnet-newcastle-jan-2026</id>
+		<title>.NET Meetup Newcastle - Jan 2026</title>
+		<author>
+			<name>alex-hedley</name>
+		</author>
+		<link href="https://alex-hedley.github.io/blog/posts/dotnet-newcastle-jan-2026" />
+		<link rel="enclosure" type="image" href="https://alex-hedley.github.io/blog/posts/images/meetups/dotnet-jan-2026.png" />
+		<updated>2026-01-27T00:00:00Z</updated>
+		<content>&lt;!-- # Qudos .NET Newcastle Meetup - Jan 2026 --&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/meetups/dotnet-jan-2026.png" alt=".NET Meetup" title=".NET Meetup"&gt;&lt;/p&gt;
+&lt;p&gt;📅 Tuesday, Jan 27, 2025 · 5:30 - 8pm GMT&lt;/p&gt;
+&lt;p&gt;📍 Building 5, Airport Freightway Freight Village, Woolsington, Newcastle upon Tyne NE13 8BH · Newcastle upon Tyne&lt;/p&gt;
+&lt;p&gt;🔗 &lt;a href="https://www.meetup.com/dotnetmeetupnorth/events/312759966/"&gt;https://www.meetup.com/dotnetmeetupnorth/events/312759966/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For our first 2 meetups in 2026, the folks over at &lt;strong&gt;QGEMS&lt;/strong&gt; have kindly offered to host and sponsor.&lt;/p&gt;
+&lt;p&gt;We will be at &lt;strong&gt;Building 5, Airport Freightway Freight Village, Woolsington, Newcastle upon Tyne NE13 8BH&lt;/strong&gt; - plenty of free parking on site and a short walk from the nearest Metro.&lt;/p&gt;
+&lt;p&gt;We have a fairly relaxed agenda, but will follow:&lt;/p&gt;
+&lt;p&gt;5:30 - Doors Open&lt;br&gt;
+5:45 - Pizza arrival&lt;br&gt;
+6:00 - Introduction / Housekeeping&lt;br&gt;
+6:10 - Talks begin&lt;br&gt;
+8:00 - Closing&lt;/p&gt;
+&lt;p&gt;Who should attend:&lt;/p&gt;
+&lt;p&gt;Beginners and experienced .NET developers, architects, cloud engineers, and anyone curious about building smarter, AI-enhanced applications with Microsoft technologies.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker 1:&lt;/strong&gt; Peter Bull&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Take a Note of UI with .NET 10&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Take a Note of UI with .NET 10 is an ambitious whistle-stop tour through the A to (almost) Z of first-party Microsoft user interface technologies supported in .NET 10 with C# 14 including ASP.NET Core, Blazor, Console, .NET MAUI, Windows, Forms, Windows Presentation Foundation, WinUI with Windows App SDK and more!&lt;/p&gt;
+&lt;p&gt;See what is possible with .NET 10 and C# 14 using Visual Studio 2026 and how GitHub Copilot accelerated the process of creating the epic notes app demo that features a showcase of first-party UI possible in Windows 11, cross platform and more with Take a Note of UI with .NET 10!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker Bio:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Peter Bull is a senior software engineer at Klipboard and has over 25 years of professional experience and 35 years of personal experience as a programmer. Peter has used every major version of .NET since it began from .NET Framework 1.0 to .NET 10 along with every major version of Visual Studio from Visual Studio 97 to Visual Studio 2026.&lt;/p&gt;
+&lt;p&gt;Peter is a twice-awarded Microsoft MVP for .NET and Windows thanks to his articles and podcast at rogueplanetoid.com along with tutorials, talks and workshops at tutorialr.com. Peter also has his own open-source packages and upcoming live-streamed course at comentsys.com&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker 2:&lt;/strong&gt; James Murphy&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Keeping it Simple with Falco and HTMX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This is an experience report from developing a small web based utility to solve a specific problem within Footy.com&lt;/p&gt;
+&lt;p&gt;I'll talk about the tools I chose, why I chose them, how that aligns with keeping it simple.&lt;/p&gt;
+&lt;p&gt;Bits of F#, HTMX, Aspire, MongoDB, and maybe some other stuff.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker Bio:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;James Murphy (Murph) has been attempting to learn to write code for 45 years and feels that given another decade or two he might just get the hang of it...despite this he's managed to earn a living in the software industry for almost 40 years (James’ words not ours!)&lt;/p&gt;
+&lt;h2 id="links"&gt;🔗 Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/@QudosRecruitment"&gt;https://www.youtube.com/@QudosRecruitment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.meetup.com/dotnetmeetupnorth/"&gt;https://www.meetup.com/dotnetmeetupnorth/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.meetup.com/dotnetmeetupnorth/events/312759966/"&gt;https://www.meetup.com/dotnetmeetupnorth/events/312759966/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+		<summary>.NET meetup</summary>
+	</entry>
 	<entry>
 		<id>https://alex-hedley.github.io/blog/posts/isc2-ne-chapter-nov-2025</id>
 		<title>ISC2 North East England Chapter - November 2025</title>
@@ -28,13 +77,14 @@ The ISC North East Chapter welcomes all ISC2 members, anyone working in cyber / 
 Jenny Wilkinson - Rule21&lt;/p&gt;
 &lt;p&gt;Operational Resilience: Bridging the Technical-Operational-Cyber Divide. Jenny will discuss alignment of strategy, metrics, exercises and regulations across the technical, operational and cyber domains to build effective operational resilience.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Quantum Readiness&lt;/strong&gt;&lt;br /&gt;
-Dr Meera Sharma - Cystel&lt;br /&gt;
-Dr Sharma will tell us what this means to cyber professionals and key aspects we need to understand.&lt;/p&gt;
+&lt;del&gt;Dr Meera Sharma - Cystel&lt;/del&gt;&lt;br /&gt;
+&lt;del&gt;Dr Sharma will tell us what this means to cyber professionals and key aspects we need to understand.&lt;/del&gt;&lt;br /&gt;
+Dr. Thomas Matheus&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Pizza and refreshments&lt;/strong&gt;&lt;br /&gt;
 Networking and chatter with some pizza and refreshments&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;How You May Have Built an Unconditional Access Policy&lt;/strong&gt;.
+&lt;p&gt;&lt;strong&gt;How You May Have Built an Unconditional Access Policy&lt;/strong&gt;&lt;br /&gt;
 Anthony Holt from PenTest Consultants&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Rewriting the rules of Cyber Defence&lt;/strong&gt;.
+&lt;p&gt;&lt;strong&gt;Rewriting the rules of Cyber Defence&lt;/strong&gt;&lt;br /&gt;
 Gareth Pritchard - Sapphire&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Competition time&lt;/strong&gt;&lt;br /&gt;
 We've got some ISC2 goodies to give away.&lt;/p&gt;
@@ -916,45 +966,6 @@ And... how once created, it did not put anyone out of a job or take over the wor
 &lt;li&gt;GOV.UK FrontEnd - why update?&lt;/li&gt;
 &lt;li&gt;Demonstration of update process&lt;/li&gt;
 &lt;li&gt;Group installation with support&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Session type&lt;/strong&gt;: Show &amp;amp; tell, discussion&lt;br /&gt;
-&lt;strong&gt;Duration&lt;/strong&gt;: 1 hour&lt;br /&gt;
-&lt;strong&gt;Platform&lt;/strong&gt;: Zoom (please make sure your device can access Zoom meetings)&lt;br /&gt;
-If you sign up, please make sure you can attend the whole session, as we sell out quite quickly.
-We will be using &lt;strong&gt;Zoom Meetings&lt;/strong&gt; for video, and &lt;strong&gt;Padlet&lt;/strong&gt; for notes and comments. Please make sure you have a device that can access these, as some organisation’s firewalls block these platforms.&lt;/p&gt;
-&lt;h2 id="links"&gt;🔗 Links&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://design-system.service.gov.uk/"&gt;https://design-system.service.gov.uk&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;GovernmentDigitalService"&gt;https://www.youtube.com/&amp;#64;GovernmentDigitalService&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;UKGovDesign"&gt;https://www.youtube.com/&amp;#64;UKGovDesign&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-		<summary>GOV.UK Design System team</summary>
-	</entry>
-	<entry>
-		<id>https://alex-hedley.github.io/blog/posts/govuk-design-system-feb2025</id>
-		<title>Design System Chat - February 2025</title>
-		<author>
-			<name>alex-hedley</name>
-		</author>
-		<link href="https://alex-hedley.github.io/blog/posts/govuk-design-system-feb2025" />
-		<link rel="enclosure" type="image" href="https://alex-hedley.github.io/blog/posts/images/govuk/govuk-design-system-feb.png" />
-		<updated>2025-02-26T00:00:00Z</updated>
-		<content>&lt;!-- # Design System Chat - February 2025 --&gt;
-&lt;h2 id="event"&gt;Event&lt;/h2&gt;
-&lt;p&gt;🗓️ Wednesday, 26 February
-🕰️ 11:00 - 12:00 BST&lt;br /&gt;
-📍 Online&lt;br /&gt;
-🔗 &lt;a href="https://www.eventbrite.co.uk/e/design-system-chat-february-2025-tickets-1255768008919"&gt;https://www.eventbrite.co.uk/e/design-system-chat-february-2025-tickets-1255768008919&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="details"&gt;Details&lt;/h2&gt;
-&lt;p&gt;You're invited to 2025's second 'design system chat', hosted monthly by the GOV.UK Design System team.&lt;/p&gt;
-&lt;h3 id="agenda"&gt;Agenda&lt;/h3&gt;
-&lt;p&gt;Agenda:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Essential component criteria&lt;/li&gt;
-&lt;li&gt;FrontEnd installation session&lt;/li&gt;
-&lt;li&gt;File upload&lt;/li&gt;
-&lt;li&gt;Lean Coffee: Bring your discussion topics and questions&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Session type&lt;/strong&gt;: Show &amp;amp; tell, discussion&lt;br /&gt;
 &lt;strong&gt;Duration&lt;/strong&gt;: 1 hour&lt;br /&gt;
