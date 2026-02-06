@@ -4,8 +4,58 @@
 	<title>Alex Hedley</title>
 	<link rel="self" href="https://alex-hedley.github.io/blog" />
 	<rights>Copyright © 2026</rights>
-	<updated>2026-01-28T11:53:50Z</updated>
+	<updated>2026-02-06T09:12:13Z</updated>
 	<subtitle>Welcome to my blog!</subtitle>
+	<entry>
+		<id>https://alex-hedley.github.io/blog/posts/devhub-north-feb-2026</id>
+		<title>Devhub North - February 2026</title>
+		<author>
+			<name>alex-hedley</name>
+		</author>
+		<link href="https://alex-hedley.github.io/blog/posts/devhub-north-feb-2026" />
+		<link rel="enclosure" type="image" href="https://alex-hedley.github.io/blog/posts/images/meetups/devhub/feb-2026.jpeg" />
+		<updated>2026-02-05T00:00:00Z</updated>
+		<content>&lt;!-- # Devhub North - February --&gt;
+&lt;!-- ![Banner](images/meetups/devhub/feb-2026.jpeg "Banner") --&gt;
+&lt;p&gt;📅 Thursday, Feb 5 from 5:30 pm to 8 pm GMT&lt;/p&gt;
+&lt;p&gt;📍 One Strawberry LaneNewcastle upon Tyne, England&lt;/p&gt;
+&lt;p&gt;🔗 &lt;a href="https://www.eventbrite.co.uk/e/devhub-north-february-tickets-1979864131915"&gt;https://www.eventbrite.co.uk/e/devhub-north-february-tickets-1979864131915&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;DevHub North is the North's biggest developer community! Join us to network and talk all things tech :)
+We’re back with another exciting DevHub North in-person event at a brand new location, One Strawberry Lane, Newcastle - and once again, we’re proudly sponsored by MHR!&lt;/p&gt;
+&lt;p&gt;📅 Date: Thursday 5th February&lt;br /&gt;
+🕠 Time: Doors open at 5:30pm&lt;br /&gt;
+📍 Location: One Strawberry Lane, Newcastle&lt;/p&gt;
+&lt;p&gt;Whether you’re a developer, a tech professional, a student, or just someone who’s fascinated by technology, you’re invited to join us for an evening of learning, networking, and (of course) pizza and beers.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;About our sponsor: MHR&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;MHR is a global leader in HR, payroll, and analytics solutions, helping organisations transform the way they work. With innovation at their core, they’ve been empowering businesses to streamline operations, enhance employee experiences, and embrace the future of work for over 40 years. They’re not just backing this event - they’re sharing their own journey of transformation, design excellence, and AI-driven development through our speaker sessions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What to expect:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Inspiring talks from industry experts (see below!)&lt;/li&gt;
+&lt;li&gt;Networking with like-minded professionals&lt;/li&gt;
+&lt;li&gt;Free pizza, beers, and soft drinks&lt;/li&gt;
+&lt;li&gt;Knowledge sharing in a friendly, open community&lt;/li&gt;
+&lt;li&gt;Lanyards to make meeting new people even easier&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="our-speakers"&gt;Our Speakers:&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Welcome &amp;amp; Company Introduction&lt;/strong&gt;&lt;br /&gt;
+Presented by: Rosie (Host)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. Talk One – Emerging patterns for use with LLM's&lt;/strong&gt;&lt;br /&gt;
+Presented by: Mark Williams (Director of Innovation)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. Talk Two - Creating generative UI with LLM's&lt;/strong&gt;&lt;br /&gt;
+Presented by: Anthony Porthouse (Senior Web Application Developer)&lt;/p&gt;
+&lt;p&gt;Don’t miss it!&lt;/p&gt;
+&lt;p&gt;Spaces fill up quickly, so register now to secure your lanyard and your spot for an evening of inspiration, connection, and great conversation.&lt;/p&gt;
+&lt;p&gt;We can’t wait to see you there 👋&lt;/p&gt;
+&lt;p&gt;Your DevHub North Team 💬&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Good to know&lt;/p&gt;
+&lt;p&gt;Highlights&lt;/p&gt;
+&lt;p&gt;🕰️ 2 hours 30 minutes&lt;br /&gt;
+📍 In person&lt;/p&gt;
+</content>
+		<summary>meetup By Ronald James Group</summary>
+	</entry>
 	<entry>
 		<id>https://alex-hedley.github.io/blog/posts/dotnet-newcastle-jan-2026</id>
 		<title>.NET Meetup Newcastle - Jan 2026</title>
@@ -972,46 +1022,5 @@ Having switched back to Java and now Kotlin dev, in the past couple of years, it
 &lt;/ul&gt;
 </content>
 		<summary>Building a Utility App in Kotlin Multiplatform</summary>
-	</entry>
-	<entry>
-		<id>https://alex-hedley.github.io/blog/posts/govuk-design-system-jul2025</id>
-		<title>Design System Chat - July 2025</title>
-		<author>
-			<name>alex-hedley</name>
-		</author>
-		<link href="https://alex-hedley.github.io/blog/posts/govuk-design-system-jul2025" />
-		<link rel="enclosure" type="image" href="https://alex-hedley.github.io/blog/posts/images/govuk/govuk-design-system-july.png" />
-		<updated>2025-07-16T00:00:00Z</updated>
-		<content>&lt;!-- # Design System Chat - July 2025 --&gt;
-&lt;!-- ![July](images/govuk/govuk-design-system-july.png "July") --&gt;
-&lt;h2 id="event"&gt;Event&lt;/h2&gt;
-&lt;p&gt;🗓️ Thursday, 16 July&lt;br /&gt;
-🕰️ 13:00 - 15:00 BST&lt;br /&gt;
-📍 Online&lt;br /&gt;
-🔗 &lt;a href="https://www.eventbrite.co.uk/e/design-system-chat-july-2025-tickets-1469483959079"&gt;https://www.eventbrite.co.uk/e/design-system-chat-july-2025-tickets-1469483959079&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="details"&gt;Details&lt;/h2&gt;
-&lt;p&gt;Join us for July 2025's Design System Chat to discuss what events you'd like to see from us. Hosted by the GOV.UK Design System.&lt;/p&gt;
-&lt;h3 id="agenda"&gt;Agenda&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;What is our current offer? monthly chat, DSDay, hacks, ad-hoc sessions&lt;/li&gt;
-&lt;li&gt;What do you attend? Why, why not?&lt;/li&gt;
-&lt;li&gt;What would you like to see more of? What would you actually take time to attend?&lt;/li&gt;
-&lt;li&gt;Let's create a backlog of topics for events/workshops&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Session type&lt;/strong&gt;: Workshop/discusssion&lt;br /&gt;
-&lt;strong&gt;Duration&lt;/strong&gt;: 1 hour&lt;br /&gt;
-&lt;strong&gt;Platform&lt;/strong&gt;: Google Meet&lt;/p&gt;
-&lt;p&gt;If you sign up, please make sure you can attend the whole session, as we sell out quite quickly.
-We will be using &lt;strong&gt;Google Meet&lt;/strong&gt; for video, and &lt;strong&gt;Padlet&lt;/strong&gt; for notes and comments. Please make sure you have a device that can access these, as some organisation’s firewalls block these platforms.&lt;/p&gt;
-&lt;p&gt;We hope to see you there!&lt;br /&gt;
-The GOV.UK Design System team&lt;/p&gt;
-&lt;h2 id="links"&gt;🔗 Links&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://design-system.service.gov.uk/"&gt;https://design-system.service.gov.uk&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;GovernmentDigitalService"&gt;https://www.youtube.com/&amp;#64;GovernmentDigitalService&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;UKGovDesign"&gt;https://www.youtube.com/&amp;#64;UKGovDesign&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-		<summary>GOV.UK Design System team</summary>
 	</entry>
 </feed>
