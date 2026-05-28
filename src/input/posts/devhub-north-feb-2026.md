@@ -55,6 +55,8 @@ Presented by: Mark Williams (Director of Innovation)
 **2. Talk Two - Creating generative UI with LLM's**  
 Presented by: Anthony Porthouse (Senior Web Application Developer)
 
+- https://github.com/AnthonyPorthouse/generative-ui-demo
+
 Don’t miss it!
 
 Spaces fill up quickly, so register now to secure your lanyard and your spot for an evening of inspiration, connection, and great conversation.
