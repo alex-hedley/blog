@@ -4,8 +4,103 @@
 	<title>Alex Hedley</title>
 	<link rel="self" href="https://alex-hedley.github.io/blog" />
 	<rights>Copyright © 2026</rights>
-	<updated>2026-02-06T09:12:13Z</updated>
+	<updated>2026-05-28T07:56:25Z</updated>
 	<subtitle>Welcome to my blog!</subtitle>
+	<entry>
+		<id>https://alex-hedley.github.io/blog/posts/dotnet-newcastle-may-2026</id>
+		<title>.NET Meetup Newcastle - May 2026</title>
+		<author>
+			<name>alex-hedley</name>
+		</author>
+		<link href="https://alex-hedley.github.io/blog/posts/dotnet-newcastle-may-2026" />
+		<link rel="enclosure" type="image" href="https://alex-hedley.github.io/blog/posts/images/meetups/dotnet-may-2026.png" />
+		<updated>2026-05-27T00:00:00Z</updated>
+		<content>&lt;!-- # Qudos .NET Newcastle Meetup - May 2026 --&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/meetups/dotnet-may-2026.png" alt=".NET Meetup" title=".NET Meetup"&gt;&lt;/p&gt;
+&lt;p&gt;📅 Wednesday, May 27 · 5:30 PM to 7:30 PM BST&lt;/p&gt;
+&lt;p&gt;📍 Hoults Estate, Unit 2, The Kiln, Walker Rd, Byker · Tyne and Wear&lt;/p&gt;
+&lt;p&gt;🔗 &lt;a href="https://www.meetup.com/dotnetmeetupnorth/events/314552885/"&gt;https://www.meetup.com/dotnetmeetupnorth/events/314552885/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="details"&gt;Details&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;May’s North East .NET Meetup - hosted by Opencast&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The lovely folks over at Opencast have kindly offered to host the North East .NET Meetup as part of their Open Spaces initiative.&lt;/p&gt;
+&lt;p&gt;We will now be based at &lt;strong&gt;Unit 2, The Kiln, Hoults Yard, Newcastle‑upon‑Tyne NE6 1AB&lt;/strong&gt; - plenty of free parking on site (input your reg at reception) and a short walk from the nearest Metro&lt;/p&gt;
+&lt;p&gt;We have a fairly relaxed agenda, but will follow:
+5:30 - Doors Open
+5:45 - Pizza arrival
+6:00 - Introduction / Housekeeping
+6:10 - Talks begin
+8:00 - Closing&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Who should attend:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Beginners and experienced .NET developers, architects, cloud engineers, and anyone curious about building smarter, AI-enhanced applications with Microsoft technologies.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker 1:&lt;/strong&gt; Babatunde Esanju&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Building Developer Tools in the Open: Lessons from PayBridge &amp;amp; CronCraft&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Building a developer tool is one thing; building one that others actually adopt, contribute to, and integrate into their own production systems is something else entirely. In this talk, Babatunde will take you behind the scenes of two open-source projects: PayBridge.SDK, a unified .NET payment gateway abstraction adopted by developers across the .NET ecosystem, and CronCraft, a background job scheduling library that has been integrated into larger production projects and gained significant traction on GitHub.&lt;/p&gt;
+&lt;p&gt;He will unpack the full lifecycle of building developer tools in the open, from the initial problem-solving itch that sparked each project, through the painful API design decisions, versioning challenges, and documentation trade-offs, to the community dynamics that determine whether a library quietly fades or genuinely takes off. He will also explore what happens when your tool gets adopted by a larger project, and what that teaches you about writing code for an audience you'll never meet.&lt;/p&gt;
+&lt;p&gt;Whether you're thinking about open-sourcing your first library or you're already maintaining one, this talk will offer honest, practical insights into the craft of building tools that earn the trust of other engineers.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker Bio:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Babatunde is a Software Engineer at TixTrack, where he architects enterprise-scale ticketing systems, and a co-founder of CareSyntra, an AI-powered care management platform built for UK care homes and domiciliary agencies. An active open-source contributor, he created PayBridge.SDK and CronCraft, tools now used by thousands of developers across the .NET ecosystem. He is the Lead Organizer of the .NET Nigeria Community, a Global AI Delegate for GAFAI, and the founder and host of TechNaija FM, a podcast amplifying African tech voices on the global stage. Based in Liverpool, he is passionate about building tools, communities, and conversations that bridge ecosystems.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Speaker 2:&lt;/strong&gt; Alex Hedley&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; An Intro to Blazor&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In this presentation you will learn about the .NET Blazor framework, how to get started and a few interesting libraries.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker Bio:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Alex Hedley is a Senior IT Consultant at Opencast, specialising in Software Development.&lt;/p&gt;
+&lt;p&gt;He has 15+ years consulting experience building Enterprise security applications, integrations etc.&lt;/p&gt;
+&lt;h2 id="links"&gt;🔗 Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/@QudosRecruitment"&gt;https://www.youtube.com/@QudosRecruitment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.meetup.com/dotnetmeetupnorth/"&gt;https://www.meetup.com/dotnetmeetupnorth/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.meetup.com/dotnetmeetupnorth/events/314552885/"&gt;https://www.meetup.com/dotnetmeetupnorth/events/314552885/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+		<summary>.NET meetup</summary>
+	</entry>
+	<entry>
+		<id>https://alex-hedley.github.io/blog/posts/serverless-north-east-2026-03</id>
+		<title>Serverless Meetup 16 - AWS Mashup</title>
+		<author>
+			<name>alexhedley</name>
+		</author>
+		<link href="https://alex-hedley.github.io/blog/posts/serverless-north-east-2026-03" />
+		<link rel="enclosure" type="image" href="https://alex-hedley.github.io/blog/posts/images/meetups/serverless-north-east/serverless.avif" />
+		<updated>2026-03-31T00:00:00Z</updated>
+		<content>&lt;!-- # Serverless Meetup 16 - AWS Mashup --&gt;
+&lt;!-- ![Serverless Meetup](images/meetups/serverless-north-east/serverless.avif "Serverless Meetup") --&gt;
+&lt;p&gt;📅 Tue, March 31, 2026 · 6:00 PM to 8:00 PM GMT&lt;/p&gt;
+&lt;p&gt;📍 Suite 14, Floor 2, The Spire, Pilgrim Street, Newcastle NE1 2DS · Newcastle upon Tyne&lt;/p&gt;
+&lt;p&gt;🔗 &lt;a href="https://www.meetup.com/serverless-north-east/events/313880482/"&gt;https://www.meetup.com/serverless-north-east/events/313880482/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="details"&gt;Details&lt;/h2&gt;
+&lt;p&gt;Greetings folks!&lt;/p&gt;
+&lt;p&gt;We're joining forces with the AWS NE User Group for the night.
+(&lt;a href="https://www.meetup.com/AWS-User-Group-North-East-England/"&gt;https://www.meetup.com/AWS-User-Group-North-East-England/&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;We have an amazing night planned and many thanks to TDS for supporting us on the night.&lt;/p&gt;
+&lt;h3 id="lee-gilmore"&gt;Lee Gilmore&lt;/h3&gt;
+&lt;p&gt;AWS Practise Lead &amp;#64; Leighton &amp;amp; AWS Hero&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How to build an Order Management System for a global brand on AWS in 14 weeks&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Go behind the scenes of a high-speed, 14-week journey building an OMS for a global brand on AWS using event-driven principles. Learn how we navigated the &amp;quot;Orchestration vs. Choreography&amp;quot; debate, modeled complex order data, and tackled the hard lessons of brand-specific routing. Whether you're curious about secure webhook authentication or scaling notification patterns, this session offers a roadmap for delivering enterprise-grade commerce logic at pace.&lt;/p&gt;
+&lt;h3 id="matheus-guimaraes"&gt;Matheus Guimaraes&lt;/h3&gt;
+&lt;p&gt;Senior Developer Advocate &amp;#64; AWS&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Agentic Microservices: The Next Evolution of Microservices Architecture&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Microservices architecture is evolving. AI agents are reshaping how backend systems are built and consumed. Discover Agentic Microservices, a new evolution of microservices architecture, along with emerging patterns such as Microservices as Tools (MAT) and Agentic Monoliths. We also explore why serverless is a natural fit for agentic architectures and watch an agentic microservice in action.&lt;/p&gt;
+&lt;p&gt;Date: Tuesday March 31st&lt;br /&gt;
+Time: 18:00-20:00&lt;br /&gt;
+Venue: Test Driven Solutions, Suite 14, Floor 2, The Spire, Pilgrim Street, Newcastle NE1 2DS&lt;/p&gt;
+&lt;p&gt;Many thanks to our sponsor &lt;strong&gt;TDS&lt;/strong&gt; for hosting us on the night.&lt;/p&gt;
+&lt;p&gt;Hope to see you all there!&lt;/p&gt;
+&lt;h2 id="links"&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.meetup.com/serverless-north-east/events/313880482/"&gt;https://www.meetup.com/serverless-north-east/events/313880482/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.meetup.com/serverless-north-east/"&gt;https://www.meetup.com/serverless-north-east/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/serverlessne"&gt;https://twitter.com/serverlessne&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.meetup.com/aws-user-group-north-east-england/"&gt;https://www.meetup.com/aws-user-group-north-east-england/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://blog.serverlessadvocate.com/"&gt;https://blog.serverlessadvocate.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;serverlessadvocate"&gt;https://www.youtube.com/&amp;#64;serverlessadvocate&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+		<summary>Serverless North East</summary>
+	</entry>
 	<entry>
 		<id>https://alex-hedley.github.io/blog/posts/devhub-north-feb-2026</id>
 		<title>Devhub North - February 2026</title>
@@ -943,84 +1038,5 @@ The GOV.UK Design System team&lt;/p&gt;
 &lt;/ul&gt;
 </content>
 		<summary>BSidesNcl 2025 - A chill gathering of cybersecurity enthusiasts in Newcastle, featuring talks, workshops, and networking opportunities!</summary>
-	</entry>
-	<entry>
-		<id>https://alex-hedley.github.io/blog/posts/dotnet-newcastle-aug-2025</id>
-		<title>.NET Meetup Newcastle - Aug 2025</title>
-		<author>
-			<name>alex-hedley</name>
-		</author>
-		<link href="https://alex-hedley.github.io/blog/posts/dotnet-newcastle-aug-2025" />
-		<link rel="enclosure" type="image" href="https://alex-hedley.github.io/blog/posts/images/meetups/dotnet-aug-2025.png" />
-		<updated>2025-08-27T00:00:00Z</updated>
-		<content>&lt;!-- # Qudos .NET Newcastle Meetup - Aug 2025 --&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/meetups/dotnet-aug-2025.png" alt=".NET Meetup" title=".NET Meetup"&gt;&lt;/p&gt;
-&lt;p&gt;📅 Wed, Aug 27, 2025 · 5:30 PM to 7:30 PM BST&lt;/p&gt;
-&lt;p&gt;📍 Haylofts, 5 St. Thomas Street, Newcastle, NE1 4LE · Newcastle upon Tyne&lt;/p&gt;
-&lt;p&gt;🔗 &lt;a href="https://www.meetup.com/dotnetmeetupnorth/events/310300684/"&gt;https://www.meetup.com/dotnetmeetupnorth/events/310300684/&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="details"&gt;Details&lt;/h2&gt;
-&lt;p&gt;We’re back at &lt;strong&gt;Haylofts&lt;/strong&gt; in Newcastle for another .NET Meetup&lt;/p&gt;
-&lt;p&gt;We have a fairly relaxed agenda, but will follow:&lt;/p&gt;
-&lt;p&gt;5:30 - Doors Open&lt;br&gt;
-5:45 - Pizza arrival&lt;br&gt;
-6:00 - Introduction / Housekeeping&lt;br&gt;
-6:10 - Talks begin&lt;br&gt;
-8:00 - Closing&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Speaker 1:&lt;/strong&gt; Peter Shaw&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Using Postgres SQL With .NET&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;You can use Entity Framework, and get access to Postgres just like you can with every other database system on the planet, but what if I told you that Postgres goes way, way beyond anything you can do with entity framework. What most folks DON'T know is that Postgres touts itself as a "Data Application Framework" and with the latest version of NPG-SQL (The official Postgres driver for dotnet) you can now get access to much of this extra goodness, stick with me while I try to cram as much as I can show you in about an hour, that you probably never realised Postgres could do.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;📼 Video&lt;/em&gt;:&lt;/p&gt;
-&lt;p&gt;TBA&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Speaker Bio:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Peter Shaw - I have been a dev for 30 or more years now.&lt;/p&gt;
-&lt;p&gt;I wrote my first bit of code in May 1979 at the age of 7, by the time I was 10 I was programming chip level in machine code on the Z80 &amp;amp; 6502 CPU's, moving into my teenage years I was programming Arm cpu's before anyone knew what they were.&lt;/p&gt;
-&lt;p&gt;I don't really sell myself, I'm a dev after all not a marketer, but there's not many areas of I.T. I've not worked in, from hardware to software, support to management.&lt;/p&gt;
-&lt;p&gt;These days I'm best known for my activities in the .NET &amp;amp; MS Dev scene here in the UK, My blog posts frequently appear on other outlets as well as my own blog, and if you've got the time to sit and listen to what I have to say, I've certainly got the time to tell you.&lt;/p&gt;
-&lt;p&gt;I'm a veteran of the "Developer Developer Developer" series of live developer events here in the UK, and one of the main figures behind "LiDNUG" (&lt;a href="http://lidnug.org/"&gt;http://lidnug.org&lt;/a&gt;) on the linked in network.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Speaker 2:&lt;/strong&gt; Samson Nwizugbe&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Business As First Class&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Businesses adopt software to streamline operations, improve efficiency, and handle complex processes at a scale beyond human capability. However, for software to truly serve its purpose, it must align with the core functions of the business rather than becoming a bottleneck due to rigid design or poor adaptability.&lt;/p&gt;
-&lt;p&gt;This talk explores principles and patterns that place business concerns at the forefront of software design. By ensuring clarity in communication, structuring code to evolve alongside changing requirements, and embracing maintainability as a core feature.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;📼 Video&lt;/em&gt;:&lt;/p&gt;
-&lt;!--?# YouTube gddoJpNS32U /?--&gt;
-&lt;p&gt;&lt;strong&gt;Speaker Bio:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Samson Nwizugbe is a commercially aware software engineer with years of experience solving business challenges across various sectors using the .NET ecosystem. He is passionate about architectural patterns that promote longevity and adaptability in software, including Clean Architecture, Domain-Driven Design, event-driven systems, and decoupled messaging.&lt;/p&gt;
-&lt;p&gt;In his upcoming talk, Business as First Class, Samson will unpack how aligning software design with core business functions leads to clearer communication, more maintainable code, and systems that scale with evolving demands&lt;/p&gt;
-&lt;h2 id="links"&gt;🔗 Links&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.youtube.com/@QudosRecruitment"&gt;https://www.youtube.com/@QudosRecruitment&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.meetup.com/dotnetmeetupnorth/"&gt;https://www.meetup.com/dotnetmeetupnorth/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.meetup.com/dotnetmeetupnorth/events/310300684/"&gt;https://www.meetup.com/dotnetmeetupnorth/events/310300684/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-		<summary>.NET meetup</summary>
-	</entry>
-	<entry>
-		<id>https://alex-hedley.github.io/blog/posts/utility-kotlin</id>
-		<title>Utility Kotlin</title>
-		<author>
-			<name>alex-hedley</name>
-		</author>
-		<link href="https://alex-hedley.github.io/blog/posts/utility-kotlin" />
-		<updated>2025-08-06T00:00:00Z</updated>
-		<content>&lt;!-- Utility Kotlin --&gt;
-&lt;p&gt;For the past 10+ years I've been building a &lt;a href="https://github.com/AlexHedley/Utility"&gt;Utility&lt;/a&gt; app to speed up day to day tasks. It started with a &lt;a href="https://github.com/AlexHedley/Utility-VB"&gt;VB.NET&lt;/a&gt; version for encoding/decoding HTML to help with log files in &lt;a href="https://techdocs.broadcom.com/us/en/symantec-security-software/endpoint-security-and-management/it-management-suite/ITMS/Related-Solutions/Workflow-Solution/Introducing-Workflow/how-workflow-works-v81109357-d855e17980.html"&gt;Symantec Workflow&lt;/a&gt;. It grew with other functionality include SQL generation etc. From that I used the opportunity to build a &lt;a href="https://github.com/AlexHedley/Utility-Mac"&gt;macOS&lt;/a&gt; app to try out my Objective-C ability on a desktop app, instead of the iOS apps I'd been building. To make it more accessible I created a &lt;a href="https://alexhedley.com/Utility-Web/"&gt;Web&lt;/a&gt; version then swapped to &lt;a href="https://github.com/AlexHedley/Utility-WPF"&gt;WPF&lt;/a&gt; and finally a &lt;a href="https://alexhedley.com/Utility-Blazor/"&gt;Blazor&lt;/a&gt; one a few years after that.
-Having switched back to Java and now Kotlin dev, in the past couple of years, it seemed a good opportunity to try my hand at &lt;a href="https://kotlinlang.org/docs/multiplatform.html"&gt;Kotlin Multiplatform&lt;/a&gt;. Having seen the power of &lt;a href="https://webassembly.org/"&gt;WASM&lt;/a&gt; with &lt;a href="https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor"&gt;Blazor&lt;/a&gt; it was a no brainer. Hopefully I can actually find the time to build multiple apps but for now I just wanted a web version with the first utility being a &lt;a href="https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html"&gt;Duration&lt;/a&gt; parser.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/blog/images/Utility-Kotlin.png" alt="Utility Kotlin" title="Utility Kotlin"&gt;&lt;/p&gt;
-&lt;p&gt;It's a bit of a mess, all being in one file &lt;a href="https://github.com/alex-hedley/Utility-Kotlin/blob/main/src/composeApp/src/wasmJsMain/kotlin/com/alexhedley/App.kt"&gt;App.kt&lt;/a&gt;, but I wanted a POC working quickly, I'll refactor it later once I've read up more on the best way to architecture these. It builds and deploys to &lt;a href="https://pages.github.com/"&gt;GitHub Pages&lt;/a&gt; using the following WF: &lt;a href="https://github.com/alex-hedley/Utility-Kotlin/blob/main/.github/workflows/ci.yml"&gt;ci.yml&lt;/a&gt; and all runs natively in your browser. Check out the canvas element in the generated page source.&lt;/p&gt;
-&lt;p&gt;Let me know what you think, and are there any other features you'd liked adding?&lt;/p&gt;
-&lt;p&gt;I'm looking to backport other ideas from the previous apps to give me an opportunity to try different UI elements.&lt;/p&gt;
-&lt;h2 id="site"&gt;🌍 Site&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://alex-hedley.github.io/Utility-Kotlin/"&gt;https://alex-hedley.github.io/Utility-Kotlin/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="source"&gt;Source&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/alex-hedley/Utility-Kotlin"&gt;https://github.com/alex-hedley/Utility-Kotlin&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-		<summary>Building a Utility App in Kotlin Multiplatform</summary>
 	</entry>
 </feed>
