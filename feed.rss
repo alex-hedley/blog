@@ -5,8 +5,44 @@
 		<link>https://alex-hedley.github.io/blog</link>
 		<description>Welcome to my blog!</description>
 		<copyright>Copyright © 2026</copyright>
-		<pubDate>Wed, 17 Jun 2026 08:14:23 GMT</pubDate>
-		<lastBuildDate>Wed, 17 Jun 2026 08:14:23 GMT</lastBuildDate>
+		<pubDate>Mon, 14 Sep 2026 07:47:31 GMT</pubDate>
+		<lastBuildDate>Mon, 14 Sep 2026 07:47:31 GMT</lastBuildDate>
+		<item>
+			<title>Pizza and Pull Requests Meetup - May 2026</title>
+			<link>https://alex-hedley.github.io/blog/posts/pizza-and-pull-requests-may-2026</link>
+			<author>alex-hedley</author>
+			<enclosure url="https://alex-hedley.github.io/blog/posts/images/meetups/ppr/pizza-and-pull-requests.png" length="0" type="image" />
+			<guid>https://alex-hedley.github.io/blog/posts/pizza-and-pull-requests-may-2026</guid>
+			<pubDate>Sat, 20 Jun 2026 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;!-- # Pizza and Pull Requests Meetup - May 2026 --&gt;
+&lt;!-- ![Banner](images/meetups/ppr/pizza-and-pull-requests.png "Banner") --&gt;
+&lt;p&gt;📅 Wednesday, May 20 · 6:00 PM to 8:00 PM BST&lt;/p&gt;
+&lt;p&gt;📍 Newcastle Bank House, Pilgrim Street, Newcastle Upon Tyne NE1 6QE · Newcastle upon Tyne&lt;/p&gt;
+&lt;p&gt;🔗 &lt;a href="https://www.meetup.com/pizza-pull-requests/events/313411508/"&gt;https://www.meetup.com/pizza-pull-requests/events/313411508/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;May Pizza and Pull Requests Meetup&lt;/p&gt;
+&lt;p&gt;We're back with our third instalment of pizza and pull requests.&lt;/p&gt;
+&lt;p&gt;Join us for an evening of expert talks, networking and of course more Pizza!&lt;/p&gt;
+&lt;p&gt;Schedule TBC:&lt;/p&gt;
+&lt;h3 id="why-attend"&gt;Why Attend?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Limited spaces – secure your spot early!&lt;/li&gt;
+&lt;li&gt;Fantastic speakers sharing cutting-edge insights&lt;/li&gt;
+&lt;li&gt;Pizza, drinks and a friendly tech community&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Confirmed Speakers:&lt;/p&gt;
+&lt;h4 id="simon-emms-temporal"&gt;Simon Emms: Temporal&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Failure Happens. Your Code Shouldn't Care.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Description&lt;/strong&gt;: As software engineers, we know our code will be retried, restarted and run more than once. Temporal makes this manageable by letting us write reliable workflows that recover automatically from crashes and restarts without defensive plumbing. I’ll explain how it works and prove it with a live demo that treats failure as just another code path.&lt;/p&gt;
+&lt;p&gt;Watch this space for further speaker announcements&lt;/p&gt;
+&lt;h2 id="links"&gt;🔗 Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.meetup.com/pizza-pull-requests/events/313411508/"&gt;https://www.meetup.com/pizza-pull-requests/events/313411508/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.meetup.com/pizza-pull-requests/"&gt;https://www.meetup.com/pizza-pull-requests/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
 		<item>
 			<title>ISC2 North East England Chapter - June 2026</title>
 			<link>https://alex-hedley.github.io/blog/posts/isc2-ne-chapter-jun-2026</link>
@@ -451,61 +487,6 @@ In this session I will cover the best practices for designing RESTful APIs, with
 &lt;li&gt;&lt;a href="https://www.youtube.com/@QudosRecruitment"&gt;https://www.youtube.com/@QudosRecruitment&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.meetup.com/dotnetmeetupnorth/"&gt;https://www.meetup.com/dotnetmeetupnorth/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.meetup.com/dotnetmeetupnorth/events/305987440/"&gt;https://www.meetup.com/dotnetmeetupnorth/events/305987440/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>Design System Chat - September 2025</title>
-			<link>https://alex-hedley.github.io/blog/posts/govuk-design-system-sept2025</link>
-			<description>GOV.UK Design System team</description>
-			<author>alex-hedley</author>
-			<enclosure url="https://alex-hedley.github.io/blog/posts/images/govuk/govuk-design-system-sept.jpeg" length="0" type="image" />
-			<guid>https://alex-hedley.github.io/blog/posts/govuk-design-system-sept2025</guid>
-			<pubDate>Tue, 30 Sep 2025 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;!-- # Design System Chat - September 2025 --&gt;
-&lt;!-- ![Banner](images/govuk/govuk-design-system-sept.jpeg "Banner") --&gt;
-&lt;p&gt;Join us for September 2025's Design System Chat to discuss Service Patterns. Hosted by the GOV.UK Design System.&lt;/p&gt;
-&lt;h2 id="event"&gt;Event&lt;/h2&gt;
-&lt;p&gt;🗓️ Tuesday, 30 Sept&lt;br /&gt;
-🕰️ 14:00 - 15:00 BST&lt;br /&gt;
-📍 Online&lt;br /&gt;
-🔗 &lt;a href="https://www.eventbrite.co.uk/e/design-system-chat-september-2025-tickets-1679556271019"&gt;https://www.eventbrite.co.uk/e/design-system-chat-september-2025-tickets-1679556271019&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="details"&gt;Details&lt;/h2&gt;
-&lt;p&gt;Hello,
-You're invited to September 2025's Design System Chat, hosted monthly by the GOV.UK Design System team. We'll be talking about Service Patterns.&lt;/p&gt;
-&lt;h3 id="agenda"&gt;Agenda&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Have you heard the term service pattern? What does it mean to you?&lt;/li&gt;
-&lt;li&gt;Show &amp;amp; tell: Service patterns mini-discovery - Imran Hussain, GDS&lt;/li&gt;
-&lt;li&gt;Are you working on patterns in your organisation or service?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Session type:&lt;/strong&gt; Workshop/discusssion&lt;br /&gt;
-&lt;strong&gt;Duration:&lt;/strong&gt; 1 hour&lt;br /&gt;
-&lt;strong&gt;Platform:&lt;/strong&gt; Zoom meetings&lt;/p&gt;
-&lt;p&gt;If you sign up, please make sure you can attend the whole session, as we sell out quite quickly.
-We will be using &lt;strong&gt;Zoom&lt;/strong&gt; for video, and &lt;strong&gt;Padlet&lt;/strong&gt; for notes and comments. Please make sure you have a device that can access these, as some organisation’s firewalls block these platforms.&lt;/p&gt;
-&lt;p&gt;We hope to see you there!
-The GOV.UK Design System team&lt;/p&gt;
-&lt;h2 id="notes"&gt;Notes&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://design-system.service.gov.uk/patterns/"&gt;https://design-system.service.gov.uk/patterns/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://design-system.dwp.gov.uk/"&gt;https://design-system.dwp.gov.uk&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://digitalpublicservices.gov.wales/our-work/service-patterns"&gt;https://digitalpublicservices.gov.wales/our-work/service-patterns&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/learnbymakingwales/lbm-prototype-kit"&gt;https://github.com/learnbymakingwales/lbm-prototype-kit&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.tpximpact.com/"&gt;https://www.tpximpact.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://patterns.wearefuturegov.com/services"&gt;https://patterns.wearefuturegov.com/services&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://govservicedesign.net/"&gt;https://govservicedesign.net&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.govstack.global/"&gt;https://www.govstack.global&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="links"&gt;🔗 Links&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://design-system.service.gov.uk/"&gt;https://design-system.service.gov.uk&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;GovernmentDigitalService"&gt;https://www.youtube.com/&amp;#64;GovernmentDigitalService&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.youtube.com/&amp;#64;UKGovDesign"&gt;https://www.youtube.com/&amp;#64;UKGovDesign&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
